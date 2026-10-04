@@ -1,0 +1,1170 @@
+<svg id="boardSvg" xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 42 92" role="img" aria-label="Carrier C trace and placement viewer">
+<defs><pattern id="hatch" width="1" height="1" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line y2="1" stroke="#c39653" stroke-width=".16"/></pattern></defs>
+<g transform="translate(0 82) scale(1 -1)">
+<path d="M1 0H31L32 1V81L31 82H1L0 81V1Z" fill="#153a38" stroke="#9ab3a5" stroke-width=".16"/>
+<circle cx="3" cy="3" r="3.35" fill="url(#hatch)" opacity=".6"/><circle cx="3" cy="3" r="1.7" fill="#f2f1e8"/>
+<circle cx="29" cy="3" r="3.35" fill="url(#hatch)" opacity=".6"/><circle cx="29" cy="3" r="1.7" fill="#f2f1e8"/>
+<circle cx="3" cy="79" r="3.35" fill="url(#hatch)" opacity=".6"/><circle cx="3" cy="79" r="1.7" fill="#f2f1e8"/>
+<circle cx="29" cy="79" r="3.35" fill="url(#hatch)" opacity=".6"/><circle cx="29" cy="79" r="1.7" fill="#f2f1e8"/>
+<rect x="10.5" y="55.5" width="13" height="8" fill="url(#hatch)" opacity=".6"/>
+<rect x="11" y="56" width="12" height="7" rx=".5" fill="#f2f1e8"/>
+<path class="copper layer16" data-net="MOTOR_ENABLE" d="M0.681 32.234L4.767 28.148" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M18.2735 27.013L18.2735 28.2615" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M18.16 26.8995L18.2735 27.013" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M18.2735 39.725L18.2735 28.375" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M18.16 39.8385L18.2735 39.725" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M18.16 52.0965L18.16 39.8385" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M15.0955 55.161L18.16 52.0965" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M10.3285 55.161L15.0955 55.161" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M7.8315 57.658L10.3285 55.161" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M7.8315 62.652L7.8315 57.658" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M9.307 64.1275L7.8315 62.652" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M9.307 64.3545L9.307 64.1275" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M18.2735 28.375L18.2735 28.2615" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B2" d="M9.307 64.3545L9.38 64.44" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M6.9 59.8L3 59.8" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M3 59.8L1.2 58" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M1.2 58L1.2 51.5" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M1.2 51.5L1.9 50.8" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M1.9 50.8L9.5 50.8" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M9.95 50.8L9.95 49" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M9.5 50.8L9.95 50.8" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M9.95 50.8L15 50.8" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="GND" d="M15 50.8L15 51" fill="none" stroke="#60c4cf" stroke-width="1" stroke-linecap="round"><title>GND / layer 16 / 1 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M29.056 67.9865L29.056 60.836" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M25.0835 71.959L29.056 67.9865" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M24.6295 71.959L25.0835 71.959" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M24.6295 71.959L24.62 72.06" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M20.9975 41.541L20.9975 29.51" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M28.7155 49.259L20.9975 41.541" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M28.7155 60.382L28.7155 49.259" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M29.056 60.7225L28.7155 60.382" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="3V3" d="M29.056 60.7225L29.056 60.836" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="VBAT_ADC" d="M25.5375 69.462L24.6295 69.462" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="VBAT_ADC" d="M26.2185 68.781L25.5375 69.462" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="VBAT_ADC" d="M27.3535 68.781L26.2185 68.781" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="VBAT_ADC" d="M24.6295 69.462L24.62 69.52" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B1" d="M23.154 49.713L20.203 46.762" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B1" d="M26.6725 57.9985L26.6725 53.2315" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B1" d="M27.013 58.339L26.6725 57.9985" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B1" d="M24.6295 66.738L27.013 64.3545" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B1" d="M24.6295 66.965L24.6295 66.738" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_B1" d="M24.6295 66.965L24.62 66.98" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M15.5495 26.559L13.62 24.6295" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M24.6295 61.6305L24.6295 61.8575" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M28.0345 58.2255L24.6295 61.6305" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M28.0345 56.523L28.0345 58.2255" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M29.3965 34.731L29.3965 55.161" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M19.749 25.0835L29.3965 34.731" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M18.16 25.0835L19.749 25.0835" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A2" d="M24.6295 61.8575L24.62 61.9" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M7.037 23.2675L6.6965 23.2675" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M15.7765 32.007L7.037 23.2675" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M15.7765 32.688L15.7765 32.007" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M24.516 58.4525L24.516 59.247" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M23.835 57.7715L24.516 58.4525" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M23.835 45.0595L23.835 57.7715" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M18.841 40.0655L23.835 45.0595" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="PWM_A1" d="M24.516 59.247L24.62 59.36" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M4 41.75L7.25 41.75" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M7.25 41.75L17 41.75" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M17 41.75L17 22.1325" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M17 22.1325L17 16" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M17 16L23.75 16" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M23.75 16L23.75 14" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M4 41.75L5 42.75" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M5 42.75L5 42.9" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M7.25 41.75L15 41.75" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M15 41.75L15 45.1" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>VMOTOR / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M11.555 15.25L11.555 16" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M11.555 16L17 16" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M16.635 15.25L16.635 16" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M16.635 16L17 16" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M8 16.8L9.55 15.25" fill="none" stroke="#60c4cf" stroke-width="0.6" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.6 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M9.55 15.25L11.555 15.25" fill="none" stroke="#60c4cf" stroke-width="0.6" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.6 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M17.5925 22.1325L17.706 22.1325" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.4 mm</title></path>
+<path class="copper layer16" data-net="VMOTOR" d="M17.5925 22.1325L17 22.1325" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 16 / 0.4 mm</title></path>
+<path class="copper layer16" data-net="BAT_PLUS" d="M25.424 32.234L25.9915 32.234" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 16 / 0.4 mm</title></path>
+<path class="copper layer16" data-net="BAT_PLUS" d="M19.1815 25.9915L25.424 32.234" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 16 / 0.4 mm</title></path>
+<path class="copper layer16" data-net="BAT_PLUS" d="M18.2735 25.9915L19.1815 25.9915" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 16 / 0.4 mm</title></path>
+<path class="copper layer16" data-net="CS" d="M9.6475 31.326L8.9665 32.007" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="CS" d="M9.6475 26.786L9.6475 31.326" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="OC" d="M8.2855 31.78L8.9665 31.099" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="OC" d="M8.2855 32.3475L8.2855 31.78" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="OC" d="M11.2365 35.2985L8.2855 32.3475" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="BAT_MINUS" d="M4 25.75L6 27.75" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>BAT_MINUS / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="BAT_MINUS" d="M6 27.75L6 36.5" fill="none" stroke="#60c4cf" stroke-width="1.2" stroke-linecap="round"><title>BAT_MINUS / layer 16 / 1.2 mm</title></path>
+<path class="copper layer16" data-net="BAT_MINUS" d="M6 36.5L7.5 36.65" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>BAT_MINUS / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="BAT_MINUS" d="M6 36.5L7.5 37.45" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>BAT_MINUS / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="CC2" d="M24.875 26.25L26.625 24.5" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="CC2" d="M24.25 26.25L24.875 26.25" fill="none" stroke="#60c4cf" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 16 / 0.254 mm</title></path>
+<path class="copper layer16" data-net="BOOST5V" d="M5 54.6L6.1 53.5" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>BOOST5V / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="BOOST5V" d="M6.1 53.5L15.35 53.5" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>BOOST5V / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="BOOST5V" d="M15.35 53.5L16.85 52" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>BOOST5V / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="BOOST5V" d="M16.85 49.8L16.85 52" fill="none" stroke="#60c4cf" stroke-width="0.8" stroke-linecap="round"><title>BOOST5V / layer 16 / 0.8 mm</title></path>
+<path class="copper layer16" data-net="BOOST5V" d="M9 44L9 46.3" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 16 / 0.4 mm</title></path>
+<path class="copper layer16" data-net="BOOST5V" d="M9 46.3L16.85 46.3" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 16 / 0.4 mm</title></path>
+<path class="copper layer16" data-net="BOOST5V" d="M16.85 46.3L16.85 49.8" fill="none" stroke="#60c4cf" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 16 / 0.4 mm</title></path>
+<circle class="copper layer16" data-net="NC" cx="9.379999999999999" cy="77.14" r="0.95" fill="#dfc594"><title>U1.IO5 / NC</title></circle>
+<circle class="copper layer16" data-net="MOTOR_ENABLE" cx="9.379999999999999" cy="74.6" r="0.95" fill="#dfc594"><title>U1.IO6 / MOTOR_ENABLE</title></circle>
+<circle class="copper layer16" data-net="NC" cx="9.379999999999999" cy="72.06" r="0.95" fill="#dfc594"><title>U1.IO7 / NC</title></circle>
+<circle class="copper layer16" data-net="NC" cx="9.379999999999999" cy="69.52" r="0.95" fill="#dfc594"><title>U1.IO8 / NC</title></circle>
+<circle class="copper layer16" data-net="NC" cx="9.379999999999999" cy="66.98" r="0.95" fill="#dfc594"><title>U1.IO9 / NC</title></circle>
+<circle class="copper layer16" data-net="PWM_B2" cx="9.379999999999999" cy="64.44" r="0.95" fill="#dfc594"><title>U1.IO10 / PWM_B2</title></circle>
+<circle class="copper layer16" data-net="NC" cx="9.379999999999999" cy="61.9" r="0.95" fill="#dfc594"><title>U1.IO20 / NC</title></circle>
+<circle class="copper layer16" data-net="NC" cx="9.379999999999999" cy="59.36" r="0.95" fill="#dfc594"><title>U1.IO21 / NC</title></circle>
+<circle class="copper layer16" data-net="ESP_5V" cx="24.62" cy="77.14" r="0.95" fill="#dfc594"><title>U1.5V / ESP_5V</title></circle>
+<circle class="copper layer16" data-net="GND" cx="24.62" cy="74.6" r="0.95" fill="#dfc594"><title>U1.GND / GND</title></circle>
+<circle class="copper layer16" data-net="3V3" cx="24.62" cy="72.06" r="0.95" fill="#dfc594"><title>U1.3V3 / 3V3</title></circle>
+<circle class="copper layer16" data-net="VBAT_ADC" cx="24.62" cy="69.52" r="0.95" fill="#dfc594"><title>U1.IO4 / VBAT_ADC</title></circle>
+<circle class="copper layer16" data-net="PWM_B1" cx="24.62" cy="66.98" r="0.95" fill="#dfc594"><title>U1.IO3 / PWM_B1</title></circle>
+<circle class="copper layer16" data-net="NC" cx="24.62" cy="64.44" r="0.95" fill="#dfc594"><title>U1.IO2 / NC</title></circle>
+<circle class="copper layer16" data-net="PWM_A2" cx="24.62" cy="61.9" r="0.95" fill="#dfc594"><title>U1.IO1 / PWM_A2</title></circle>
+<circle class="copper layer16" data-net="PWM_A1" cx="24.62" cy="59.36" r="0.95" fill="#dfc594"><title>U1.IO0 / PWM_A1</title></circle>
+<circle class="copper layer16" data-net="BAT_PLUS" cx="4.0" cy="22.25" r="1.1" fill="#dfc594"><title>J1.1 / BAT_PLUS</title></circle>
+<circle class="copper layer16" data-net="BAT_MINUS" cx="4.0" cy="25.75" r="1.1" fill="#dfc594"><title>J1.2 / BAT_MINUS</title></circle>
+<circle class="copper layer16" data-net="MOTOR_A1" cx="4.25" cy="8.0" r="1.1" fill="#dfc594"><title>J2.1 / MOTOR_A1</title></circle>
+<circle class="copper layer16" data-net="MOTOR_A2" cx="7.75" cy="8.0" r="1.1" fill="#dfc594"><title>J2.2 / MOTOR_A2</title></circle>
+<circle class="copper layer16" data-net="MOTOR_B1" cx="24.25" cy="8.0" r="1.1" fill="#dfc594"><title>J3.1 / MOTOR_B1</title></circle>
+<circle class="copper layer16" data-net="MOTOR_B2" cx="27.75" cy="8.0" r="1.1" fill="#dfc594"><title>J3.2 / MOTOR_B2</title></circle>
+<circle class="copper layer16" data-net="FUSED_BAT" cx="4.0" cy="38.25" r="1.1" fill="#dfc594"><title>J4.1 / FUSED_BAT</title></circle>
+<circle class="copper layer16" data-net="VMOTOR" cx="4.0" cy="41.75" r="1.1" fill="#dfc594"><title>J4.2 / VMOTOR</title></circle>
+<circle class="copper layer16" data-net="GND" cx="25.6" cy="19.68" r="1.0" fill="#dfc594"><title>J5.SH1 / GND</title></circle>
+<circle class="copper layer16" data-net="GND" cx="29.400000000000002" cy="19.68" r="1.0" fill="#dfc594"><title>J5.SH2 / GND</title></circle>
+<circle class="copper layer16" data-net="GND" cx="25.6" cy="28.32" r="1.0" fill="#dfc594"><title>J5.SH3 / GND</title></circle>
+<circle class="copper layer16" data-net="GND" cx="29.400000000000002" cy="28.32" r="1.0" fill="#dfc594"><title>J5.SH4 / GND</title></circle>
+<circle class="copper layer16" data-net="VMOTOR" cx="23.75" cy="14.0" r="0.9" fill="#dfc594"><title>C1.1 / VMOTOR</title></circle>
+<circle class="copper layer16" data-net="GND" cx="26.25" cy="14.0" r="0.9" fill="#dfc594"><title>C1.2 / GND</title></circle>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M9.988 23.4945L8.0585 23.4945" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M10.896 22.5865L9.988 23.4945" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M12.939 22.5865L10.896 22.5865" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M13.0525 22.473L12.939 22.5865" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M13.0525 22.1325L13.0525 22.473" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M8.0585 23.4945L8 23.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M13.0525 22.1325L13.05 22.1" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M7.264 23.608L7.945 23.608" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M6.9235 23.9485L7.264 23.608" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M6.81 23.9485L6.9235 23.9485" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M5.675 25.0835L6.81 23.9485" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M5.675 27.24L5.675 25.0835" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M4.767 28.148L5.675 27.24" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M0.5675 32.3475L0.681 32.234" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M0.5675 64.468L0.5675 32.3475" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M7.8315 71.732L0.5675 64.468" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M7.8315 72.7535L7.8315 71.732" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M9.307 74.229L7.8315 72.7535" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M9.307 74.5695L9.307 74.229" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M7.945 23.608L8 23.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_ENABLE" d="M9.307 74.5695L9.38 74.6" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>MOTOR_ENABLE / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M18.387 29.1695L18.387 29.51" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M18.2735 29.056L18.387 29.1695" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M18.2735 28.2615L18.2735 29.056" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M17.706 26.8995L18.16 26.8995" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M16.6845 25.878L17.706 26.8995" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M15.3225 25.878L16.6845 25.878" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M14.301 26.8995L15.3225 25.878" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M14.301 27.8075L14.301 26.8995" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M18.387 29.51L18.5 29.6" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B2" d="M14.301 27.8075L14.35 27.9" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M27.013 74.5695L27.013 73.094" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M24.516 77.0665L27.013 74.5695" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M27.013 73.094L26.95 73" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M24.516 77.0665L24.62 77.14" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M23.7215 54.026L26.2185 54.026" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M26.2185 54.026L29.964 54.026" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M21.792 52.0965L23.7215 54.026" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M21.2245 52.0965L21.792 52.0965" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M29.964 54.026L30 54" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M21.2245 52.0965L21.15 52" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M27.013 71.1645L27.013 72.867" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M26.2185 70.37L27.013 71.1645" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M26.2185 54.1395L26.2185 70.37" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M27.013 72.867L26.95 73" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="ESP_5V" d="M26.2185 54.1395L26.2185 54.026" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>ESP_5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M8.85 49L9.95 49" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M15 49.55L15 51" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>GND / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M3 58.55L3 59.8" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>GND / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M6.9 58.55L6.9 59.8" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>GND / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M14.3 43L14.3 43.8" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M14.3 43.8L13.8 44.3" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M11.9 36.675L10.85 36.675" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M10.85 36.675L10.5 36.65" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M11.9 37.325L10.85 37.325" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M10.85 37.325L10.5 37.45" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M11.9 36.675L11.9 37.325" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M23.3 32.5L23.3 35" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>GND / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M23.3 37.5L23.3 35" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>GND / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M24.7 32.5L24.7 35" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>GND / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M24.7 37.5L24.7 35" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>GND / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M10 15.5L10 14.3" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M11.5 26L10.51 25.01" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M12.825 8.3L12.825 6.9" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M14.095 8.3L14.095 6.9" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M17.905 8.3L17.905 9.7" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M19.7 28L19.7 29.2" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M30.05 73L31.25 73" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M15 31.6L15 33" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="GND" d="M18.5 31.6L19.7 31.6" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>GND / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M19.6355 26.332L19.6355 26.105" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M18.387 27.5805L19.6355 26.332" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M17.025 27.5805L18.387 27.5805" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M16.9115 27.694L17.025 27.5805" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M16.9115 27.8075L16.9115 27.694" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M19.6355 26.105L19.7 26" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M16.9115 27.8075L16.95 27.9" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M29.056 60.836L29.056 58.112" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M29.056 58.112L29 58" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M20.657 26.2185L19.749 26.2185" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M20.9975 26.559L20.657 26.2185" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M20.9975 29.51L20.9975 26.559" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="3V3" d="M19.749 26.2185L19.7 26" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>3V3 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.5805 68.781L27.5805 67.5325" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.8075 69.008L27.5805 68.781" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.8075 69.8025L27.8075 69.008" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.921 69.916L27.8075 69.8025" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.5805 67.5325L27.5 67.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.921 69.916L28 70" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M29.056 65.149L29.056 64.014" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.694 66.511L29.056 65.149" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.694 67.5325L27.694 66.511" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M29.056 64.014L29 64" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.694 67.5325L27.5 67.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.467 68.781L27.3535 68.781" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VBAT_ADC" d="M27.467 68.781L27.5805 68.781" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>VBAT_ADC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M14.982 27.921L14.982 29.51" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M14.982 29.51L15 29.6" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M14.982 27.921L15 27.9" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M14.301 29.51L14.8685 29.51" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M13.62 30.191L14.301 29.51" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M13.62 40.179L13.62 30.191" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M20.203 46.762L13.62 40.179" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M26.6725 53.2315L23.154 49.713" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M27.013 64.3545L27.013 58.339" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_B1" d="M14.8685 29.51L15 29.6" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_B1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M13.0525 24.062L11.577 24.062" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M13.62 24.6295L13.0525 24.062" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M15.5495 27.8075L15.5495 26.559" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M11.577 24.062L11.5 24" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M15.5495 27.8075L15.65 27.9" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M29.3965 55.161L28.0345 56.523" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M17.479 25.0835L18.16 25.0835" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M17.025 24.6295L17.479 25.0835" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M13.7335 24.6295L17.025 24.6295" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A2" d="M13.7335 24.6295L13.62 24.6295" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M6.0155 22.8135L6.0155 22.019" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M6.4695 23.2675L6.0155 22.8135" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M6.6965 23.2675L6.4695 23.2675" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M15.89 32.8015L15.7765 32.688" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M16.4575 32.234L15.89 32.8015" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M16.4575 28.829L16.4575 32.234" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M16.344 28.7155L16.4575 28.829" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M16.344 27.921L16.344 28.7155" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M6.0155 22.019L6 22" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M16.344 27.921L16.3 27.9" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M18.841 39.8385L18.841 40.0655" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M15.7765 36.774L18.841 39.8385" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M15.7765 33.0285L15.7765 36.774" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M15.89 32.915L15.7765 33.0285" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PWM_A1" d="M15.89 32.915L15.7765 32.688" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PWM_A1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M21.2245 17.5925L21.9055 17.5925" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M19.1815 15.5495L20.94075 17.30875" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M20.94075 17.30875L21.2245 17.5925" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M19.1815 13.7335L19.1815 15.5495" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M21.9055 17.5925L22 17.6" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M19.1815 13.7335L19.175 13.7" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M16.344 21.2245L16.344 22.019" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M17.1385 20.43L16.344 21.2245" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M18.9545 20.43L17.1385 20.43" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M20.7705 18.614L18.9545 20.43" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M20.7705 17.479L20.7705 18.614" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M20.884 17.3655L20.7705 17.479" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M16.344 22.019L16.3 22.1" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M20.884 17.3655L20.94075 17.30875" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M18.0465 14.982L18.0465 17.1385" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M17.933 14.8685L18.0465 14.982" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M17.933 13.7335L17.933 14.8685" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M18.0465 17.1385L18 17.2" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M17.933 13.7335L17.905 13.7" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M15.663 20.3165L15.663 22.019" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M16.6845 19.295L15.663 20.3165" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M16.6845 17.706L16.6845 19.295" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M17.025 17.3655L16.6845 17.706" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M17.8195 17.3655L17.025 17.3655" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M17.933 17.252L17.8195 17.3655" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M15.663 22.019L15.65 22.1" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INB" d="M17.933 17.252L18 17.2" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M11.15 49L11.15 48.05" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M11.15 48.05L12.75 46.45" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M12.75 46.45L15 46.45" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M5 42.9L5 44.65" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M15 45.1L15 46.45" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M11.555 13.7L11.555 15.25" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M16.635 13.7L16.635 15.25" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M8 15.5L8 16.8" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M17.025 22.1325L17.706 22.1325" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M17.706 22.1325L18.9545 22.1325" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M18.9545 22.1325L19 22.1" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M17.025 22.1325L16.95 22.1" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M7.945 42.1085L7.945 41.087" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M6.2425 43.811L7.945 42.1085" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M5.3345 43.811L6.2425 43.811" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M7.945 41.087L8 41" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M5.3345 43.811L5 44.65" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M29.964 61.971L29.056 61.971" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M31.4395 60.4955L29.964 61.971" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M31.4395 53.4585L31.4395 60.4955" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M25.5375 47.5565L31.4395 53.4585" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M17.1385 47.5565L25.5375 47.5565" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M16.2305 46.6485L17.1385 47.5565" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M15.3225 46.6485L16.2305 46.6485" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M29.056 61.971L29 62" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="VMOTOR" d="M15.3225 46.6485L15 46.45" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>VMOTOR / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.074 13.7335L14.074 17.1385" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.074 17.1385L14 17.2" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.074 13.7335L14.095 13.7" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.982 20.3165L14.982 22.019" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M15.3225 19.976L14.982 20.3165" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M15.3225 17.706L15.3225 19.976" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.6415 17.025L15.3225 17.706" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.1875 17.025L14.6415 17.025" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.982 22.019L15 22.1" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INC" d="M14.1875 17.025L14 17.2" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M10.896 17.1385L10.1015 17.1385" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M12.8255 15.209L11.06625 16.96825" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M11.06625 16.96825L10.896 17.1385" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M12.8255 13.7335L12.8255 15.209" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M10.1015 17.1385L10 17.2" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M12.8255 13.7335L12.825 13.7" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M14.301 21.2245L14.301 22.019" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M13.5065 20.43L14.301 21.2245" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M13.0525 20.43L13.5065 20.43" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M11.35 18.7275L13.0525 20.43" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M11.35 17.252L11.35 18.7275" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M11.123 17.025L11.35 17.252" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M14.301 22.019L14.35 22.1" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M11.123 17.025L11.06625 16.96825" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M11.577 7.6045L11.577 8.2855" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M11.35 7.3775L11.577 7.6045" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M11.35 6.9235L11.35 7.3775" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M12.5985 5.675L11.35 6.9235" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M25.197 5.675L12.5985 5.675" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M27.467 7.945L25.197 5.675" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M27.694 7.945L27.467 7.945" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M11.577 8.2855L11.555 8.3" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B2" d="M27.694 7.945L27.75 8" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M15.3225 7.6045L15.3225 8.2855" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M15.5495 7.3775L15.3225 7.6045" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M15.5495 6.9235L15.5495 7.3775" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M15.436 6.81L15.5495 6.9235" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M15.663 6.583L15.436 6.81" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M22.5865 6.583L15.663 6.583" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M23.9485 7.945L22.5865 6.583" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M24.1755 7.945L23.9485 7.945" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M15.3225 8.2855L15.365 8.3" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_B1" d="M24.1755 7.945L24.25 8" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M16.6845 8.9665L16.6845 8.399" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M16.4575 9.1935L16.6845 8.9665" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M16.4575 9.6475L16.4575 9.1935" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M16.571 9.761L16.4575 9.6475" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M16.344 9.988L16.571 9.761" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M9.988 9.988L16.344 9.988" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M8.0585 8.0585L9.988 9.988" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M7.8315 8.0585L8.0585 8.0585" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M16.6845 8.399L16.635 8.3" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A2" d="M7.8315 8.0585L7.75 8" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A2 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M20.43 8.9665L20.43 8.399" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M20.657 9.1935L20.43 8.9665" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M20.657 9.534L20.657 9.1935" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M19.295 10.896L20.657 9.534" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M7.3775 10.896L19.295 10.896" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M4.54 8.0585L7.3775 10.896" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M4.313 8.0585L4.54 8.0585" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M20.43 8.399L20.445 8.3" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="MOTOR_A1" d="M4.313 8.0585L4.25 8" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_A1 / layer 1 / 0.6 mm</title></path>
+<path class="copper layer1" data-net="PROG" d="M21.2245 35.639L19.6355 35.639" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PROG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PROG" d="M19.6355 35.639L19.6 35.6" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PROG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="PROG" d="M21.2245 35.639L21.3 35.635" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>PROG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M21.375 32.75L21.375 33" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M21.5 32.625L21.375 32.75" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M21.5 31L21.5 32.625" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M21.375 33L21.3 33.095" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M21.5 31L21.45 31" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M24.25 22.5L25.5 22.5" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23.875 22.875L24.25 22.5" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23.875 25.375L23.875 22.875" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M24 25.5L23.875 25.375" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M25.5 25.5L24 25.5" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M25.5 22.5L25.52 22.48" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M25.5 25.5L25.52 25.52" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23 46L23 44.625" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23 44.625L23 42" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M25.625 36.875L26.625 36.875" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M25.5 37L25.625 36.875" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M25.5 37.875L25.5 37" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23 40.375L25.5 37.875" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23 41.875L23 40.375" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M26.625 36.875L26.7 36.905" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23 41.875L23 42" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M29.875 25.5L25.625 25.5" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M31.5 27.125L29.875 25.5" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M31.5 46.625L31.5 27.125" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M30.75 47.375L31.5 46.625" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M29.125 47.375L30.75 47.375" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M28.625 46.875L29.125 47.375" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M28.625 45.125L28.625 46.875" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M28.125 44.625L28.625 45.125" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23.125 44.625L28.125 44.625" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M25.625 25.5L25.52 25.52" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M23.125 44.625L23 44.625" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M17.5 33.125L21.125 33.125" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M16.375 34.25L17.5 33.125" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M16.375 36.625L16.375 34.25" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M19 39.25L16.375 36.625" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M21.875 39.25L19 39.25" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M22.875 40.25L21.875 39.25" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M21.125 33.125L21.3 33.095" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="USB5V" d="M22.875 40.25L23 40.375" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>USB5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M4 22.25L2.043 22.25" fill="none" stroke="#edb66f" stroke-width="1.2" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 1.2 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M2.043 22.25L1.2 22.25" fill="none" stroke="#edb66f" stroke-width="1.2" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 1.2 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M1.2 22.25L1.2 29.65" fill="none" stroke="#edb66f" stroke-width="1.2" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 1.2 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M1.2 29.65L4 29.65" fill="none" stroke="#edb66f" stroke-width="1.2" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 1.2 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M26.7 33.095L29 33.095" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.5 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M29 33.095L29 34.05" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.5 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M2.043 21.6785L2.043 19.068" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M2.043 19.068L2 19" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M2.043 21.6785L2.043 22.25" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M11.6905 28.2615L11.6905 28.0345" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M10.5555 29.3965L11.6905 28.2615" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M4.54 29.3965L10.5555 29.3965" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M11.6905 28.0345L11.8 28" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M4.54 29.3965L4 29.65" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M26.2185 32.5745L26.559 32.915" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M26.2185 32.461L26.2185 32.5745" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M25.9915 32.234L26.2185 32.461" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M17.5925 25.9915L18.2735 25.9915" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M16.9115 25.3105L17.5925 25.9915" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M14.074 25.3105L16.9115 25.3105" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M11.804 27.5805L14.074 25.3105" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M11.804 27.8075L11.804 27.5805" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M26.559 32.915L26.7 33.095" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_PLUS" d="M11.804 27.8075L11.8 28" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_PLUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M29.6235 44.038L29.6235 45.9675" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M30.7585 42.903L29.6235 44.038" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M30.7585 37.7955L30.7585 42.903" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M28.148 35.185L30.7585 37.7955" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M27.921 35.185L28.148 35.185" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M27.1265 34.3905L27.921 35.185" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M26.786 34.3905L27.1265 34.3905" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M29.6235 45.9675L29.6 46" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="STDBY" d="M26.786 34.3905L26.7 34.365" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>STDBY / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG" d="M29.6235 37.3415L29.6235 41.995" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG" d="M27.921 35.639L29.6235 37.3415" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG" d="M26.786 35.639L27.921 35.639" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG" d="M29.6235 41.995L29.6 42" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG" d="M26.786 35.639L26.7 35.635" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OD" d="M7.8315 34.1635L7.8315 33.0285" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OD / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OD" d="M6.4695 35.5255L7.8315 34.1635" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OD / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OD" d="M6.4695 35.866L6.4695 35.5255" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OD / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OD" d="M6.356 35.9795L6.4695 35.866" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OD / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OD" d="M6.129 35.9795L6.356 35.9795" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OD / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OD" d="M7.8315 33.0285L7.85 32.95" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OD / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OD" d="M6.129 35.9795L6.1 36.025" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OD / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CS" d="M8.9665 32.007L7.945 32.007" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CS" d="M9.8745 27.013L9.6475 26.786" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CS" d="M9.8745 27.8075L9.8745 27.013" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CS" d="M9.988 27.921L9.8745 27.8075" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CS" d="M7.945 32.007L7.85 32" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CS" d="M9.988 27.921L10 28" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CS / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OC" d="M8.9665 31.099L7.945 31.099" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OC" d="M11.4635 35.5255L11.2365 35.2985" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OC" d="M11.4635 35.866L11.4635 35.5255" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OC" d="M11.577 35.9795L11.4635 35.866" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OC" d="M11.804 35.9795L11.577 35.9795" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OC" d="M7.945 31.099L7.85 31.05" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="OC" d="M11.804 35.9795L11.9 36.025" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>OC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="DW_VCC" d="M11.6905 32.007L10.215 32.007" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>DW_VCC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="DW_VCC" d="M10.215 32.007L10.15 32" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>DW_VCC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="DW_VCC" d="M11.6905 32.007L11.8 32" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>DW_VCC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="DW_VCC" d="M11.804 31.8935L11.804 30.0775" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>DW_VCC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="DW_VCC" d="M11.804 30.0775L11.8 30" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>DW_VCC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="DW_VCC" d="M11.804 31.8935L11.8 32" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>DW_VCC / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M7.5 36.65L7.15 36.675" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M7.15 36.675L6.1 36.675" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M7.5 37.45L7.15 37.325" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M7.15 37.325L6.1 37.325" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M6.1 36.675L6.1 37.325" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M10.215 33.596L10.215 33.0285" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M10.669 34.05L10.3285 33.7095" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M10.3285 33.7095L10.215 33.596" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M11.6905 34.05L10.669 34.05" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M10.215 33.0285L10.15 32.95" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M11.6905 34.05L11.8 34" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M8.172 35.866L10.215 33.823" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M8.172 35.9795L8.172 35.866" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M7.6045 36.547L8.172 35.9795" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M10.215 33.823L10.3285 33.7095" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BAT_MINUS" d="M7.6045 36.547L7.5 36.65" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BAT_MINUS / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="D12" d="M6.1 37.975L6.1 39.1" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>D12 / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="D12" d="M6.1 39.1L11.9 39.1" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>D12 / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="D12" d="M11.9 39.1L11.9 37.975" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>D12 / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="D12" d="M6.1 39.1L11.9 39.1" fill="none" stroke="#edb66f" stroke-width="1.2" stroke-linecap="round"><title>D12 / layer 1 / 1.2 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M8.85 49.95L7.8 49.95" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>SW / layer 1 / 0.5 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M7.8 49.95L7.15 50.6" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>SW / layer 1 / 0.5 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M7.15 50.6L7.15 53" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>SW / layer 1 / 0.5 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M5 49.35L7.15 49.5" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>SW / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M7.15 49.5L7.15 50.6" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>SW / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="FB" d="M8.85 48.05L8.85 47.4" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FB" d="M8.85 47.4L9.45 46.8" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FB" d="M9.45 46.8L10.8 46.8" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FB" d="M10.8 46.8L10.8 45.2" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FB" d="M10.8 45.2L12.3 43.7" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FB" d="M12.3 43.7L12.3 43" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FUSED_BAT" d="M4 34.35L4 38.25" fill="none" stroke="#edb66f" stroke-width="1.2" stroke-linecap="round"><title>FUSED_BAT / layer 1 / 1.2 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M26.4455 23.4945L25.5375 23.4945" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M27.24 22.7L26.4455 23.4945" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M27.24 18.9545L27.24 22.7" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M26.332 18.0465L27.24 18.9545" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M24.8565 18.0465L26.332 18.0465" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M23.381 19.522L24.8565 18.0465" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M23.381 21.111L23.381 19.522" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M22.473 22.019L23.381 21.111" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M22.473 22.473L22.473 22.019" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M25.5375 23.4945L25.52 23.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC1" d="M22.473 22.473L22.5 22.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC1 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M26.625 24.5L25.625 24.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M24.25 26.5L24.25 26.25" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M24 26.75L24.25 26.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M24 27.125L24 26.75" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M23.875 27.25L24 27.125" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M22.5 27.25L23.875 27.25" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M25.625 24.5L25.52 24.5" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CC2" d="M22.5 27.25L22.5 27.2" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CC2 / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG_LED" d="M27.5805 41.995L25.0835 41.995" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG_LED / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG_LED" d="M25.0835 41.995L25 42" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG_LED / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="CHRG_LED" d="M27.5805 41.995L27.6 42" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>CHRG_LED / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FULL_LED" d="M27.5805 45.9675L25.0835 45.9675" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FULL_LED / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FULL_LED" d="M25.0835 45.9675L25 46" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FULL_LED / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="FULL_LED" d="M27.5805 45.9675L27.6 46" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FULL_LED / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.85 53L2.85 55.2745" fill="none" stroke="#edb66f" stroke-width="1" stroke-linecap="round"><title>BOOST5V / layer 1 / 1 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.85 55.2745L2.85 55.45" fill="none" stroke="#edb66f" stroke-width="1" stroke-linecap="round"><title>BOOST5V / layer 1 / 1 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.85 55.45L3 55.45" fill="none" stroke="#edb66f" stroke-width="1" stroke-linecap="round"><title>BOOST5V / layer 1 / 1 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M3 55.45L4.8805 55.45" fill="none" stroke="#edb66f" stroke-width="1" stroke-linecap="round"><title>BOOST5V / layer 1 / 1 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M4.8805 55.45L5 55.45" fill="none" stroke="#edb66f" stroke-width="1" stroke-linecap="round"><title>BOOST5V / layer 1 / 1 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M5 55.45L6.9 55.45" fill="none" stroke="#edb66f" stroke-width="1" stroke-linecap="round"><title>BOOST5V / layer 1 / 1 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M5 54.6L5 55.45" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M16.85 49.8L16.85 52" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M8.8 45.2L8.8 44.2" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M8.8 44.2L9 44" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.043 60.2685L2.043 63.9005" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M1.362 59.5875L2.043 60.2685" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M1.362 57.5445L1.362 59.5875" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.497 56.4095L1.362 57.5445" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.497 55.7285L2.497 56.4095" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.043 63.9005L2 64" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.497 55.7285L3 55.45" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.951 55.2745L2.85 55.2745" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M2.951 55.2745L3 55.45" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M4.8805 55.5015L4.8805 55.45" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<path class="copper layer1" data-net="BOOST5V" d="M4.8805 55.5015L5 55.45" fill="none" stroke="#edb66f" stroke-width="0.4" stroke-linecap="round"><title>BOOST5V / layer 1 / 0.4 mm</title></path>
+<circle class="copper layer1" data-net="NC" cx="9.379999999999999" cy="77.14" r="0.95" fill="#dfc594"><title>U1.IO5 / NC</title></circle>
+<circle class="copper layer1" data-net="MOTOR_ENABLE" cx="9.379999999999999" cy="74.6" r="0.95" fill="#dfc594"><title>U1.IO6 / MOTOR_ENABLE</title></circle>
+<circle class="copper layer1" data-net="NC" cx="9.379999999999999" cy="72.06" r="0.95" fill="#dfc594"><title>U1.IO7 / NC</title></circle>
+<circle class="copper layer1" data-net="NC" cx="9.379999999999999" cy="69.52" r="0.95" fill="#dfc594"><title>U1.IO8 / NC</title></circle>
+<circle class="copper layer1" data-net="NC" cx="9.379999999999999" cy="66.98" r="0.95" fill="#dfc594"><title>U1.IO9 / NC</title></circle>
+<circle class="copper layer1" data-net="PWM_B2" cx="9.379999999999999" cy="64.44" r="0.95" fill="#dfc594"><title>U1.IO10 / PWM_B2</title></circle>
+<circle class="copper layer1" data-net="NC" cx="9.379999999999999" cy="61.9" r="0.95" fill="#dfc594"><title>U1.IO20 / NC</title></circle>
+<circle class="copper layer1" data-net="NC" cx="9.379999999999999" cy="59.36" r="0.95" fill="#dfc594"><title>U1.IO21 / NC</title></circle>
+<circle class="copper layer1" data-net="ESP_5V" cx="24.62" cy="77.14" r="0.95" fill="#dfc594"><title>U1.5V / ESP_5V</title></circle>
+<circle class="copper layer1" data-net="GND" cx="24.62" cy="74.6" r="0.95" fill="#dfc594"><title>U1.GND / GND</title></circle>
+<circle class="copper layer1" data-net="3V3" cx="24.62" cy="72.06" r="0.95" fill="#dfc594"><title>U1.3V3 / 3V3</title></circle>
+<circle class="copper layer1" data-net="VBAT_ADC" cx="24.62" cy="69.52" r="0.95" fill="#dfc594"><title>U1.IO4 / VBAT_ADC</title></circle>
+<circle class="copper layer1" data-net="PWM_B1" cx="24.62" cy="66.98" r="0.95" fill="#dfc594"><title>U1.IO3 / PWM_B1</title></circle>
+<circle class="copper layer1" data-net="NC" cx="24.62" cy="64.44" r="0.95" fill="#dfc594"><title>U1.IO2 / NC</title></circle>
+<circle class="copper layer1" data-net="PWM_A2" cx="24.62" cy="61.9" r="0.95" fill="#dfc594"><title>U1.IO1 / PWM_A2</title></circle>
+<circle class="copper layer1" data-net="PWM_A1" cx="24.62" cy="59.36" r="0.95" fill="#dfc594"><title>U1.IO0 / PWM_A1</title></circle>
+<rect class="copper layer1" data-net="NC" x="19.595" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 20.445 13.7)" fill="#dfc594"><title>U2.1 / NC</title></rect>
+<rect class="copper layer1" data-net="MOTOR_A1" x="19.595" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 20.445 8.3)" fill="#dfc594"><title>U2.16 / MOTOR_A1</title></rect>
+<rect class="copper layer1" data-net="INA" x="18.325" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 19.175 13.7)" fill="#dfc594"><title>U2.2 / INA</title></rect>
+<rect class="copper layer1" data-net="GND" x="18.325" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 19.175 8.3)" fill="#dfc594"><title>U2.15 / GND</title></rect>
+<rect class="copper layer1" data-net="INB" x="17.055" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 17.905 13.7)" fill="#dfc594"><title>U2.3 / INB</title></rect>
+<rect class="copper layer1" data-net="GND" x="17.055" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 17.905 8.3)" fill="#dfc594"><title>U2.14 / GND</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="15.785000000000002" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 16.635 13.7)" fill="#dfc594"><title>U2.4 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="MOTOR_A2" x="15.785000000000002" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 16.635 8.3)" fill="#dfc594"><title>U2.13 / MOTOR_A2</title></rect>
+<rect class="copper layer1" data-net="NC" x="14.515" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 15.365 13.7)" fill="#dfc594"><title>U2.5 / NC</title></rect>
+<rect class="copper layer1" data-net="MOTOR_B1" x="14.515" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 15.365 8.3)" fill="#dfc594"><title>U2.12 / MOTOR_B1</title></rect>
+<rect class="copper layer1" data-net="INC" x="13.245000000000001" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 14.095 13.7)" fill="#dfc594"><title>U2.6 / INC</title></rect>
+<rect class="copper layer1" data-net="GND" x="13.245000000000001" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 14.095 8.3)" fill="#dfc594"><title>U2.11 / GND</title></rect>
+<rect class="copper layer1" data-net="IND" x="11.975" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 12.825 13.7)" fill="#dfc594"><title>U2.7 / IND</title></rect>
+<rect class="copper layer1" data-net="GND" x="11.975" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 12.825 8.3)" fill="#dfc594"><title>U2.10 / GND</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="10.705" y="13.399999999999999" width="1.7" height="0.6" transform="rotate(270.0 11.555 13.7)" fill="#dfc594"><title>U2.8 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="MOTOR_B2" x="10.705" y="8.0" width="1.7" height="0.6" transform="rotate(270.0 11.555 8.3)" fill="#dfc594"><title>U2.9 / MOTOR_B2</title></rect>
+<rect class="copper layer1" data-net="GND" x="20.45" y="36.605000000000004" width="1.7" height="0.6" transform="rotate(0.0 21.3 36.905)" fill="#dfc594"><title>U3.1 / GND</title></rect>
+<rect class="copper layer1" data-net="USB5V" x="25.849999999999998" y="36.605000000000004" width="1.7" height="0.6" transform="rotate(0.0 26.7 36.905)" fill="#dfc594"><title>U3.8 / USB5V</title></rect>
+<rect class="copper layer1" data-net="PROG" x="20.45" y="35.335" width="1.7" height="0.6" transform="rotate(0.0 21.3 35.635)" fill="#dfc594"><title>U3.2 / PROG</title></rect>
+<rect class="copper layer1" data-net="CHRG" x="25.849999999999998" y="35.335" width="1.7" height="0.6" transform="rotate(0.0 26.7 35.635)" fill="#dfc594"><title>U3.7 / CHRG</title></rect>
+<rect class="copper layer1" data-net="GND" x="20.45" y="34.065000000000005" width="1.7" height="0.6" transform="rotate(0.0 21.3 34.365)" fill="#dfc594"><title>U3.3 / GND</title></rect>
+<rect class="copper layer1" data-net="STDBY" x="25.849999999999998" y="34.065000000000005" width="1.7" height="0.6" transform="rotate(0.0 26.7 34.365)" fill="#dfc594"><title>U3.6 / STDBY</title></rect>
+<rect class="copper layer1" data-net="USB5V" x="20.45" y="32.795" width="1.7" height="0.6" transform="rotate(0.0 21.3 33.095)" fill="#dfc594"><title>U3.4 / USB5V</title></rect>
+<rect class="copper layer1" data-net="BAT_PLUS" x="25.849999999999998" y="32.795" width="1.7" height="0.6" transform="rotate(0.0 26.7 33.095)" fill="#dfc594"><title>U3.5 / BAT_PLUS</title></rect>
+<rect class="copper layer1" data-net="GND" x="22.875" y="33.25" width="2.25" height="3.5" transform="rotate(0.0 24.0 35.0)" fill="#dfc594"><title>U3.EP / GND</title></rect>
+<rect class="copper layer1" data-net="OD" x="7.324999999999999" y="32.650000000000006" width="1.05" height="0.6" transform="rotate(0.0 7.85 32.95)" fill="#dfc594"><title>U4.1 / OD</title></rect>
+<rect class="copper layer1" data-net="BAT_MINUS" x="9.625" y="32.650000000000006" width="1.05" height="0.6" transform="rotate(0.0 10.15 32.95)" fill="#dfc594"><title>U4.6 / BAT_MINUS</title></rect>
+<rect class="copper layer1" data-net="CS" x="7.324999999999999" y="31.7" width="1.05" height="0.6" transform="rotate(0.0 7.85 32.0)" fill="#dfc594"><title>U4.2 / CS</title></rect>
+<rect class="copper layer1" data-net="DW_VCC" x="9.625" y="31.7" width="1.05" height="0.6" transform="rotate(0.0 10.15 32.0)" fill="#dfc594"><title>U4.5 / DW_VCC</title></rect>
+<rect class="copper layer1" data-net="OC" x="7.324999999999999" y="30.75" width="1.05" height="0.6" transform="rotate(0.0 7.85 31.05)" fill="#dfc594"><title>U4.3 / OC</title></rect>
+<rect class="copper layer1" data-net="NC" x="9.625" y="30.75" width="1.05" height="0.6" transform="rotate(0.0 10.15 31.05)" fill="#dfc594"><title>U4.4 / NC</title></rect>
+<rect class="copper layer1" data-net="D12" x="5.35" y="37.775" width="1.5" height="0.4" transform="rotate(0.0 6.1 37.975)" fill="#dfc594"><title>Q1.1 / D12</title></rect>
+<rect class="copper layer1" data-net="D12" x="11.15" y="37.775" width="1.5" height="0.4" transform="rotate(0.0 11.9 37.975)" fill="#dfc594"><title>Q1.8 / D12</title></rect>
+<rect class="copper layer1" data-net="BAT_MINUS" x="5.35" y="37.125" width="1.5" height="0.4" transform="rotate(0.0 6.1 37.325)" fill="#dfc594"><title>Q1.2 / BAT_MINUS</title></rect>
+<rect class="copper layer1" data-net="GND" x="11.15" y="37.125" width="1.5" height="0.4" transform="rotate(0.0 11.9 37.325)" fill="#dfc594"><title>Q1.7 / GND</title></rect>
+<rect class="copper layer1" data-net="BAT_MINUS" x="5.35" y="36.474999999999994" width="1.5" height="0.4" transform="rotate(0.0 6.1 36.675)" fill="#dfc594"><title>Q1.3 / BAT_MINUS</title></rect>
+<rect class="copper layer1" data-net="GND" x="11.15" y="36.474999999999994" width="1.5" height="0.4" transform="rotate(0.0 11.9 36.675)" fill="#dfc594"><title>Q1.6 / GND</title></rect>
+<rect class="copper layer1" data-net="OD" x="5.35" y="35.824999999999996" width="1.5" height="0.4" transform="rotate(0.0 6.1 36.025)" fill="#dfc594"><title>Q1.4 / OD</title></rect>
+<rect class="copper layer1" data-net="OC" x="11.15" y="35.824999999999996" width="1.5" height="0.4" transform="rotate(0.0 11.9 36.025)" fill="#dfc594"><title>Q1.5 / OC</title></rect>
+<rect class="copper layer1" data-net="SW" x="8.325" y="49.650000000000006" width="1.05" height="0.6" transform="rotate(0.0 8.85 49.95)" fill="#dfc594"><title>U5.1 / SW</title></rect>
+<rect class="copper layer1" data-net="NC" x="10.625" y="49.650000000000006" width="1.05" height="0.6" transform="rotate(0.0 11.15 49.95)" fill="#dfc594"><title>U5.6 / NC</title></rect>
+<rect class="copper layer1" data-net="GND" x="8.325" y="48.7" width="1.05" height="0.6" transform="rotate(0.0 8.85 49.0)" fill="#dfc594"><title>U5.2 / GND</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="10.625" y="48.7" width="1.05" height="0.6" transform="rotate(0.0 11.15 49.0)" fill="#dfc594"><title>U5.5 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="FB" x="8.325" y="47.75" width="1.05" height="0.6" transform="rotate(0.0 8.85 48.05)" fill="#dfc594"><title>U5.3 / FB</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="10.625" y="47.75" width="1.05" height="0.6" transform="rotate(0.0 11.15 48.05)" fill="#dfc594"><title>U5.4 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="3V3" x="16.2" y="27.7" width="1.5" height="0.4" transform="rotate(270.0 16.95 27.9)" fill="#dfc594"><title>U6.1 / 3V3</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="16.2" y="21.900000000000002" width="1.5" height="0.4" transform="rotate(270.0 16.95 22.1)" fill="#dfc594"><title>U6.14 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="PWM_A1" x="15.55" y="27.7" width="1.5" height="0.4" transform="rotate(270.0 16.3 27.9)" fill="#dfc594"><title>U6.2 / PWM_A1</title></rect>
+<rect class="copper layer1" data-net="INA" x="15.55" y="21.900000000000002" width="1.5" height="0.4" transform="rotate(270.0 16.3 22.1)" fill="#dfc594"><title>U6.13 / INA</title></rect>
+<rect class="copper layer1" data-net="PWM_A2" x="14.9" y="27.7" width="1.5" height="0.4" transform="rotate(270.0 15.65 27.9)" fill="#dfc594"><title>U6.3 / PWM_A2</title></rect>
+<rect class="copper layer1" data-net="INB" x="14.9" y="21.900000000000002" width="1.5" height="0.4" transform="rotate(270.0 15.65 22.1)" fill="#dfc594"><title>U6.12 / INB</title></rect>
+<rect class="copper layer1" data-net="PWM_B1" x="14.25" y="27.7" width="1.5" height="0.4" transform="rotate(270.0 15.0 27.9)" fill="#dfc594"><title>U6.4 / PWM_B1</title></rect>
+<rect class="copper layer1" data-net="INC" x="14.25" y="21.900000000000002" width="1.5" height="0.4" transform="rotate(270.0 15.0 22.1)" fill="#dfc594"><title>U6.11 / INC</title></rect>
+<rect class="copper layer1" data-net="PWM_B2" x="13.6" y="27.7" width="1.5" height="0.4" transform="rotate(270.0 14.35 27.9)" fill="#dfc594"><title>U6.5 / PWM_B2</title></rect>
+<rect class="copper layer1" data-net="IND" x="13.6" y="21.900000000000002" width="1.5" height="0.4" transform="rotate(270.0 14.35 22.1)" fill="#dfc594"><title>U6.10 / IND</title></rect>
+<rect class="copper layer1" data-net="NC" x="12.95" y="27.7" width="1.5" height="0.4" transform="rotate(270.0 13.7 27.9)" fill="#dfc594"><title>U6.6 / NC</title></rect>
+<rect class="copper layer1" data-net="NC" x="12.95" y="21.900000000000002" width="1.5" height="0.4" transform="rotate(270.0 13.7 22.1)" fill="#dfc594"><title>U6.9 / NC</title></rect>
+<rect class="copper layer1" data-net="GND" x="12.3" y="27.7" width="1.5" height="0.4" transform="rotate(270.0 13.05 27.9)" fill="#dfc594"><title>U6.7 / GND</title></rect>
+<rect class="copper layer1" data-net="MOTOR_ENABLE" x="12.3" y="21.900000000000002" width="1.5" height="0.4" transform="rotate(270.0 13.05 22.1)" fill="#dfc594"><title>U6.8 / MOTOR_ENABLE</title></rect>
+<circle class="copper layer1" data-net="BAT_PLUS" cx="4.0" cy="22.25" r="1.1" fill="#dfc594"><title>J1.1 / BAT_PLUS</title></circle>
+<circle class="copper layer1" data-net="BAT_MINUS" cx="4.0" cy="25.75" r="1.1" fill="#dfc594"><title>J1.2 / BAT_MINUS</title></circle>
+<circle class="copper layer1" data-net="MOTOR_A1" cx="4.25" cy="8.0" r="1.1" fill="#dfc594"><title>J2.1 / MOTOR_A1</title></circle>
+<circle class="copper layer1" data-net="MOTOR_A2" cx="7.75" cy="8.0" r="1.1" fill="#dfc594"><title>J2.2 / MOTOR_A2</title></circle>
+<circle class="copper layer1" data-net="MOTOR_B1" cx="24.25" cy="8.0" r="1.1" fill="#dfc594"><title>J3.1 / MOTOR_B1</title></circle>
+<circle class="copper layer1" data-net="MOTOR_B2" cx="27.75" cy="8.0" r="1.1" fill="#dfc594"><title>J3.2 / MOTOR_B2</title></circle>
+<circle class="copper layer1" data-net="FUSED_BAT" cx="4.0" cy="38.25" r="1.1" fill="#dfc594"><title>J4.1 / FUSED_BAT</title></circle>
+<circle class="copper layer1" data-net="VMOTOR" cx="4.0" cy="41.75" r="1.1" fill="#dfc594"><title>J4.2 / VMOTOR</title></circle>
+<rect class="copper layer1" data-net="GND" x="25.120000000000005" y="20.65" width="0.8" height="1.2" transform="rotate(90.0 25.520000000000003 21.25)" fill="#dfc594"><title>J5.B12 / GND</title></rect>
+<rect class="copper layer1" data-net="USB5V" x="25.140000000000004" y="21.88" width="0.76" height="1.2" transform="rotate(90.0 25.520000000000003 22.48)" fill="#dfc594"><title>J5.B9 / USB5V</title></rect>
+<rect class="copper layer1" data-net="CC1" x="25.17" y="22.9" width="0.7" height="1.2" transform="rotate(90.0 25.520000000000003 23.5)" fill="#dfc594"><title>J5.A5 / CC1</title></rect>
+<rect class="copper layer1" data-net="CC2" x="25.17" y="23.9" width="0.7" height="1.2" transform="rotate(90.0 25.520000000000003 24.5)" fill="#dfc594"><title>J5.B5 / CC2</title></rect>
+<rect class="copper layer1" data-net="USB5V" x="25.140000000000004" y="24.919999999999998" width="0.76" height="1.2" transform="rotate(90.0 25.520000000000003 25.52)" fill="#dfc594"><title>J5.A9 / USB5V</title></rect>
+<rect class="copper layer1" data-net="GND" x="25.120000000000005" y="26.15" width="0.8" height="1.2" transform="rotate(90.0 25.520000000000003 26.75)" fill="#dfc594"><title>J5.A12 / GND</title></rect>
+<circle class="copper layer1" data-net="GND" cx="25.6" cy="19.68" r="1.0" fill="#dfc594"><title>J5.SH1 / GND</title></circle>
+<circle class="copper layer1" data-net="GND" cx="29.400000000000002" cy="19.68" r="1.0" fill="#dfc594"><title>J5.SH2 / GND</title></circle>
+<circle class="copper layer1" data-net="GND" cx="25.6" cy="28.32" r="1.0" fill="#dfc594"><title>J5.SH3 / GND</title></circle>
+<circle class="copper layer1" data-net="GND" cx="29.400000000000002" cy="28.32" r="1.0" fill="#dfc594"><title>J5.SH4 / GND</title></circle>
+<rect class="copper layer1" data-net="BAT_PLUS" x="3.1" y="27.849999999999998" width="1.8" height="3.6" transform="rotate(90.0 4.0 29.65)" fill="#dfc594"><title>F1.1 / BAT_PLUS</title></rect>
+<rect class="copper layer1" data-net="FUSED_BAT" x="3.1" y="32.550000000000004" width="1.8" height="3.6" transform="rotate(90.0 4.0 34.35)" fill="#dfc594"><title>F1.2 / FUSED_BAT</title></rect>
+<circle class="copper layer1" data-net="VMOTOR" cx="23.75" cy="14.0" r="0.9" fill="#dfc594"><title>C1.1 / VMOTOR</title></circle>
+<circle class="copper layer1" data-net="GND" cx="26.25" cy="14.0" r="0.9" fill="#dfc594"><title>C1.2 / GND</title></circle>
+<rect class="copper layer1" data-net="VMOTOR" x="7.45" y="14.8" width="1.1" height="1.4" transform="rotate(0.0 8.0 15.5)" fill="#dfc594"><title>C2.1 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="GND" x="9.45" y="14.8" width="1.1" height="1.4" transform="rotate(0.0 10.0 15.5)" fill="#dfc594"><title>C2.2 / GND</title></rect>
+<rect class="copper layer1" data-net="USB5V" x="20.75" y="30.05" width="1.4" height="1.9" transform="rotate(0.0 21.45 31.0)" fill="#dfc594"><title>C3.1 / USB5V</title></rect>
+<rect class="copper layer1" data-net="GND" x="23.85" y="30.05" width="1.4" height="1.9" transform="rotate(0.0 24.55 31.0)" fill="#dfc594"><title>C3.2 / GND</title></rect>
+<rect class="copper layer1" data-net="BAT_PLUS" x="28.3" y="33.099999999999994" width="1.4" height="1.9" transform="rotate(270.0 29.0 34.05)" fill="#dfc594"><title>C4.1 / BAT_PLUS</title></rect>
+<rect class="copper layer1" data-net="GND" x="28.3" y="30.0" width="1.4" height="1.9" transform="rotate(270.0 29.0 30.95)" fill="#dfc594"><title>C4.2 / GND</title></rect>
+<rect class="copper layer1" data-net="PROG" x="19.05" y="34.9" width="1.1" height="1.4" transform="rotate(180.0 19.6 35.6)" fill="#dfc594"><title>R1.1 / PROG</title></rect>
+<rect class="copper layer1" data-net="GND" x="17.05" y="34.9" width="1.1" height="1.4" transform="rotate(180.0 17.6 35.6)" fill="#dfc594"><title>R1.2 / GND</title></rect>
+<rect class="copper layer1" data-net="CC1" x="21.95" y="21.8" width="1.1" height="1.4" transform="rotate(90.0 22.5 22.5)" fill="#dfc594"><title>R2.1 / CC1</title></rect>
+<rect class="copper layer1" data-net="GND" x="21.95" y="23.8" width="1.1" height="1.4" transform="rotate(90.0 22.5 24.5)" fill="#dfc594"><title>R2.2 / GND</title></rect>
+<rect class="copper layer1" data-net="CC2" x="21.95" y="26.5" width="1.1" height="1.4" transform="rotate(90.0 22.5 27.2)" fill="#dfc594"><title>R3.1 / CC2</title></rect>
+<rect class="copper layer1" data-net="GND" x="21.95" y="28.5" width="1.1" height="1.4" transform="rotate(90.0 22.5 29.2)" fill="#dfc594"><title>R3.2 / GND</title></rect>
+<rect class="copper layer1" data-net="CHRG_LED" x="27.05" y="41.3" width="1.1" height="1.4" transform="rotate(0.0 27.6 42.0)" fill="#dfc594"><title>D1.1 / CHRG_LED</title></rect>
+<rect class="copper layer1" data-net="CHRG" x="29.05" y="41.3" width="1.1" height="1.4" transform="rotate(0.0 29.6 42.0)" fill="#dfc594"><title>D1.2 / CHRG</title></rect>
+<rect class="copper layer1" data-net="FULL_LED" x="27.05" y="45.3" width="1.1" height="1.4" transform="rotate(0.0 27.6 46.0)" fill="#dfc594"><title>D2.1 / FULL_LED</title></rect>
+<rect class="copper layer1" data-net="STDBY" x="29.05" y="45.3" width="1.1" height="1.4" transform="rotate(0.0 29.6 46.0)" fill="#dfc594"><title>D2.2 / STDBY</title></rect>
+<rect class="copper layer1" data-net="USB5V" x="22.45" y="41.3" width="1.1" height="1.4" transform="rotate(0.0 23.0 42.0)" fill="#dfc594"><title>R4.1 / USB5V</title></rect>
+<rect class="copper layer1" data-net="CHRG_LED" x="24.45" y="41.3" width="1.1" height="1.4" transform="rotate(0.0 25.0 42.0)" fill="#dfc594"><title>R4.2 / CHRG_LED</title></rect>
+<rect class="copper layer1" data-net="USB5V" x="22.45" y="45.3" width="1.1" height="1.4" transform="rotate(0.0 23.0 46.0)" fill="#dfc594"><title>R5.1 / USB5V</title></rect>
+<rect class="copper layer1" data-net="FULL_LED" x="24.45" y="45.3" width="1.1" height="1.4" transform="rotate(0.0 25.0 46.0)" fill="#dfc594"><title>R5.2 / FULL_LED</title></rect>
+<rect class="copper layer1" data-net="BAT_PLUS" x="11.25" y="27.3" width="1.1" height="1.4" transform="rotate(90.0 11.8 28.0)" fill="#dfc594"><title>R6.1 / BAT_PLUS</title></rect>
+<rect class="copper layer1" data-net="DW_VCC" x="11.25" y="29.3" width="1.1" height="1.4" transform="rotate(90.0 11.8 30.0)" fill="#dfc594"><title>R6.2 / DW_VCC</title></rect>
+<rect class="copper layer1" data-net="GND" x="7.45" y="27.3" width="1.1" height="1.4" transform="rotate(0.0 8.0 28.0)" fill="#dfc594"><title>R7.1 / GND</title></rect>
+<rect class="copper layer1" data-net="CS" x="9.45" y="27.3" width="1.1" height="1.4" transform="rotate(0.0 10.0 28.0)" fill="#dfc594"><title>R7.2 / CS</title></rect>
+<rect class="copper layer1" data-net="DW_VCC" x="11.25" y="31.3" width="1.1" height="1.4" transform="rotate(90.0 11.8 32.0)" fill="#dfc594"><title>C5.1 / DW_VCC</title></rect>
+<rect class="copper layer1" data-net="BAT_MINUS" x="11.25" y="33.3" width="1.1" height="1.4" transform="rotate(90.0 11.8 34.0)" fill="#dfc594"><title>C5.2 / BAT_MINUS</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="4.1" y="42.1" width="1.8" height="5.1" transform="rotate(90.0 5.0 44.65)" fill="#dfc594"><title>L1.1 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="SW" x="4.1" y="46.800000000000004" width="1.8" height="5.1" transform="rotate(90.0 5.0 49.35)" fill="#dfc594"><title>L1.2 / SW</title></rect>
+<rect class="copper layer1" data-net="BOOST5V" x="1.75" y="51.7" width="2.2" height="2.6" transform="rotate(0.0 2.85 53.0)" fill="#dfc594"><title>D3.1 / BOOST5V</title></rect>
+<rect class="copper layer1" data-net="SW" x="6.050000000000001" y="51.7" width="2.2" height="2.6" transform="rotate(0.0 7.15 53.0)" fill="#dfc594"><title>D3.2 / SW</title></rect>
+<rect class="copper layer1" data-net="ESP_5V" x="20.049999999999997" y="50.7" width="2.2" height="2.6" transform="rotate(180.0 21.15 52.0)" fill="#dfc594"><title>D4.1 / ESP_5V</title></rect>
+<rect class="copper layer1" data-net="BOOST5V" x="15.750000000000002" y="50.7" width="2.2" height="2.6" transform="rotate(180.0 16.85 52.0)" fill="#dfc594"><title>D4.2 / BOOST5V</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="14.3" y="45.5" width="1.4" height="1.9" transform="rotate(90.0 15.0 46.45)" fill="#dfc594"><title>C6.1 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="GND" x="14.3" y="48.599999999999994" width="1.4" height="1.9" transform="rotate(90.0 15.0 49.55)" fill="#dfc594"><title>C6.2 / GND</title></rect>
+<rect class="copper layer1" data-net="BOOST5V" x="2.3" y="54.5" width="1.4" height="1.9" transform="rotate(90.0 3.0 55.45)" fill="#dfc594"><title>C7.1 / BOOST5V</title></rect>
+<rect class="copper layer1" data-net="GND" x="2.3" y="57.599999999999994" width="1.4" height="1.9" transform="rotate(90.0 3.0 58.55)" fill="#dfc594"><title>C7.2 / GND</title></rect>
+<rect class="copper layer1" data-net="BOOST5V" x="6.2" y="54.5" width="1.4" height="1.9" transform="rotate(90.0 6.9 55.45)" fill="#dfc594"><title>C8.1 / BOOST5V</title></rect>
+<rect class="copper layer1" data-net="GND" x="6.2" y="57.599999999999994" width="1.4" height="1.9" transform="rotate(90.0 6.9 58.55)" fill="#dfc594"><title>C8.2 / GND</title></rect>
+<rect class="copper layer1" data-net="BOOST5V" x="8.25" y="44.5" width="1.1" height="1.4" transform="rotate(0.0 8.8 45.2)" fill="#dfc594"><title>R8.1 / BOOST5V</title></rect>
+<rect class="copper layer1" data-net="FB" x="10.25" y="44.5" width="1.1" height="1.4" transform="rotate(0.0 10.8 45.2)" fill="#dfc594"><title>R8.2 / FB</title></rect>
+<rect class="copper layer1" data-net="FB" x="11.75" y="42.3" width="1.1" height="1.4" transform="rotate(0.0 12.3 43.0)" fill="#dfc594"><title>R9.1 / FB</title></rect>
+<rect class="copper layer1" data-net="GND" x="13.75" y="42.3" width="1.1" height="1.4" transform="rotate(0.0 14.3 43.0)" fill="#dfc594"><title>R9.2 / GND</title></rect>
+<rect class="copper layer1" data-net="PWM_A1" x="5.45" y="21.3" width="1.1" height="1.4" transform="rotate(0.0 6.0 22.0)" fill="#dfc594"><title>R10.1 / PWM_A1</title></rect>
+<rect class="copper layer1" data-net="GND" x="7.45" y="21.3" width="1.1" height="1.4" transform="rotate(0.0 8.0 22.0)" fill="#dfc594"><title>R10.2 / GND</title></rect>
+<rect class="copper layer1" data-net="PWM_A2" x="10.95" y="23.3" width="1.1" height="1.4" transform="rotate(90.0 11.5 24.0)" fill="#dfc594"><title>R11.1 / PWM_A2</title></rect>
+<rect class="copper layer1" data-net="GND" x="10.95" y="25.3" width="1.1" height="1.4" transform="rotate(90.0 11.5 26.0)" fill="#dfc594"><title>R11.2 / GND</title></rect>
+<rect class="copper layer1" data-net="PWM_B1" x="14.45" y="28.900000000000002" width="1.1" height="1.4" transform="rotate(90.0 15.0 29.6)" fill="#dfc594"><title>R12.1 / PWM_B1</title></rect>
+<rect class="copper layer1" data-net="GND" x="14.45" y="30.900000000000002" width="1.1" height="1.4" transform="rotate(90.0 15.0 31.6)" fill="#dfc594"><title>R12.2 / GND</title></rect>
+<rect class="copper layer1" data-net="PWM_B2" x="17.95" y="28.900000000000002" width="1.1" height="1.4" transform="rotate(90.0 18.5 29.6)" fill="#dfc594"><title>R13.1 / PWM_B2</title></rect>
+<rect class="copper layer1" data-net="GND" x="17.95" y="30.900000000000002" width="1.1" height="1.4" transform="rotate(90.0 18.5 31.6)" fill="#dfc594"><title>R13.2 / GND</title></rect>
+<rect class="copper layer1" data-net="INA" x="21.45" y="16.900000000000002" width="1.1" height="1.4" transform="rotate(90.0 22.0 17.6)" fill="#dfc594"><title>R14.1 / INA</title></rect>
+<rect class="copper layer1" data-net="GND" x="21.45" y="18.900000000000002" width="1.1" height="1.4" transform="rotate(90.0 22.0 19.6)" fill="#dfc594"><title>R14.2 / GND</title></rect>
+<rect class="copper layer1" data-net="INB" x="17.45" y="16.5" width="1.1" height="1.4" transform="rotate(90.0 18.0 17.2)" fill="#dfc594"><title>R15.1 / INB</title></rect>
+<rect class="copper layer1" data-net="GND" x="17.45" y="18.5" width="1.1" height="1.4" transform="rotate(90.0 18.0 19.2)" fill="#dfc594"><title>R15.2 / GND</title></rect>
+<rect class="copper layer1" data-net="INC" x="13.45" y="16.5" width="1.1" height="1.4" transform="rotate(90.0 14.0 17.2)" fill="#dfc594"><title>R16.1 / INC</title></rect>
+<rect class="copper layer1" data-net="GND" x="13.45" y="18.5" width="1.1" height="1.4" transform="rotate(90.0 14.0 19.2)" fill="#dfc594"><title>R16.2 / GND</title></rect>
+<rect class="copper layer1" data-net="IND" x="9.45" y="16.5" width="1.1" height="1.4" transform="rotate(90.0 10.0 17.2)" fill="#dfc594"><title>R17.1 / IND</title></rect>
+<rect class="copper layer1" data-net="GND" x="9.45" y="18.5" width="1.1" height="1.4" transform="rotate(90.0 10.0 19.2)" fill="#dfc594"><title>R17.2 / GND</title></rect>
+<rect class="copper layer1" data-net="MOTOR_ENABLE" x="7.45" y="22.8" width="1.1" height="1.4" transform="rotate(90.0 8.0 23.5)" fill="#dfc594"><title>R18.1 / MOTOR_ENABLE</title></rect>
+<rect class="copper layer1" data-net="GND" x="7.45" y="24.8" width="1.1" height="1.4" transform="rotate(90.0 8.0 25.5)" fill="#dfc594"><title>R18.2 / GND</title></rect>
+<rect class="copper layer1" data-net="3V3" x="19.15" y="25.3" width="1.1" height="1.4" transform="rotate(90.0 19.7 26.0)" fill="#dfc594"><title>C9.1 / 3V3</title></rect>
+<rect class="copper layer1" data-net="GND" x="19.15" y="27.3" width="1.1" height="1.4" transform="rotate(90.0 19.7 28.0)" fill="#dfc594"><title>C9.2 / GND</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="18.45" y="21.400000000000002" width="1.1" height="1.4" transform="rotate(0.0 19.0 22.1)" fill="#dfc594"><title>C10.1 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="GND" x="20.45" y="21.400000000000002" width="1.1" height="1.4" transform="rotate(0.0 21.0 22.1)" fill="#dfc594"><title>C10.2 / GND</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="28.45" y="61.3" width="1.1" height="1.4" transform="rotate(90.0 29.0 62.0)" fill="#dfc594"><title>R19.1 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="VBAT_ADC" x="28.45" y="63.3" width="1.1" height="1.4" transform="rotate(90.0 29.0 64.0)" fill="#dfc594"><title>R19.2 / VBAT_ADC</title></rect>
+<rect class="copper layer1" data-net="VBAT_ADC" x="27.45" y="69.3" width="1.1" height="1.4" transform="rotate(0.0 28.0 70.0)" fill="#dfc594"><title>R20.1 / VBAT_ADC</title></rect>
+<rect class="copper layer1" data-net="GND" x="29.45" y="69.3" width="1.1" height="1.4" transform="rotate(0.0 30.0 70.0)" fill="#dfc594"><title>R20.2 / GND</title></rect>
+<rect class="copper layer1" data-net="VBAT_ADC" x="26.95" y="66.8" width="1.1" height="1.4" transform="rotate(0.0 27.5 67.5)" fill="#dfc594"><title>C11.1 / VBAT_ADC</title></rect>
+<rect class="copper layer1" data-net="GND" x="28.95" y="66.8" width="1.1" height="1.4" transform="rotate(0.0 29.5 67.5)" fill="#dfc594"><title>C11.2 / GND</title></rect>
+<rect class="copper layer1" data-net="ESP_5V" x="26.25" y="72.05" width="1.4" height="1.9" transform="rotate(0.0 26.95 73.0)" fill="#dfc594"><title>C12.1 / ESP_5V</title></rect>
+<rect class="copper layer1" data-net="GND" x="29.35" y="72.05" width="1.4" height="1.9" transform="rotate(0.0 30.05 73.0)" fill="#dfc594"><title>C12.2 / GND</title></rect>
+<rect class="copper layer1" data-net="GND" x="2.45" y="69.45" width="1.1" height="1.1" transform="rotate(0.0 3.0 70.0)" fill="#dfc594"><title>TP1.1 / GND</title></rect>
+<rect class="copper layer1" data-net="BAT_PLUS" x="1.45" y="18.45" width="1.1" height="1.1" transform="rotate(0.0 2.0 19.0)" fill="#dfc594"><title>TP2.1 / BAT_PLUS</title></rect>
+<rect class="copper layer1" data-net="VMOTOR" x="7.45" y="40.45" width="1.1" height="1.1" transform="rotate(0.0 8.0 41.0)" fill="#dfc594"><title>TP3.1 / VMOTOR</title></rect>
+<rect class="copper layer1" data-net="BOOST5V" x="1.45" y="63.45" width="1.1" height="1.1" transform="rotate(0.0 2.0 64.0)" fill="#dfc594"><title>TP4.1 / BOOST5V</title></rect>
+<rect class="copper layer1" data-net="ESP_5V" x="29.45" y="53.45" width="1.1" height="1.1" transform="rotate(0.0 30.0 54.0)" fill="#dfc594"><title>TP5.1 / ESP_5V</title></rect>
+<rect class="copper layer1" data-net="3V3" x="28.45" y="57.45" width="1.1" height="1.1" transform="rotate(0.0 29.0 58.0)" fill="#dfc594"><title>TP6.1 / 3V3</title></rect>
+<circle class="via copper" data-net="MOTOR_ENABLE" cx="4.767" cy="28.148" r=".3" fill="#dfc594"/><circle cx="4.767" cy="28.148" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="MOTOR_ENABLE" cx="0.681" cy="32.234" r=".3" fill="#dfc594"/><circle cx="0.681" cy="32.234" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_B2" cx="18.2735" cy="28.2615" r=".3" fill="#dfc594"/><circle cx="18.2735" cy="28.2615" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_B2" cx="18.16" cy="26.8995" r=".3" fill="#dfc594"/><circle cx="18.16" cy="26.8995" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="9.95" cy="49" r=".3" fill="#dfc594"/><circle cx="9.95" cy="49" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="15" cy="51" r=".3" fill="#dfc594"/><circle cx="15" cy="51" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="3" cy="59.8" r=".3" fill="#dfc594"/><circle cx="3" cy="59.8" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="6.9" cy="59.8" r=".3" fill="#dfc594"/><circle cx="6.9" cy="59.8" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="13.8" cy="44.3" r=".3" fill="#dfc594"/><circle cx="13.8" cy="44.3" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="10.5" cy="36.65" r=".3" fill="#dfc594"/><circle cx="10.5" cy="36.65" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="10.5" cy="37.45" r=".3" fill="#dfc594"/><circle cx="10.5" cy="37.45" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="23.3" cy="32.5" r=".3" fill="#dfc594"/><circle cx="23.3" cy="32.5" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="23.3" cy="37.5" r=".3" fill="#dfc594"/><circle cx="23.3" cy="37.5" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="24.7" cy="32.5" r=".3" fill="#dfc594"/><circle cx="24.7" cy="32.5" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="24.7" cy="37.5" r=".3" fill="#dfc594"/><circle cx="24.7" cy="37.5" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="10" cy="14.3" r=".3" fill="#dfc594"/><circle cx="10" cy="14.3" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="10.51" cy="25.01" r=".3" fill="#dfc594"/><circle cx="10.51" cy="25.01" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="12.825" cy="6.9" r=".3" fill="#dfc594"/><circle cx="12.825" cy="6.9" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="14.095" cy="6.9" r=".3" fill="#dfc594"/><circle cx="14.095" cy="6.9" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="17.905" cy="9.7" r=".3" fill="#dfc594"/><circle cx="17.905" cy="9.7" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="19.7" cy="29.2" r=".3" fill="#dfc594"/><circle cx="19.7" cy="29.2" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="31.25" cy="73" r=".3" fill="#dfc594"/><circle cx="31.25" cy="73" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="15" cy="33" r=".3" fill="#dfc594"/><circle cx="15" cy="33" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="GND" cx="19.7" cy="31.6" r=".3" fill="#dfc594"/><circle cx="19.7" cy="31.6" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="3V3" cx="29.056" cy="60.836" r=".3" fill="#dfc594"/><circle cx="29.056" cy="60.836" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="3V3" cx="20.9975" cy="29.51" r=".3" fill="#dfc594"/><circle cx="20.9975" cy="29.51" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="VBAT_ADC" cx="27.3535" cy="68.781" r=".3" fill="#dfc594"/><circle cx="27.3535" cy="68.781" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_B1" cx="20.203" cy="46.762" r=".3" fill="#dfc594"/><circle cx="20.203" cy="46.762" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_B1" cx="23.154" cy="49.713" r=".3" fill="#dfc594"/><circle cx="23.154" cy="49.713" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_B1" cx="26.6725" cy="53.2315" r=".3" fill="#dfc594"/><circle cx="26.6725" cy="53.2315" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_B1" cx="27.013" cy="58.339" r=".3" fill="#dfc594"/><circle cx="27.013" cy="58.339" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_B1" cx="27.013" cy="64.3545" r=".3" fill="#dfc594"/><circle cx="27.013" cy="64.3545" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A2" cx="13.62" cy="24.6295" r=".3" fill="#dfc594"/><circle cx="13.62" cy="24.6295" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A2" cx="15.5495" cy="26.559" r=".3" fill="#dfc594"/><circle cx="15.5495" cy="26.559" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A2" cx="28.0345" cy="56.523" r=".3" fill="#dfc594"/><circle cx="28.0345" cy="56.523" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A2" cx="29.3965" cy="55.161" r=".3" fill="#dfc594"/><circle cx="29.3965" cy="55.161" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A2" cx="18.16" cy="25.0835" r=".3" fill="#dfc594"/><circle cx="18.16" cy="25.0835" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A1" cx="6.6965" cy="23.2675" r=".3" fill="#dfc594"/><circle cx="6.6965" cy="23.2675" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A1" cx="15.7765" cy="32.688" r=".3" fill="#dfc594"/><circle cx="15.7765" cy="32.688" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="PWM_A1" cx="18.841" cy="40.0655" r=".3" fill="#dfc594"/><circle cx="18.841" cy="40.0655" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="VMOTOR" cx="5" cy="42.9" r=".3" fill="#dfc594"/><circle cx="5" cy="42.9" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="VMOTOR" cx="15" cy="45.1" r=".3" fill="#dfc594"/><circle cx="15" cy="45.1" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="VMOTOR" cx="11.555" cy="15.25" r=".3" fill="#dfc594"/><circle cx="11.555" cy="15.25" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="VMOTOR" cx="16.635" cy="15.25" r=".3" fill="#dfc594"/><circle cx="16.635" cy="15.25" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="VMOTOR" cx="8" cy="16.8" r=".3" fill="#dfc594"/><circle cx="8" cy="16.8" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="VMOTOR" cx="17.706" cy="22.1325" r=".3" fill="#dfc594"/><circle cx="17.706" cy="22.1325" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="BAT_PLUS" cx="25.9915" cy="32.234" r=".3" fill="#dfc594"/><circle cx="25.9915" cy="32.234" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="BAT_PLUS" cx="18.2735" cy="25.9915" r=".3" fill="#dfc594"/><circle cx="18.2735" cy="25.9915" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="CS" cx="8.9665" cy="32.007" r=".3" fill="#dfc594"/><circle cx="8.9665" cy="32.007" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="CS" cx="9.6475" cy="26.786" r=".3" fill="#dfc594"/><circle cx="9.6475" cy="26.786" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="OC" cx="8.9665" cy="31.099" r=".3" fill="#dfc594"/><circle cx="8.9665" cy="31.099" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="OC" cx="11.2365" cy="35.2985" r=".3" fill="#dfc594"/><circle cx="11.2365" cy="35.2985" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="BAT_MINUS" cx="7.5" cy="36.65" r=".3" fill="#dfc594"/><circle cx="7.5" cy="36.65" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="BAT_MINUS" cx="7.5" cy="37.45" r=".3" fill="#dfc594"/><circle cx="7.5" cy="37.45" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="CC2" cx="26.625" cy="24.5" r=".3" fill="#dfc594"/><circle cx="26.625" cy="24.5" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="CC2" cx="24.25" cy="26.25" r=".3" fill="#dfc594"/><circle cx="24.25" cy="26.25" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="BOOST5V" cx="5" cy="54.6" r=".3" fill="#dfc594"/><circle cx="5" cy="54.6" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="BOOST5V" cx="16.85" cy="49.8" r=".3" fill="#dfc594"/><circle cx="16.85" cy="49.8" r=".15" fill="#142724"/>
+<circle class="via copper" data-net="BOOST5V" cx="9" cy="44" r=".3" fill="#dfc594"/><circle cx="9" cy="44" r=".15" fill="#142724"/>
+<circle cx="9.379999999999999" cy="77.14" r="0.525" fill="#142724"/>
+<circle cx="9.379999999999999" cy="74.6" r="0.525" fill="#142724"/>
+<circle cx="9.379999999999999" cy="72.06" r="0.525" fill="#142724"/>
+<circle cx="9.379999999999999" cy="69.52" r="0.525" fill="#142724"/>
+<circle cx="9.379999999999999" cy="66.98" r="0.525" fill="#142724"/>
+<circle cx="9.379999999999999" cy="64.44" r="0.525" fill="#142724"/>
+<circle cx="9.379999999999999" cy="61.9" r="0.525" fill="#142724"/>
+<circle cx="9.379999999999999" cy="59.36" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="77.14" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="74.6" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="72.06" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="69.52" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="66.98" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="64.44" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="61.9" r="0.525" fill="#142724"/>
+<circle cx="24.62" cy="59.36" r="0.525" fill="#142724"/>
+<circle cx="4.0" cy="22.25" r="0.6" fill="#142724"/>
+<circle cx="4.0" cy="25.75" r="0.6" fill="#142724"/>
+<circle cx="4.25" cy="8.0" r="0.6" fill="#142724"/>
+<circle cx="7.75" cy="8.0" r="0.6" fill="#142724"/>
+<circle cx="24.25" cy="8.0" r="0.6" fill="#142724"/>
+<circle cx="27.75" cy="8.0" r="0.6" fill="#142724"/>
+<circle cx="4.0" cy="38.25" r="0.6" fill="#142724"/>
+<circle cx="4.0" cy="41.75" r="0.6" fill="#142724"/>
+<circle cx="25.6" cy="19.68" r="0.675" fill="#142724"/>
+<circle cx="29.400000000000002" cy="19.68" r="0.675" fill="#142724"/>
+<circle cx="25.6" cy="28.32" r="0.675" fill="#142724"/>
+<circle cx="29.400000000000002" cy="28.32" r="0.675" fill="#142724"/>
+<circle cx="23.75" cy="14.0" r="0.4" fill="#142724"/>
+<circle cx="26.25" cy="14.0" r="0.4" fill="#142724"/>
+<g id="components">
+<g class="part" data-ref="U1" tabindex="0" role="button" aria-label="U1 ESP32-C3 SuperMini" transform="translate(17.0 68.25) rotate(0.0)"><title>U1: ESP32-C3 SuperMini</title>
+<path d="M-9 -11.26L9 -11.26" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M9 -11.26L9 11.26" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M9 11.26L-9 11.26" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-9 11.26L-9 -11.26" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">U1</text></g></g>
+<g class="part" data-ref="U2" tabindex="0" role="button" aria-label="U2 TC1508A" transform="translate(16.0 11.0) rotate(270.0)"><title>U2: TC1508A</title>
+<path d="M-1.95 -4.95L1.95 -4.95" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.95 -4.95L1.95 4.95" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.95 4.95L-1.95 4.95" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.95 4.95L-1.95 -4.95" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-270.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">U2</text></g></g>
+<g class="part" data-ref="U3" tabindex="0" role="button" aria-label="U3 TP4056-42-ESOP8" transform="translate(24.0 35.0) rotate(0.0)"><title>U3: TP4056-42-ESOP8</title>
+<path d="M-1.95 -2.45L1.95 -2.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.95 -2.45L1.95 2.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.95 2.45L-1.95 2.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.95 2.45L-1.95 -2.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">U3</text></g></g>
+<g class="part" data-ref="U4" tabindex="0" role="button" aria-label="U4 DW01A-G" transform="translate(9.0 32.0) rotate(0.0)"><title>U4: DW01A-G</title>
+<path d="M-0.8 -1.45L0.8 -1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.8 -1.45L0.8 1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.8 1.45L-0.8 1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.8 1.45L-0.8 -1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">U4</text></g></g>
+<g class="part" data-ref="Q1" tabindex="0" role="button" aria-label="Q1 FS8205A (Fortune TSSOP8)" transform="translate(9.0 37.0) rotate(0.0)"><title>Q1: FS8205A (Fortune TSSOP8)</title>
+<path d="M-2.2 -1.465L2.2 -1.465" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.2 -1.465L2.2 1.465" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.2 1.465L-2.2 1.465" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-2.2 1.465L-2.2 -1.465" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">Q1</text></g></g>
+<g class="part" data-ref="U5" tabindex="0" role="button" aria-label="U5 MT3608" transform="translate(10.0 49.0) rotate(0.0)"><title>U5: MT3608</title>
+<path d="M-0.8 -1.45L0.8 -1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.8 -1.45L0.8 1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.8 1.45L-0.8 1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.8 1.45L-0.8 -1.45" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">U5</text></g></g>
+<g class="part" data-ref="U6" tabindex="0" role="button" aria-label="U6 TXU0104PWR" transform="translate(15.0 25.0) rotate(270.0)"><title>U6: TXU0104PWR</title>
+<path d="M-2.2 -2.5L2.2 -2.5" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.2 -2.5L2.2 2.5" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.2 2.5L-2.2 2.5" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-2.2 2.5L-2.2 -2.5" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-270.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">U6</text></g></g>
+<g class="part" data-ref="J1" tabindex="0" role="button" aria-label="J1 18650 CELL" transform="translate(4.0 24.0) rotate(90.0)"><title>J1: 18650 CELL</title>
+<path d="M-3 -1.1L3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 -1.1L3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 1.1L-3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-3 1.1L-3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">J1</text></g></g>
+<g class="part" data-ref="J2" tabindex="0" role="button" aria-label="J2 LEFT MOTOR" transform="translate(6.0 8.0) rotate(0.0)"><title>J2: LEFT MOTOR</title>
+<path d="M-3 -1.1L3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 -1.1L3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 1.1L-3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-3 1.1L-3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">J2</text></g></g>
+<g class="part" data-ref="J3" tabindex="0" role="button" aria-label="J3 RIGHT MOTOR" transform="translate(26.0 8.0) rotate(0.0)"><title>J3: RIGHT MOTOR</title>
+<path d="M-3 -1.1L3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 -1.1L3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 1.1L-3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-3 1.1L-3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">J3</text></g></g>
+<g class="part" data-ref="J4" tabindex="0" role="button" aria-label="J4 RUN SWITCH" transform="translate(4.0 40.0) rotate(90.0)"><title>J4: RUN SWITCH</title>
+<path d="M-3 -1.1L3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 -1.1L3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 1.1L-3 1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-3 1.1L-3 -1.1" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">J4</text></g></g>
+<g class="part" data-ref="J5" tabindex="0" role="button" aria-label="J5 USB4125-GF-A-0190" transform="translate(28.6 24.0) rotate(90.0)"><title>J5: USB4125-GF-A-0190</title>
+<path d="M-4.47 -3.4L4.47 -3.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M4.47 -3.4L4.47 3.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M4.47 3.4L-4.47 3.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-4.47 3.4L-4.47 -3.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">J5</text></g></g>
+<g class="part" data-ref="F1" tabindex="0" role="button" aria-label="F1 2A HOLD" transform="translate(4.0 32.0) rotate(90.0)"><title>F1: 2A HOLD</title>
+<path d="M-2.25 -1.6L2.25 -1.6" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.25 -1.6L2.25 1.6" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.25 1.6L-2.25 1.6" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-2.25 1.6L-2.25 -1.6" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">F1</text></g></g>
+<g class="part" data-ref="C1" tabindex="0" role="button" aria-label="C1 100uF / 25V" transform="translate(25.0 14.0) rotate(0.0)"><title>C1: 100uF / 25V</title>
+<path d="M-3.15 -3.15L3.15 -3.15" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3.15 -3.15L3.15 3.15" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3.15 3.15L-3.15 3.15" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-3.15 3.15L-3.15 -3.15" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C1</text></g></g>
+<g class="part" data-ref="C2" tabindex="0" role="button" aria-label="C2 100nF / 50V" transform="translate(9.0 15.5) rotate(0.0)"><title>C2: 100nF / 50V</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C2</text></g></g>
+<g class="part" data-ref="C3" tabindex="0" role="button" aria-label="C3 10uF / 16V" transform="translate(23.0 31.0) rotate(0.0)"><title>C3: 10uF / 16V</title>
+<path d="M-1.6 -0.8L1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 -0.8L1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 0.8L-1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.6 0.8L-1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C3</text></g></g>
+<g class="part" data-ref="C4" tabindex="0" role="button" aria-label="C4 10uF / 16V" transform="translate(29.0 32.5) rotate(270.0)"><title>C4: 10uF / 16V</title>
+<path d="M-1.6 -0.8L1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 -0.8L1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 0.8L-1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.6 0.8L-1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-270.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C4</text></g></g>
+<g class="part" data-ref="R1" tabindex="0" role="button" aria-label="R1 2.4k 1%" transform="translate(18.6 35.6) rotate(180.0)"><title>R1: 2.4k 1%</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-180.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R1</text></g></g>
+<g class="part" data-ref="R2" tabindex="0" role="button" aria-label="R2 5.1k 1%" transform="translate(22.5 23.5) rotate(90.0)"><title>R2: 5.1k 1%</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R2</text></g></g>
+<g class="part" data-ref="R3" tabindex="0" role="button" aria-label="R3 5.1k 1%" transform="translate(22.5 28.2) rotate(90.0)"><title>R3: 5.1k 1%</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R3</text></g></g>
+<g class="part" data-ref="D1" tabindex="0" role="button" aria-label="D1 RED" transform="translate(28.6 42.0) rotate(0.0)"><title>D1: RED</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">D1</text></g></g>
+<g class="part" data-ref="D2" tabindex="0" role="button" aria-label="D2 GREEN" transform="translate(28.6 46.0) rotate(0.0)"><title>D2: GREEN</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">D2</text></g></g>
+<g class="part" data-ref="R4" tabindex="0" role="button" aria-label="R4 1k" transform="translate(24.0 42.0) rotate(0.0)"><title>R4: 1k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R4</text></g></g>
+<g class="part" data-ref="R5" tabindex="0" role="button" aria-label="R5 1k" transform="translate(24.0 46.0) rotate(0.0)"><title>R5: 1k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R5</text></g></g>
+<g class="part" data-ref="R6" tabindex="0" role="button" aria-label="R6 100R" transform="translate(11.8 29.0) rotate(90.0)"><title>R6: 100R</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R6</text></g></g>
+<g class="part" data-ref="R7" tabindex="0" role="button" aria-label="R7 1k" transform="translate(9.0 28.0) rotate(0.0)"><title>R7: 1k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R7</text></g></g>
+<g class="part" data-ref="C5" tabindex="0" role="button" aria-label="C5 100nF / 50V" transform="translate(11.8 33.0) rotate(90.0)"><title>C5: 100nF / 50V</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C5</text></g></g>
+<g class="part" data-ref="L1" tabindex="0" role="button" aria-label="L1 4.7uH / 6.8A Isat" transform="translate(5.0 47.0) rotate(90.0)"><title>L1: 4.7uH / 6.8A Isat</title>
+<path d="M-3 -3L3 -3" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 -3L3 3" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M3 3L-3 3" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-3 3L-3 -3" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">L1</text></g></g>
+<g class="part" data-ref="D3" tabindex="0" role="button" aria-label="D3 SS34" transform="translate(5.0 53.0) rotate(0.0)"><title>D3: SS34</title>
+<path d="M-2.25 -1.4L2.25 -1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.25 -1.4L2.25 1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.25 1.4L-2.25 1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-2.25 1.4L-2.25 -1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">D3</text></g></g>
+<g class="part" data-ref="D4" tabindex="0" role="button" aria-label="D4 SS34" transform="translate(19.0 52.0) rotate(180.0)"><title>D4: SS34</title>
+<path d="M-2.25 -1.4L2.25 -1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.25 -1.4L2.25 1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M2.25 1.4L-2.25 1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-2.25 1.4L-2.25 -1.4" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-180.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">D4</text></g></g>
+<g class="part" data-ref="C6" tabindex="0" role="button" aria-label="C6 22uF / 10V" transform="translate(15.0 48.0) rotate(90.0)"><title>C6: 22uF / 10V</title>
+<path d="M-1.6 -0.8L1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 -0.8L1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 0.8L-1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.6 0.8L-1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C6</text></g></g>
+<g class="part" data-ref="C7" tabindex="0" role="button" aria-label="C7 22uF / 10V" transform="translate(3.0 57.0) rotate(90.0)"><title>C7: 22uF / 10V</title>
+<path d="M-1.6 -0.8L1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 -0.8L1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 0.8L-1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.6 0.8L-1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C7</text></g></g>
+<g class="part" data-ref="C8" tabindex="0" role="button" aria-label="C8 22uF / 10V" transform="translate(6.9 57.0) rotate(90.0)"><title>C8: 22uF / 10V</title>
+<path d="M-1.6 -0.8L1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 -0.8L1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 0.8L-1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.6 0.8L-1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C8</text></g></g>
+<g class="part" data-ref="R8" tabindex="0" role="button" aria-label="R8 75k 1%" transform="translate(9.8 45.2) rotate(0.0)"><title>R8: 75k 1%</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R8</text></g></g>
+<g class="part" data-ref="R9" tabindex="0" role="button" aria-label="R9 10k 1%" transform="translate(13.3 43.0) rotate(0.0)"><title>R9: 10k 1%</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R9</text></g></g>
+<g class="part" data-ref="R10" tabindex="0" role="button" aria-label="R10 10k" transform="translate(7.0 22.0) rotate(0.0)"><title>R10: 10k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R10</text></g></g>
+<g class="part" data-ref="R11" tabindex="0" role="button" aria-label="R11 10k" transform="translate(11.5 25.0) rotate(90.0)"><title>R11: 10k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R11</text></g></g>
+<g class="part" data-ref="R12" tabindex="0" role="button" aria-label="R12 10k" transform="translate(15.0 30.6) rotate(90.0)"><title>R12: 10k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R12</text></g></g>
+<g class="part" data-ref="R13" tabindex="0" role="button" aria-label="R13 10k" transform="translate(18.5 30.6) rotate(90.0)"><title>R13: 10k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R13</text></g></g>
+<g class="part" data-ref="R14" tabindex="0" role="button" aria-label="R14 100k" transform="translate(22.0 18.6) rotate(90.0)"><title>R14: 100k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R14</text></g></g>
+<g class="part" data-ref="R15" tabindex="0" role="button" aria-label="R15 100k" transform="translate(18.0 18.2) rotate(90.0)"><title>R15: 100k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R15</text></g></g>
+<g class="part" data-ref="R16" tabindex="0" role="button" aria-label="R16 100k" transform="translate(14.0 18.2) rotate(90.0)"><title>R16: 100k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R16</text></g></g>
+<g class="part" data-ref="R17" tabindex="0" role="button" aria-label="R17 100k" transform="translate(10.0 18.2) rotate(90.0)"><title>R17: 100k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R17</text></g></g>
+<g class="part" data-ref="R18" tabindex="0" role="button" aria-label="R18 100k" transform="translate(8.0 24.5) rotate(90.0)"><title>R18: 100k</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R18</text></g></g>
+<g class="part" data-ref="C9" tabindex="0" role="button" aria-label="C9 100nF / 50V" transform="translate(19.7 27.0) rotate(90.0)"><title>C9: 100nF / 50V</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C9</text></g></g>
+<g class="part" data-ref="C10" tabindex="0" role="button" aria-label="C10 100nF / 50V" transform="translate(20.0 22.1) rotate(0.0)"><title>C10: 100nF / 50V</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C10</text></g></g>
+<g class="part" data-ref="R19" tabindex="0" role="button" aria-label="R19 330k 1%" transform="translate(29.0 63.0) rotate(90.0)"><title>R19: 330k 1%</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-90.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R19</text></g></g>
+<g class="part" data-ref="R20" tabindex="0" role="button" aria-label="R20 100k 1%" transform="translate(29.0 70.0) rotate(0.0)"><title>R20: 100k 1%</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">R20</text></g></g>
+<g class="part" data-ref="C11" tabindex="0" role="button" aria-label="C11 100nF / 50V" transform="translate(28.5 67.5) rotate(0.0)"><title>C11: 100nF / 50V</title>
+<path d="M-1 -0.625L1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 -0.625L1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1 0.625L-1 0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1 0.625L-1 -0.625" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C11</text></g></g>
+<g class="part" data-ref="C12" tabindex="0" role="button" aria-label="C12 10uF / 16V" transform="translate(28.5 73.0) rotate(0.0)"><title>C12: 10uF / 16V</title>
+<path d="M-1.6 -0.8L1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 -0.8L1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M1.6 0.8L-1.6 0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-1.6 0.8L-1.6 -0.8" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">C12</text></g></g>
+<g class="part" data-ref="TP1" tabindex="0" role="button" aria-label="TP1 GND" transform="translate(3.0 70.0) rotate(0.0)"><title>TP1: GND</title>
+<path d="M-0.55 -0.55L0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 -0.55L0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 0.55L-0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.55 0.55L-0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">TP1</text></g></g>
+<g class="part" data-ref="TP2" tabindex="0" role="button" aria-label="TP2 BAT_PLUS" transform="translate(2.0 19.0) rotate(0.0)"><title>TP2: BAT_PLUS</title>
+<path d="M-0.55 -0.55L0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 -0.55L0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 0.55L-0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.55 0.55L-0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">TP2</text></g></g>
+<g class="part" data-ref="TP3" tabindex="0" role="button" aria-label="TP3 VMOTOR" transform="translate(8.0 41.0) rotate(0.0)"><title>TP3: VMOTOR</title>
+<path d="M-0.55 -0.55L0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 -0.55L0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 0.55L-0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.55 0.55L-0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">TP3</text></g></g>
+<g class="part" data-ref="TP4" tabindex="0" role="button" aria-label="TP4 BOOST5V" transform="translate(2.0 64.0) rotate(0.0)"><title>TP4: BOOST5V</title>
+<path d="M-0.55 -0.55L0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 -0.55L0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 0.55L-0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.55 0.55L-0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">TP4</text></g></g>
+<g class="part" data-ref="TP5" tabindex="0" role="button" aria-label="TP5 ESP_5V" transform="translate(30.0 54.0) rotate(0.0)"><title>TP5: ESP_5V</title>
+<path d="M-0.55 -0.55L0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 -0.55L0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 0.55L-0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.55 0.55L-0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">TP5</text></g></g>
+<g class="part" data-ref="TP6" tabindex="0" role="button" aria-label="TP6 3V3" transform="translate(29.0 58.0) rotate(0.0)"><title>TP6: 3V3</title>
+<path d="M-0.55 -0.55L0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 -0.55L0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M0.55 0.55L-0.55 0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<path d="M-0.55 0.55L-0.55 -0.55" stroke="#ecf2dd" opacity=".75" stroke-width=".12"/>
+<circle r="1" fill="transparent"/><g transform="rotate(-0.0) scale(1 -1)"><text text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size=".8" font-weight="bold" fill="#fff" paint-order="stroke" stroke="#153a38" stroke-width=".3">TP6</text></g></g>
+</g></g></svg>

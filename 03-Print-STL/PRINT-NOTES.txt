@@ -1,0 +1,30 @@
+C3 SCOUT — REV B INTEGRAL CHASSIS / M3 PRINT SET
+
+Print one each:
+  Integral-chassis-M3.stl
+  Motor-clamp-left-M3.stl
+  Motor-clamp-right-M3.stl
+  Bumper-M3.stl
+  Tail-skid-M3.stl
+  Wheel-left.stl
+  Wheel-right.stl
+
+Orientation: chassis flat; clamp bridges against bed; bumper flat; tail on
+its side; wheels on their faces. These STLs use component coordinates, so
+select the intended print orientation in the slicer. Units: millimetres.
+Optional-Shaft-Fit-Coupon.stl is a test aid for the motor-shaft fit; it is
+not an eighth assembled robot part. Check the actual motor before wheels.
+
+Hardware: four M3x8 PCB screws, four M3x16 clamp screws, four M3x10 bumper/
+tail screws, and twelve M3 DIN934 hex nuts. ISO4762 socket caps use a 2.5 mm
+Allen key. No washers in the current carrier mounting model.
+
+Insert four nuts into the chassis's underside carrier pockets. Route wires
+through the bay before placing the board on its integral seats. Tighten
+gently. Both tail screws have modeled vertical driver access.
+
+These parts belong to the latest completed Rev B mechanical assembly.
+Carrier C preserves the board mounting outline but changes component/pad
+placement. Recheck the revised board in MCAD before claiming a verified
+Carrier C assembly fit. Printed fits and actual USB cable bodies remain
+unverified physical checks.

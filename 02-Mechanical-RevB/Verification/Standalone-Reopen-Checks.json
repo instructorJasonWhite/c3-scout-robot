@@ -1,0 +1,26 @@
+[
+  {
+    "file": "Populated-Carrier-RevB-Mechanical.f3d",
+    "reopened_in_Fusion": true,
+    "components": 48,
+    "bodies": 646,
+    "every_native_body_bbox_matches_export_source": true,
+    "maximum_delta_mm": 0,
+    "note": "Native body bounds used consistently; Fusion display/proxy bounds differ from geometry bounds."
+  },
+  {
+    "file": "Integral-Chassis-M3-RevB.f3d",
+    "reopened_in_Fusion": true,
+    "bodies": 1,
+    "bbox_min_mm": [
+      -38.0,
+      -53.0,
+      0.0
+    ],
+    "bbox_max_mm": [
+      40.9,
+      71.40000000000002,
+      8.4
+    ]
+  }
+]

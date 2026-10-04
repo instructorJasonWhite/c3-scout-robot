@@ -1,0 +1,14 @@
+# Keep collected project files byte-for-byte compatible with the manifest.
+* -text
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+*.f3d binary
+*.step -diff
+*.stl binary
+*.pdf binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.zip binary

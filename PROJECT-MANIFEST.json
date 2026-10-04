@@ -1,0 +1,591 @@
+{
+  "project": "C3 Scout Robot",
+  "snapshot_date": "2026-10-04",
+  "electrical_revision": "Carrier C, Fusion parent v4, schematic v3, board v4",
+  "mechanical_revision": "Integral bay / all M3 / Rev B",
+  "ecad_mcad_synchronized": false,
+  "original_files_preserved": true,
+  "files": [
+    {
+      "file": "01-Electronics-CarrierC/assets/board.svg",
+      "bytes": 193533,
+      "sha256": "adeaed017a0037a16efdd2da9182149010ee2917ce8699060cae040a17c7872d",
+      "source": "outputs/C3-Carrier-RevC/assets/board.svg",
+      "source_sha256": "adeaed017a0037a16efdd2da9182149010ee2917ce8699060cae040a17c7872d",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/layout-1.png",
+      "bytes": 134843,
+      "sha256": "766131f091f9b3569e59ed3956e61aaa94d8f4e054c1c6397131542b7da4813b",
+      "source": "outputs/C3-Carrier-RevC/assets/layout-1.png",
+      "source_sha256": "766131f091f9b3569e59ed3956e61aaa94d8f4e054c1c6397131542b7da4813b",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/layout-2.png",
+      "bytes": 119270,
+      "sha256": "f5099aee72faabe8970f3c10638c97ce78e3df5fd336e2d20279858167399aa6",
+      "source": "outputs/C3-Carrier-RevC/assets/layout-2.png",
+      "source_sha256": "f5099aee72faabe8970f3c10638c97ce78e3df5fd336e2d20279858167399aa6",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/layout-3.png",
+      "bytes": 107762,
+      "sha256": "7fcfaf7b7060b29a6a35192be2773f381b329e1aae0ee5816d9a56c7785d2b9c",
+      "source": "outputs/C3-Carrier-RevC/assets/layout-3.png",
+      "source_sha256": "7fcfaf7b7060b29a6a35192be2773f381b329e1aae0ee5816d9a56c7785d2b9c",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/layout-4.png",
+      "bytes": 97663,
+      "sha256": "573a01e3e45459e01f2a014d614da26e25916f2d4113f8a3030cc5c389edcc80",
+      "source": "outputs/C3-Carrier-RevC/assets/layout-4.png",
+      "source_sha256": "573a01e3e45459e01f2a014d614da26e25916f2d4113f8a3030cc5c389edcc80",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/schematic-1.png",
+      "bytes": 104825,
+      "sha256": "d9fcd65ab986c9dbfb0ed2a6813402cb57ef731adab7e060a308a4076bcff030",
+      "source": "outputs/C3-Carrier-RevC/assets/schematic-1.png",
+      "source_sha256": "d9fcd65ab986c9dbfb0ed2a6813402cb57ef731adab7e060a308a4076bcff030",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/schematic-2.png",
+      "bytes": 87807,
+      "sha256": "16aa6e9ac1b585d5e1af91d1c9f2fc4679f82d33f849373cfd50d08677a059eb",
+      "source": "outputs/C3-Carrier-RevC/assets/schematic-2.png",
+      "source_sha256": "16aa6e9ac1b585d5e1af91d1c9f2fc4679f82d33f849373cfd50d08677a059eb",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/schematic-3.png",
+      "bytes": 100965,
+      "sha256": "de7c4b4f4cd63e1e948a110fd9e5a449775cc862effa1f0943dd74d2002cb75b",
+      "source": "outputs/C3-Carrier-RevC/assets/schematic-3.png",
+      "source_sha256": "de7c4b4f4cd63e1e948a110fd9e5a449775cc862effa1f0943dd74d2002cb75b",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/schematic-4.png",
+      "bytes": 119168,
+      "sha256": "fbe38027981be49e4a1e52cd5d16025d1a6184cc45f510d52e768d1b9320d405",
+      "source": "outputs/C3-Carrier-RevC/assets/schematic-4.png",
+      "source_sha256": "fbe38027981be49e4a1e52cd5d16025d1a6184cc45f510d52e768d1b9320d405",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-Board-Layout.pdf",
+      "bytes": 414000,
+      "sha256": "2be51bbf45a8db2d787af3002d108176c08e8867ada6f0bc4381c34bbbe801c6",
+      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC-Board-Layout.pdf",
+      "source_sha256": "2be51bbf45a8db2d787af3002d108176c08e8867ada6f0bc4381c34bbbe801c6",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-BOM.xlsx",
+      "bytes": 8681,
+      "sha256": "674a2e447230198ab3db2db297e019f0600e8c36c9c2072e9231e891e692dc29",
+      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC-BOM.xlsx",
+      "source_sha256": "674a2e447230198ab3db2db297e019f0600e8c36c9c2072e9231e891e692dc29",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-Schematic.pdf",
+      "bytes": 108326,
+      "sha256": "1d3f29d46631b1256192d200e0eb8c8cecc05d18a990ae4dab3fa89b5f2ae91a",
+      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC-Schematic.pdf",
+      "source_sha256": "1d3f29d46631b1256192d200e0eb8c8cecc05d18a990ae4dab3fa89b5f2ae91a",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC.brd",
+      "bytes": 112620,
+      "sha256": "cf8749191bc03004b71a04c4d7fbd6b59c7e9e91b1ed7fc08ff693781d8201fc",
+      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC.brd",
+      "source_sha256": "cf8749191bc03004b71a04c4d7fbd6b59c7e9e91b1ed7fc08ff693781d8201fc",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC.sch",
+      "bytes": 132544,
+      "sha256": "419948ae89aa36b30e0e13bc60920de7539d23494bed6f829a0344eb015d12d9",
+      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC.sch",
+      "source_sha256": "419948ae89aa36b30e0e13bc60920de7539d23494bed6f829a0344eb015d12d9",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-JLCPCB-2Layer-1oz.dru",
+      "bytes": 1996,
+      "sha256": "3aa6aae0b39eff323ff14b3a24ddef802b7b7f2b2bd320f0f5cbab568309e5d2",
+      "source": "outputs/C3-Carrier-RevC/C3-JLCPCB-2Layer-1oz.dru",
+      "source_sha256": "3aa6aae0b39eff323ff14b3a24ddef802b7b7f2b2bd320f0f5cbab568309e5d2",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3_SCOUT_REVC.lbr",
+      "bytes": 67876,
+      "sha256": "ce793b8db0a678bf263b09c3c9db36fe03e50a4e0961d5b9b569a6d7219cf825",
+      "source": "outputs/C3-Carrier-RevC/C3_SCOUT_REVC.lbr",
+      "source_sha256": "ce793b8db0a678bf263b09c3c9db36fe03e50a4e0961d5b9b569a6d7219cf825",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Carrier-Review.html",
+      "bytes": 258342,
+      "sha256": "29b6b27a687d38bc2c57a19190f1c7fc5ccd7a0e31e7fdbb1e74dd405561362d",
+      "source": "outputs/C3-Carrier-RevC/Carrier-Review.html",
+      "source_sha256": "f31cbe0f911709f73cb47c52b27339049e605763c48a5d6202d9bd5b702f4564",
+      "note": "Latest electrical revision, Carrier C",
+      "packaging_change": "Only the old nested ZIP link/card was replaced by a link to the project index."
+    },
+    {
+      "file": "01-Electronics-CarrierC/Connectivity-Audit.json",
+      "bytes": 261,
+      "sha256": "0f4ce144f6cec675b9c1d620c95e73c23d3c6339d02067f55ba0e989c7d7dc72",
+      "source": "outputs/C3-Carrier-RevC/Connectivity-Audit.json",
+      "source_sha256": "0f4ce144f6cec675b9c1d620c95e73c23d3c6339d02067f55ba0e989c7d7dc72",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-DRC.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source": "outputs/C3-Carrier-RevC/Fusion-DRC.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-Electrical-Checks.json",
+      "bytes": 670,
+      "sha256": "4b825527650195830cabf9d4cf7413490a17984e87a69e89d9df11d8a80772f9",
+      "source": "outputs/C3-Carrier-RevC/Fusion-Electrical-Checks.json",
+      "source_sha256": "4b825527650195830cabf9d4cf7413490a17984e87a69e89d9df11d8a80772f9",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-ERC.json",
+      "bytes": 3289,
+      "sha256": "61258206249cc9cc1de610d684ee29b7f993456a7c3f7fea80feba6619d553cc",
+      "source": "outputs/C3-Carrier-RevC/Fusion-ERC.json",
+      "source_sha256": "61258206249cc9cc1de610d684ee29b7f993456a7c3f7fea80feba6619d553cc",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-Saved-Project.json",
+      "bytes": 780,
+      "sha256": "752785b13e6d9c68ce4199e8bc1c87f74c0cf87390d8fa831852fcc2da8c417f",
+      "source": "outputs/C3-Carrier-RevC/Fusion-Saved-Project.json",
+      "source_sha256": "752785b13e6d9c68ce4199e8bc1c87f74c0cf87390d8fa831852fcc2da8c417f",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Geometry-Audit.json",
+      "bytes": 372,
+      "sha256": "0e8f723dd303e4a9b09856afc7e0a56bdecdce01b6dfadecb7e19edaddc8e7cc",
+      "source": "outputs/C3-Carrier-RevC/Geometry-Audit.json",
+      "source_sha256": "0e8f723dd303e4a9b09856afc7e0a56bdecdce01b6dfadecb7e19edaddc8e7cc",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "02-Mechanical-RevB/C3-Carrier-rover-rear.png",
+      "bytes": 655417,
+      "sha256": "dfefa59c7c5958c8bf6771ed58064ea7eb2ef61e510e8049adac5ad82ef22d14",
+      "source": "outputs/C3-Carrier-RevB/C3-Carrier-rover-rear.png",
+      "source_sha256": "dfefa59c7c5958c8bf6771ed58064ea7eb2ef61e510e8049adac5ad82ef22d14",
+      "note": "Latest completed mechanical assembly; not synchronized to Carrier C placement"
+    },
+    {
+      "file": "02-Mechanical-RevB/C3-Carrier-rover.png",
+      "bytes": 586666,
+      "sha256": "3cca95cf6e5453e68933d6d52c7de350e140436ca9a8b7c8c07290074cc12af9",
+      "source": "outputs/C3-Carrier-RevB/C3-Carrier-rover.png",
+      "source_sha256": "3cca95cf6e5453e68933d6d52c7de350e140436ca9a8b7c8c07290074cc12af9",
+      "note": "Latest completed mechanical assembly; not synchronized to Carrier C placement"
+    },
+    {
+      "file": "02-Mechanical-RevB/C3-Scout-Carrier-RevB.f3d",
+      "bytes": 15512776,
+      "sha256": "04d926f5feea66751fbdba6883d549497c93fb10a67367705bc078b1e1678dcc",
+      "source": "outputs/C3-Carrier-RevB/C3-Scout-Carrier-RevB.f3d",
+      "source_sha256": "04d926f5feea66751fbdba6883d549497c93fb10a67367705bc078b1e1678dcc",
+      "note": "Latest completed mechanical assembly; not synchronized to Carrier C placement"
+    },
+    {
+      "file": "02-Mechanical-RevB/C3-Scout-Carrier-RevB.step",
+      "bytes": 11849124,
+      "sha256": "0f18308070be77638a8fe89922c462d2a89078e2efcde8e4c3835ab7b7653850",
+      "source": "outputs/C3-Carrier-RevB/C3-Scout-Carrier-RevB.step",
+      "source_sha256": "0f18308070be77638a8fe89922c462d2a89078e2efcde8e4c3835ab7b7653850",
+      "note": "Latest completed mechanical assembly; not synchronized to Carrier C placement"
+    },
+    {
+      "file": "02-Mechanical-RevB/Carrier-in-bay.png",
+      "bytes": 641083,
+      "sha256": "a56aa35c043062cb513b40d7e618fcb7d5a7033aa89990254df85f1d4cdd9d7c",
+      "source": "outputs/C3-Carrier-RevB/Carrier-in-bay.png",
+      "source_sha256": "a56aa35c043062cb513b40d7e618fcb7d5a7033aa89990254df85f1d4cdd9d7c",
+      "note": "Latest completed mechanical assembly; not synchronized to Carrier C placement"
+    },
+    {
+      "file": "02-Mechanical-RevB/Integral-Chassis-M3-RevB.f3d",
+      "bytes": 715090,
+      "sha256": "89b8f17ea54454c4e8fb724f5b32af1a9407dfeee457a49133db7afb6e721977",
+      "source": "Created for this package; CAD derived through Fusion MCP from the latest Rev B mechanical archive."
+    },
+    {
+      "file": "02-Mechanical-RevB/Integral-Chassis-M3-RevB.step",
+      "bytes": 615431,
+      "sha256": "1b6adf7354f9736582541b41004a5afc24796519510019615441d6c831fc5f01",
+      "source": "Created for this package; CAD derived through Fusion MCP from the latest Rev B mechanical archive."
+    },
+    {
+      "file": "02-Mechanical-RevB/Integral-chassis.png",
+      "bytes": 441680,
+      "sha256": "ac5df0c0a7f6ed6b6c1b7b04d91a20cb3294ed524969bfdc4b2b9d0ecec86d29",
+      "source": "outputs/C3-Carrier-RevB/Integral-chassis.png",
+      "source_sha256": "ac5df0c0a7f6ed6b6c1b7b04d91a20cb3294ed524969bfdc4b2b9d0ecec86d29",
+      "note": "Latest completed mechanical assembly; not synchronized to Carrier C placement"
+    },
+    {
+      "file": "02-Mechanical-RevB/Populated-Carrier-RevB-Mechanical.f3d",
+      "bytes": 1500243,
+      "sha256": "302b1a017703dac9e20e5a78e54083b9daeef64e558f5f22cf601e233ce94c0b",
+      "source": "Created for this package; CAD derived through Fusion MCP from the latest Rev B mechanical archive."
+    },
+    {
+      "file": "02-Mechanical-RevB/Populated-Carrier-RevB-Mechanical.step",
+      "bytes": 5136579,
+      "sha256": "822cf2778cdd349506e02d18295b34b40c3f668ffeb5ac8438ed1f0ce9c91b9a",
+      "source": "Created for this package; CAD derived through Fusion MCP from the latest Rev B mechanical archive."
+    },
+    {
+      "file": "02-Mechanical-RevB/Populated-Carrier-RevB.png",
+      "bytes": 363408,
+      "sha256": "8c9e95bc6ac87c5a19067add28312ac883cb507cb75577199fd027f8c9c072b9",
+      "source": "Created for this package; CAD derived through Fusion MCP from the latest Rev B mechanical archive."
+    },
+    {
+      "file": "02-Mechanical-RevB/Standalone-Model-Exports.json",
+      "bytes": 4323,
+      "sha256": "9b208dc6d5668af64fb23ef60e645cf568b39751a3903ef70762ac14856284a1",
+      "source": "Created package index, notes or validation evidence."
+    },
+    {
+      "file": "02-Mechanical-RevB/Verification/Mechanical-checks.json",
+      "bytes": 718,
+      "sha256": "f58439bbbd3690a30a4552d70e0abce948182a6d53cac03cb2cff3f1ad2270e0",
+      "source": "outputs/C3-Carrier-RevB/Mechanical-checks.json",
+      "source_sha256": "f58439bbbd3690a30a4552d70e0abce948182a6d53cac03cb2cff3f1ad2270e0",
+      "note": "Checks apply only to the Rev B mechanical model"
+    },
+    {
+      "file": "02-Mechanical-RevB/Verification/Service-access-checks.json",
+      "bytes": 274,
+      "sha256": "837e4133ae78959e6111807af6a30a7c92a9692ca1d62bfd7f732ef7d7166a8f",
+      "source": "outputs/C3-Carrier-RevB/Service-access-checks.json",
+      "source_sha256": "837e4133ae78959e6111807af6a30a7c92a9692ca1d62bfd7f732ef7d7166a8f",
+      "note": "Checks apply only to the Rev B mechanical model"
+    },
+    {
+      "file": "02-Mechanical-RevB/Verification/Standalone-Reopen-Checks.json",
+      "bytes": 596,
+      "sha256": "1239a4cf601497cdd6972fb05a8ee7590dbad6bde92d02bd3a643d981337806f",
+      "source": "Created package index, notes or validation evidence."
+    },
+    {
+      "file": "03-Print-STL/Bumper-M3.stl",
+      "bytes": 57484,
+      "sha256": "6d66251119567df6e30ceb98d988dcb59299b8e03d09e75c58264976d477b40c",
+      "source": "outputs/C3-Carrier-RevB/Bumper-M3.stl",
+      "source_sha256": "6d66251119567df6e30ceb98d988dcb59299b8e03d09e75c58264976d477b40c",
+      "note": "Latest Rev B M3 print set"
+    },
+    {
+      "file": "03-Print-STL/Fasteners-M3.csv",
+      "bytes": 358,
+      "sha256": "078ec5ef4be5facf528a9372704e3dfeb89139986dfd44ad68d013b818048b1b",
+      "source": "outputs/C3-Carrier-RevB/Fasteners-M3.csv",
+      "source_sha256": "078ec5ef4be5facf528a9372704e3dfeb89139986dfd44ad68d013b818048b1b",
+      "note": "Current chassis fastener quantities"
+    },
+    {
+      "file": "03-Print-STL/Integral-chassis-M3.stl",
+      "bytes": 275784,
+      "sha256": "a8d1cfdb0de941fc66eb16da44e5608a87d09b8fcf81d6cafb5037b5b9760527",
+      "source": "outputs/C3-Carrier-RevB/Integral-chassis-M3.stl",
+      "source_sha256": "a8d1cfdb0de941fc66eb16da44e5608a87d09b8fcf81d6cafb5037b5b9760527",
+      "note": "Latest Rev B M3 print set"
+    },
+    {
+      "file": "03-Print-STL/Motor-clamp-left-M3.stl",
+      "bytes": 55084,
+      "sha256": "ceaf9a0776c21632c90953179624fe477cc4378f82fef153d0d9d4baafef1b05",
+      "source": "outputs/C3-Carrier-RevB/Motor-clamp-left-M3.stl",
+      "source_sha256": "ceaf9a0776c21632c90953179624fe477cc4378f82fef153d0d9d4baafef1b05",
+      "note": "Latest Rev B M3 print set"
+    },
+    {
+      "file": "03-Print-STL/Motor-clamp-right-M3.stl",
+      "bytes": 55084,
+      "sha256": "ceaf9a0776c21632c90953179624fe477cc4378f82fef153d0d9d4baafef1b05",
+      "source": "outputs/C3-Carrier-RevB/Motor-clamp-right-M3.stl",
+      "source_sha256": "ceaf9a0776c21632c90953179624fe477cc4378f82fef153d0d9d4baafef1b05",
+      "note": "Latest Rev B M3 print set"
+    },
+    {
+      "file": "03-Print-STL/Optional-Shaft-Fit-Coupon.stl",
+      "bytes": 33484,
+      "sha256": "77c909086c8733320783c268bd10e9c2fd1964f28767bc94ee6a9f544ff482fd",
+      "source": "outputs/print-v2_2/shaft-fit-coupon.stl",
+      "source_sha256": "77c909086c8733320783c268bd10e9c2fd1964f28767bc94ee6a9f544ff482fd",
+      "note": "Earlier unchanged wheel-shaft fit aid; optional, not part of assembled robot"
+    },
+    {
+      "file": "03-Print-STL/PRINT-NOTES.txt",
+      "bytes": 1360,
+      "sha256": "6551e3fbd56b18050bcacdc70673768dbbe22210f01ead12c6348032bd3d4837",
+      "source": "Created package index, notes or validation evidence."
+    },
+    {
+      "file": "03-Print-STL/Tail-skid-M3.stl",
+      "bytes": 17284,
+      "sha256": "0a815aaa74f28a3cc289df9c2935cde013339301ef525817d33bbb448bf3ac3b",
+      "source": "outputs/C3-Carrier-RevB/Tail-skid-M3.stl",
+      "source_sha256": "0a815aaa74f28a3cc289df9c2935cde013339301ef525817d33bbb448bf3ac3b",
+      "note": "Latest Rev B M3 print set"
+    },
+    {
+      "file": "03-Print-STL/Wheel-left.stl",
+      "bytes": 181384,
+      "sha256": "66c72d1a71068a07cb173298c3b716583638c13a5e7f8fce89d98ed0af701130",
+      "source": "outputs/C3-Carrier-RevB/Wheel-left.stl",
+      "source_sha256": "66c72d1a71068a07cb173298c3b716583638c13a5e7f8fce89d98ed0af701130",
+      "note": "Latest Rev B M3 print set"
+    },
+    {
+      "file": "03-Print-STL/Wheel-right.stl",
+      "bytes": 181384,
+      "sha256": "66c72d1a71068a07cb173298c3b716583638c13a5e7f8fce89d98ed0af701130",
+      "source": "outputs/C3-Carrier-RevB/Wheel-right.stl",
+      "source_sha256": "66c72d1a71068a07cb173298c3b716583638c13a5e7f8fce89d98ed0af701130",
+      "note": "Latest Rev B M3 print set"
+    },
+    {
+      "file": "04-Component-References/Bourns-SRN6045TA.pdf",
+      "bytes": 169551,
+      "sha256": "a5144a82a215a9176eef5deb8baa5879f8a261f6cc56027fda4ac47c303905be",
+      "source": "work/carrier-c/SRN6045TA.pdf",
+      "source_sha256": "a5144a82a215a9176eef5deb8baa5879f8a261f6cc56027fda4ac47c303905be",
+      "note": "Exact Carrier C inductor family drawing"
+    },
+    {
+      "file": "04-Component-References/DW01A.pdf",
+      "bytes": 658728,
+      "sha256": "72db1151d83c52ae6a3f2329ba1d75c445b3aafb86770b81b6ed5457b0d95a32",
+      "source": "work/carrier-references/DW01A.pdf",
+      "source_sha256": "72db1151d83c52ae6a3f2329ba1d75c445b3aafb86770b81b6ed5457b0d95a32",
+      "note": "Reference used in Carrier C circuit audit"
+    },
+    {
+      "file": "04-Component-References/ESP32-C3-SuperMini-Supplier-Datasheet.pdf",
+      "bytes": 2406838,
+      "sha256": "1dfd43abc459c811e2bbc999d823e3a5166262ecc33a7e2705b125a1a0492b10",
+      "source": "outputs/component-library/ESP32-C3-SuperMini-Supplier-Datasheet.pdf",
+      "source_sha256": "1dfd43abc459c811e2bbc999d823e3a5166262ecc33a7e2705b125a1a0492b10",
+      "note": ""
+    },
+    {
+      "file": "04-Component-References/FS8205A.pdf",
+      "bytes": 775425,
+      "sha256": "52d128fb4d19e0a0cce7d0e6890570fdb4f393035208d24e6c368657b0d0f456",
+      "source": "work/carrier-references/FS8205A.pdf",
+      "source_sha256": "52d128fb4d19e0a0cce7d0e6890570fdb4f393035208d24e6c368657b0d0f456",
+      "note": "Reference used in Carrier C circuit audit"
+    },
+    {
+      "file": "04-Component-References/MT3608.pdf",
+      "bytes": 612004,
+      "sha256": "fe848b6e4af5cf5a8245b98a14d677f923e47799b47fb83e0d1d02dc817ddede",
+      "source": "work/carrier-references/MT3608.pdf",
+      "source_sha256": "fe848b6e4af5cf5a8245b98a14d677f923e47799b47fb83e0d1d02dc817ddede",
+      "note": "Reference used in Carrier C circuit audit"
+    },
+    {
+      "file": "04-Component-References/Pololu-Micro-Gearmotor-Dimensions.pdf",
+      "bytes": 634780,
+      "sha256": "d2b24afa17b1bd6fa901c5429e51003eb0a771f72da32cf6ff9ff49f760d786f",
+      "source": "outputs/component-library/Pololu-Micro-Gearmotor-Dimensions.pdf",
+      "source_sha256": "d2b24afa17b1bd6fa901c5429e51003eb0a771f72da32cf6ff9ff49f760d786f",
+      "note": ""
+    },
+    {
+      "file": "04-Component-References/Pololu-Micro-Gearmotor-Precious-Metal-No-Encoder.step",
+      "bytes": 12679407,
+      "sha256": "fda8e4e7e84bdac6ba4d977e756e20ca3d636efc1a3df1e2b018561f4f58e126",
+      "source": "outputs/component-library/Pololu-Micro-Gearmotor-Precious-Metal-No-Encoder.step",
+      "source_sha256": "fda8e4e7e84bdac6ba4d977e756e20ca3d636efc1a3df1e2b018561f4f58e126",
+      "note": ""
+    },
+    {
+      "file": "04-Component-References/Pololu-Motor-Model-README.txt",
+      "bytes": 702,
+      "sha256": "66b272aed818fdc4c076578ab6d488d3ce868e3d8c1a59b894acc4e4de99e4b1",
+      "source": "outputs/component-library/Pololu-Motor-Model-README.txt",
+      "source_sha256": "66b272aed818fdc4c076578ab6d488d3ce868e3d8c1a59b894acc4e4de99e4b1",
+      "note": ""
+    },
+    {
+      "file": "04-Component-References/REFERENCE-NOTES.txt",
+      "bytes": 1525,
+      "sha256": "fdd5b999cf103dc39e47269c96f64aad3938946d2832c2760e9ad520bba7ef49",
+      "source": "Created package index, notes or validation evidence."
+    },
+    {
+      "file": "04-Component-References/TC1508A-Manufacturer-Datasheet.pdf",
+      "bytes": 409196,
+      "sha256": "96260ea293db7a7716185f8df2f34f4266334368f75308fd5e55024ca27e9ae1",
+      "source": "outputs/component-library/TC1508A-Manufacturer-Datasheet.pdf",
+      "source_sha256": "96260ea293db7a7716185f8df2f34f4266334368f75308fd5e55024ca27e9ae1",
+      "note": ""
+    },
+    {
+      "file": "04-Component-References/TP4056.pdf",
+      "bytes": 720711,
+      "sha256": "59191d7c302d2944b98cb290f733a89faf89103615db487e2903bffd3fcc63a2",
+      "source": "work/carrier-references/TP4056.pdf",
+      "source_sha256": "59191d7c302d2944b98cb290f733a89faf89103615db487e2903bffd3fcc63a2",
+      "note": "Reference used in Carrier C circuit audit"
+    },
+    {
+      "file": "04-Component-References/TXU0104.pdf",
+      "bytes": 2551508,
+      "sha256": "91679293075d88947b9633a3efa2f8bd1d7d05ffeddd86ae0bda497c07721121",
+      "source": "work/carrier-references/TXU0104.pdf",
+      "source_sha256": "91679293075d88947b9633a3efa2f8bd1d7d05ffeddd86ae0bda497c07721121",
+      "note": "Reference used in Carrier C circuit audit"
+    },
+    {
+      "file": "04-Component-References/USB4125.pdf",
+      "bytes": 469688,
+      "sha256": "ea33e0b40545e545bf698cbac3bb1c0f5a3fc7ca6b5b7fda83a63134d4affaa7",
+      "source": "work/carrier-references/USB4125.pdf",
+      "source_sha256": "ea33e0b40545e545bf698cbac3bb1c0f5a3fc7ca6b5b7fda83a63134d4affaa7",
+      "note": "Reference used in Carrier C circuit audit"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 3594,
+      "sha256": "16ba0cf045740e5dc4372c83fbfcb8dd2cf4330075db6396cc730ca269e59a01",
+      "source": "Created package index, notes or validation evidence."
+    },
+    {
+      "file": "START-HERE.html",
+      "bytes": 7646,
+      "sha256": "db4b75978b0fdfaa3c49772f6d3f1e14efa9041a86d17af6beb139b22918e237",
+      "source": "Created package index, notes or validation evidence."
+    }
+  ],
+  "validation": {
+    "copied_source_hashes_match": true,
+    "intentional_copy_edits": [
+      "01-Electronics-CarrierC/Carrier-Review.html: package navigation only"
+    ],
+    "local_html_links_checked": 78,
+    "missing_links": [],
+    "standalone_Fusion_models_reopened": [
+      {
+        "file": "Populated-Carrier-RevB-Mechanical.f3d",
+        "reopened_in_Fusion": true,
+        "components": 48,
+        "bodies": 646,
+        "every_native_body_bbox_matches_export_source": true,
+        "maximum_delta_mm": 0,
+        "note": "Native body bounds used consistently; Fusion display/proxy bounds differ from geometry bounds."
+      },
+      {
+        "file": "Integral-Chassis-M3-RevB.f3d",
+        "reopened_in_Fusion": true,
+        "bodies": 1,
+        "bbox_min_mm": [
+          -38.0,
+          -53.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          40.9,
+          71.40000000000002,
+          8.4
+        ]
+      }
+    ],
+    "cad_files": [
+      {
+        "file": "C3-Scout-Carrier-RevB.step",
+        "step_solids": 689
+      },
+      {
+        "file": "Integral-Chassis-M3-RevB.step",
+        "step_solids": 1
+      },
+      {
+        "file": "Populated-Carrier-RevB-Mechanical.step",
+        "step_solids": 646
+      },
+      {
+        "file": "C3-Scout-Carrier-RevB.f3d",
+        "fusion_archive_entries": 217,
+        "note": "Fusion archive directory readable; Autodesk compression is not supported by Python CRC test."
+      },
+      {
+        "file": "Integral-Chassis-M3-RevB.f3d",
+        "fusion_archive_entries": 32,
+        "note": "Fusion archive directory readable; Autodesk compression is not supported by Python CRC test."
+      },
+      {
+        "file": "Populated-Carrier-RevB-Mechanical.f3d",
+        "fusion_archive_entries": 76,
+        "note": "Fusion archive directory readable; Autodesk compression is not supported by Python CRC test."
+      }
+    ],
+    "binary_STLs": [
+      {
+        "file": "Bumper-M3.stl",
+        "triangles": 1148
+      },
+      {
+        "file": "Integral-chassis-M3.stl",
+        "triangles": 5514
+      },
+      {
+        "file": "Motor-clamp-left-M3.stl",
+        "triangles": 1100
+      },
+      {
+        "file": "Motor-clamp-right-M3.stl",
+        "triangles": 1100
+      },
+      {
+        "file": "Optional-Shaft-Fit-Coupon.stl",
+        "triangles": 668
+      },
+      {
+        "file": "Tail-skid-M3.stl",
+        "triangles": 344
+      },
+      {
+        "file": "Wheel-left.stl",
+        "triangles": 3626
+      },
+      {
+        "file": "Wheel-right.stl",
+        "triangles": 3626
+      }
+    ]
+  },
+  "excluded": "Earlier electrical revisions, duplicate ZIPs, module-based build guide and firmware snippets, old print sets, alternate unused modules, work scripts, caches and intermediate routing trials."
+}

@@ -1,0 +1,23 @@
+{
+  "schematic": {
+    "checked": true,
+    "linked": true,
+    "issues": {
+      "POWER pin U1 5V connected to ESP_5V": 1,
+      "POWER pin U2 VDD connected to VMOTOR": 2,
+      "POWER pin U2 AGND connected to GND": 2,
+      "POWER pin U2 PGND connected to GND": 2,
+      "POWER pin U3 VCC connected to USB5V": 1,
+      "POWER pin U4 VCC connected to DW_VCC": 1,
+      "POWER pin U4 VSS connected to BAT_MINUS": 1,
+      "POWER pin U5 VIN connected to VMOTOR": 1,
+      "POWER pin U6 VCCA connected to 3V3": 1,
+      "POWER pin U6 VCCB connected to VMOTOR": 1
+    }
+  },
+  "board": {
+    "checked": true,
+    "linked": true,
+    "issues": {}
+  }
+}

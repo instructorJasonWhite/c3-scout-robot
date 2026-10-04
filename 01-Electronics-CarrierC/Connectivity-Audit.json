@@ -1,0 +1,12 @@
+{
+  "sheets": 4,
+  "parts": 56,
+  "nets": 37,
+  "connected_contacts": 162,
+  "schematic_board_contacts_match": true,
+  "pins_inspected": 173,
+  "issues": [],
+  "bom_references_match": true,
+  "part_values_match": true,
+  "part_packages_match": true
+}

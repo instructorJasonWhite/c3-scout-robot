@@ -1,0 +1,32 @@
+{
+  "document": "C3 Scout Rover - integral bay M3 - Rev B",
+  "features": 1431,
+  "occurrences": 98,
+  "timeline_issues": [],
+  "interferences": [],
+  "physical_fit_tested": false,
+  "notes": [
+    "Detailed parts are dimensional reconstructions",
+    "No ECAD-to-MCAD synchronization established yet",
+    "Hidden alternate modules and illustrative flexible straps excluded"
+  ],
+  "carrier_origin_mm": [
+    6.5,
+    -13.0,
+    6.0
+  ],
+  "supermini_origin_mm": [
+    23.5,
+    55.25,
+    10.175
+  ],
+  "mount_hole_diameters_mm": [
+    3.4,
+    3.4,
+    3.4,
+    3.4
+  ],
+  "assembly_screw_spec": "M3 ISO 4762 socket cap",
+  "assembly_screw_count": 12,
+  "single_solid_chassis": true
+}

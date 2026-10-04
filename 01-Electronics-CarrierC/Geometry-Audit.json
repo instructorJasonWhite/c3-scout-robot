@@ -1,0 +1,10 @@
+{
+  "scope": "Discrete traces, pads and vias. Filled-plane connectivity/clearance remains covered by native Fusion DRC. 0.002 mm comparison tolerance for rounded coordinate export.",
+  "copper_objects": 762,
+  "trace_segments": 528,
+  "vias": 59,
+  "minimum_trace_mm": 0.254,
+  "minimum_observed_clearance_mm": 0.2,
+  "minimum_drill_gap_mm": 0.5,
+  "issues": []
+}

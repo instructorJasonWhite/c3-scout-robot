@@ -1,0 +1,29 @@
+C3 SCOUT — PERTINENT COMPONENT REFERENCES
+
+Manufacturer/reference CAD and PDFs retain their original ownership.
+
+Motor: Pololu precious-metal micro gearmotor, no encoder. A generic N20
+family reference for the user's Coliao motors, not a verified exact match.
+Source: https://www.pololu.com/product/992/resources
+Read the original included Pololu-Motor-Model-README.txt for variants.
+Do not substitute Pololu electrical ratings for the purchased motors.
+
+SuperMini: supplier dimensional reference (not an Espressif board drawing).
+Source: https://dl.artronshop.co.th/ESP32-C3%20SuperMini%20datasheet.pdf
+Board variants exist; measure the user's actual module and verify pinout.
+
+TC1508A: Fine Made manufacturer datasheet, S&CIC2159, version 1.0.
+Source: https://atta.szlcsc.com/upload/public/pdf/source/20221108/FA704C761D3E1A3F8A261A261F561E1F.pdf
+
+DW01A, FS8205A, TP4056, MT3608, TXU0104 and USB4125 PDFs are the
+documents used in the Carrier C component/pinout audit. Exact ordering
+codes and catalog sources are in 01-Electronics-CarrierC's BOM and review.
+FS8205A is specifically the Fortune TSSOP-8 implementation.
+TXU0104 manufacturer: https://www.ti.com/product/TXU0104
+USB connector: https://gct.co/connector/usb4125
+
+Bourns-SRN6045TA.pdf is the selected inductor family datasheet:
+https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf
+
+Alternate DRV8833 and old DIP/socket/boost-module references have been
+omitted from this current package; those circuits are no longer used.

@@ -1,0 +1,25 @@
+# Local settings and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
+*.bak
+~$*
+.vscode/
+.idea/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Fusion Electronics automatic backups and locks
+*.s#?
+*.b#?
+*.l#?
+*.lck
+
+# Downloaded copies of the complete archive are redundant in Git.
+C3-Scout-Robot-Project.zip

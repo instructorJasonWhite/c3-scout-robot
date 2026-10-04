@@ -1,0 +1,16 @@
+{
+  "tail_driver_diameter_mm": 8,
+  "charging_plug_envelope_mm": [
+    16.4,
+    12.8,
+    5.7
+  ],
+  "programming_plug_envelope_mm": [
+    13,
+    20,
+    6
+  ],
+  "access_collisions": [],
+  "actual_cables_tested": false,
+  "checked_at_feature_count": 1431
+}
