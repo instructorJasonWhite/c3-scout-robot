@@ -1,0 +1,141 @@
+<section class="section" id="web-control">
+  <div class="section-heading"><p class="eyebrow">Current release · 19 October 2026</p><h2>Drive from your browser</h2></div>
+  <p class="lead">Scout carries its own web controller. Once the firmware is installed, a phone, tablet or computer can drive over Scout’s Wi-Fi without an app or an Internet connection.</p>
+  <div class="grid two">
+    <div>
+      <p><span class="badge">SCOUT 2 · protocol 2</span> <span class="badge">ScoutFaces 1.0.0</span></p>
+      <p>The current firmware combines the joystick, drive limit, Stop, saved motor directions and ten animated OLED expressions. The optional Android app is version 1.2.0 and uses the same robot firmware.</p>
+      <p><a class="button" href="06-Scout-Control/Scout-Control-Web-2026-10-19.zip" download>Download firmware and source</a></p>
+      <p class="quiet">The ZIP includes editable firmware and browser sources, build helpers, firmware images, the optional Android APK and the full technical guide.</p>
+    </div>
+    <figure class="figure"><img src="assets/code/web-controller.png" alt="Scout’s browser controller with joystick, speed limit, face selection and Stop" loading="lazy"><figcaption>The controller is served by Scout itself at 192.168.4.1.</figcaption></figure>
+  </div>
+</section>
+
+<section class="section" id="install-firmware">
+  <div class="section-heading"><p class="eyebrow">One-time setup</p><h2>Install the current firmware</h2></div>
+  <div class="notice"><p><strong>Open RUN before connecting the ESP32-C3’s USB cable.</strong> Keep RUN open while programming. Unplug ESP USB before closing RUN for driving.</p></div>
+  <ol>
+    <li>Download and unzip the <a href="06-Scout-Control/Scout-Control-Web-2026-10-19.zip" download>current software package</a>.</li>
+    <li>In Arduino IDE, install the <strong>esp32</strong> board package by Espressif Systems. The firmware uses Arduino ESP32 core 3.x. Select <strong>ESP32C3 Dev Module</strong>, enable <strong>USB CDC On Boot</strong>, and select your board’s USB port.</li>
+    <li>Install <strong>WebSockets 2.7.2</strong> by Markus Sattler / Links2004, <strong>Adafruit SSD1306</strong> and <strong>Adafruit GFX Library</strong>, including their dependencies. Install the included <a href="06-Scout-Control/ScoutFaces-1.0.0.zip" download>ScoutFaces ZIP</a> with <strong>Sketch → Include Library → Add .ZIP Library…</strong>.</li>
+    <li>Open <code>source/firmware/ScoutDrive/ScoutDrive.ino</code> from the extracted package. Keep its accompanying headers in the same folder, then compile and upload with RUN open.</li>
+    <li>After the upload finishes, disconnect ESP USB. Lift the wheels clear for the first direction check, then close RUN and follow the first-drive steps below.</li>
+  </ol>
+  <p>A normal upload preserves Scout’s saved motor directions. A fresh or erased board defaults both reverse settings to OFF. The tested Scout uses <strong>Reverse left motor ON</strong> and <strong>Reverse right motor ON</strong>; check your own build with its wheels lifted.</p>
+  <p class="quiet">Using the included build helpers, changing the browser source, or flashing individual binary images? Follow the <a href="06-Scout-Control/CONTROL-GUIDE.html#build">full build and installation reference</a>; local tool paths may need adjusting.</p>
+</section>
+
+<section class="section" id="first-drive">
+  <div class="section-heading"><p class="eyebrow">First drive</p><h2>Connect, check direction, then drive</h2></div>
+  <ol>
+    <li>With ESP USB disconnected, power Scout and join Wi-Fi <strong>C3-Scout-Test</strong>, password <code>ScoutTest42</code>. Choose to stay connected if your device reports no Internet.</li>
+    <li>Open <a href="http://192.168.4.1/">http://192.168.4.1/</a> and press <strong>Connect</strong>. This address is available while connected to Scout’s network. Reload this page after a firmware update.</li>
+    <li>Start with the default <strong>35% drive limit</strong>. Push the joystick up for forward, down for reverse and sideways to turn on the spot. Release it to send zero.</li>
+    <li>If a wheel runs the wrong way, press <strong>Stop</strong>, expand <strong>Motor directions</strong>, change that wheel’s reverse setting and save. Reconnect for another wheels-lifted check.</li>
+    <li>Press <strong>Stop</strong> to end the driving session. Press Connect deliberately when you are ready to drive again.</li>
+  </ol>
+  <p>The limit describes requested motor power, not measured wheel speed. Logical commands at 30% or below are off; larger commands map to the useful 40–100% motor-power range. Full forward at the default 35% limit requests about 44% motor power.</p>
+  <p>Choose <strong>Auto</strong> to cycle all ten faces, or tap a name to keep one expression’s blinking and glancing animation. Swipe the face row for more choices. If the OLED is unavailable, driving remains available and the face controls are disabled.</p>
+  <div class="notice"><p><strong>Keep the controller tab visible and use one controller at a time.</strong> The browser sends commands every 100 ms, stops on missing replies after 800 ms, and the ESP expires browser driving after 1 second without a valid command. Motors may continue for up to one second after command loss. Android retains its 400 ms cutoff. Release and Stop act as soon as their commands arrive; reconnection never automatically resumes motion. Opening RUN cuts motor power independently.</p></div>
+  <p class="quiet">Reverse steering is corrected in this release. The operator confirmed direction and reported improved driving after installation. Long-duration wireless stability and range have not been qualified. Stop the active controller before switching between browser and Android.</p>
+</section>
+
+<section class="section" id="faces-library">
+  <div class="section-heading"><p class="eyebrow">A library for your next OLED project</p><h2>ScoutFaces 1.0.0</h2></div>
+  <p class="lead">Ten animated expressions for a 128 × 64 monochrome OLED, packaged as an Arduino library with two complete examples.</p>
+  <figure class="figure"><img src="assets/code/faces.gif" alt="Animated Scout faces blinking and glancing through their expressions" loading="lazy"><figcaption>Each expression keeps moving, even when you choose to hold it.</figcaption></figure>
+  <figure class="figure"><img src="assets/code/faces.png" alt="The ten ScoutFaces expressions: Happy, Laughing, Surprised, Angry, Sad, Sleepy, Skeptical, Winking, Cheeky and Dizzy" loading="lazy"><figcaption>Happy · Laughing · Surprised · Angry · Sad · Sleepy · Skeptical · Winking · Cheeky · Dizzy</figcaption></figure>
+  <h3>Install and wire the display</h3>
+  <ol>
+    <li>Download <a href="06-Scout-Control/ScoutFaces-1.0.0.zip" download>ScoutFaces-1.0.0.zip</a>. In Arduino IDE choose <strong>Sketch → Include Library → Add .ZIP Library…</strong> and select it.</li>
+    <li>Install <strong>Adafruit SSD1306</strong> and <strong>Adafruit GFX Library</strong> with their dependencies through Library Manager.</li>
+    <li>For Scout’s SSD1306 128 × 64 display, connect the four signals shown below. Check your module’s printed labels: pin order varies.</li>
+    <li>Open <strong>File → Examples → ScoutFaces → AutoCycle</strong> or <strong>SelectExpression</strong>. Keep RUN open before connecting Scout USB and uploading an example.</li>
+  </ol>
+  <div class="table-wrap"><table><thead><tr><th scope="col">OLED signal</th><th scope="col">Scout connection</th></tr></thead><tbody><tr><th scope="row">VCC</th><td>3V3</td></tr><tr><th scope="row">GND</th><td>GND</td></tr><tr><th scope="row">SDA</th><td>GPIO5</td></tr><tr><th scope="row">SCL</th><td>GPIO7</td></tr></tbody></table></div>
+  <p>Scout’s tested display address is <code>0x3C</code>. AutoCycle also checks <code>0x3D</code>; change the fixed address in SelectExpression if needed. The examples keep Scout’s GPIO6 motor-enable output LOW. Remove that Scout-specific assignment on another board if GPIO6 has a different purpose.</p>
+  <p class="quiet">Tested with ESP32-C3, Arduino ESP32 3.3.12, Adafruit SSD1306 2.5.17 and GFX 1.12.6. The artwork uses 92,160 bytes of flash, so classic ATmega328P Uno/Nano boards cannot hold it. Other boards need sufficient flash, a compatible display framebuffer and an appropriate Wire pin setup; they have not been bench verified.</p>
+  <div class="notice"><strong>Trying an example replaces the drive firmware.</strong> AutoCycle and SelectExpression are standalone display demos. Scout's Wi-Fi controller will return when you <a href="#install-firmware">upload the current ScoutDrive firmware again</a>. Keep RUN open while using either display example.</div>
+  <h3>Example 1: cycle through all ten expressions</h3>
+  <p>AutoCycle detects the display address, initializes the screen and runs the animation without an animation delay in the main loop. At the default timing, each expression lasts 5.76 seconds.</p>
+  <p><a href="06-Scout-Control/source/libraries/ScoutFaces/examples/AutoCycle/AutoCycle.ino" download>Download AutoCycle.ino</a></p>
+  <details><summary>Show the complete AutoCycle sketch</summary><pre class="code-block"><code>#include &lt;Wire.h&gt;
+#include &lt;Adafruit_SSD1306.h&gt;
+#include &lt;ScoutFaces.h&gt;
+
+constexpr int SDA_PIN = 5, SCL_PIN = 7; // Change for your board.
+Adafruit_SSD1306 display(128, 64, &amp;Wire, -1, 100000, 100000);
+ScoutFaces faces(display);
+
+void setup() {
+  Serial.begin(115200);
+  // Scout Carrier C v10 only: keep motor driver disabled during the demo.
+  // Omit this GPIO6 assignment on other boards if the pin has another use.
+  digitalWrite(6, LOW);
+  pinMode(6, OUTPUT);
+  delay(500);
+  if (!Wire.begin(SDA_PIN, SCL_PIN, 100000)) while (true) delay(1000);
+  Wire.setTimeOut(50);
+  uint8_t address = 0;
+  for (uint8_t candidate : {0x3C, 0x3D}) {
+    Wire.beginTransmission(candidate);
+    if (Wire.endTransmission() == 0) { address = candidate; break; }
+  }
+  if (!address) {
+    Serial.println("No OLED at 0x3C/0x3D. Check wiring and reset.");
+    while (true) delay(1000);
+  }
+  if (!display.begin(SSD1306_SWITCHCAPVCC, address, false, false) || !faces.begin()) {
+    Serial.println("Display initialization failed. Requires 128x64 landscape.");
+    while (true) delay(1000);
+  }
+}
+
+void loop() {
+  if (faces.update()) display.display();
+  // Other project work goes here; no animation delay() is required.
+}
+</code></pre></details>
+  <h3>Example 2: choose an expression</h3>
+  <p>SelectExpression starts with Cheeky. Its comments show the library calls for choosing Surprised or resuming automatic cycling. A selected expression still blinks and glances.</p>
+  <p><a href="06-Scout-Control/source/libraries/ScoutFaces/examples/SelectExpression/SelectExpression.ino" download>Download SelectExpression.ino</a></p>
+  <details><summary>Show the complete SelectExpression sketch</summary><pre class="code-block"><code>#include &lt;Wire.h&gt;
+#include &lt;Adafruit_SSD1306.h&gt;
+#include &lt;ScoutFaces.h&gt;
+
+Adafruit_SSD1306 display(128, 64, &amp;Wire, -1, 100000, 100000);
+ScoutFaces faces(display);
+
+void setup() {
+  // Scout-specific motor disable. Remove on other boards as appropriate.
+  digitalWrite(6, LOW);
+  pinMode(6, OUTPUT);
+  Wire.begin(5, 7, 100000); // Set your board's SDA and SCL here.
+  // Change 0x3C to 0x3D if that is your display's address.
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C, false, false) || !faces.begin())
+    while (true) delay(1000);
+  faces.setExpression(ScoutFaces::Expression::Cheeky);
+}
+
+void loop() {
+  if (faces.update()) display.display();
+  // In your own event handler you can select a different face:
+  // faces.setExpression(ScoutFaces::Expression::Surprised);
+  // Or resume all ten expressions: faces.setAutoCycle(true);
+}
+</code></pre></details>
+  <p>The library draws a changed pose when <code>faces.update()</code> returns true; your display driver then sends the framebuffer to the OLED. It owns the whole screen. Sending a frame takes bus time, so keep display updates outside any time-critical motor loop. Installing this library alone does not update Scout’s drive firmware.</p>
+  <p><a href="06-Scout-Control/CONTROL-GUIDE.html#oled-faces-library">Read the complete API, timing and troubleshooting notes</a></p>
+</section>
+
+<section class="section" id="downloads">
+  <div class="section-heading"><p class="eyebrow">Keep a local copy</p><h2>Code downloads and reference</h2></div>
+  <ul class="download-list">
+    <li><a href="06-Scout-Control/Scout-Control-Web-2026-10-19.zip" download>Current web-control firmware and source ZIP</a><span>19 October 2026 · SCOUT 2 / protocol 2 · includes editable projects and firmware images</span></li>
+    <li><a href="06-Scout-Control/ScoutFaces-1.0.0.zip" download>ScoutFaces 1.0.0 Arduino library</a><span>Ten expressions and both example sketches; install Adafruit dependencies separately</span></li>
+    <li><a href="06-Scout-Control/Scout-Control-debug.apk" download>Optional Android app 1.2.0</a><span>Debug-signed APK; Android may ask you to allow installation from the app opening it</span></li>
+    <li><a href="06-Scout-Control/CONTROL-GUIDE.html">Full technical control guide</a><span>Complete source listings, build helpers, protocol, API and recorded verification</span></li>
+    <li><a href="06-Scout-Control/MANIFEST.json">Release file manifest</a> · <a href="06-Scout-Control/SHA256SUMS.txt">SHA-256 checksums</a></li>
+  </ul>
+</section>

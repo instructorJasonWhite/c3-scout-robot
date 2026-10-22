@@ -1,0 +1,25 @@
+{
+  "pcb_width_mm": 27.3,
+  "pcb_height_mm": 27.3,
+  "pcb_thickness_mm": 1,
+  "mount_pitch_mm": [
+    20.7,
+    23.2
+  ],
+  "oled_hole_slots_mm": [
+    3.5,
+    2.2
+  ],
+  "mount_clearance_diameter_mm": 2.4,
+  "support_depth_mm": 6.5,
+  "inclination_deg": 45,
+  "clear_rail_width_mm": 28.1,
+  "original_bumper_screw_pitch_mm": 56,
+  "pcb_back_lower_edge_mm": [
+    0,
+    -48.5,
+    15
+  ],
+  "source": "https://www.amazon.com/dp/B01HEBIJKK fourth product image",
+  "status": "CAD prototype; physical fit and print not tested"
+}

@@ -1,0 +1,26 @@
+Carrier C factory update / 5 October 2026
+Fusion parent and board v10; schematic v6.
+
+Q1: TECH PUBLIC 8205A, C7419210. U4: PUOLOP DW01A, C351410.
+C1: Panasonic EEUFM1E101, C713389; included in factory assembly.
+J5: SHOU HAN TYPE-C 6P, C456012; revised lands and four plated slots.
+45 placements: 44 SMT and one through-hole capacitor; hand-install U1.
+Native DRC: 0 errors. Same 13 ERC power-pin/net-name warnings.
+Restored all changed schematic symbol names and values.
+M3 holes, all reference positions, both Genie graphics and 37 nets preserved.
+Matching fabrication and assembly files: ../05-Factory-CarrierC-v10/
+Prototype protection behaviour and physical integration still require validation.
+
+HISTORICAL v8 CHANGE RECORD
+Carrier C manufacturing corrections / 5 October 2026
+Fusion parent and board v8; schematic v4 (content unchanged).
+
+Resolved nine silk-to-exposed-via findings and three mask slivers.
+All 59 routing vias tented; dedicated test pads remain exposed.
+Mask expansion 0.01 mm; legend clearance rule 0.15 mm.
+Three SW/INA/IND copper notches filled; nine connected segments added.
+Both Genies, manual cleanup, all component positions and holes preserved.
+Native DRC 0, unrouted 0; independent corrected-category checks 0 findings.
+Board PDF freshly printed, including both mask layers.
+
+Prototype only: final CAM, mechanical integration and bench validation remain.

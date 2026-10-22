@@ -1,0 +1,17 @@
+{
+  "source": "IC Genie",
+  "height_mm": 15.6,
+  "width_mm": 10.139999999999999,
+  "stroke_mm": 0.15,
+  "row_pitch_mm": 0.06,
+  "native_strokes": 1304,
+  "bounds": [
+    11.855,
+    63.42499999999999,
+    22.145,
+    79.175
+  ],
+  "layer": 21,
+  "location": "Top silk, under ESP module",
+  "mirrored": false
+}

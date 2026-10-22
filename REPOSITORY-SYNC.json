@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "website": "https://mechatronicsaint.com/c3-scout/index.html",
+  "website_commit": "86ba3087f30c971b95310b9f2b1d7c5718b66f68",
+  "published_files": 318,
+  "canonical_source_files": 62,
+  "firmware_release": "2026-10-19 / SCOUT 2 / protocol 2",
+  "faces_library": "1.0.0",
+  "case_versions": {
+    "Bumper": "v8",
+    "OLED": "v8",
+    "ESP32-CAM": "v8"
+  },
+  "additional_files": [
+    {
+      "file": "downloads/c3-scout/Scout-OLED-Bumper-v1.zip",
+      "bytes": 17454025,
+      "sha256": "fac8c48989c02861b19bf041f0e71af9797a8ac6f5177c68f79007e412d80e53"
+    },
+    {
+      "file": "downloads/c3-scout/Scout-ESP32-CAM-Bumper-v1.zip",
+      "bytes": 18752385,
+      "sha256": "087cbe853759e3dbb84d2da1e772dee747ea78d60d5ca834658208abd0fec135"
+    },
+    {
+      "file": "scripts/package-oled-library.py",
+      "bytes": 937,
+      "sha256": "8bce700b80d4c5cc21daf36d195925003c0be63286f5680c8ef577d8ab242ec9"
+    }
+  ],
+  "complete_project_download": "https://mechatronicsaint.com/downloads/c3-scout/C3-Scout-Robot-Project.zip"
+}

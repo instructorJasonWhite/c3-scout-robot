@@ -1,0 +1,102 @@
+{
+  "variant": "Bumper",
+  "project": "Scout-Bumper-Case-v8-P1S-PLA-ready.3mf",
+  "meshes": [
+    {
+      "file": "Scout-Bumper-Case-v8.stl",
+      "triangles": 16560,
+      "components": 3,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "degenerate_triangles": 0,
+      "bounds_mm": [
+        [
+          -53.79999923706055,
+          -61.79999923706055,
+          -7.771561172376096e-15
+        ],
+        [
+          171.0,
+          124.0,
+          32.0
+        ]
+      ],
+      "dimensions_mm": [
+        224.79999923706055,
+        185.79999923706055,
+        32.00000000000001
+      ],
+      "volume_mm3": 171958.03692214921,
+      "bounds_match_cad": true,
+      "volume_matches_cad": true,
+      "passed": true
+    },
+    {
+      "file": "Scout-Bumper-Case-v8-Box.stl",
+      "triangles": 16404,
+      "components": 2,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "degenerate_triangles": 0,
+      "bounds_mm": [
+        [
+          -53.79999923706055,
+          -61.79999923706055,
+          0.0
+        ],
+        [
+          171.0,
+          93.80000305175781,
+          32.0
+        ]
+      ],
+      "dimensions_mm": [
+        224.79999923706055,
+        155.60000228881836,
+        32.0
+      ],
+      "volume_mm3": 170091.25934842412,
+      "bounds_match_cad": true,
+      "volume_matches_cad": true,
+      "passed": true
+    },
+    {
+      "file": "Scout-Bumper-Case-v8-Latch.stl",
+      "triangles": 112,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "degenerate_triangles": 0,
+      "bounds_mm": [
+        [
+          37.79999923706055,
+          100.0,
+          -7.771561172376096e-15
+        ],
+        [
+          69.80000305175781,
+          124.0,
+          5.099999904632568
+        ]
+      ],
+      "dimensions_mm": [
+        32.000003814697266,
+        24.0,
+        5.099999904632576
+      ],
+      "volume_mm3": 1866.7678784152824,
+      "bounds_match_cad": true,
+      "volume_matches_cad": true,
+      "passed": true
+    }
+  ],
+  "plate_translation_mm": [
+    69.39999961853027,
+    96.89999961853027,
+    0
+  ],
+  "latch_export": "Exact native triangles isolated by CAD bounds from complete-set mesh, no remeshing"
+}

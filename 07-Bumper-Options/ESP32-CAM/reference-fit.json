@@ -1,0 +1,97 @@
+{
+  "reference_only": true,
+  "actual_stack_dimensions_unverified": true,
+  "reference_fit": [
+    {
+      "part": "Camera PCB - 27 x 40.5 assumed envelope",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "USB adapter PCB - provisional 27 x 40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "ESP32 shield - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "microSD socket - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Camera ribbon - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Camera connector - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Lens base - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Lens - schematic 8 mm projection",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Lens glass - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Flash LED - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "USB-C connector envelope - provisional",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "8-pin header socket - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Header spacer - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "8-pin header socket - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Header spacer - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Antenna marking - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Antenna marking - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Antenna marking - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Antenna marking - schematic",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Antenna marking - schematic",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "usb_plug_reference_mm": [
+    12,
+    11,
+    12
+  ],
+  "usb_checks": [
+    {
+      "item": "USB plug reference vs mount",
+      "overlap_mm3": 0.0
+    }
+  ]
+}

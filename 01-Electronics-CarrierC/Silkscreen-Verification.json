@@ -1,0 +1,37 @@
+{
+  "signals_unchanged": false,
+  "libraries_unchanged": true,
+  "classes_unchanged": true,
+  "designrules_unchanged": false,
+  "board_shape_holes_restrictions_unchanged": true,
+  "component_count": 56,
+  "all_planned_labels_present_at_verified_positions": true,
+  "placements_values_and_non_name_attributes_unchanged": true,
+  "all_56_references_attached_to_components": true,
+  "minimum_text_height_mm": 1.0,
+  "minimum_text_stroke_mm": 0.2,
+  "top_component_references": 52,
+  "underside_component_references": [
+    "R20"
+  ],
+  "assembly_only_references": [
+    "C3",
+    "R2",
+    "R3"
+  ],
+  "top_service_labels": 17,
+  "bottom_service_labels": 13,
+  "pin_one_dots": 6,
+  "maximum_graphic_coordinate_rounding_mm": 4.895435339236087e-05,
+  "all_planned_graphics_match": true,
+  "unrouted_wire_segments": 0,
+  "native_drc_errors": 0,
+  "native_board_checked": true,
+  "linked_to_schematic": true,
+  "board_sha256": "a1762cca9d154dc8a6d9db7a4ae696df0bf8f4a2c83d075bf36919f35318df2c",
+  "scope": "Carrier C v8 manufacturing corrections. Artwork and placement unchanged from cleaned v7; 30 via mask flags, three rules and nine added trace segments updated. All corrected-category checks pass. See JLCPCB-Audit.json.",
+  "net_contact_lists_unchanged": true,
+  "original_traces_unchanged": true,
+  "added_trace_segments": 9,
+  "artwork_unchanged_from_manually_cleaned_v7": true
+}

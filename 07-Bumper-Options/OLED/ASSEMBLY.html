@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scout OLED bumper · Prototype assembly</title>
+<style>
+:root{color-scheme:light;--ink:#203638;--muted:#526466;--line:#d6dfdc;--accent:#25685b;--paper:#f3f6f3}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,Segoe UI,sans-serif}main{max-width:900px;margin:36px auto;padding:36px;background:#fff;border:1px solid var(--line);border-radius:12px}h1{font-size:2rem;line-height:1.15;margin:8px 0 16px}h2{font-size:1.2rem;margin:30px 0 10px}p{margin:10px 0}.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}.notice{padding:15px 18px;border-left:4px solid #b57d23;background:#fff7e7}table{border-collapse:collapse;width:100%;margin:12px 0}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.85rem;color:var(--muted)}li{margin:9px 0}a{color:var(--accent)}code{font-size:.9em;overflow-wrap:anywhere}.small{font-size:.9rem;color:var(--muted)}@media(max-width:600px){main{margin:0;padding:22px;border:0;border-radius:0}h1{font-size:1.7rem}th,td{padding:8px 5px}}@media print{body{background:#fff}main{border:0;margin:0;padding:0;max-width:none}h2{break-after:avoid}tr,li,.notice{break-inside:avoid}a{color:inherit}}
+figure{margin:22px 0}figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px}figcaption{font-size:.9rem;color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">Scout · Prototype v1</div>
+<h1>OLED replacement bumper</h1>
+<p>One printed part replaces the front bumper and holds the DIYmall 0.96-inch OLED at a 45° rearward lean. It reuses the two existing chassis mounting points.</p>
+<p class="notice"><strong>Prototype — physical fit has not been tested.</strong> Confirm your actual OLED board against the dimensions below before printing. Review the slicer preview and check the printed assembly before use.</p>
+<figure><img src="scout-oled-assembly.png" alt="Scout assembly with replacement bumper and inclined OLED cradle"><figcaption>CAD placement preview. The OLED model is illustrative; the printed part is the replacement bumper and cradle only.</figcaption></figure>
+<p class="small">CAD verification reports one solid body and one connected lump, no feature errors, and no new overlaps against 11 nearby bodies. These checks do not establish physical fit.</p>
+
+<h2>Files</h2>
+<ul>
+<li><a href="Scout-OLED-Bumper-v1.stl">Scout-OLED-Bumper-v1.stl</a> — printable replacement bumper.</li>
+<li><a href="Scout-OLED-Bumper-v1.f3d">Scout-OLED-Bumper-v1.f3d</a> — editable part.</li>
+<li><a href="Scout-OLED-Bumper-v1.step">Scout-OLED-Bumper-v1.step</a> — neutral CAD part.</li>
+<li><a href="Scout-OLED-Assembly-v1.f3d">Scout-OLED-Assembly-v1.f3d</a> — placement in the Scout assembly.</li>
+</ul>
+
+<h2>Check the OLED</h2>
+<p>The mechanical reference is the fourth product photo on the <a href="https://www.amazon.com/dp/B01HEBIJKK">DIYmall OLED listing, ASIN B01HEBIJKK</a>. Check the supplied board and header; product revisions can differ.</p>
+<table><thead><tr><th>Feature</th><th>Drawing dimension</th></tr></thead><tbody>
+<tr><td>PCB outline</td><td>27.3 ± 0.1 mm square</td></tr>
+<tr><td>Mounting-hole center spacing</td><td>20.7 ± 0.1 mm horizontal × 23.2 ± 0.1 mm vertical</td></tr>
+<tr><td>Slotted mounting holes</td><td>3.5 mm long × 2.2 mm high</td></tr>
+<tr><td>PCB thickness</td><td>1 mm</td></tr>
+<tr><td>Header total depth</td><td>11 mm; also allow room for the actual wire connectors</td></tr>
+</tbody></table>
+<p class="small">Cradle design: 28.1 mm between the rails, four 2.4 mm M2 clearance holes, 6.5 mm support standoffs, and an open rear for the header. The original bumper mounting geometry is copied, including 56 mm hole spacing, 3.4 mm clearance holes and 6.2 mm counterbores.</p>
+
+<figure><img src="bumper-only.png" alt="Standalone printed bumper with four OLED supports and existing chassis mounting points"><figcaption>Replacement bumper and cradle: the single part to print. Reuse the original chassis fasteners.</figcaption></figure>
+<h2>Hardware</h2>
+<table><thead><tr><th>Quantity</th><th>Item</th></tr></thead><tbody>
+<tr><td>2</td><td>Original M3 × 10 mm socket-cap screws and original M3 nuts</td></tr>
+<tr><td>4</td><td>M2 × 12 mm screws and M2 nuts; nylon preferred. Screw-head outside diameter ≤ 3.8 mm preferred to clear the display glass.</td></tr>
+<tr><td>Optional</td><td>Thin M2 washers, only where they clear the display glass and surrounding components</td></tr>
+</tbody></table>
+
+<h2>Print and prepare</h2>
+<ol>
+<li>Use PETG as a starting material, 0.2 mm layers and four walls. Place the flat bumper underside on the build plate.</li>
+<li>Inspect the slicer preview. Supports may be needed beneath the inclined cradle or local overhangs; make sure they can be removed without damaging the rails or standoffs.</li>
+<li>Remove supports and clean the clearance holes. Check that screws pass freely and the PCB rests on its supports without force.</li>
+</ol>
+
+<h2>Assemble</h2>
+<ol>
+<li>Disconnect power and remove the battery. Remove the original front bumper and retain its two screws and nuts.</li>
+<li>Test the new bumper against the chassis. Align both mounting holes and start both original M3 screws into their nuts before tightening gently. Confirm the bumper seats fully.</li>
+<li>Place the OLED on the four standoffs, with the display facing outward and the header using the open rear escape. Check that only bare PCB mounting lands touch the supports.</li>
+<li>Fit four M2 × 12 mm screws and nuts. Check both sides for clearance, including screw ends and rear components. Add thin washers only if they remain completely clear of the glass. Tighten just enough to retain the board: <strong>never press on the glass or pull a bowed PCB flat with the screws.</strong></li>
+<li>Route four wires rearward through the open cradle. Leave enough slack for service and retain the wires clear of both wheels, motors and screw access.</li>
+<li>Check the assembly by hand: bumper seated, display secure, no glass contact, no trapped wires, and wheels free to turn. Confirm the actual header connectors fit without forcing the PCB.</li>
+</ol>
+
+<figure><img src="bumper-rear.png" alt="Rear view of the open OLED cradle and header escape"><figcaption>Rear access for the header and four wires. Keep connectors, screw ends and wiring clear of the PCB components and wheels; confirm clearance on the actual assembly.</figcaption></figure>
+<h2>Wiring reference</h2>
+<p>Read the labels on the actual OLED. Follow the signal names below; do not assume the connector pin order matches a photo.</p>
+<table><thead><tr><th>OLED label</th><th>Scout reference connection</th></tr></thead><tbody>
+<tr><td>VCC</td><td>3V3</td></tr>
+<tr><td>GND</td><td>GND</td></tr>
+<tr><td>SCL</td><td>GPIO7</td></tr>
+<tr><td>SDA</td><td>GPIO5</td></tr>
+</tbody></table>
+<p class="small">This table records the intended connection reference. Confirm the actual Scout board labels and firmware pin assignment before reconnecting power.</p>
+</main></body></html>

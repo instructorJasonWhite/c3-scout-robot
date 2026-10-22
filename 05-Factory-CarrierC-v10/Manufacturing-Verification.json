@@ -1,0 +1,116 @@
+{
+  "source": "Autodesk Fusion MCP native CAM export; board v10, schematic v6, 2026-10-05 America/New_York",
+  "native_zip_sha256": "3e37a8bc14b2320fe0b12cab031fa300d6f275de446ecd28b0fb6d0c70d81944",
+  "board_version": 10,
+  "schematic_version": 6,
+  "native_board_sha256": "1f54bb40647f73a651bf838319e54bdb9f5c0de542d121b6ca24d0ba483beb1d",
+  "native_DRC_errors": 0,
+  "ERC_existing_power_net_name_warnings": 13,
+  "round_drills": {
+    "PTH": 85,
+    "NPTH": 4
+  },
+  "plated_slots": {
+    "count": 4,
+    "width_mm": 0.6,
+    "overall_length_mm": 1.4,
+    "native_toolpath_length_mm": 0.8,
+    "centres_mm": [
+      [
+        25.6,
+        19.68
+      ],
+      [
+        29.4,
+        19.68
+      ],
+      [
+        25.6,
+        28.32
+      ],
+      [
+        29.4,
+        28.32
+      ]
+    ],
+    "finished_copper_land_mm": [
+      1.1,
+      1.9
+    ],
+    "copper_annulus_mm": 0.25,
+    "mask_opening_mm": [
+      1.12,
+      1.92
+    ],
+    "note": "Fusion pad restring rules enlarge the nominal 1.0 x 1.8 mm library lands; actual native CAM dimensions checked."
+  },
+  "drill_source_match_tolerance_mm": 0.002,
+  "max_round_drill_coordinate_delta_mm": 0.0014142135623748235,
+  "all_slot_toolpaths_exactly_match_source": true,
+  "CPL": {
+    "rows": 45,
+    "native_coordinates_match_except_J5_body_centre": true,
+    "J5_native_pad_envelope_centre": [
+      "27.48",
+      "24.00",
+      "90.00"
+    ],
+    "J5_selected_body_centre": [
+      28.6,
+      24,
+      90
+    ]
+  },
+  "packaging": [
+    "Seven fabrication Gerbers copied byte-for-byte from Fusion export.",
+    "Native Excellon drill/toolpath blocks separated into PTH and NPTH by source board geometry, preserving every coordinate and slot command.",
+    "BOM and CPL supplied separately; paste omitted from fabrication ZIP."
+  ],
+  "files": [
+    {
+      "name": "C3-CarrierC-v10-NPTH.drl",
+      "bytes": 243,
+      "sha256": "8a5bc543c17723ce1b83c52f47bb0952a3e38347df8ff983e340a29c26b3c01c"
+    },
+    {
+      "name": "C3-CarrierC-v10-PTH.drl",
+      "bytes": 1633,
+      "sha256": "4e6dc153452440f2061793afbb522f43863fff2434724b19c8a32e42b154f3d3"
+    },
+    {
+      "name": "C3-CarrierC-v10.GBL",
+      "bytes": 29741,
+      "sha256": "ca820ea32340674dcfe51c2413cc2cf250f676cd5bcde981f0439748b3c24601"
+    },
+    {
+      "name": "C3-CarrierC-v10.GBO",
+      "bytes": 192944,
+      "sha256": "b75e79cf6a449e5666d29288bd25a1efdf50b7b1f3ba8e422fea94902da0b14c"
+    },
+    {
+      "name": "C3-CarrierC-v10.GBS",
+      "bytes": 987,
+      "sha256": "dd6f46989444fc9f965b874d690382c609c2569522fecff79b0534f3c99834bb"
+    },
+    {
+      "name": "C3-CarrierC-v10.GKO",
+      "bytes": 1778,
+      "sha256": "44fd6e85a277654f1fcd15eb57f475684e8ecc08fa48bea3bcac4b344f446f75"
+    },
+    {
+      "name": "C3-CarrierC-v10.GTL",
+      "bytes": 98069,
+      "sha256": "795dbbc544c5282b6a3feac67ef2f14c0d6f57e77c6310e35ab2726fef147f76"
+    },
+    {
+      "name": "C3-CarrierC-v10.GTO",
+      "bytes": 286008,
+      "sha256": "192d2afabed2bfd18b8b0aa9afd34ca9364c29c79b3b0e470081c0fa1f2512a9"
+    },
+    {
+      "name": "C3-CarrierC-v10.GTS",
+      "bytes": 4298,
+      "sha256": "75a3b8855d0618f0d5ca9b1d97f1fafb8a6a7a16e1be7dfd54ca808f1558a2e1"
+    }
+  ]
+}

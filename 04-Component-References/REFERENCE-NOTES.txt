@@ -1,3 +1,11 @@
+CURRENT v10 SUBSTITUTIONS — 5 October 2026
+Q1 TECH PUBLIC 8205A / C7419210; U4 PUOLOP DW01A / C351410;
+J5 SHOU HAN TYPE-C 6P / C456012. Exact supplied datasheets are included
+under filenames beginning Q1-, U4- and J5-. C1 is Panasonic EEUFM1E101 /
+C713389. Consult the v10 upload guide and sourcing workbook for current parts.
+The earlier DW01A.pdf, FS8205A.pdf and USB4125.pdf describe superseded selections.
+
+EARLIER REFERENCE RECORD
 C3 SCOUT — PERTINENT COMPONENT REFERENCES
 
 Manufacturer/reference CAD and PDFs retain their original ownership.

@@ -23,3 +23,17 @@ desktop.ini
 
 # Downloaded copies of the complete archive are redundant in Git.
 C3-Scout-Robot-Project.zip
+
+# Local software build products and recovery/development artifacts
+/artifacts/
+/firmware/build/
+/firmware/output/
+/firmware/output-*/
+/android/.gradle/
+/android/build-host/
+/android/**/build/
+/android/local.properties
+__pycache__/
+*.pyc
+*.keystore
+*.jks

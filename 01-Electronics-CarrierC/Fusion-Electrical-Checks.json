@@ -1,23 +1,188 @@
 {
   "schematic": {
+    "name": "C3 Carrier C v6",
+    "modified": false,
+    "saved": true,
+    "version": 6,
     "checked": true,
-    "linked": true,
-    "issues": {
-      "POWER pin U1 5V connected to ESP_5V": 1,
-      "POWER pin U2 VDD connected to VMOTOR": 2,
-      "POWER pin U2 AGND connected to GND": 2,
-      "POWER pin U2 PGND connected to GND": 2,
-      "POWER pin U3 VCC connected to USB5V": 1,
-      "POWER pin U4 VCC connected to DW_VCC": 1,
-      "POWER pin U4 VSS connected to BAT_MINUS": 1,
-      "POWER pin U5 VIN connected to VMOTOR": 1,
-      "POWER pin U6 VCCA connected to 3V3": 1,
-      "POWER pin U6 VCCB connected to VMOTOR": 1
-    }
+    "errors": [
+      {
+        "code": 104,
+        "description": "POWER pin U1 5V connected to ESP_5V",
+        "s1": "U1",
+        "s2": "5V",
+        "s3": "ESP_5V",
+        "s4": "",
+        "layer": 0,
+        "x": 43891200,
+        "y": 57708800,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U2 VDD connected to VMOTOR",
+        "s1": "U2",
+        "s2": "VDD",
+        "s3": "VMOTOR",
+        "s4": "",
+        "layer": 0,
+        "x": 90220800,
+        "y": 57708800,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U2 VDD connected to VMOTOR",
+        "s1": "U2",
+        "s2": "VDD",
+        "s3": "VMOTOR",
+        "s4": "",
+        "layer": 0,
+        "x": 95097600,
+        "y": 57708800,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U2 AGND connected to GND",
+        "s1": "U2",
+        "s2": "AGND",
+        "s3": "GND",
+        "s4": "",
+        "layer": 0,
+        "x": 87782400,
+        "y": 38201600,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U2 PGND connected to GND",
+        "s1": "U2",
+        "s2": "PGND",
+        "s3": "GND",
+        "s4": "",
+        "layer": 0,
+        "x": 91033600,
+        "y": 38201600,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U2 AGND connected to GND",
+        "s1": "U2",
+        "s2": "AGND",
+        "s3": "GND",
+        "s4": "",
+        "layer": 0,
+        "x": 94284800,
+        "y": 38201600,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U2 PGND connected to GND",
+        "s1": "U2",
+        "s2": "PGND",
+        "s3": "GND",
+        "s4": "",
+        "layer": 0,
+        "x": 97536000,
+        "y": 38201600,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U3 VCC connected to USB5V",
+        "s1": "U3",
+        "s2": "VCC",
+        "s3": "USB5V",
+        "s4": "",
+        "layer": 0,
+        "x": 64211200,
+        "y": 57708800,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U4 VCC connected to DW_VCC",
+        "s1": "U4",
+        "s2": "VCC",
+        "s3": "DW_VCC",
+        "s4": "",
+        "layer": 0,
+        "x": 52832000,
+        "y": 26822400,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U4 VSS connected to BAT_MINUS",
+        "s1": "U4",
+        "s2": "VSS",
+        "s3": "BAT_MINUS",
+        "s4": "",
+        "layer": 0,
+        "x": 57708800,
+        "y": 18694400,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U5 VIN connected to VMOTOR",
+        "s1": "U5",
+        "s2": "VIN",
+        "s3": "VMOTOR",
+        "s4": "",
+        "layer": 0,
+        "x": 59334400,
+        "y": 45516800,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U6 VCCA connected to 3V3",
+        "s1": "U6",
+        "s2": "VCCA",
+        "s3": "3V3",
+        "s4": "",
+        "layer": 0,
+        "x": 29260800,
+        "y": 56083200,
+        "state": 0,
+        "errorType": 1
+      },
+      {
+        "code": 104,
+        "description": "POWER pin U6 VCCB connected to VMOTOR",
+        "s1": "U6",
+        "s2": "VCCB",
+        "s3": "VMOTOR",
+        "s4": "",
+        "layer": 0,
+        "x": 34137600,
+        "y": 56083200,
+        "state": 0,
+        "errorType": 1
+      }
+    ]
   },
   "board": {
+    "name": "C3 Carrier C v10",
+    "modified": false,
+    "saved": true,
+    "version": 10,
     "checked": true,
-    "linked": true,
-    "issues": {}
+    "errors": []
   }
 }

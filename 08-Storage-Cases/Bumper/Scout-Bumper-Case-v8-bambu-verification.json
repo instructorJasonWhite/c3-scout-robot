@@ -1,0 +1,32 @@
+{
+  "variant": "Bumper",
+  "project": "Scout-Bumper-Case-v8-P1S-PLA-print.3mf",
+  "slice": "Scout-Bumper-Case-v8-P1S-PLA-print.gcode.3mf",
+  "mesh_matches_final_native_export": true,
+  "print_solids": 3,
+  "world_bounds_mm": [
+    [
+      15.600005999999993,
+      35.0999985,
+      0.0
+    ],
+    [
+      240.400002,
+      220.9000015,
+      32.0
+    ]
+  ],
+  "printer": "P1S / 0.4 mm / PLA Basic / textured PEI",
+  "layers_mm": 0.2,
+  "walls": 4,
+  "infill": "15% grid; thin blade filled by skin layers",
+  "supports_brim_prime_tower": false,
+  "estimated_time": "3h 57m 22s",
+  "filament_g": 176.96,
+  "layers": 159,
+  "gcode_checksum_valid": true,
+  "preview_checks": "Complete result and critical socket/flat-spring layers inspected in Studio.",
+  "floating_cantilever_warning": false,
+  "sent_to_printer": false,
+  "remaining_warning": "Unused extra filament profiles have zero flushing volume; only filament 1 prints."
+}

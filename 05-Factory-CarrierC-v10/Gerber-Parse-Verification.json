@@ -1,0 +1,184 @@
+{
+  "C3-CarrierC-v10-NPTH.drl": {
+    "objects": 4,
+    "types": {
+      "Flash": 4
+    },
+    "bounds_mm": [
+      [
+        1.3,
+        1.3
+      ],
+      [
+        30.7,
+        80.7
+      ]
+    ]
+  },
+  "C3-CarrierC-v10-PTH.drl": {
+    "objects": 89,
+    "types": {
+      "Flash": 85,
+      "Line": 4
+    },
+    "bounds_mm": [
+      [
+        0.531,
+        6.75
+      ],
+      [
+        31.4,
+        77.665
+      ]
+    ]
+  },
+  "C3-CarrierC-v10.GBL": {
+    "objects": 214,
+    "types": {
+      "Region": 28,
+      "Flash": 85,
+      "Line": 101
+    },
+    "bounds_mm": [
+      [
+        0.38100000000000006,
+        0.6
+      ],
+      [
+        31.55,
+        81.4
+      ]
+    ]
+  },
+  "C3-CarrierC-v10.GBO": {
+    "objects": 8182,
+    "types": {
+      "Line": 8182
+    },
+    "bounds_mm": [
+      [
+        3.8000000000000003,
+        11.95
+      ],
+      [
+        30.2178,
+        81.10000000000001
+      ]
+    ]
+  },
+  "C3-CarrierC-v10.GBS": {
+    "objects": 34,
+    "types": {
+      "Flash": 30,
+      "Line": 4
+    },
+    "bounds_mm": [
+      [
+        1.29,
+        1.29
+      ],
+      [
+        30.71,
+        80.71
+      ]
+    ]
+  },
+  "C3-CarrierC-v10.GKO": {
+    "objects": 84,
+    "types": {
+      "Line": 84
+    },
+    "bounds_mm": [
+      [
+        -0.127,
+        -0.127
+      ],
+      [
+        32.127,
+        82.127
+      ]
+    ]
+  },
+  "C3-CarrierC-v10.GTL": {
+    "objects": 775,
+    "types": {
+      "Region": 101,
+      "Flash": 230,
+      "Line": 444
+    },
+    "bounds_mm": [
+      [
+        0.38100000000000006,
+        0.6
+      ],
+      [
+        31.7,
+        81.4
+      ]
+    ]
+  },
+  "C3-CarrierC-v10.GTO": {
+    "objects": 13470,
+    "types": {
+      "Line": 13470
+    },
+    "bounds_mm": [
+      [
+        0.6,
+        1.2115
+      ],
+      [
+        31.25,
+        81.30000000000001
+      ]
+    ]
+  },
+  "C3-CarrierC-v10.GTS": {
+    "objects": 179,
+    "types": {
+      "Flash": 175,
+      "Line": 4
+    },
+    "bounds_mm": [
+      [
+        1.29,
+        1.29
+      ],
+      [
+        30.76,
+        80.71
+      ]
+    ]
+  },
+  "copper_pours_present_on_both_sides": true,
+  "plated_slots_verified": {
+    "count": 4,
+    "width_mm": 0.6,
+    "overall_length_mm": 1.4
+  },
+  "mask_apertures_match_source_pads_and_mounting_holes": true,
+  "top_mask_apertures": 179,
+  "bottom_mask_apertures": 34,
+  "no_extra_forced_via_mask_openings": true,
+  "closed_outline_loops": 2,
+  "outline_centerline_bounds_mm": [
+    [
+      0.0,
+      0.0,
+      32.0,
+      82.0
+    ],
+    [
+      11.0,
+      56.0,
+      23.0,
+      63.0
+    ]
+  ],
+  "profile_stroke_width_mm": 0.254,
+  "dimensions_are_centerline_dimensions_not_stroke_bounding_box": true,
+  "parser_notes": [
+    "Reader accepted native Fusion Excellon G90 command in body, with a header-position warning.",
+    "Bottom paste omitted because there are no bottom-side parts; rendering used empty paste for that side."
+  ]
+}

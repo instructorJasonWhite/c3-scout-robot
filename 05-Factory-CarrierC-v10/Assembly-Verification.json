@@ -1,0 +1,16 @@
+{
+  "BOM_groups": 24,
+  "factory_placements": 45,
+  "SMT": 44,
+  "THT": 1,
+  "all_four_XLSX_codes_verified": true,
+  "unrelated_BOM_rows_unchanged": true,
+  "all_45_CPL_positions_unchanged": true,
+  "codes": {
+    "Q1": "C7419210",
+    "U4": "C351410",
+    "C1": "C713389",
+    "J5": "C456012"
+  },
+  "local_guide_links_valid": true
+}

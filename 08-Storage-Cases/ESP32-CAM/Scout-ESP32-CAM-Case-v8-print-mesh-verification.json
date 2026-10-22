@@ -1,0 +1,102 @@
+{
+  "variant": "ESP32-CAM",
+  "project": "Scout-ESP32-CAM-Case-v8-P1S-PLA-ready.3mf",
+  "meshes": [
+    {
+      "file": "Scout-ESP32-CAM-Case-v8.stl",
+      "triangles": 16636,
+      "components": 3,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "degenerate_triangles": 0,
+      "bounds_mm": [
+        [
+          -53.79999923706055,
+          -61.79999923706055,
+          -1.7763568394002505e-14
+        ],
+        [
+          171.0,
+          124.0,
+          74.80000305175781
+        ]
+      ],
+      "dimensions_mm": [
+        224.79999923706055,
+        185.79999923706055,
+        74.80000305175783
+      ],
+      "volume_mm3": 248551.99499254848,
+      "bounds_match_cad": true,
+      "volume_matches_cad": true,
+      "passed": true
+    },
+    {
+      "file": "Scout-ESP32-CAM-Case-v8-Box.stl",
+      "triangles": 16504,
+      "components": 2,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "degenerate_triangles": 0,
+      "bounds_mm": [
+        [
+          -53.79999923706055,
+          -61.79999923706055,
+          -1.7763568394002505e-14
+        ],
+        [
+          171.0,
+          93.80000305175781,
+          74.80000305175781
+        ]
+      ],
+      "dimensions_mm": [
+        224.79999923706055,
+        155.60000228881836,
+        74.80000305175783
+      ],
+      "volume_mm3": 245929.23159878622,
+      "bounds_match_cad": true,
+      "volume_matches_cad": true,
+      "passed": true
+    },
+    {
+      "file": "Scout-ESP32-CAM-Case-v8-Latch.stl",
+      "triangles": 112,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "degenerate_triangles": 0,
+      "bounds_mm": [
+        [
+          37.79999923706055,
+          100.0,
+          -1.2212453270876722e-14
+        ],
+        [
+          92.30000305175781,
+          124.0,
+          5.099999904632568
+        ]
+      ],
+      "dimensions_mm": [
+        54.500003814697266,
+        24.0,
+        5.099999904632581
+      ],
+      "volume_mm3": 2622.7678655406835,
+      "bounds_match_cad": true,
+      "volume_matches_cad": true,
+      "passed": true
+    }
+  ],
+  "plate_translation_mm": [
+    69.39999961853027,
+    96.89999961853027,
+    0
+  ],
+  "latch_export": "Exact native triangles isolated by CAD bounds from complete-set mesh, no remeshing"
+}

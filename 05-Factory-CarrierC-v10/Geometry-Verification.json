@@ -1,0 +1,2986 @@
+{
+  "date": "2026-10-05",
+  "source": "https://jlcpcb.com/capabilities/pcb-capabilities",
+  "board_sha256": "1f54bb40647f73a651bf838319e54bdb9f5c0de542d121b6ca24d0ba483beb1d",
+  "board_version": 10,
+  "mask_expansion_mm": 0.01,
+  "schematic_version": 6,
+  "native_check": {
+    "schematic": {
+      "name": "C3 Carrier C v6",
+      "modified": false,
+      "saved": true,
+      "version": 6,
+      "checked": true,
+      "errors": [
+        {
+          "code": 104,
+          "description": "POWER pin U1 5V connected to ESP_5V",
+          "s1": "U1",
+          "s2": "5V",
+          "s3": "ESP_5V",
+          "s4": "",
+          "layer": 0,
+          "x": 43891200,
+          "y": 57708800,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U2 VDD connected to VMOTOR",
+          "s1": "U2",
+          "s2": "VDD",
+          "s3": "VMOTOR",
+          "s4": "",
+          "layer": 0,
+          "x": 90220800,
+          "y": 57708800,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U2 VDD connected to VMOTOR",
+          "s1": "U2",
+          "s2": "VDD",
+          "s3": "VMOTOR",
+          "s4": "",
+          "layer": 0,
+          "x": 95097600,
+          "y": 57708800,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U2 AGND connected to GND",
+          "s1": "U2",
+          "s2": "AGND",
+          "s3": "GND",
+          "s4": "",
+          "layer": 0,
+          "x": 87782400,
+          "y": 38201600,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U2 PGND connected to GND",
+          "s1": "U2",
+          "s2": "PGND",
+          "s3": "GND",
+          "s4": "",
+          "layer": 0,
+          "x": 91033600,
+          "y": 38201600,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U2 AGND connected to GND",
+          "s1": "U2",
+          "s2": "AGND",
+          "s3": "GND",
+          "s4": "",
+          "layer": 0,
+          "x": 94284800,
+          "y": 38201600,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U2 PGND connected to GND",
+          "s1": "U2",
+          "s2": "PGND",
+          "s3": "GND",
+          "s4": "",
+          "layer": 0,
+          "x": 97536000,
+          "y": 38201600,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U3 VCC connected to USB5V",
+          "s1": "U3",
+          "s2": "VCC",
+          "s3": "USB5V",
+          "s4": "",
+          "layer": 0,
+          "x": 64211200,
+          "y": 57708800,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U4 VCC connected to DW_VCC",
+          "s1": "U4",
+          "s2": "VCC",
+          "s3": "DW_VCC",
+          "s4": "",
+          "layer": 0,
+          "x": 52832000,
+          "y": 26822400,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U4 VSS connected to BAT_MINUS",
+          "s1": "U4",
+          "s2": "VSS",
+          "s3": "BAT_MINUS",
+          "s4": "",
+          "layer": 0,
+          "x": 57708800,
+          "y": 18694400,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U5 VIN connected to VMOTOR",
+          "s1": "U5",
+          "s2": "VIN",
+          "s3": "VMOTOR",
+          "s4": "",
+          "layer": 0,
+          "x": 59334400,
+          "y": 45516800,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U6 VCCA connected to 3V3",
+          "s1": "U6",
+          "s2": "VCCA",
+          "s3": "3V3",
+          "s4": "",
+          "layer": 0,
+          "x": 29260800,
+          "y": 56083200,
+          "state": 0,
+          "errorType": 1
+        },
+        {
+          "code": 104,
+          "description": "POWER pin U6 VCCB connected to VMOTOR",
+          "s1": "U6",
+          "s2": "VCCB",
+          "s3": "VMOTOR",
+          "s4": "",
+          "layer": 0,
+          "x": 34137600,
+          "y": 56083200,
+          "state": 0,
+          "errorType": 1
+        }
+      ]
+    },
+    "board": {
+      "name": "C3 Carrier C v10",
+      "modified": false,
+      "saved": true,
+      "version": 10,
+      "checked": true,
+      "errors": []
+    }
+  },
+  "scope": "2-layer FR-4, 1 oz, 1.6 mm nominal, routed perimeter. Geometry from a read-only Fusion MCP export; rendered pour copper not present in XML. No Gerber CAM release checked. Nominal geometry tolerance 0.002 mm.",
+  "counts": {
+    "components": 56,
+    "nets": 37,
+    "traces": 537,
+    "vias": 59,
+    "holes": 93,
+    "unrouted": 0,
+    "silk_graphics": 3257,
+    "silk_texts": 83
+  },
+  "minima": {
+    "track_width_mm": 0.254,
+    "pth_annulus": {
+      "id": "J5.SH1",
+      "mm": 0.25
+    },
+    "via_annulus_mm": 0.15,
+    "pth_drill_mm": 0.6,
+    "via_drill_mm": 0.3,
+    "npth_drill_mm": 3.4,
+    "smd_dimension_mm": 0.4,
+    "silk_graphic_width_mm": 0.15,
+    "silk_text_height_mm": 1.0,
+    "silk_text_stroke_mm": 0.2
+  },
+  "results": {
+    "copper": {
+      "name": "Different-net discrete copper",
+      "min": {
+        "mm": 0.2,
+        "a": {
+          "kind": "trace",
+          "id": "STDBY:T5",
+          "net": "STDBY",
+          "width_mm": 0.254,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            28.0345,
+            35.185
+          ]
+        },
+        "b": {
+          "kind": "trace",
+          "id": "CHRG:T2",
+          "net": "CHRG",
+          "width_mm": 0.254,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            28.7722,
+            36.4902
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            27.921,
+            35.312
+          ],
+          [
+            27.921,
+            35.512
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 231,
+      "limit_mm": 0.1,
+      "issue_count": 0,
+      "issues": []
+    },
+    "smd": {
+      "name": "Different-net SMD pads",
+      "min": {
+        "mm": 0.25,
+        "a": {
+          "kind": "smd",
+          "id": "Q1.1",
+          "net": "D12",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            6.1,
+            37.975
+          ]
+        },
+        "b": {
+          "kind": "smd",
+          "id": "Q1.2",
+          "net": "BAT_MINUS",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            6.1,
+            37.325
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            6.85,
+            37.775
+          ],
+          [
+            6.85,
+            37.525
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 28,
+      "limit_mm": 0.15,
+      "issue_count": 0,
+      "issues": []
+    },
+    "holes": {
+      "name": "Hole-to-hole edge gap",
+      "min": {
+        "mm": 0.5,
+        "a": {
+          "kind": "via",
+          "id": "GND:V6",
+          "net": "GND",
+          "diameter_mm": 0.3,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            10.5,
+            36.65
+          ]
+        },
+        "b": {
+          "kind": "via",
+          "id": "GND:V7",
+          "net": "GND",
+          "diameter_mm": 0.3,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            10.5,
+            37.45
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            10.5,
+            36.8
+          ],
+          [
+            10.5,
+            37.3
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 11,
+      "limit_mm": 0.45,
+      "issue_count": 0,
+      "issues": []
+    },
+    "via_trace": {
+      "name": "VIA hole edge to different-net trace",
+      "min": {
+        "mm": 0.350036,
+        "a": {
+          "kind": "via",
+          "id": "GND:V10",
+          "net": "GND",
+          "diameter_mm": 0.3,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            24.7,
+            32.5
+          ]
+        },
+        "b": {
+          "kind": "trace",
+          "id": "BAT_PLUS:T19",
+          "net": "BAT_PLUS",
+          "width_mm": 0.4,
+          "layers": [
+            16
+          ],
+          "center_mm": [
+            22.3028,
+            29.1128
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            24.80607,
+            32.39393
+          ],
+          [
+            25.05358,
+            32.14642
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 72,
+      "limit_mm": 0.2,
+      "issue_count": 0,
+      "issues": []
+    },
+    "via_copper": {
+      "name": "VIA hole edge to all other-net discrete copper",
+      "min": {
+        "mm": 0.35,
+        "a": {
+          "kind": "via",
+          "id": "GND:V17",
+          "net": "GND",
+          "diameter_mm": 0.3,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            19.7,
+            29.2
+          ]
+        },
+        "b": {
+          "kind": "smd",
+          "id": "R13.1",
+          "net": "PWM_B2",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            18.5,
+            29.6
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            19.55,
+            29.2
+          ],
+          [
+            19.2,
+            29.2
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 75,
+      "limit_mm": 0.2,
+      "issue_count": 0,
+      "issues": []
+    },
+    "pth_trace": {
+      "name": "PTH hole edge to different-net trace",
+      "min": {
+        "mm": 0.813,
+        "a": {
+          "kind": "pth",
+          "id": "J5.SH1",
+          "net": "GND",
+          "diameter_mm": 0.6,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            25.6,
+            19.68
+          ]
+        },
+        "b": {
+          "kind": "trace",
+          "id": "CC1:T3",
+          "net": "CC1",
+          "width_mm": 0.254,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            27.24,
+            20.8273
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            26.3,
+            19.68
+          ],
+          [
+            27.113,
+            19.68
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 46,
+      "limit_mm": 0.28,
+      "issue_count": 0,
+      "issues": []
+    },
+    "pth_copper": {
+      "name": "PTH hole edge to all other-net discrete copper",
+      "min": {
+        "mm": 0.752104,
+        "a": {
+          "kind": "pth",
+          "id": "J4.1",
+          "net": "FUSED_BAT",
+          "diameter_mm": 1.2,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            4.0,
+            38.25
+          ]
+        },
+        "b": {
+          "kind": "smd",
+          "id": "Q1.1",
+          "net": "D12",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            6.1,
+            37.975
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            4.59928,
+            38.22056
+          ],
+          [
+            5.35,
+            38.175
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 32,
+      "limit_mm": 0.28,
+      "issue_count": 0,
+      "issues": []
+    },
+    "npth_trace": {
+      "name": "NPTH hole edge to different-net trace",
+      "min": {
+        "mm": 2.580638,
+        "a": {
+          "kind": "npth",
+          "id": "Mount2",
+          "net": "",
+          "diameter_mm": 3.4,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            29.0,
+            3.0
+          ]
+        },
+        "b": {
+          "kind": "trace",
+          "id": "MOTOR_B2:T6",
+          "net": "MOTOR_B2",
+          "width_mm": 0.6,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            26.332,
+            6.81
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            27.79792,
+            4.20208
+          ],
+          [
+            25.97313,
+            6.02687
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 31,
+      "limit_mm": 0.2,
+      "issue_count": 0,
+      "issues": []
+    },
+    "npth_copper": {
+      "name": "NPTH hole edge to all other-net discrete copper",
+      "min": {
+        "mm": 2.108743,
+        "a": {
+          "kind": "npth",
+          "id": "Mount4",
+          "net": "",
+          "diameter_mm": 3.4,
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            29.0,
+            79.0
+          ]
+        },
+        "b": {
+          "kind": "pad",
+          "id": "U1.5V",
+          "net": "ESP_5V",
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            24.62,
+            77.14
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            27.43586,
+            78.33438
+          ],
+          [
+            25.49769,
+            77.50355
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 34,
+      "limit_mm": 0.2,
+      "issue_count": 0,
+      "issues": []
+    },
+    "mask_bridge": {
+      "name": "Gap between solder mask openings",
+      "min": {
+        "mm": 0.23,
+        "a": {
+          "kind": "smd",
+          "id": "R2.1",
+          "net": "CC1",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            22.5,
+            22.5
+          ]
+        },
+        "b": {
+          "kind": "smd",
+          "id": "C10.2",
+          "net": "GND",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            21.0,
+            22.1
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            21.79,
+            21.94
+          ],
+          [
+            21.56,
+            21.94
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 23,
+      "limit_mm": 0.13,
+      "issue_count": 0,
+      "issues": []
+    },
+    "mask_trace": {
+      "name": "Mask opening to different-net trace",
+      "min": {
+        "mm": 0.200037,
+        "a": {
+          "kind": "smd",
+          "id": "C9.2",
+          "net": "GND",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            19.7,
+            28.0
+          ]
+        },
+        "b": {
+          "kind": "trace",
+          "id": "3V3:T2",
+          "net": "3V3",
+          "width_mm": 0.254,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            19.0112,
+            26.9563
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            18.99,
+            27.44
+          ],
+          [
+            18.84855,
+            27.29855
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 93,
+      "limit_mm": 0.09,
+      "issue_count": 0,
+      "issues": []
+    },
+    "edge": {
+      "name": "Discrete copper to routed edge",
+      "min": {
+        "mm": 0.3,
+        "a": {
+          "kind": "trace",
+          "id": "USB5V:T23",
+          "net": "USB5V",
+          "width_mm": 0.4,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            30.6875,
+            26.3125
+          ]
+        },
+        "b": {
+          "kind": "edge",
+          "id": "Outer perimeter and rounded slot",
+          "net": "",
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            16.1413,
+            43.6146
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            31.7,
+            27.125
+          ],
+          [
+            32.0,
+            27.125
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 771,
+      "limit_mm": 0.2,
+      "issue_count": 0,
+      "issues": []
+    },
+    "same_net": {
+      "name": "Separated same-net trace segments (review candidates)",
+      "min": {
+        "mm": 0.011261,
+        "a": {
+          "kind": "trace",
+          "id": "MOTOR_A1:T1",
+          "net": "MOTOR_A1",
+          "width_mm": 0.6,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            20.43,
+            8.6827
+          ]
+        },
+        "b": {
+          "kind": "trace",
+          "id": "MOTOR_A1:T4",
+          "net": "MOTOR_A1",
+          "width_mm": 0.6,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            19.976,
+            10.215
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            20.53801,
+            9.24638
+          ],
+          [
+            20.54219,
+            9.25684
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 102,
+      "limit_mm": 0.25,
+      "issue_count": 83,
+      "issues": [
+        {
+          "mm": 0.011261,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_A1:T1",
+            "net": "MOTOR_A1",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.43,
+              8.6827
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_A1:T4",
+            "net": "MOTOR_A1",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              19.976,
+              10.215
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              20.53801,
+              9.24638
+            ],
+            [
+              20.54219,
+              9.25684
+            ]
+          ]
+        },
+        {
+          "mm": 0.019533,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T13",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.7452,
+              28.0172
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T24",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              12.939,
+              26.4455
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.80277,
+              27.80002
+            ],
+            [
+              11.80301,
+              27.78049
+            ]
+          ]
+        },
+        {
+          "mm": 0.027701,
+          "a": {
+            "kind": "trace",
+            "id": "IND:T14",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.0946,
+              16.9966
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "IND:T17",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.3272,
+              17.2462
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.20377,
+              17.12301
+            ],
+            [
+              11.2216,
+              17.1442
+            ]
+          ]
+        },
+        {
+          "mm": 0.02975,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T2",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.0611,
+              16.4291
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T15",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.9975,
+              17.5925
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              20.94075,
+              17.43575
+            ],
+            [
+              20.94075,
+              17.4655
+            ]
+          ]
+        },
+        {
+          "mm": 0.043,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T3",
+            "net": "BAT_PLUS",
+            "width_mm": 1.2,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              1.2,
+              25.95
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T9",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              2.043,
+              21.9643
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              1.8,
+              22.25
+            ],
+            [
+              1.843,
+              22.25
+            ]
+          ]
+        },
+        {
+          "mm": 0.05,
+          "a": {
+            "kind": "trace",
+            "id": "VMOTOR:T18",
+            "net": "VMOTOR",
+            "width_mm": 0.8,
+            "layers": [
+              16
+            ],
+            "center_mm": [
+              14.2775,
+              16.0
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "VMOTOR:T24",
+            "net": "VMOTOR",
+            "width_mm": 0.6,
+            "layers": [
+              16
+            ],
+            "center_mm": [
+              10.5525,
+              15.25
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.555,
+              15.6
+            ],
+            [
+              11.555,
+              15.55
+            ]
+          ]
+        },
+        {
+          "mm": 0.050696,
+          "a": {
+            "kind": "trace",
+            "id": "USB5V:T2",
+            "net": "USB5V",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.4375,
+              32.6875
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "USB5V:T33",
+            "net": "USB5V",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              19.3125,
+              33.125
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.26389,
+              32.91629
+            ],
+            [
+              21.23611,
+              32.95871
+            ]
+          ]
+        },
+        {
+          "mm": 0.067026,
+          "a": {
+            "kind": "trace",
+            "id": "VBAT_ADC:T1",
+            "net": "VBAT_ADC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              27.5805,
+              68.1567
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "VBAT_ADC:T3",
+            "net": "VBAT_ADC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              27.8075,
+              69.4053
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              27.6703,
+              68.8708
+            ],
+            [
+              27.7177,
+              68.9182
+            ]
+          ]
+        },
+        {
+          "mm": 0.067026,
+          "a": {
+            "kind": "trace",
+            "id": "VBAT_ADC:T3",
+            "net": "VBAT_ADC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              27.8075,
+              69.4053
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "VBAT_ADC:T17",
+            "net": "VBAT_ADC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              27.5238,
+              68.781
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              27.7177,
+              68.9182
+            ],
+            [
+              27.6703,
+              68.8708
+            ]
+          ]
+        },
+        {
+          "mm": 0.067026,
+          "a": {
+            "kind": "trace",
+            "id": "INB:T1",
+            "net": "INB",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              18.0465,
+              16.0603
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INB:T10",
+            "net": "INB",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              17.4223,
+              17.3655
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              17.9567,
+              17.2283
+            ],
+            [
+              17.9093,
+              17.2757
+            ]
+          ]
+        },
+        {
+          "mm": 0.067026,
+          "a": {
+            "kind": "trace",
+            "id": "IND:T11",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.35,
+              17.9898
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "IND:T14",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.0946,
+              16.9966
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.2602,
+              17.1622
+            ],
+            [
+              11.2128,
+              17.1148
+            ]
+          ]
+        },
+        {
+          "mm": 0.067973,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T10",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.6905,
+              28.148
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T24",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              12.939,
+              26.4455
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.7391,
+              27.84049
+            ],
+            [
+              11.7554,
+              27.77451
+            ]
+          ]
+        },
+        {
+          "mm": 0.067973,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T11",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.123,
+              28.829
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T25",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.804,
+              27.694
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.7391,
+              28.06749
+            ],
+            [
+              11.7554,
+              28.00151
+            ]
+          ]
+        },
+        {
+          "mm": 0.072196,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T4",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              6.625,
+              36.675
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T18",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              7.8883,
+              36.2633
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              7.34241,
+              36.62045
+            ],
+            [
+              7.41174,
+              36.60034
+            ]
+          ]
+        },
+        {
+          "mm": 0.081016,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_B2:T2",
+            "net": "MOTOR_B2",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.4635,
+              7.491
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_B2:T8",
+            "net": "MOTOR_B2",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.566,
+              8.2927
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.577,
+              7.9045
+            ],
+            [
+              11.57748,
+              7.98551
+            ]
+          ]
+        },
+        {
+          "mm": 0.081021,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_B1:T2",
+            "net": "MOTOR_B1",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              15.436,
+              7.491
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_B1:T9",
+            "net": "MOTOR_B1",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              15.3438,
+              8.2928
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              15.3225,
+              7.9045
+            ],
+            [
+              15.32271,
+              7.98552
+            ]
+          ]
+        },
+        {
+          "mm": 0.08154,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T13",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.1797,
+              34.05
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T19",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              10.2718,
+              33.7663
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              10.52758,
+              33.90858
+            ],
+            [
+              10.46992,
+              33.85092
+            ]
+          ]
+        },
+        {
+          "mm": 0.08154,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T12",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              10.2718,
+              33.6527
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T13",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.1797,
+              34.05
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              10.46992,
+              33.85092
+            ],
+            [
+              10.52758,
+              33.90858
+            ]
+          ]
+        },
+        {
+          "mm": 0.081541,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T16",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              26.2185,
+              32.5177
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_PLUS:T26",
+            "net": "BAT_PLUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              26.6295,
+              33.005
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              26.35992,
+              32.71592
+            ],
+            [
+              26.41732,
+              32.77384
+            ]
+          ]
+        },
+        {
+          "mm": 0.0865,
+          "a": {
+            "kind": "trace",
+            "id": "OD:T2",
+            "net": "OD",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              7.1505,
+              34.8445
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "OD:T4",
+            "net": "OD",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              6.4127,
+              35.9227
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              6.4695,
+              35.6525
+            ],
+            [
+              6.4695,
+              35.739
+            ]
+          ]
+        },
+        {
+          "mm": 0.0865,
+          "a": {
+            "kind": "trace",
+            "id": "OC:T5",
+            "net": "OC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.35,
+              35.412
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "OC:T7",
+            "net": "OC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.5203,
+              35.9228
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.4635,
+              35.6525
+            ],
+            [
+              11.4635,
+              35.739
+            ]
+          ]
+        },
+        {
+          "mm": 0.086501,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_ENABLE:T19",
+            "net": "MOTOR_ENABLE",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              8.5693,
+              73.4913
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_ENABLE:T22",
+            "net": "MOTOR_ENABLE",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              9.3435,
+              74.5848
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              9.307,
+              74.356
+            ],
+            [
+              9.30739,
+              74.4425
+            ]
+          ]
+        },
+        {
+          "mm": 0.086502,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_ENABLE:T4",
+            "net": "MOTOR_ENABLE",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              12.9957,
+              22.5297
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_ENABLE:T7",
+            "net": "MOTOR_ENABLE",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              13.0513,
+              22.1163
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              13.0525,
+              22.346
+            ],
+            [
+              13.0529,
+              22.2595
+            ]
+          ]
+        },
+        {
+          "mm": 0.086506,
+          "a": {
+            "kind": "trace",
+            "id": "STDBY:T6",
+            "net": "STDBY",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              27.5238,
+              34.7878
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "STDBY:T9",
+            "net": "STDBY",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              26.743,
+              34.3777
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              26.9995,
+              34.3905
+            ],
+            [
+              26.913,
+              34.38998
+            ]
+          ]
+        },
+        {
+          "mm": 0.086509,
+          "a": {
+            "kind": "trace",
+            "id": "PWM_B2:T2",
+            "net": "PWM_B2",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              18.3302,
+              29.1127
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "PWM_B2:T11",
+            "net": "PWM_B2",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              18.4435,
+              29.555
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              18.387,
+              29.2965
+            ],
+            [
+              18.38721,
+              29.38301
+            ]
+          ]
+        },
+        {
+          "mm": 0.099553,
+          "a": {
+            "kind": "trace",
+            "id": "CC2:T4",
+            "net": "CC2",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              24.25,
+              26.375
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "CC2:T6",
+            "net": "CC2",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              24.0,
+              26.9375
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              24.1602,
+              26.5898
+            ],
+            [
+              24.0898,
+              26.6602
+            ]
+          ]
+        },
+        {
+          "mm": 0.104921,
+          "a": {
+            "kind": "trace",
+            "id": "OC:T6",
+            "net": "OC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.4635,
+              35.6958
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "OC:T10",
+            "net": "OC",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.852,
+              36.0022
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.58409,
+              35.90584
+            ],
+            [
+              11.68344,
+              35.93956
+            ]
+          ]
+        },
+        {
+          "mm": 0.104926,
+          "a": {
+            "kind": "trace",
+            "id": "OD:T3",
+            "net": "OD",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              6.4695,
+              35.6958
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "OD:T7",
+            "net": "OD",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              6.1145,
+              36.0023
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              6.34891,
+              35.90584
+            ],
+            [
+              6.24959,
+              35.93968
+            ]
+          ]
+        },
+        {
+          "mm": 0.106,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T16",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.201,
+              17.5925
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T17",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.794,
+              17.5358
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.0505,
+              17.5925
+            ],
+            [
+              20.9445,
+              17.59251
+            ]
+          ]
+        },
+        {
+          "mm": 0.106907,
+          "a": {
+            "kind": "trace",
+            "id": "IND:T3",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              10.9811,
+              17.0534
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "IND:T17",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.3272,
+              17.2462
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.13915,
+              17.07496
+            ],
+            [
+              11.21474,
+              17.15055
+            ]
+          ]
+        },
+        {
+          "mm": 0.107594,
+          "a": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T13",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.1797,
+              34.05
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "BAT_MINUS:T16",
+            "net": "BAT_MINUS",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              9.1935,
+              34.8445
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              10.49036,
+              33.96008
+            ],
+            [
+              10.39366,
+              33.91289
+            ]
+          ]
+        },
+        {
+          "mm": 0.107726,
+          "a": {
+            "kind": "trace",
+            "id": "IND:T2",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.9459,
+              16.0886
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "IND:T17",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.3272,
+              17.2462
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.1492,
+              17.06442
+            ],
+            [
+              11.22043,
+              17.14523
+            ]
+          ]
+        },
+        {
+          "mm": 0.110807,
+          "a": {
+            "kind": "trace",
+            "id": "USB5V:T3",
+            "net": "USB5V",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.5,
+              31.8125
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "USB5V:T39",
+            "net": "USB5V",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.2125,
+              33.11
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.42057,
+              32.80853
+            ],
+            [
+              21.37691,
+              32.91038
+            ]
+          ]
+        },
+        {
+          "mm": 0.114049,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T14",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.9124,
+              17.3371
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T16",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.201,
+              17.5925
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.00705,
+              17.42205
+            ],
+            [
+              21.0877,
+              17.5027
+            ]
+          ]
+        },
+        {
+          "mm": 0.115562,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T2",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.0611,
+              16.4291
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T16",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.201,
+              17.5925
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.02132,
+              17.40692
+            ],
+            [
+              21.09572,
+              17.49535
+            ]
+          ]
+        },
+        {
+          "mm": 0.117048,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T12",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.8272,
+              17.4222
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T16",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.201,
+              17.5925
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              20.98412,
+              17.44363
+            ],
+            [
+              21.07727,
+              17.51451
+            ]
+          ]
+        },
+        {
+          "mm": 0.117849,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_B2:T1",
+            "net": "MOTOR_B2",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.577,
+              7.945
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_B2:T4",
+            "net": "MOTOR_B2",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.9743,
+              6.2992
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.4829,
+              7.31964
+            ],
+            [
+              11.44456,
+              7.2082
+            ]
+          ]
+        },
+        {
+          "mm": 0.117849,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_B1:T1",
+            "net": "MOTOR_B1",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              15.3225,
+              7.945
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_B1:T4",
+            "net": "MOTOR_B1",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              15.4927,
+              6.8667
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              15.41706,
+              7.3198
+            ],
+            [
+              15.4554,
+              7.20836
+            ]
+          ]
+        },
+        {
+          "mm": 0.117849,
+          "a": {
+            "kind": "trace",
+            "id": "MOTOR_A2:T1",
+            "net": "MOTOR_A2",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              16.6845,
+              8.6827
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "MOTOR_A2:T4",
+            "net": "MOTOR_A2",
+            "width_mm": 0.6,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              16.5143,
+              9.7043
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              16.58994,
+              9.2512
+            ],
+            [
+              16.5516,
+              9.36264
+            ]
+          ]
+        },
+        {
+          "mm": 0.11992,
+          "a": {
+            "kind": "trace",
+            "id": "IND:T16",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              10.9188,
+              17.1442
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "IND:T17",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.3272,
+              17.2462
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.06474,
+              17.18106
+            ],
+            [
+              11.18126,
+              17.20944
+            ]
+          ]
+        },
+        {
+          "mm": 0.121,
+          "a": {
+            "kind": "trace",
+            "id": "CC2:T5",
+            "net": "CC2",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              24.125,
+              26.625
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "CC2:T7",
+            "net": "CC2",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              23.9375,
+              27.1875
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              24.0,
+              26.877
+            ],
+            [
+              24.0,
+              26.998
+            ]
+          ]
+        },
+        {
+          "mm": 0.127821,
+          "a": {
+            "kind": "trace",
+            "id": "SW:T2",
+            "net": "SW",
+            "width_mm": 0.5,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              7.475,
+              50.275
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "SW:T4",
+            "net": "SW",
+            "width_mm": 0.8,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              6.075,
+              49.425
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              7.52435,
+              49.8721
+            ],
+            [
+              7.43397,
+              49.78172
+            ]
+          ]
+        },
+        {
+          "mm": 0.13033,
+          "a": {
+            "kind": "trace",
+            "id": "USB5V:T6",
+            "net": "USB5V",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              24.875,
+              22.5
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "USB5V:T8",
+            "net": "USB5V",
+            "width_mm": 0.4,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              23.875,
+              24.125
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              24.10858,
+              22.64142
+            ],
+            [
+              24.01642,
+              22.73358
+            ]
+          ]
+        },
+        {
+          "mm": 0.140595,
+          "a": {
+            "kind": "trace",
+            "id": "SW:T1",
+            "net": "SW",
+            "width_mm": 0.5,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              8.325,
+              49.95
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "SW:T4",
+            "net": "SW",
+            "width_mm": 0.8,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              6.075,
+              49.425
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              7.59388,
+              49.80856
+            ],
+            [
+              7.47795,
+              49.72902
+            ]
+          ]
+        },
+        {
+          "mm": 0.147283,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T1",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.565,
+              17.5925
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T2",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.0611,
+              16.4291
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.1347,
+              17.5027
+            ],
+            [
+              21.03055,
+              17.39855
+            ]
+          ]
+        },
+        {
+          "mm": 0.147283,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T1",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.565,
+              17.5925
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T14",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.9124,
+              17.3371
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.1347,
+              17.5027
+            ],
+            [
+              21.03055,
+              17.39855
+            ]
+          ]
+        },
+        {
+          "mm": 0.147283,
+          "a": {
+            "kind": "trace",
+            "id": "IND:T2",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.9459,
+              16.0886
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "IND:T11",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.35,
+              17.9898
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.15605,
+              17.05805
+            ],
+            [
+              11.2602,
+              17.1622
+            ]
+          ]
+        },
+        {
+          "mm": 0.147283,
+          "a": {
+            "kind": "trace",
+            "id": "IND:T3",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              10.9811,
+              17.0534
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "IND:T11",
+            "net": "IND",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              11.35,
+              17.9898
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              11.15605,
+              17.05805
+            ],
+            [
+              11.2602,
+              17.1622
+            ]
+          ]
+        },
+        {
+          "mm": 0.153,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T11",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.7705,
+              18.0465
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T16",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.201,
+              17.5925
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              20.8975,
+              17.5925
+            ],
+            [
+              21.0505,
+              17.5925
+            ]
+          ]
+        },
+        {
+          "mm": 0.153,
+          "a": {
+            "kind": "trace",
+            "id": "INA:T1",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              21.565,
+              17.5925
+            ]
+          },
+          "b": {
+            "kind": "trace",
+            "id": "INA:T17",
+            "net": "INA",
+            "width_mm": 0.254,
+            "layers": [
+              1
+            ],
+            "center_mm": [
+              20.794,
+              17.5358
+            ]
+          },
+          "nearest_points_mm": [
+            [
+              21.0975,
+              17.5925
+            ],
+            [
+              20.9445,
+              17.59251
+            ]
+          ]
+        }
+      ]
+    },
+    "text_box_mask": {
+      "name": "Conservative text envelope to mask opening",
+      "min": {
+        "mm": 0.29,
+        "a": {
+          "kind": "text",
+          "id": "U6",
+          "net": "",
+          "size_mm": 1.0,
+          "stroke_mm": 0.2,
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            16.05,
+            20.45
+          ]
+        },
+        "b": {
+          "kind": "smd",
+          "id": "U6.14",
+          "net": "VMOTOR",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            16.95,
+            22.1
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            16.925,
+            21.05
+          ],
+          [
+            16.925,
+            21.34
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 24,
+      "limit_mm": 0.15,
+      "issue_count": 0,
+      "issues": []
+    }
+  },
+  "silk_graphic_clearances": [
+    {
+      "name": "Layer 21 graphic to mask opening",
+      "min": {
+        "mm": 0.265709,
+        "a": {
+          "kind": "stroke",
+          "id": "Silk123",
+          "net": "",
+          "width_mm": 0.2,
+          "layers": [
+            21
+          ],
+          "center_mm": [
+            5.0,
+            51.4
+          ]
+        },
+        "b": {
+          "kind": "smd",
+          "id": "D3.2",
+          "net": "SW",
+          "layers": [
+            1
+          ],
+          "center_mm": [
+            7.15,
+            53.0
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            5.87872,
+            51.47883
+          ],
+          [
+            6.04,
+            51.69
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 1,
+      "limit_mm": 0.15,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "name": "Layer 22 graphic to mask opening",
+      "min": {
+        "mm": 0.326898,
+        "a": {
+          "kind": "stroke",
+          "id": "Silk1330",
+          "net": "",
+          "width_mm": 0.18,
+          "layers": [
+            22
+          ],
+          "center_mm": [
+            24.1953,
+            19.56
+          ]
+        },
+        "b": {
+          "kind": "pad",
+          "id": "J5.SH1",
+          "net": "GND",
+          "layers": [
+            1,
+            16
+          ],
+          "center_mm": [
+            25.6,
+            19.68
+          ]
+        },
+        "nearest_points_mm": [
+          [
+            24.31982,
+            19.57102
+          ],
+          [
+            24.64421,
+            19.61145
+          ]
+        ]
+      },
+      "measured_nearby_pairs": 1,
+      "limit_mm": 0.15,
+      "issue_count": 0,
+      "issues": []
+    }
+  ],
+  "rules": {
+    "mdWireWire": "0.2mm",
+    "mdWirePad": "0.2mm",
+    "mdWireVia": "0.2mm",
+    "mdPadPad": "0.2mm",
+    "mdPadVia": "0.2mm",
+    "mdViaVia": "0.2mm",
+    "mdSmdPad": "0.2mm",
+    "mdSmdVia": "0.2mm",
+    "mdSmdSmd": "0.2mm",
+    "mdCopperDimension": "0.3mm",
+    "mdDrill": "0.45mm",
+    "msWidth": "0.2mm",
+    "msDrill": "0.3mm",
+    "dpMaxLengthDifference": "10mm",
+    "dpGapFactor": "2.5",
+    "layerSetup": "(1*16)",
+    "mtCopper": "0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm",
+    "mtIsolate": "1.53mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm",
+    "mdViaViaSameLayer": "0.2mm",
+    "mnLayersViaInSmd": "2",
+    "mdSmdStop": "0.15mm",
+    "msMicroVia": "9.99mm",
+    "msBlindViaRatio": "0.5",
+    "rvPadTop": "0.25",
+    "rvPadInner": "0.25",
+    "rvPadBottom": "0.25",
+    "rvViaOuter": "0.25",
+    "rvViaInner": "0.25",
+    "rvMicroViaOuter": "0.25",
+    "rvMicroViaInner": "0.25",
+    "rlMinPadTop": "0.25mm",
+    "rlMaxPadTop": "20mil",
+    "rlMinPadInner": "0.25mm",
+    "rlMaxPadInner": "20mil",
+    "rlMinPadBottom": "0.25mm",
+    "rlMaxPadBottom": "20mil",
+    "rlMinViaOuter": "0.15mm",
+    "rlMaxViaOuter": "20mil",
+    "rlMinViaInner": "0.15mm",
+    "rlMaxViaInner": "20mil",
+    "rlMinMicroViaOuter": "4mil",
+    "rlMaxMicroViaOuter": "20mil",
+    "rlMinMicroViaInner": "4mil",
+    "rlMaxMicroViaInner": "20mil",
+    "psTop": "-1",
+    "psBottom": "-1",
+    "psFirst": "-1",
+    "psElongationLong": "100",
+    "psElongationOffset": "100",
+    "mvStopFrame": "1",
+    "mvCreamFrame": "0",
+    "mlMinStopFrame": "0.01mm",
+    "mlMaxStopFrame": "0.01mm",
+    "mlMinCreamFrame": "0mil",
+    "mlMaxCreamFrame": "0mil",
+    "mlViaStopLimit": "9999mil",
+    "srRoundness": "0",
+    "srMinRoundness": "0mil",
+    "srMaxRoundness": "0mil",
+    "slThermalIsolate": "10mil",
+    "slThermalsForVias": "0",
+    "checkAngle": "0",
+    "checkRestrict": "1",
+    "checkStop": "1",
+    "checkValues": "0",
+    "checkNames": "1",
+    "checkWireStubs": "1",
+    "checkPolygonWidth": "0",
+    "useDiameter": "13",
+    "flattenRefDes": "0",
+    "maxErrors": "999999"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parts": 56,
+  "nets": 37,
+  "all_net_assignments_preserved": true,
+  "all_component_positions_preserved": true,
+  "outline_and_silkscreens_preserved": true,
+  "source_attributes_match_BOM_choices": true,
+  "native_PTH_slots": 4,
+  "slot_dimensions_mm": [
+    0.6,
+    1.4
+  ],
+  "electrical_contact_names_preserved": true,
+  "source": "Fusion MCP exports after library update",
+  "nominal_library_slot_annulus_mm": 0.2,
+  "native_CAM_slot_annulus_mm": 0.25,
+  "USB_C_route_endpoints_adjusted": 5,
+  "maximum_endpoint_adjustment_mm": 0.037,
+  "all_other_routed_wires_and_vias_unchanged": true,
+  "all_changed_schematic_NAME_VALUE_labels_restored": true
+}

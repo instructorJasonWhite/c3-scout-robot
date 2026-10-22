@@ -12,3 +12,18 @@
 *.png binary
 *.jpg binary
 *.zip binary
+
+# Released payloads retain the exact bytes recorded in PROJECT-MANIFEST.json.
+/01-Electronics-CarrierC/** -text
+/02-Mechanical-RevB/** -text
+/03-Print-STL/** -text
+/04-Component-References/** -text
+/05-Factory-CarrierC-v10/** -text
+/06-Scout-Control/** -text
+/07-Bumper-Options/** -text
+/08-Storage-Cases/** -text
+/assets/** -text
+/downloads/** -text
+/libraries/ScoutFaces/README.md -text
+/docs/browser-control.md -text
+/docs/control-v1.2.md -text

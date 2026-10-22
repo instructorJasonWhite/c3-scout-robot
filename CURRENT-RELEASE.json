@@ -1,0 +1,13 @@
+{
+  "guide_date": "2026-10-21",
+  "mechanics": "Rev B",
+  "electronics": "Carrier C v10 / Silk 03",
+  "web_firmware": "2026-10-19 / SCOUT 2 / protocol 2",
+  "faces_library": "1.0.0",
+  "storage_cases": {
+    "Bumper": "v8",
+    "OLED": "v8",
+    "ESP32-CAM": "v8"
+  },
+  "physical_fit_notes": "Rev B / Carrier C populated clearance and complete v8 case fit require physical verification."
+}

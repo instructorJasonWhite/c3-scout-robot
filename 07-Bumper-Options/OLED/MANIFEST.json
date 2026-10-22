@@ -1,0 +1,63 @@
+{
+  "title": "Scout integrated OLED bumper prototype v1",
+  "units": "mm",
+  "physical_fit_tested": false,
+  "files": {
+    "ASSEMBLY.html": {
+      "bytes": 7274,
+      "sha256": "2dbd1c3800e9a32ee2256d75dad208db4b1b536a03ab50b4d3f5c24ed78cc2ca"
+    },
+    "Scout-OLED-Bumper-v1.f3d": {
+      "bytes": 320196,
+      "sha256": "2519b2fc02ff1bc943809ce65325975aec8a3b3dd675d8b78dd0f931e5e9e5a1"
+    },
+    "Scout-OLED-Bumper-v1.stl": {
+      "bytes": 137684,
+      "sha256": "00c25e15a247e7580e083b3a026aa357d274612e54f415be6e9d9f8d106f0fb9"
+    },
+    "Scout-OLED-Bumper-v1.step": {
+      "bytes": 159616,
+      "sha256": "501cf06fc6e2eabaf530f39eba03f97329ef92101272e1bc28570cd73fff84d2"
+    },
+    "Scout-OLED-Assembly-v1.f3d": {
+      "bytes": 15759052,
+      "sha256": "cf844e2a2a4208357e7feb8d4f01ccee6939aeacf082125474308cbc5d96a283"
+    },
+    "scout-oled-assembly.png": {
+      "bytes": 412753,
+      "sha256": "d61050f4b3dc01b1d436f2218b5526e114bd91a080662a2f53906cc197725525"
+    },
+    "scout-oled-detail.png": {
+      "bytes": 767572,
+      "sha256": "be09344fdbc65dddf3143e22417cad32bf296d9b4d691a37988bcc28c4873b25"
+    },
+    "bumper-only.png": {
+      "bytes": 174764,
+      "sha256": "357425c9e0a186463572448a6de94df0cb03146067b8d08efc67e794b08e8dfb"
+    },
+    "bumper-with-oled.png": {
+      "bytes": 151766,
+      "sha256": "6ed559df701b18c6c72438edf6c85a107e9c711a886943d9168f541e722c4c8c"
+    },
+    "bumper-rear.png": {
+      "bytes": 127229,
+      "sha256": "8b909c168892ba88ef950ca8eda3ea5c5ec9223395df657d24f5fd68f746721e"
+    },
+    "design-dimensions.json": {
+      "bytes": 552,
+      "sha256": "0f791b3821047e5aa8dc28bcd0d29e28e0e80e7b1ae860704921e6af4c6c1f36"
+    },
+    "cad-verification.json": {
+      "bytes": 6547,
+      "sha256": "e5976f7c5d645383b4d41e8ae6518c25514f57a5edb0b80a742cf36943b1c977"
+    },
+    "mesh-verification.json": {
+      "bytes": 1493,
+      "sha256": "4eb9cdcee1045e48a412da2855186716927cbe32b6916617515b1c6b139390a2"
+    },
+    "guide-verification.json": {
+      "bytes": 110,
+      "sha256": "64f998b943e1107af00aaecda47ae1fb5c7a7a31010a0ca60403bd7962d4b421"
+    }
+  }
+}

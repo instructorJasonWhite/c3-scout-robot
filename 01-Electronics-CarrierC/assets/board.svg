@@ -280,6 +280,9 @@
 <path class="copper layer1" data-net="INA" d="M20.884 17.3655L20.7705 17.479" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="INA" d="M16.344 22.019L16.3 22.1" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="INA" d="M20.884 17.3655L20.94075 17.30875" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M21.1775 17.5925L20.8175 17.5925" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M21.1775 17.5925L21.2245 17.5925" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="INA" d="M20.8175 17.5925L20.7705 17.479" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INA / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="INB" d="M18.0465 14.982L18.0465 17.1385" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="INB" d="M17.933 14.8685L18.0465 14.982" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="INB" d="M17.933 13.7335L17.933 14.8685" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>INB / layer 1 / 0.254 mm</title></path>
@@ -343,6 +346,9 @@
 <path class="copper layer1" data-net="IND" d="M11.123 17.025L11.35 17.252" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="IND" d="M14.301 22.019L14.35 22.1" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="IND" d="M11.123 17.025L11.06625 16.96825" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M10.9416 17.15L11.3044 17.2405" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M10.9416 17.15L10.896 17.1385" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
+<path class="copper layer1" data-net="IND" d="M11.3044 17.2405L11.35 17.252" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>IND / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="MOTOR_B2" d="M11.577 7.6045L11.577 8.2855" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
 <path class="copper layer1" data-net="MOTOR_B2" d="M11.35 7.3775L11.577 7.6045" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
 <path class="copper layer1" data-net="MOTOR_B2" d="M11.35 6.9235L11.35 7.3775" fill="none" stroke="#edb66f" stroke-width="0.6" stroke-linecap="round"><title>MOTOR_B2 / layer 1 / 0.6 mm</title></path>
@@ -513,6 +519,9 @@
 <path class="copper layer1" data-net="SW" d="M7.15 50.6L7.15 53" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>SW / layer 1 / 0.5 mm</title></path>
 <path class="copper layer1" data-net="SW" d="M5 49.35L7.15 49.5" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>SW / layer 1 / 0.8 mm</title></path>
 <path class="copper layer1" data-net="SW" d="M7.15 49.5L7.15 50.6" fill="none" stroke="#edb66f" stroke-width="0.8" stroke-linecap="round"><title>SW / layer 1 / 0.8 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M7.6598 49.8538L7.412 49.6838" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>SW / layer 1 / 0.5 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M7.6598 49.8538L7.8 49.95" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>SW / layer 1 / 0.5 mm</title></path>
+<path class="copper layer1" data-net="SW" d="M7.412 49.6838L7.15 49.5" fill="none" stroke="#edb66f" stroke-width="0.5" stroke-linecap="round"><title>SW / layer 1 / 0.5 mm</title></path>
 <path class="copper layer1" data-net="FB" d="M8.85 48.05L8.85 47.4" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="FB" d="M8.85 47.4L9.45 46.8" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>
 <path class="copper layer1" data-net="FB" d="M9.45 46.8L10.8 46.8" fill="none" stroke="#edb66f" stroke-width="0.254" stroke-linecap="round"><title>FB / layer 1 / 0.254 mm</title></path>

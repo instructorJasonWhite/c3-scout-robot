@@ -1,29 +1,26 @@
 [
   {
-    "document": "C3 Carrier C v4",
+    "name": "C3 Carrier C v10",
     "type": "adsk::electron::EcadDesignDocument",
-    "saved": true,
     "modified": false,
+    "active": true,
     "id": "urn:adsk.wipprod:dm.lineage:CtOC4UDLTOiBLrFnbSImHA",
-    "latest_version": 4,
-    "cloud_complete": true
+    "version": 10
   },
   {
-    "document": "C3 Carrier C v3",
+    "name": "C3 Carrier C v6",
     "type": "adsk::electron::SchematicDocument",
-    "saved": true,
     "modified": false,
+    "active": false,
     "id": "urn:adsk.wipprod:dm.lineage:U24_G6MZQuGCtNOJkVljcQ",
-    "latest_version": 3,
-    "cloud_complete": true
+    "version": 6
   },
   {
-    "document": "C3 Carrier C v4",
+    "name": "C3 Carrier C v10",
     "type": "adsk::electron::BoardDocument",
-    "saved": true,
     "modified": false,
+    "active": false,
     "id": "urn:adsk.wipprod:dm.lineage:hXfEBW-OSMCKRdUUeNlplA",
-    "latest_version": 4,
-    "cloud_complete": true
+    "version": 10
   }
 ]

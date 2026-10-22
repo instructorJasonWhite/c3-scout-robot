@@ -1,50 +1,350 @@
 {
   "project": "C3 Scout Robot",
-  "snapshot_date": "2026-10-04",
-  "electrical_revision": "Carrier C, Fusion parent v4, schematic v3, board v4",
+  "snapshot_date": "2026-10-21",
+  "electrical_revision": "Carrier C / Silk 03, Fusion parent v10, schematic v6, board v10",
   "mechanical_revision": "Integral bay / all M3 / Rev B",
   "ecad_mcad_synchronized": false,
-  "original_files_preserved": true,
+  "original_files_preserved": false,
   "files": [
     {
-      "file": "01-Electronics-CarrierC/assets/board.svg",
-      "bytes": 193533,
-      "sha256": "adeaed017a0037a16efdd2da9182149010ee2917ce8699060cae040a17c7872d",
-      "source": "outputs/C3-Carrier-RevC/assets/board.svg",
-      "source_sha256": "adeaed017a0037a16efdd2da9182149010ee2917ce8699060cae040a17c7872d",
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-BOM.xlsx",
+      "bytes": 8791,
+      "sha256": "19338638b983a359a5aa11885d5dbc638fafb929528116a0ade59c05d722d5db",
+      "source": "Website release package/01-Electronics-CarrierC/C3-Carrier-RevC-BOM.xlsx",
+      "source_sha256": "19338638b983a359a5aa11885d5dbc638fafb929528116a0ade59c05d722d5db",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "674a2e447230198ab3db2db297e019f0600e8c36c9c2072e9231e891e692dc29"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-Board-Layout.pdf",
+      "bytes": 56761,
+      "sha256": "b51bfa9b2f491f196328b1eaeb20e120689b4f7d895516aaf77f1d7b8ad7a10b",
+      "source": "Website release package/01-Electronics-CarrierC/C3-Carrier-RevC-Board-Layout.pdf",
+      "source_sha256": "b51bfa9b2f491f196328b1eaeb20e120689b4f7d895516aaf77f1d7b8ad7a10b",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "35f4b05fa23ad76957598f68744027ff8b0fdad32f73bd912c70fadb8922e4b1"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-Schematic.pdf",
+      "bytes": 111930,
+      "sha256": "26be7cd469a6e8eaff1cbf0e3a7bfb20a9788f50a87226dab1c504a43e6d20e7",
+      "source": "Website release package/01-Electronics-CarrierC/C3-Carrier-RevC-Schematic.pdf",
+      "source_sha256": "26be7cd469a6e8eaff1cbf0e3a7bfb20a9788f50a87226dab1c504a43e6d20e7",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "1d3f29d46631b1256192d200e0eb8c8cecc05d18a990ae4dab3fa89b5f2ae91a"
+    },
+    {
+      "previous_sha256": "1cd18661024ac00dea4d7a033c1830bcd0169958215936920acac717c467300c",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/C3-Carrier-RevC-Silkscreen-Review.pdf",
+      "source_sha256": "c876f5010d1b3b54c23a38d28d68971a9ef45b459fe723ecc8949ce807c3098b",
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-Silkscreen-Review.pdf",
+      "bytes": 250429,
+      "sha256": "c876f5010d1b3b54c23a38d28d68971a9ef45b459fe723ecc8949ce807c3098b"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC.brd",
+      "bytes": 356731,
+      "sha256": "1f54bb40647f73a651bf838319e54bdb9f5c0de542d121b6ca24d0ba483beb1d",
+      "source": "Website release package/01-Electronics-CarrierC/C3-Carrier-RevC.brd",
+      "source_sha256": "1f54bb40647f73a651bf838319e54bdb9f5c0de542d121b6ca24d0ba483beb1d",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "a1762cca9d154dc8a6d9db7a4ae696df0bf8f4a2c83d075bf36919f35318df2c"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-Carrier-RevC.sch",
+      "bytes": 135499,
+      "sha256": "5823f2c8438399b2c02b1be9bde35589677cc469b8feab0c7b080c5d83ebd40f",
+      "source": "Website release package/01-Electronics-CarrierC/C3-Carrier-RevC.sch",
+      "source_sha256": "5823f2c8438399b2c02b1be9bde35589677cc469b8feab0c7b080c5d83ebd40f",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "419948ae89aa36b30e0e13bc60920de7539d23494bed6f829a0344eb015d12d9"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3-JLCPCB-2Layer-1oz.dru",
+      "bytes": 2098,
+      "sha256": "4408ad5539cad4b4652316e744af89205704cbe15ae4212058fd37dc7e08a874",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/C3-JLCPCB-2Layer-1oz.dru",
+      "source_sha256": "4408ad5539cad4b4652316e744af89205704cbe15ae4212058fd37dc7e08a874",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "3aa6aae0b39eff323ff14b3a24ddef802b7b7f2b2bd320f0f5cbab568309e5d2"
+    },
+    {
+      "file": "01-Electronics-CarrierC/C3_SCOUT_REVC.lbr",
+      "bytes": 69135,
+      "sha256": "e053a9d1abb551f3345eb3bcc332747ba6a0e6e47c3dfa990645ecd9f1826d24",
+      "source": "Website release package/01-Electronics-CarrierC/C3_SCOUT_REVC.lbr",
+      "source_sha256": "e053a9d1abb551f3345eb3bcc332747ba6a0e6e47c3dfa990645ecd9f1826d24",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "ce793b8db0a678bf263b09c3c9db36fe03e50a4e0961d5b9b569a6d7219cf825"
+    },
+    {
+      "previous_sha256": "5ba78780de88d63d34b419d735357e68bea8190cc7d8f37433515a51175f79f0",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "source": "Website release package/01-Electronics-CarrierC/CHANGE-NOTES.txt",
+      "source_sha256": "b283229eee574f16725fc68281ef67fe9fe0d2b3df31f6eec307cb62b273224a",
+      "file": "01-Electronics-CarrierC/CHANGE-NOTES.txt",
+      "bytes": 1387,
+      "sha256": "b283229eee574f16725fc68281ef67fe9fe0d2b3df31f6eec307cb62b273224a"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Carrier-Review.html",
+      "bytes": 262792,
+      "sha256": "9de4046efdfaf899ce1a2b29f830615c0a048364ad2d11f529b21e42a8f0101a",
+      "source": "Website release package/01-Electronics-CarrierC/Carrier-Review.html",
+      "source_sha256": "9de4046efdfaf899ce1a2b29f830615c0a048364ad2d11f529b21e42a8f0101a",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "packaging_change": "Only the old nested ZIP link/card was replaced by a link to the project index.",
+      "previous_sha256": "3dd8da8a9a5bbcad2edca05a664d59279dc445fa728db6b15e01049bee961fa1"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Connectivity-Audit.json",
+      "bytes": 261,
+      "sha256": "0f4ce144f6cec675b9c1d620c95e73c23d3c6339d02067f55ba0e989c7d7dc72",
+      "source": "outputs/C3-Carrier-RevC/Connectivity-Audit.json",
+      "source_sha256": "0f4ce144f6cec675b9c1d620c95e73c23d3c6339d02067f55ba0e989c7d7dc72",
       "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-DRC.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/Fusion-DRC.json",
+      "source_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-ERC.json",
+      "bytes": 3289,
+      "sha256": "61258206249cc9cc1de610d684ee29b7f993456a7c3f7fea80feba6619d553cc",
+      "source": "outputs/C3-Carrier-RevC/Fusion-ERC.json",
+      "source_sha256": "61258206249cc9cc1de610d684ee29b7f993456a7c3f7fea80feba6619d553cc",
+      "note": "Latest electrical revision, Carrier C"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-Electrical-Checks.json",
+      "bytes": 4286,
+      "sha256": "4d3a587d179d45b02b8f964730ef75eba99b88c105e9228b43a921980d514551",
+      "source": "Website release package/01-Electronics-CarrierC/Fusion-Electrical-Checks.json",
+      "source_sha256": "4d3a587d179d45b02b8f964730ef75eba99b88c105e9228b43a921980d514551",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "4b3923cf9276a9630cba28df16b3017ce7d05420cd7ab4456b67d55818511c93"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Fusion-Saved-Project.json",
+      "bytes": 644,
+      "sha256": "a3af0ad8b6a418405aff416e536eb18f12fad3fd5ef369a41d1cf9b27ff1ddb0",
+      "source": "Website release package/01-Electronics-CarrierC/Fusion-Saved-Project.json",
+      "source_sha256": "a3af0ad8b6a418405aff416e536eb18f12fad3fd5ef369a41d1cf9b27ff1ddb0",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "previous_sha256": "a30680a239ed08ba328872b23179f3720727b4adc87a58aa5cfa3412e5e1bca1"
+    },
+    {
+      "file": "01-Electronics-CarrierC/Geometry-Audit.json",
+      "bytes": 372,
+      "sha256": "8188ce3aaf00bbd25d684649dd109ed48e22221d044594216d6377c0d0a80c30",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/Geometry-Audit.json",
+      "source_sha256": "8188ce3aaf00bbd25d684649dd109ed48e22221d044594216d6377c0d0a80c30",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "0e8f723dd303e4a9b09856afc7e0a56bdecdce01b6dfadecb7e19edaddc8e7cc"
+    },
+    {
+      "file": "01-Electronics-CarrierC/JLCPCB-Audit.json",
+      "previous_sha256": "0c8ac4a50a45ea9478f941629d690166be87609afe416b2ae19de3e1d6033276",
+      "source_sha256": "8c344889df7dcbd0bd9796d838eefdb2e9fa7809f2dc65ca4df0f22a7d63da39",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/JLCPCB-Audit.json",
+      "bytes": 62392,
+      "sha256": "8c344889df7dcbd0bd9796d838eefdb2e9fa7809f2dc65ca4df0f22a7d63da39"
+    },
+    {
+      "file": "01-Electronics-CarrierC/JLCPCB-Corrections.json",
+      "previous_sha256": null,
+      "source_sha256": "bd1cdcf9096684bbb3b557f55dea1d05ebd1591df46ab6e5574015f06564cb36",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/JLCPCB-Corrections.json",
+      "bytes": 2175,
+      "sha256": "bd1cdcf9096684bbb3b557f55dea1d05ebd1591df46ab6e5574015f06564cb36"
+    },
+    {
+      "file": "01-Electronics-CarrierC/JLCPCB-Review.html",
+      "previous_sha256": "b367afcc3b10ee7ec3bf43a7a8075db86d6fb826c5377e5b2b3b7c483cf01567",
+      "source_sha256": "c2a176550ed6aa6f59e277afad9e9321a6a56f9901b9205424e36c400183de15",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "source": "Website release package/01-Electronics-CarrierC/JLCPCB-Review.html",
+      "bytes": 11925,
+      "sha256": "c2a176550ed6aa6f59e277afad9e9321a6a56f9901b9205424e36c400183de15"
+    },
+    {
+      "file": "01-Electronics-CarrierC/LATEST-FACTORY-REVISION.txt",
+      "source": "Website release package/01-Electronics-CarrierC/LATEST-FACTORY-REVISION.txt",
+      "source_sha256": "203007fc31ddcde6079398ffa87a68546bdae6232a7c32261bbc0a78c57677d0",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 237,
+      "sha256": "203007fc31ddcde6079398ffa87a68546bdae6232a7c32261bbc0a78c57677d0"
+    },
+    {
+      "previous_sha256": null,
+      "source_sha256": "1a2cfec8d7eb7d7a8b75d2c8a17f1d1a3a96c4520388f17c574674fc91dad3b5",
+      "note": "Updated 5 October 2026: Silk 03, dual IC Genie artwork; electrical geometry unchanged.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/Large-Logo-Geometry.json",
+      "file": "01-Electronics-CarrierC/Large-Logo-Geometry.json",
+      "bytes": 230,
+      "sha256": "1a2cfec8d7eb7d7a8b75d2c8a17f1d1a3a96c4520388f17c574674fc91dad3b5"
+    },
+    {
+      "previous_sha256": "46a079c003205e06c676c4f6fd299399bf3303f590d1b3eb52dd44326d37fdf5",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "source": "Website release package/01-Electronics-CarrierC/Silkscreen-Review.html",
+      "source_sha256": "bc657081c05f64126498bf660961dc42096dec69a0fa508abcdb9d90bff582f1",
+      "file": "01-Electronics-CarrierC/Silkscreen-Review.html",
+      "bytes": 7544,
+      "sha256": "bc657081c05f64126498bf660961dc42096dec69a0fa508abcdb9d90bff582f1"
+    },
+    {
+      "previous_sha256": "688d1882b4eb4681ffadc682f093aa56807d140fd8765fc4c704116bfe34a409",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/Silkscreen-Verification.json",
+      "source_sha256": "b5cb9d65bc05255eac996b5f6294e8f52c3bcab7163c4cdf2c01bd45d8f1d9f7",
+      "file": "01-Electronics-CarrierC/Silkscreen-Verification.json",
+      "bytes": 1415,
+      "sha256": "b5cb9d65bc05255eac996b5f6294e8f52c3bcab7163c4cdf2c01bd45d8f1d9f7"
+    },
+    {
+      "previous_sha256": "afd0a811a329cea07cacd23f2bb5f0cb5af07e3f0b3a10d7efbeec560c564d6f",
+      "source_sha256": "bc55ee93bcbc95a8005934a2e8fcc0dc8250681a391daf61e91898e423e47f22",
+      "note": "Updated 5 October 2026: Silk 03, small genie on top under ESP, large genie underneath; electrical geometry unchanged.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/Small-Logo-Geometry.json",
+      "file": "01-Electronics-CarrierC/Small-Logo-Geometry.json",
+      "bytes": 325,
+      "sha256": "bc55ee93bcbc95a8005934a2e8fcc0dc8250681a391daf61e91898e423e47f22"
+    },
+    {
+      "previous_sha256": null,
+      "source_sha256": "87a4eaebcbb9f95b1776486f9a695710e1f7dee44c8a25facd866615136011a4",
+      "note": "Updated 5 October 2026: Silk 03, dual IC Genie artwork; electrical geometry unchanged.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/IC-Genie-source.png",
+      "file": "01-Electronics-CarrierC/assets/IC-Genie-source.png",
+      "bytes": 950420,
+      "sha256": "87a4eaebcbb9f95b1776486f9a695710e1f7dee44c8a25facd866615136011a4"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/board.svg",
+      "bytes": 195297,
+      "sha256": "de7f92f5704cc1029bb75d220cd266bc78acf220e29a6e83554532a48c14f2d1",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/board.svg",
+      "source_sha256": "de7f92f5704cc1029bb75d220cd266bc78acf220e29a6e83554532a48c14f2d1",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "adeaed017a0037a16efdd2da9182149010ee2917ce8699060cae040a17c7872d"
+    },
+    {
+      "previous_sha256": "44cd8cc3c7c4594f091392db33713184ffacb263ec34d9374ddb0e5ac8fb2803",
+      "note": "Updated 5 October 2026: Silk 03, small genie on top under ESP, large genie underneath; electrical geometry unchanged.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/bottom-silk.png",
+      "source_sha256": "434d7894e1651bdf91512f627abb2beea37175cb59e83228c0b3ea8f96a5041b",
+      "file": "01-Electronics-CarrierC/assets/bottom-silk.png",
+      "bytes": 117333,
+      "sha256": "434d7894e1651bdf91512f627abb2beea37175cb59e83228c0b3ea8f96a5041b"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/jlc-gap-ina.svg",
+      "previous_sha256": "c9ca276972511c91cea29a259609641908b14fb3d2908598c5e3af790df75416",
+      "source_sha256": "b29ec57f99356c6b6b98e50eb0e6feadff0923ce125bc9ea2e5f7ba2138b76f0",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/jlc-gap-ina.svg",
+      "bytes": 296097,
+      "sha256": "b29ec57f99356c6b6b98e50eb0e6feadff0923ce125bc9ea2e5f7ba2138b76f0"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/jlc-gap-ind.svg",
+      "previous_sha256": "36f4763748cf448a3cfd87051ec8453c3e67c0695fcf63c9bd971312bc99bc6d",
+      "source_sha256": "671aea843286d6db8f2d07233526e00d283462adb0d54d7b46c265e38fffdb81",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/jlc-gap-ind.svg",
+      "bytes": 195925,
+      "sha256": "671aea843286d6db8f2d07233526e00d283462adb0d54d7b46c265e38fffdb81"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/jlc-gap-sw.svg",
+      "previous_sha256": "84baefe3e03f753a81d6474ea51b582db923d5a0e789de0c102092a316377768",
+      "source_sha256": "6e3eebd1c32f027d3bfca08027758df4f16c3d8a200d947dd0503dda4f5cf66c",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/jlc-gap-sw.svg",
+      "bytes": 178361,
+      "sha256": "6e3eebd1c32f027d3bfca08027758df4f16c3d8a200d947dd0503dda4f5cf66c"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/jlc-mask-switch.svg",
+      "previous_sha256": "d9ced2d3de6ae05286e85effeb99b83ff25b18ec5c23f35cac2abb9fe90dd4a5",
+      "source_sha256": "b7a6e4356433ca1c6e77f098fc314b495199445b97529eed878d2ed10f71a37c",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/jlc-mask-switch.svg",
+      "bytes": 109953,
+      "sha256": "b7a6e4356433ca1c6e77f098fc314b495199445b97529eed878d2ed10f71a37c"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/jlc-mask-usb.svg",
+      "previous_sha256": "eceeadccd3d155fac1e2d0006663dbd6b787e6b88c804c7e9a40b3ba9642358e",
+      "source_sha256": "47b8ab99cde17b66d2b8c0e5ce765c62491a31e0c9b60be4e8b88054ec29d45a",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/jlc-mask-usb.svg",
+      "bytes": 177988,
+      "sha256": "47b8ab99cde17b66d2b8c0e5ce765c62491a31e0c9b60be4e8b88054ec29d45a"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/jlc-silk-bottom.svg",
+      "previous_sha256": "132894b20a6149c42ed3e50314a3fdf1ffac90d575621764351e57484df5c3a2",
+      "source_sha256": "97319d237a69d11285ad975f91531a27ed380e0e46752c7134e7c76f076e4ae5",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/jlc-silk-bottom.svg",
+      "bytes": 2206567,
+      "sha256": "97319d237a69d11285ad975f91531a27ed380e0e46752c7134e7c76f076e4ae5"
+    },
+    {
+      "file": "01-Electronics-CarrierC/assets/jlc-silk-top.svg",
+      "previous_sha256": "1606a9978a6f049ea18d64a92f40631296e05223474dfd51165bea35be9ae90b",
+      "source_sha256": "e0596101879a029f303cce991d1a80ea393ddbeb925dbcc095e970a0bb611a7e",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/jlc-silk-top.svg",
+      "bytes": 197833,
+      "sha256": "e0596101879a029f303cce991d1a80ea393ddbeb925dbcc095e970a0bb611a7e"
     },
     {
       "file": "01-Electronics-CarrierC/assets/layout-1.png",
-      "bytes": 134843,
-      "sha256": "766131f091f9b3569e59ed3956e61aaa94d8f4e054c1c6397131542b7da4813b",
-      "source": "outputs/C3-Carrier-RevC/assets/layout-1.png",
-      "source_sha256": "766131f091f9b3569e59ed3956e61aaa94d8f4e054c1c6397131542b7da4813b",
-      "note": "Latest electrical revision, Carrier C"
+      "bytes": 115946,
+      "sha256": "2eaf955bbf598603eb49ccd649ccaa05793f4417678518a646e5f437318f31f3",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/layout-1.png",
+      "source_sha256": "2eaf955bbf598603eb49ccd649ccaa05793f4417678518a646e5f437318f31f3",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "0093da3fde4816a4824b18822f2431a7476e2fb33e683f57aa884eab1a8178bc"
     },
     {
       "file": "01-Electronics-CarrierC/assets/layout-2.png",
-      "bytes": 119270,
-      "sha256": "f5099aee72faabe8970f3c10638c97ce78e3df5fd336e2d20279858167399aa6",
-      "source": "outputs/C3-Carrier-RevC/assets/layout-2.png",
-      "source_sha256": "f5099aee72faabe8970f3c10638c97ce78e3df5fd336e2d20279858167399aa6",
-      "note": "Latest electrical revision, Carrier C"
+      "bytes": 98164,
+      "sha256": "48cae2f87157a1ebc686ae6e5efba9f9dcbfd4df1cd4869f5212f13b47451043",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/layout-2.png",
+      "source_sha256": "48cae2f87157a1ebc686ae6e5efba9f9dcbfd4df1cd4869f5212f13b47451043",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "346e67f72e7b6a518aebd49cc1196b02154bfc4be157fabd451b64783ded7f4a"
     },
     {
       "file": "01-Electronics-CarrierC/assets/layout-3.png",
-      "bytes": 107762,
-      "sha256": "7fcfaf7b7060b29a6a35192be2773f381b329e1aae0ee5816d9a56c7785d2b9c",
-      "source": "outputs/C3-Carrier-RevC/assets/layout-3.png",
-      "source_sha256": "7fcfaf7b7060b29a6a35192be2773f381b329e1aae0ee5816d9a56c7785d2b9c",
-      "note": "Latest electrical revision, Carrier C"
+      "bytes": 107125,
+      "sha256": "45425d89236358b9162c70a8c75eb85297677978fec2e0c85deab8f9a1736845",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/layout-3.png",
+      "source_sha256": "45425d89236358b9162c70a8c75eb85297677978fec2e0c85deab8f9a1736845",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "054935a27ed19b24dbcd5deb9f0766156c8bc3b154aa549114745970462399ef"
     },
     {
       "file": "01-Electronics-CarrierC/assets/layout-4.png",
-      "bytes": 97663,
-      "sha256": "573a01e3e45459e01f2a014d614da26e25916f2d4113f8a3030cc5c389edcc80",
-      "source": "outputs/C3-Carrier-RevC/assets/layout-4.png",
-      "source_sha256": "573a01e3e45459e01f2a014d614da26e25916f2d4113f8a3030cc5c389edcc80",
-      "note": "Latest electrical revision, Carrier C"
+      "bytes": 87818,
+      "sha256": "2c4bed0e0374ae1cfcf7d291dd6161ef6d8825dfdd2f22d5038e861737149ef5",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/layout-4.png",
+      "source_sha256": "2c4bed0e0374ae1cfcf7d291dd6161ef6d8825dfdd2f22d5038e861737149ef5",
+      "note": "Manufacturing corrections verified 5 October 2026; Carrier C v8 / Silk 03.",
+      "previous_sha256": "4688188be7cbdbf169981684bff86723b69949aaefb070d1a92ba8ae114f9c38"
     },
     {
       "file": "01-Electronics-CarrierC/assets/schematic-1.png",
@@ -79,117 +379,22 @@
       "note": "Latest electrical revision, Carrier C"
     },
     {
-      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-Board-Layout.pdf",
-      "bytes": 414000,
-      "sha256": "2be51bbf45a8db2d787af3002d108176c08e8867ada6f0bc4381c34bbbe801c6",
-      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC-Board-Layout.pdf",
-      "source_sha256": "2be51bbf45a8db2d787af3002d108176c08e8867ada6f0bc4381c34bbbe801c6",
-      "note": "Latest electrical revision, Carrier C"
+      "previous_sha256": "f506a5bae4ef621e82c2957128ecd54a214ad56995a9ac41798a656a2c5f532c",
+      "note": "Updated 5 October 2026: Silk 03, small genie on top under ESP, large genie underneath; electrical geometry unchanged.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/top-assembly.png",
+      "source_sha256": "50dbf3a2deb3766923c4a1cdb03ad0f18a60f7e1bed72716698a92bc7d78310b",
+      "file": "01-Electronics-CarrierC/assets/top-assembly.png",
+      "bytes": 160517,
+      "sha256": "50dbf3a2deb3766923c4a1cdb03ad0f18a60f7e1bed72716698a92bc7d78310b"
     },
     {
-      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-BOM.xlsx",
-      "bytes": 8681,
-      "sha256": "674a2e447230198ab3db2db297e019f0600e8c36c9c2072e9231e891e692dc29",
-      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC-BOM.xlsx",
-      "source_sha256": "674a2e447230198ab3db2db297e019f0600e8c36c9c2072e9231e891e692dc29",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/C3-Carrier-RevC-Schematic.pdf",
-      "bytes": 108326,
-      "sha256": "1d3f29d46631b1256192d200e0eb8c8cecc05d18a990ae4dab3fa89b5f2ae91a",
-      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC-Schematic.pdf",
-      "source_sha256": "1d3f29d46631b1256192d200e0eb8c8cecc05d18a990ae4dab3fa89b5f2ae91a",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/C3-Carrier-RevC.brd",
-      "bytes": 112620,
-      "sha256": "cf8749191bc03004b71a04c4d7fbd6b59c7e9e91b1ed7fc08ff693781d8201fc",
-      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC.brd",
-      "source_sha256": "cf8749191bc03004b71a04c4d7fbd6b59c7e9e91b1ed7fc08ff693781d8201fc",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/C3-Carrier-RevC.sch",
-      "bytes": 132544,
-      "sha256": "419948ae89aa36b30e0e13bc60920de7539d23494bed6f829a0344eb015d12d9",
-      "source": "outputs/C3-Carrier-RevC/C3-Carrier-RevC.sch",
-      "source_sha256": "419948ae89aa36b30e0e13bc60920de7539d23494bed6f829a0344eb015d12d9",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/C3-JLCPCB-2Layer-1oz.dru",
-      "bytes": 1996,
-      "sha256": "3aa6aae0b39eff323ff14b3a24ddef802b7b7f2b2bd320f0f5cbab568309e5d2",
-      "source": "outputs/C3-Carrier-RevC/C3-JLCPCB-2Layer-1oz.dru",
-      "source_sha256": "3aa6aae0b39eff323ff14b3a24ddef802b7b7f2b2bd320f0f5cbab568309e5d2",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/C3_SCOUT_REVC.lbr",
-      "bytes": 67876,
-      "sha256": "ce793b8db0a678bf263b09c3c9db36fe03e50a4e0961d5b9b569a6d7219cf825",
-      "source": "outputs/C3-Carrier-RevC/C3_SCOUT_REVC.lbr",
-      "source_sha256": "ce793b8db0a678bf263b09c3c9db36fe03e50a4e0961d5b9b569a6d7219cf825",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/Carrier-Review.html",
-      "bytes": 258342,
-      "sha256": "29b6b27a687d38bc2c57a19190f1c7fc5ccd7a0e31e7fdbb1e74dd405561362d",
-      "source": "outputs/C3-Carrier-RevC/Carrier-Review.html",
-      "source_sha256": "f31cbe0f911709f73cb47c52b27339049e605763c48a5d6202d9bd5b702f4564",
-      "note": "Latest electrical revision, Carrier C",
-      "packaging_change": "Only the old nested ZIP link/card was replaced by a link to the project index."
-    },
-    {
-      "file": "01-Electronics-CarrierC/Connectivity-Audit.json",
-      "bytes": 261,
-      "sha256": "0f4ce144f6cec675b9c1d620c95e73c23d3c6339d02067f55ba0e989c7d7dc72",
-      "source": "outputs/C3-Carrier-RevC/Connectivity-Audit.json",
-      "source_sha256": "0f4ce144f6cec675b9c1d620c95e73c23d3c6339d02067f55ba0e989c7d7dc72",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/Fusion-DRC.json",
-      "bytes": 2,
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "source": "outputs/C3-Carrier-RevC/Fusion-DRC.json",
-      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/Fusion-Electrical-Checks.json",
-      "bytes": 670,
-      "sha256": "4b825527650195830cabf9d4cf7413490a17984e87a69e89d9df11d8a80772f9",
-      "source": "outputs/C3-Carrier-RevC/Fusion-Electrical-Checks.json",
-      "source_sha256": "4b825527650195830cabf9d4cf7413490a17984e87a69e89d9df11d8a80772f9",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/Fusion-ERC.json",
-      "bytes": 3289,
-      "sha256": "61258206249cc9cc1de610d684ee29b7f993456a7c3f7fea80feba6619d553cc",
-      "source": "outputs/C3-Carrier-RevC/Fusion-ERC.json",
-      "source_sha256": "61258206249cc9cc1de610d684ee29b7f993456a7c3f7fea80feba6619d553cc",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/Fusion-Saved-Project.json",
-      "bytes": 780,
-      "sha256": "752785b13e6d9c68ce4199e8bc1c87f74c0cf87390d8fa831852fcc2da8c417f",
-      "source": "outputs/C3-Carrier-RevC/Fusion-Saved-Project.json",
-      "source_sha256": "752785b13e6d9c68ce4199e8bc1c87f74c0cf87390d8fa831852fcc2da8c417f",
-      "note": "Latest electrical revision, Carrier C"
-    },
-    {
-      "file": "01-Electronics-CarrierC/Geometry-Audit.json",
-      "bytes": 372,
-      "sha256": "0e8f723dd303e4a9b09856afc7e0a56bdecdce01b6dfadecb7e19edaddc8e7cc",
-      "source": "outputs/C3-Carrier-RevC/Geometry-Audit.json",
-      "source_sha256": "0e8f723dd303e4a9b09856afc7e0a56bdecdce01b6dfadecb7e19edaddc8e7cc",
-      "note": "Latest electrical revision, Carrier C"
+      "previous_sha256": "bde2413dbe5c6f5082e497b6fd0139d6f2281445c8ea80499824b8316bf3f5bb",
+      "note": "Updated 5 October 2026: Silk 03, small genie on top under ESP, large genie underneath; electrical geometry unchanged.",
+      "source": "outputs/C3-Scout-Robot-Project/01-Electronics-CarrierC/assets/top-silk.png",
+      "source_sha256": "3eb45bf4a352026c642441a226f925e74eb6ac88cad97a0650f772c50fc8fdf2",
+      "file": "01-Electronics-CarrierC/assets/top-silk.png",
+      "bytes": 139958,
+      "sha256": "3eb45bf4a352026c642441a226f925e74eb6ac88cad97a0650f772c50fc8fdf2"
     },
     {
       "file": "02-Mechanical-RevB/C3-Carrier-rover-rear.png",
@@ -408,6 +613,14 @@
       "note": "Reference used in Carrier C circuit audit"
     },
     {
+      "file": "04-Component-References/J5-SHOU-HAN-TYPE-C-6P-C456012.pdf",
+      "source": "Website release package/04-Component-References/J5-SHOU-HAN-TYPE-C-6P-C456012.pdf",
+      "source_sha256": "bdc8c76a0b0961582946047f496af19d1c28df24ebc2c00a4de9501d6735871c",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 1044913,
+      "sha256": "bdc8c76a0b0961582946047f496af19d1c28df24ebc2c00a4de9501d6735871c"
+    },
+    {
       "file": "04-Component-References/MT3608.pdf",
       "bytes": 612004,
       "sha256": "fe848b6e4af5cf5a8245b98a14d677f923e47799b47fb83e0d1d02dc817ddede",
@@ -440,10 +653,21 @@
       "note": ""
     },
     {
+      "file": "04-Component-References/Q1-TECH-PUBLIC-8205A-C7419210.pdf",
+      "source": "Website release package/04-Component-References/Q1-TECH-PUBLIC-8205A-C7419210.pdf",
+      "source_sha256": "843c997bd38b18add798f10110848fd1d4951a6cf26977147c912125376ff076",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 3104278,
+      "sha256": "843c997bd38b18add798f10110848fd1d4951a6cf26977147c912125376ff076"
+    },
+    {
       "file": "04-Component-References/REFERENCE-NOTES.txt",
-      "bytes": 1525,
-      "sha256": "fdd5b999cf103dc39e47269c96f64aad3938946d2832c2760e9ad520bba7ef49",
-      "source": "Created package index, notes or validation evidence."
+      "bytes": 1934,
+      "sha256": "cab5a547a249f835e98953f6fab1bd934eeda997a9c5343ed8466cb07365f763",
+      "source": "Website release package/04-Component-References/REFERENCE-NOTES.txt",
+      "previous_sha256": "fdd5b999cf103dc39e47269c96f64aad3938946d2832c2760e9ad520bba7ef49",
+      "source_sha256": "cab5a547a249f835e98953f6fab1bd934eeda997a9c5343ed8466cb07365f763",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked."
     },
     {
       "file": "04-Component-References/TC1508A-Manufacturer-Datasheet.pdf",
@@ -470,6 +694,14 @@
       "note": "Reference used in Carrier C circuit audit"
     },
     {
+      "file": "04-Component-References/U4-PUOLOP-DW01A-C351410.pdf",
+      "source": "Website release package/04-Component-References/U4-PUOLOP-DW01A-C351410.pdf",
+      "source_sha256": "37348f602e5e5d50fd60ea868b05e5c552bd965b0a94fcf937800f9b49d4c1b1",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 953916,
+      "sha256": "37348f602e5e5d50fd60ea868b05e5c552bd965b0a94fcf937800f9b49d4c1b1"
+    },
+    {
       "file": "04-Component-References/USB4125.pdf",
       "bytes": 469688,
       "sha256": "ea33e0b40545e545bf698cbac3bb1c0f5a3fc7ca6b5b7fda83a63134d4affaa7",
@@ -478,16 +710,1546 @@
       "note": "Reference used in Carrier C circuit audit"
     },
     {
+      "file": "05-Factory-CarrierC-v10/Assembly-Verification.json",
+      "source": "Website release package/05-Factory-CarrierC-v10/Assembly-Verification.json",
+      "source_sha256": "f98a807c843bf9c04c3b855259ea88bd0fca722d9b189fdc179830a7b4f3b90e",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 349,
+      "sha256": "f98a807c843bf9c04c3b855259ea88bd0fca722d9b189fdc179830a7b4f3b90e"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/C3-CarrierC-v10-BOM.csv",
+      "source": "Website release package/05-Factory-CarrierC-v10/C3-CarrierC-v10-BOM.csv",
+      "source_sha256": "95196421a55374badb3c6a60f17160f5800b46108bbe31309b24b9ab360e0fcc",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 1991,
+      "sha256": "95196421a55374badb3c6a60f17160f5800b46108bbe31309b24b9ab360e0fcc"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/C3-CarrierC-v10-CPL.csv",
+      "source": "Website release package/05-Factory-CarrierC-v10/C3-CarrierC-v10-CPL.csv",
+      "source_sha256": "5e9fc38404f8e2f2369660f21d6335ad0fda0af81bf6f74d50415cbbbbb177c1",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 1313,
+      "sha256": "5e9fc38404f8e2f2369660f21d6335ad0fda0af81bf6f74d50415cbbbbb177c1"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/C3-CarrierC-v10-Gerbers.zip",
+      "source": "Website release package/05-Factory-CarrierC-v10/C3-CarrierC-v10-Gerbers.zip",
+      "source_sha256": "eacd52be0fe329b707b89de15cb6459c69bf72f70cf25dd96912327efb717467",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 169640,
+      "sha256": "eacd52be0fe329b707b89de15cb6459c69bf72f70cf25dd96912327efb717467"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/C3-CarrierC-v10-Sourcing-BOM.xlsx",
+      "source": "Website release package/05-Factory-CarrierC-v10/C3-CarrierC-v10-Sourcing-BOM.xlsx",
+      "source_sha256": "19338638b983a359a5aa11885d5dbc638fafb929528116a0ade59c05d722d5db",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 8791,
+      "sha256": "19338638b983a359a5aa11885d5dbc638fafb929528116a0ade59c05d722d5db"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Component-Change-Verification.json",
+      "source": "Website release package/05-Factory-CarrierC-v10/Component-Change-Verification.json",
+      "source_sha256": "e00e95098ccba504eefb9cf225a9d0166ee7200c2da830f03d5e88238ed38ec6",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 678,
+      "sha256": "e00e95098ccba504eefb9cf225a9d0166ee7200c2da830f03d5e88238ed38ec6"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Fusion-Checks.json",
+      "source": "Website release package/05-Factory-CarrierC-v10/Fusion-Checks.json",
+      "source_sha256": "4d3a587d179d45b02b8f964730ef75eba99b88c105e9228b43a921980d514551",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 4286,
+      "sha256": "4d3a587d179d45b02b8f964730ef75eba99b88c105e9228b43a921980d514551"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Board-Layout.pdf",
+      "source": "Website release package/05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Board-Layout.pdf",
+      "source_sha256": "b51bfa9b2f491f196328b1eaeb20e120689b4f7d895516aaf77f1d7b8ad7a10b",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 56761,
+      "sha256": "b51bfa9b2f491f196328b1eaeb20e120689b4f7d895516aaf77f1d7b8ad7a10b"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Schematic.pdf",
+      "source": "Website release package/05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Schematic.pdf",
+      "source_sha256": "26be7cd469a6e8eaff1cbf0e3a7bfb20a9788f50a87226dab1c504a43e6d20e7",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 111930,
+      "sha256": "26be7cd469a6e8eaff1cbf0e3a7bfb20a9788f50a87226dab1c504a43e6d20e7"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC.brd",
+      "source": "Website release package/05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC.brd",
+      "source_sha256": "1f54bb40647f73a651bf838319e54bdb9f5c0de542d121b6ca24d0ba483beb1d",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 356731,
+      "sha256": "1f54bb40647f73a651bf838319e54bdb9f5c0de542d121b6ca24d0ba483beb1d"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC.sch",
+      "source": "Website release package/05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC.sch",
+      "source_sha256": "5823f2c8438399b2c02b1be9bde35589677cc469b8feab0c7b080c5d83ebd40f",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 135499,
+      "sha256": "5823f2c8438399b2c02b1be9bde35589677cc469b8feab0c7b080c5d83ebd40f"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Fusion-Source/C3_SCOUT_REVC.lbr",
+      "source": "Website release package/05-Factory-CarrierC-v10/Fusion-Source/C3_SCOUT_REVC.lbr",
+      "source_sha256": "e053a9d1abb551f3345eb3bcc332747ba6a0e6e47c3dfa990645ecd9f1826d24",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 69135,
+      "sha256": "e053a9d1abb551f3345eb3bcc332747ba6a0e6e47c3dfa990645ecd9f1826d24"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Geometry-Verification.json",
+      "source": "Website release package/05-Factory-CarrierC-v10/Geometry-Verification.json",
+      "source_sha256": "701a9c2cdb3e5028148259b5a5f26f57bcf3ef776f0542fe64a8c1c367c7312f",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 65881,
+      "sha256": "701a9c2cdb3e5028148259b5a5f26f57bcf3ef776f0542fe64a8c1c367c7312f"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Gerber-Parse-Verification.json",
+      "source": "Website release package/05-Factory-CarrierC-v10/Gerber-Parse-Verification.json",
+      "source_sha256": "a76d9fe007a2e3dd83c5b5307345dad8bcf52380d49a1db12fcf4d5e6b03682b",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 3091,
+      "sha256": "a76d9fe007a2e3dd83c5b5307345dad8bcf52380d49a1db12fcf4d5e6b03682b"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/Manufacturing-Verification.json",
+      "source": "Website release package/05-Factory-CarrierC-v10/Manufacturing-Verification.json",
+      "source_sha256": "7afe79186893fa4965cbd5140e5fbeb721a63e539a64d02d2a416ea7f837a932",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 3335,
+      "sha256": "7afe79186893fa4965cbd5140e5fbeb721a63e539a64d02d2a416ea7f837a932"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/README.txt",
+      "source": "Website release package/05-Factory-CarrierC-v10/README.txt",
+      "source_sha256": "d373ba9b11cb2d49d473830ac5cd75f586e49121adc2aa3aeb7e8960f2cf13cf",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 798,
+      "sha256": "d373ba9b11cb2d49d473830ac5cd75f586e49121adc2aa3aeb7e8960f2cf13cf"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/SHA256SUMS.txt",
+      "source": "Website release package/05-Factory-CarrierC-v10/SHA256SUMS.txt",
+      "source_sha256": "4ec5ebdc658fd457eff0b83f951cd8f1b471b9671db3a8a977001584b15fb66f",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 2732,
+      "sha256": "4ec5ebdc658fd457eff0b83f951cd8f1b471b9671db3a8a977001584b15fb66f"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/UPLOAD-GUIDE.html",
+      "source": "Website release package/05-Factory-CarrierC-v10/UPLOAD-GUIDE.html",
+      "source_sha256": "b300b64cb88d01be00608c3001979c39af157e6d3dafdd99d63b691b7e122e40",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 6408,
+      "sha256": "b300b64cb88d01be00608c3001979c39af157e6d3dafdd99d63b691b7e122e40"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10-NPTH.drl.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10-NPTH.drl.svg",
+      "source_sha256": "037dd923e56c74bd5f5d89333d5c32980578c2eb61e92428a56a1a7851e44d85",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 510,
+      "sha256": "037dd923e56c74bd5f5d89333d5c32980578c2eb61e92428a56a1a7851e44d85"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10-PTH.drl.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10-PTH.drl.svg",
+      "source_sha256": "2c0719a8a14a6442606bc0eff99dabed5ec327fbd3e586680ede258ee6c6b044",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 5816,
+      "sha256": "2c0719a8a14a6442606bc0eff99dabed5ec327fbd3e586680ede258ee6c6b044"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GBL.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GBL.svg",
+      "source_sha256": "76a0efb4419b092053986e10f4e833e8b1cde80e1a11974b740cd299da41d893",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 36997,
+      "sha256": "76a0efb4419b092053986e10f4e833e8b1cde80e1a11974b740cd299da41d893"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GBO.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GBO.svg",
+      "source_sha256": "75302418ef5504a9ace9aeb7e1c1c1a89b405da86b35df265461038f696ae49e",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 397275,
+      "sha256": "75302418ef5504a9ace9aeb7e1c1c1a89b405da86b35df265461038f696ae49e"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GBS.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GBS.svg",
+      "source_sha256": "74f3f2ec13d6fc28e3be5e09fc5f9e1feae56467e0faf33358d3e0d0a7a0ff32",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 2564,
+      "sha256": "74f3f2ec13d6fc28e3be5e09fc5f9e1feae56467e0faf33358d3e0d0a7a0ff32"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GKO.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GKO.svg",
+      "source_sha256": "565e8fd97e482f55a6e43a8cddf5bdbe793f98fbe58d7192a14d69dacbee4253",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 1896,
+      "sha256": "565e8fd97e482f55a6e43a8cddf5bdbe793f98fbe58d7192a14d69dacbee4253"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GTL.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GTL.svg",
+      "source_sha256": "3bb0bc4765b6865c033dde535d3386d97a789bbc39b293fc1559c0a6cc2e6069",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 128734,
+      "sha256": "3bb0bc4765b6865c033dde535d3386d97a789bbc39b293fc1559c0a6cc2e6069"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GTO.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GTO.svg",
+      "source_sha256": "2c9a732b5666d118dd6be5ff19681109b54e63cc762cd379f7e9daf8c62236f6",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 460904,
+      "sha256": "2c9a732b5666d118dd6be5ff19681109b54e63cc762cd379f7e9daf8c62236f6"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GTS.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/C3-CarrierC-v10.GTS.svg",
+      "source_sha256": "10187ada0042caab64f6013170a9a5c5a9f0e0a54d1f1054ee61be4a9b457518",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 13148,
+      "sha256": "10187ada0042caab64f6013170a9a5c5a9f0e0a54d1f1054ee61be4a9b457518"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/bottom-board.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/bottom-board.svg",
+      "source_sha256": "4c33f44ae8911c91d2213737a353f9a255f8bc928ff9295dd951489dbab00899",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 399019,
+      "sha256": "4c33f44ae8911c91d2213737a353f9a255f8bc928ff9295dd951489dbab00899"
+    },
+    {
+      "file": "05-Factory-CarrierC-v10/previews/top-board.svg",
+      "source": "Website release package/05-Factory-CarrierC-v10/previews/top-board.svg",
+      "source_sha256": "46f4175468a3c4dd535d8fd0b3a005df2c2251292b470b67ab88083919cfd3bb",
+      "note": "Carrier C v10 publication; earlier review pages explicitly marked.",
+      "bytes": 572100,
+      "sha256": "46f4175468a3c4dd535d8fd0b3a005df2c2251292b470b67ab88083919cfd3bb"
+    },
+    {
+      "file": "06-Scout-Control/CONTROL-GUIDE.html",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 3375396,
+      "sha256": "80f787d3e0a51ee26a0d3aa4837df949051d4cc1c9146cf17ac33429547e05f1"
+    },
+    {
+      "file": "06-Scout-Control/MANIFEST.json",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 13582,
+      "sha256": "b91d60ed3ffd3eec062b6b23ac2460b80d2cad4ce3001c9005f96951af17492b"
+    },
+    {
+      "file": "06-Scout-Control/README.txt",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 2543,
+      "sha256": "9d4d0c9d212b77423821ffae766cc9abd633ba0e89627141070c14816a2efc48"
+    },
+    {
+      "file": "06-Scout-Control/SHA256SUMS.txt",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 7753,
+      "sha256": "086d104cf2335c9306f211436bc5c5811bd278a3f808187b4e522728a2f30d2b"
+    },
+    {
+      "file": "06-Scout-Control/Scout-Control-Web-2026-10-19.zip",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 2455567,
+      "sha256": "63462eac63bda9a8141c06b5d2d78d6b72db0cb0e1c3ac3aad32cebaaba5b221"
+    },
+    {
+      "file": "06-Scout-Control/Scout-Control-debug.apk",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 70909,
+      "sha256": "4547ebfd398e5d414a381520675283c2cf1b9a0edc8d2ca64f6aa38ef1b6fa23"
+    },
+    {
+      "file": "06-Scout-Control/ScoutFaces-1.0.0.zip",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 23367,
+      "sha256": "09bb21a98e9f63829d37146b92594ee06071091f556d4fe54c8b3b079d9b5994"
+    },
+    {
+      "file": "06-Scout-Control/assets/c3-super-mini-expansion-pinout.svg",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 15168,
+      "sha256": "13c881b1d7bce3c299f1883d57a2e517943581239b70bc3f330194d8bd902502"
+    },
+    {
+      "file": "06-Scout-Control/assets/scout-joystick.png",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 41957,
+      "sha256": "b160ab3ebf1eb63172f9853f4f1c6eeeff1b45d1cff5907c527cf2ed90e5e96a"
+    },
+    {
+      "file": "06-Scout-Control/firmware-images/ScoutDrive.ino.bin",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1182448,
+      "sha256": "21aa91ab106c3fe347cf1566319c912a662be12dc4ffe03e49feab1934637f5b"
+    },
+    {
+      "file": "06-Scout-Control/firmware-images/ScoutDrive.ino.bootloader.bin",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 19536,
+      "sha256": "9b2fa5e4af7cf282b2db5ed726b26bcca0aec7946eb3fdacc14444195ba754b3"
+    },
+    {
+      "file": "06-Scout-Control/firmware-images/ScoutDrive.ino.partitions.bin",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 3072,
+      "sha256": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/build.gradle",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 455,
+      "sha256": "75e7b7b031e66a51a45f29bf3dc77ec054128325fa3b6ab720b06f2b189821c6"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/AndroidManifest.xml",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1371,
+      "sha256": "4c16d6e49d0dbf2e555da906423a203ebfeacd5c65a57563259b1a24879e7fd8"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/DriveDatagram.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1510,
+      "sha256": "f1bbcc43c32c44d7344ceea56f02788f47a3a34b717ca8f6c809f8c4c03fcde3"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/FaceSelection.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1949,
+      "sha256": "6749ced2bfb4a362a0fb68bcb1fb08a5bd4680487f96037985eab37a9f34025f"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/JoystickView.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4765,
+      "sha256": "aaef26c5639a4cd98c53fe6bc58761a518c794c952d07e49079dfdad81751db0"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/MainActivity.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 19289,
+      "sha256": "b0eb2bc5db0a8985f58efbf932e86ba9e758480b1d683b67fcaf152f7d5309da"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/Mixer.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1310,
+      "sha256": "3470532ff376eaab438d4d250d8a958d25564e3fa48da6df99a8bb7388b0f2ec"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/RobotHttp.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4080,
+      "sha256": "e5aac80430917f81ef78addd0644d2503a37eada4131f7510001d4d2a9feaf10"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/ScoutClient.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 21326,
+      "sha256": "7e32715cda4b57839548c19f734b2bb7f43bf42e683ad624d15b7bee030f96ed"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/java/com/scout/control/SessionState.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 3477,
+      "sha256": "aa2bbaa2a35b79d7badaf3eff7c56f6b0359436c039ea54839b84b6cd521690a"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/res/drawable/ic_scout.xml",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 425,
+      "sha256": "57908df70ffc3bca70820191c73355baa67406b556e1ef964e3e0329fff1c955"
+    },
+    {
+      "file": "06-Scout-Control/source/android/app/src/main/res/values/styles.xml",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 602,
+      "sha256": "a60a5e7454b46c2064921fe19411c2888151ec48e98c879360ac67e06643e01e"
+    },
+    {
+      "file": "06-Scout-Control/source/android/build.gradle",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 73,
+      "sha256": "bfd2ac5eec256506290db57d202ecab93c9a55ebe17a2f8ef7ed319fcb2adfaf"
+    },
+    {
+      "file": "06-Scout-Control/source/android/gradle.properties",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 101,
+      "sha256": "9759d93611a3dabf91ab6e1df353ab9d359e36144166be54b6806bb5a0562e80"
+    },
+    {
+      "file": "06-Scout-Control/source/android/settings.gradle",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 284,
+      "sha256": "d748bfb1333eff359645a7bb07e829da5b1429326321aa48e00559c3d8f1090a"
+    },
+    {
+      "file": "06-Scout-Control/source/android/test-host.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1486,
+      "sha256": "4d902d4467a41c62ae54774b28ba339b394c7996c4f73dda607ecd1f9598640b"
+    },
+    {
+      "file": "06-Scout-Control/source/android/tests/ControlTests.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 2965,
+      "sha256": "13c2a39c56e285b93b6943ce813e80a9c0f0634314f8a2d89e5963fbcd1363c9"
+    },
+    {
+      "file": "06-Scout-Control/source/android/tests/DatagramTests.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1594,
+      "sha256": "747b669414e95cbe7275438222de760259449acef3cffc5bdb2832941b5814e7"
+    },
+    {
+      "file": "06-Scout-Control/source/android/tests/FaceTests.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1111,
+      "sha256": "7dad0186a86f19fb2c1ec10a03302dba10afb4345eb1124ce03d842806963233"
+    },
+    {
+      "file": "06-Scout-Control/source/android/tests/HttpTests.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 3080,
+      "sha256": "f14db9625a50a78e9db361c17113e10444169c890ac19cfcebb7f7c9b8cce8aa"
+    },
+    {
+      "file": "06-Scout-Control/source/android/tests/SessionTests.java",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 5688,
+      "sha256": "c9c9c53e88d95ce4e90fca8275769a4791fa812bbded6f44776341639dfd3b9f"
+    },
+    {
+      "file": "06-Scout-Control/source/docs/browser-control.md",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 13371,
+      "sha256": "cacfc0152fe451e73abafc1998f444c2a55378bd7ba4a07c78482d8fc671fcc8"
+    },
+    {
+      "file": "06-Scout-Control/source/docs/control-v1.2.md",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4420,
+      "sha256": "b13798728cd926e4c84e12fcd6157ee534c9edee749f89bb2f2c9b91025f75a5"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutDrive/BrowserControl.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 2228,
+      "sha256": "b9b8fb3c7acd61b3cd4a20c7f42f97b46def464027959d6259cb4553c8bc5b08"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutDrive/DriveCore.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4194,
+      "sha256": "091be8ee2ee950e9eda435c81d34f2b9967a2c70ac810a549f8f52fc904f153b"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutDrive/DriveDatagram.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1513,
+      "sha256": "672fe8c3fa2116980eb79e0be6a00b2573784b658f3e5d6ef7f1cc05807e0da7"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutDrive/FaceControl.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1027,
+      "sha256": "76a9e99a863ee0fc85752f9b81a929d6b7148d33b4f070faa51c26dd80ae6d96"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutDrive/ScoutDrive.ino",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 20489,
+      "sha256": "a021adca1decab0f038586767d62b8ccfd83bcb7cddca70e3b120b354305dcf2"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutDrive/WebControlPage.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 37346,
+      "sha256": "9ec782b1ff03367ce4face686a719539433e43adea035ace8c956ead02fa5dcc"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutFaces/FaceBitmaps.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 595525,
+      "sha256": "a617f5f914e32fe016e8b4e21aaab1378de2a6d8c795ca274764bae8795bf1a3"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutFaces/README.txt",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1630,
+      "sha256": "5d40e72fe4acf81b1f7389d95c5ef94aa05278a46df113b6cdeda3ea8dd5d684"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutFaces/ScoutFaces.ino",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 3274,
+      "sha256": "c11cba0769c6bd1719af7043d393c426c9dd23d36027d6d9047535d4ea536e1b"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutOledHello/README.txt",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1508,
+      "sha256": "463b660c51948f6150ffb51689ab00e2ed91c99c6567bca5edb0d22850cae21d"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/ScoutOledHello/ScoutOledHello.ino",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 2862,
+      "sha256": "98fb8ea6dfd39f8d583fa90feb9d0a4ad3506efe38286944541d46f5713d488b"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/test-host.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 131,
+      "sha256": "3af84999b62ec0687c827380a1257131d8cf8de124ae55e06e603676c6b37957"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/tests/drive_core_test.cpp",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 9788,
+      "sha256": "c2564ceaba870a9b2d037f1d76875f23366fd45f4b26563ff3866fede3c72ef7"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/tests/faces-host/Adafruit_GFX.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 366,
+      "sha256": "c2109517ba165fd983d70046417ae32d20d6957e916519971dfdd63e70f2fc62"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/tests/faces-host/Arduino.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 163,
+      "sha256": "1a42b90133ecea49e1299dd0ac94360bf09b3ab2275b2e46a9c72850f5a349a6"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/tests/faces-host/timeline.cpp",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1937,
+      "sha256": "5b878f532718f0598230d8ea3fb1d0b38e4f25609aef2274c0592f845e57d84b"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/tests/web-control.test.cjs",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4044,
+      "sha256": "4b81d481d00fd77bf68902d84c9fd3a7fe1fba630f6c0d2889da34a4ec91a511"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/tests/web-settings.test.cjs",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 2780,
+      "sha256": "37c5b890e830e8d7a491c45b05e55d02b8075ab671a470f0dbfca670c112a6cf"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/web/control-app.js",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 8304,
+      "sha256": "90fcac90b8cf695fefb16d532da785d5d948377efcad40b55f0802788a94b36a"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/web/control-core.js",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4037,
+      "sha256": "5db3be2c8d681a0fc712c78731db73dedede1a87bcac3e317973b8f8ec3d45db"
+    },
+    {
+      "file": "06-Scout-Control/source/firmware/web/index.html",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 8151,
+      "sha256": "6ac5606fec6674a355d9945c97a6ccd49f18633c259ec036f1761002eab223c1"
+    },
+    {
+      "file": "06-Scout-Control/source/libraries/ScoutFaces/README.md",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4919,
+      "sha256": "9e1f8a17d0ad406e748f7b43ad9a4fb348057e990b0a44f79e33c6f84b0d2830"
+    },
+    {
+      "file": "06-Scout-Control/source/libraries/ScoutFaces/examples/AutoCycle/AutoCycle.ino",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1203,
+      "sha256": "7f61d5f396f4a9ee23a0eef0e4c268165c92b0bf90511863dc8f65a9b5e9bc15"
+    },
+    {
+      "file": "06-Scout-Control/source/libraries/ScoutFaces/examples/SelectExpression/SelectExpression.ino",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 838,
+      "sha256": "8d68d5fa2e184cb993cdae8ddb28b923ee92b76762fbb316d2193d932195234f"
+    },
+    {
+      "file": "06-Scout-Control/source/libraries/ScoutFaces/library.properties",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 419,
+      "sha256": "71cac54269e8d75ba27f9885758a81feddcd05bb90a9143042d07daad4dd0060"
+    },
+    {
+      "file": "06-Scout-Control/source/libraries/ScoutFaces/src/FaceBitmaps.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 595525,
+      "sha256": "a617f5f914e32fe016e8b4e21aaab1378de2a6d8c795ca274764bae8795bf1a3"
+    },
+    {
+      "file": "06-Scout-Control/source/libraries/ScoutFaces/src/ScoutFaces.cpp",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1895,
+      "sha256": "d5c2788007c14a4b2cd4bfac6af46c9347a0d3e473ad131e55b09bee821915d7"
+    },
+    {
+      "file": "06-Scout-Control/source/libraries/ScoutFaces/src/ScoutFaces.h",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1562,
+      "sha256": "29e99570def81dfff6482fe06328669410b62c58a126a6321521c93729451a98"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/bench-web-control.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1266,
+      "sha256": "63fb33c9e51b06e79dfc58d0e4641772ca6e2c0f6371991525e49d5c024549fa"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/build-android.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 4726,
+      "sha256": "c4f3376d9acd6d8955ca42bb5ebf315320c4157133c5b06ec55bc43381e22092"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/build-firmware.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1251,
+      "sha256": "2a6902a0196c66b0299211eaa546bd1134ba3be68a35c1ae324a4d0a15449438"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/build-web-control.py",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1122,
+      "sha256": "f6f9c5ed5fba636ca9728dc8c68fd4a8239a4ad95d24fb322bd7e1e121c4398a"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/install-android.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 2923,
+      "sha256": "f97020977c6f273669066dd985cb14cb1a0ecb1411ba7a474831801ecaa7a706"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/test-firmware.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1308,
+      "sha256": "b614dd6d832f32197af12c0afeb37f41085df8ee93ad3d069b514950054a6f19"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/test-oled-library.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1054,
+      "sha256": "304a7b03d1f8058accc535f6180dd042da6890c3a1b9a3621b5365b64750c6ee"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/test-web-control-device.cjs",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 7588,
+      "sha256": "900e2eb156cf831b818785940201c2666e21472475e226f634f51327fe7f1f64"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/test-web-control-ui.cjs",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 3867,
+      "sha256": "5320ff9987282a1dfa63683bfd342b43514b0c2e1afc6a1183bc04879405f9f8"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/test-web-settings-device.cjs",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 3415,
+      "sha256": "e5efe275ee27f5bae853075b373afc2bafbafa8351a91f9b855cc16615efca91"
+    },
+    {
+      "file": "06-Scout-Control/source/scripts/upload-firmware.ps1",
+      "source": "Scout control release, 15 October 2026",
+      "bytes": 1139,
+      "sha256": "44441521f9a6e9030021446356b3de50df176e42f017de07b703b436c793e2c0"
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/ASSEMBLY.html",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 13676,
+      "sha256": "96f25c544437e1439b4d609c3382e3c2916d5d12123d7f6f3458073b05a87b12",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/MANIFEST.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 3382,
+      "sha256": "b8c02fca1be21d408545ba626469bd1343fffd0a6cb3eb4c761853cf54f63844",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Adjustable-Mount-v1.f3d",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 1236960,
+      "sha256": "79d7edf81ec929fb0b1be1a4df74c5c6dacd376c3242bd386bad0c794c146515",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Assembly-v1.f3d",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 15836328,
+      "sha256": "71cd472db8a9939b4e13425e78b90cbcb1549e8549bf502ee64b064b83a32d36",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Bumper-v1.f3d",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 346099,
+      "sha256": "3342504259640f4624dfbd2cedc4e061f7407fbe21836f1796e8097b9be38507",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Bumper-v1.step",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 160658,
+      "sha256": "ca839abd9b7c2baff660918c870687262cd06952427ee4d4f3c5db63e1040dad",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Bumper-v1.stl",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 85284,
+      "sha256": "f884ca253129dec9a85ea85c6a0592379169f87e004b2d51fe7b72e7b71a7fc5",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Rear-Support-v1.f3d",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 164249,
+      "sha256": "48c7441b2cc25f64e753a77531c2f6de1a5a97f37f74edbfc7d62c84b633eb38",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Rear-Support-v1.step",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 22381,
+      "sha256": "9d15530b9e3d37e9fb866e60f8e34ec423049afbf2facbbd433dc939a611b83d",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/Scout-ESP32-CAM-Rear-Support-v1.stl",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 17084,
+      "sha256": "624cf680abd7780b3c1186ba7f6f94d8a5a39749ea6b6eca2faf1554c5033a6d",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/cad-verification.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 7296,
+      "sha256": "00f676eae1725379a26fb37bd1b433a1e06328997bdf3cff846bc5e194c42686",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/design-dimensions.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 1279,
+      "sha256": "94edf1b52aa6c2383db294c0f59b3d0c9d19029b021157645ff56d4bd0d5d842",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/guide-verification.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 110,
+      "sha256": "64f998b943e1107af00aaecda47ae1fb5c7a7a31010a0ca60403bd7962d4b421",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/mesh-verification.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 2514,
+      "sha256": "4419c8ecffbc074cc2b34b8f93b25f8390a5535e843fea9f99e50e7ff57e3799",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/mount-only.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 164872,
+      "sha256": "3d941c71591177f6938b6e7eea19409e3107d2cdfe5a442d4dc7a7a91ae8ef07",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/mount-rear.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 188299,
+      "sha256": "cb217946454a25ca7217d8db890f7342f8b9dc5f11c482f5be67813d3114cc23",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/mount-with-camera.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 188059,
+      "sha256": "ac8b3f8deed22b29c8840efb27864dfc2c3efdb1585374545666d7e6b8cdf591",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/reference-fit.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 2037,
+      "sha256": "555211b29072a31016a654e79d682581b76978dd59927e025c245ff46606f721",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/scout-camera-assembly.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 359864,
+      "sha256": "73a01f97a4f8a1c005a731d606a61e5c2791b693dbeab511f8201648883ae451",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/ESP32-CAM/scout-camera-detail.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 536737,
+      "sha256": "6583aa1f2c7ea21dbce2a79fd011c9a5922a20c9642c973cf72070db6a433c6a",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/ASSEMBLY.html",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 7274,
+      "sha256": "2dbd1c3800e9a32ee2256d75dad208db4b1b536a03ab50b4d3f5c24ed78cc2ca",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/MANIFEST.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 2192,
+      "sha256": "e6fee3d625ea7d9b932f4b9e96b86a950b750fa5d964992c8e45129b07774039",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/Scout-OLED-Assembly-v1.f3d",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 15759052,
+      "sha256": "cf844e2a2a4208357e7feb8d4f01ccee6939aeacf082125474308cbc5d96a283",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/Scout-OLED-Bumper-v1.f3d",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 320196,
+      "sha256": "2519b2fc02ff1bc943809ce65325975aec8a3b3dd675d8b78dd0f931e5e9e5a1",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/Scout-OLED-Bumper-v1.step",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 159616,
+      "sha256": "501cf06fc6e2eabaf530f39eba03f97329ef92101272e1bc28570cd73fff84d2",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/Scout-OLED-Bumper-v1.stl",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 137684,
+      "sha256": "00c25e15a247e7580e083b3a026aa357d274612e54f415be6e9d9f8d106f0fb9",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/bumper-only.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 174764,
+      "sha256": "357425c9e0a186463572448a6de94df0cb03146067b8d08efc67e794b08e8dfb",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/bumper-rear.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 127229,
+      "sha256": "8b909c168892ba88ef950ca8eda3ea5c5ec9223395df657d24f5fd68f746721e",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/bumper-with-oled.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 151766,
+      "sha256": "6ed559df701b18c6c72438edf6c85a107e9c711a886943d9168f541e722c4c8c",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/cad-verification.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 6547,
+      "sha256": "e5976f7c5d645383b4d41e8ae6518c25514f57a5edb0b80a742cf36943b1c977",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/design-dimensions.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 552,
+      "sha256": "0f791b3821047e5aa8dc28bcd0d29e28e0e80e7b1ae860704921e6af4c6c1f36",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/guide-verification.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 110,
+      "sha256": "64f998b943e1107af00aaecda47ae1fb5c7a7a31010a0ca60403bd7962d4b421",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/mesh-verification.json",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 1493,
+      "sha256": "4eb9cdcee1045e48a412da2855186716927cbe32b6916617515b1c6b139390a2",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/scout-oled-assembly.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 412753,
+      "sha256": "d61050f4b3dc01b1d436f2218b5526e114bd91a080662a2f53906cc197725525",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/scout-oled-detail.png",
+      "source": "Scout optional bumper prototype packages, 16 October 2026",
+      "bytes": 767572,
+      "sha256": "be09344fdbc65dddf3143e22417cad32bf296d9b4d691a37988bcc28c4873b25",
+      "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/PRINT-GUIDE-v8.md",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 3189,
+      "sha256": "0bb17e3f731e76d3926ab461d1b816b1cbf3bb8967a17315c9f142e07b895643"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-Box.stl",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 820284,
+      "sha256": "200f16ef78301d81b1c5a9512839f0504ef015b2dbc373876ddf8ee8118f0220"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-Latch.stl",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 5684,
+      "sha256": "7e6876676e6f42740641550161e0a77262c273ee1ba1475128c7b8469c9f2d48"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-P1S-PLA-print.3mf",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 193864,
+      "sha256": "6ec34126c70f07e59e0ea00babfbf54c43728b2ccfa427f3b23ef8f39e42b1d0"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-P1S-PLA-print.gcode.3mf",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 897748,
+      "sha256": "c14bf0da03e7c3bdbb85d7cbf80e7575949b2cabf55382a10977270227ddd807"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-Thin-Walls.zip",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 17671731,
+      "sha256": "616d8f9de9187caecf383b2d6938090f1e03a056e65a66a015de19d7166aa13e"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-bambu-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 958,
+      "sha256": "97b2706c81ff140bccc7093f509cf496013e0ff4ab6233831876ec5a2447a6ad"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-closed.png",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 196717,
+      "sha256": "d67a92d635f2bee9c8f743f519b71ef518dc4c686a64ba19c2db61d38fd62153"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-fit.png",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 673028,
+      "sha256": "b45698c27250e092dea72d220ec9ebd89755c7fa0274ddf40679b0f0771a0239"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-native-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 2543,
+      "sha256": "4e41c782b40ebf0be0b5e8d93d1c5367b9b2b2713b2c65cba9217e93fa036563"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-open.png",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 412018,
+      "sha256": "fc2d87a91b737f1f70302405afcec3e53ff4dde52ebc7dcc6ad2022b00fd9000"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-print-mesh-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 2404,
+      "sha256": "ee55747a5f6141a1253bf0f610db09b93670899cab013345d7a7316d0072685d"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 6027,
+      "sha256": "6bb04f3bcf0923b3fb1b115ec4755183388020e3ab04df9bb160bb5a8ace09a2"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8.f3d",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 15030848,
+      "sha256": "0cebe63cde6a9f547034d447eedb53bf349c499ba0a05d228b2ed0cb0efce8d5"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8.step",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 1457267,
+      "sha256": "7b2d7988e04aa9a23001ff0db862017125522b60c3ff2de3574642bd303ad57f"
+    },
+    {
+      "file": "08-Storage-Cases/Bumper/Scout-Bumper-Case-v8.stl",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 828084,
+      "sha256": "c01d71b98f746402bd27e1389e6a80f97d184997e88e52279316d8a7fefafb7f"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/PRINT-GUIDE-v8.md",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 3205,
+      "sha256": "2351df08d1fd4e991024d7bbcd2f6b9e980ba9ab826ce8d4504a13e6a8646839"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-Box.stl",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 825284,
+      "sha256": "abc6061b0781dc200164b2c8c51497e20b434f08348796fd77f9fcd4a3356e4c"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-Latch.stl",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 5684,
+      "sha256": "fb13b9b40ce6709357cba8740ca6d2cc4aff36972167cd4bcfa808db88f8d72f"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-P1S-PLA-print.3mf",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 192426,
+      "sha256": "36861ea39e4b086df844feb30a58b43e82f73dcbc0d0d62d9b6bb2f14d42b5d4"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-P1S-PLA-print.gcode.3mf",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 876200,
+      "sha256": "bd8ca5b49bd2dd68dd67494f07ba4e6a60a0497637fda7ccb70cc590d086c201"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-Thin-Walls.zip",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 17194470,
+      "sha256": "84539deacbcdf05317dea38176610d807b8b36e0e413fabcc4b6efc47b70f653"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-bambu-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 972,
+      "sha256": "8e49f8ab092eb62b8c28ba69b9adcc8025bc6563b39352a51758be7a8807e855"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-closed.png",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 203248,
+      "sha256": "af332f1666ca44ebb128643035c67d1d157a9273d3b8c66bc08aeb407e4967c6"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-fit.png",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 572971,
+      "sha256": "e691a446c99d1e8daf660f5e66019ee5a8751dd91066633cc5f24d013e5cdf10"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-native-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 2548,
+      "sha256": "488111bff43bc0b99eb42e25e36c5b4b2564af02f964e327e6f4abb96b97e8ae"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-open.png",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 386474,
+      "sha256": "9016463419c84287bae6d0ab61736c92e9fe71390fe95f111a45d41bf5f91505"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-print-mesh-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 2480,
+      "sha256": "63ff0e36a7bd8834968e7abf68ceaba8574cb6f30a18570f6cbabacb5feb8831"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8-verification.json",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 6035,
+      "sha256": "4ced87a63cb6b89ed393c9d8711df1529414620a036ed13d59e8ee50de28b77a"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8.f3d",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 14713342,
+      "sha256": "3521e83fa8a55029f7ae00519d4d0ceec1fac8abbf2411193526ad7563bc74a4"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8.step",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 1296836,
+      "sha256": "a465307bd22d8526ee3335ce4ca56803de3acf32ef8318a4cb7e7117e9c1c934"
+    },
+    {
+      "file": "08-Storage-Cases/ESP32-CAM/Scout-ESP32-CAM-Case-v8.stl",
+      "source": "Verified Scout v8 cases, 18 October 2026",
+      "bytes": 831884,
+      "sha256": "f9ef32148923122b835d265b1908486002a94577de6d81043d000d33f34c3de3"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/PRINT-GUIDE-v8.md",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 3603,
+      "sha256": "f2f2811ae2fea3f02370ea0de54a28bd2ded133a664e7fb2b546fee54392b096"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-Box.stl",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 798284,
+      "sha256": "beb46919e9a1eb6586cf526cfdeef5d3fd4d04c83e3d3c849dad5a991c9e54a8"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-Latch.stl",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 5684,
+      "sha256": "5aac026a9bb204e3707f698a124406d1c2de6eb7be2560ae170e9b013dbbfcaa"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-P1S-PLA-print.3mf",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 175097,
+      "sha256": "a876657641078e192621427368ffc4f8d2bccbdcf661e7eb329ed6c6e3bcf08b"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-P1S-PLA-print.gcode.3mf",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 856814,
+      "sha256": "fa6ab7de564c76119e9d16584bdf6b550206a740a7c25192a947dbbad058361e"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-Thin-Walls.zip",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 17372515,
+      "sha256": "9253bbf831e4cf4272eb01e15b2b352745e5bf7bf343e3f41536ae30da3d17f3"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-bambu-verification.json",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 1006,
+      "sha256": "f8d50a9809300d884dc304d410dbe4c2253c0393c11b5e260e237c481fdbba9f"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-closed.png",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 232567,
+      "sha256": "e972b7d62894a276cac8f21f00473812eda814ab839bf340664fe6e83ed5330f"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-fit.png",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 634250,
+      "sha256": "1ce96867b2e2a67d19acea1f3ec28149338879bdd803039cf7b6a839d1c867d1"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-native-verification.json",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 2537,
+      "sha256": "c4487a7c4a8ced7afd3dfe9136cd6abc715edfa8ad0dd666885bcf2d610d17e6"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-open.png",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 417025,
+      "sha256": "c4d708c63a5e023109fb79fb44cec18ed2b9646b87d8828d39135acf018ff1dc"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-print-mesh-verification.json",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 2434,
+      "sha256": "b73f27496988eef0c3b9098ed1c94a8137577e41dc4df1ef6555417d5cdcebfd"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8-verification.json",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 6019,
+      "sha256": "ef61306679cf3955f8839b4833f1c292baa27ae341114db84adf841a645c82ea"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8.f3d",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 14822367,
+      "sha256": "a4be24c76631beb522d36eccdfe9ef3a1baabf95dc4814150a59bf744d6c791d"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8.step",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 1319090,
+      "sha256": "8649eb8d1743c1076e94dc091e143d1ba639f08c1ff116e55876091b728520e3"
+    },
+    {
+      "file": "08-Storage-Cases/OLED/Scout-OLED-Case-v8.stl",
+      "source": "Scout verified case releases, 18 October 2026",
+      "bytes": 805684,
+      "sha256": "40dc4a3e6eaba0e346e70f22066cc3ef6d7c40b3759e86e834f514306764a170"
+    },
+    {
+      "file": "CURRENT-RELEASE.json",
+      "bytes": 404,
+      "sha256": "a7ec2a2bc62fb834393845d2d22d752ba5e879212a0d96a06c5ea98449d22f3c",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "a7ec2a2bc62fb834393845d2d22d752ba5e879212a0d96a06c5ea98449d22f3c"
+    },
+    {
       "file": "README.txt",
-      "bytes": 3594,
-      "sha256": "16ba0cf045740e5dc4372c83fbfcb8dd2cf4330075db6396cc730ca269e59a01",
-      "source": "Created package index, notes or validation evidence."
+      "bytes": 6462,
+      "sha256": "17719f240ada12eb8d225421fff91b5520552b37caa0c72d80238c7271c954d0",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "17719f240ada12eb8d225421fff91b5520552b37caa0c72d80238c7271c954d0",
+      "previous_sha256": "97d0ad634eccad6bd344495bf199b49abcfe81375b0667d166dd4ddb07b6a4a5"
     },
     {
       "file": "START-HERE.html",
-      "bytes": 7646,
-      "sha256": "db4b75978b0fdfaa3c49772f6d3f1e14efa9041a86d17af6beb139b22918e237",
-      "source": "Created package index, notes or validation evidence."
+      "bytes": 5431,
+      "sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
+      "previous_sha256": "4eb9415640561aeaf41e0f6e79d8c8771face58007ace9f3bceee7cd0a5fe4d4"
+    },
+    {
+      "file": "accessories.html",
+      "bytes": 15846,
+      "sha256": "f148350259ef37b54d6bc2928ab91c71d95c57958f2ae67af166f8b82aeadfa9",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "f148350259ef37b54d6bc2928ab91c71d95c57958f2ae67af166f8b82aeadfa9",
+      "previous_sha256": "d1295f4240957bd88fed55a5230b0e0763558f08a4f96bf977a50e19e7daae59"
+    },
+    {
+      "file": "assets/accessories/camera-bumper.png",
+      "bytes": 359864,
+      "sha256": "73a01f97a4f8a1c005a731d606a61e5c2791b693dbeab511f8201648883ae451",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "73a01f97a4f8a1c005a731d606a61e5c2791b693dbeab511f8201648883ae451"
+    },
+    {
+      "file": "assets/accessories/oled-bumper.png",
+      "bytes": 412753,
+      "sha256": "d61050f4b3dc01b1d436f2218b5526e114bd91a080662a2f53906cc197725525",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "d61050f4b3dc01b1d436f2218b5526e114bd91a080662a2f53906cc197725525"
+    },
+    {
+      "file": "assets/board/board-bottom.svg",
+      "bytes": 399019,
+      "sha256": "4c33f44ae8911c91d2213737a353f9a255f8bc928ff9295dd951489dbab00899",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "4c33f44ae8911c91d2213737a353f9a255f8bc928ff9295dd951489dbab00899"
+    },
+    {
+      "file": "assets/board/board-top.svg",
+      "bytes": 572100,
+      "sha256": "46f4175468a3c4dd535d8fd0b3a005df2c2251292b470b67ab88083919cfd3bb",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "46f4175468a3c4dd535d8fd0b3a005df2c2251292b470b67ab88083919cfd3bb"
+    },
+    {
+      "file": "assets/board/schematic-charging-protection.png",
+      "bytes": 114756,
+      "sha256": "3fce307adb1aa24ed04f4e160bd9e5ec714efcdd4809039a36683330eda906d5",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "3fce307adb1aa24ed04f4e160bd9e5ec714efcdd4809039a36683330eda906d5"
+    },
+    {
+      "file": "assets/board/schematic-controller-sensing.png",
+      "bytes": 111947,
+      "sha256": "246c18cf013782b129eede4398f73fb911862cd5b9644dd198ab39b5c2e13f68",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "246c18cf013782b129eede4398f73fb911862cd5b9644dd198ab39b5c2e13f68"
+    },
+    {
+      "file": "assets/board/schematic-motor-interface.png",
+      "bytes": 129176,
+      "sha256": "b72c6089d75eebaa01a85d5bf2c955d3d400df23ca223bd9b8e5116d41537900",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "b72c6089d75eebaa01a85d5bf2c955d3d400df23ca223bd9b8e5116d41537900"
+    },
+    {
+      "file": "assets/board/schematic-power-boost.png",
+      "bytes": 96112,
+      "sha256": "6997606a4a1c9d19a99f63c81dc5bdf8f47923cb9589b941f0b348edbf8b1335",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "6997606a4a1c9d19a99f63c81dc5bdf8f47923cb9589b941f0b348edbf8b1335"
+    },
+    {
+      "file": "assets/board/silkscreen-bottom.svg",
+      "bytes": 407565,
+      "sha256": "80c8f8847702393cab2236dad88d3cd1f7e697be51dc3e04eb96e6de71e9371d",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "80c8f8847702393cab2236dad88d3cd1f7e697be51dc3e04eb96e6de71e9371d"
+    },
+    {
+      "file": "assets/board/silkscreen-top.svg",
+      "bytes": 470863,
+      "sha256": "6feed87c1d7c0e44d793679bf92f3c0e031d94f05dab1d244a1b77f860c8a36b",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "6feed87c1d7c0e44d793679bf92f3c0e031d94f05dab1d244a1b77f860c8a36b"
+    },
+    {
+      "file": "assets/build/01-exploded-overview.png",
+      "bytes": 363671,
+      "sha256": "05bd483218255afeebe7e9c8cd16a85b4709621fe02041b83ff5b469f72c0d5d",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "05bd483218255afeebe7e9c8cd16a85b4709621fe02041b83ff5b469f72c0d5d"
+    },
+    {
+      "file": "assets/build/02-underside-nuts.png",
+      "bytes": 162091,
+      "sha256": "03ec7d7292ac02d069b777f0237e08d63cc7c5d25d55390fcb55f5e00f5c67a1",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "03ec7d7292ac02d069b777f0237e08d63cc7c5d25d55390fcb55f5e00f5c67a1"
+    },
+    {
+      "file": "assets/build/03-motor-clamp.png",
+      "bytes": 372944,
+      "sha256": "893c3d25adbd24fc6b4af103a6f6f9328e604d291b05c467dbd0f87907007fd1",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "893c3d25adbd24fc6b4af103a6f6f9328e604d291b05c467dbd0f87907007fd1"
+    },
+    {
+      "file": "assets/build/04-motor-clamp.png",
+      "bytes": 352965,
+      "sha256": "c8445c55f9adbbbe7cd9296d5ae0b08d9dc8b7df46327c99cd20370e88c768e2",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "c8445c55f9adbbbe7cd9296d5ae0b08d9dc8b7df46327c99cd20370e88c768e2"
+    },
+    {
+      "file": "assets/build/05-carrier.png",
+      "bytes": 313735,
+      "sha256": "4798539f7aca78bebb120f3ec4942fdc9a20cad28e454cc666440946c1aeecb2",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "4798539f7aca78bebb120f3ec4942fdc9a20cad28e454cc666440946c1aeecb2"
+    },
+    {
+      "file": "assets/build/06-bumper.png",
+      "bytes": 338276,
+      "sha256": "4b2e17c00e3a240824b532bd0ab79fe8aa837f10ca6506988f969b7acea48e9b",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "4b2e17c00e3a240824b532bd0ab79fe8aa837f10ca6506988f969b7acea48e9b"
+    },
+    {
+      "file": "assets/build/07-tail.png",
+      "bytes": 266988,
+      "sha256": "4556dd3e1dd29407a1c2268ba6eab554c5e53824d173d4186bc215dcc455efd6",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "4556dd3e1dd29407a1c2268ba6eab554c5e53824d173d4186bc215dcc455efd6"
+    },
+    {
+      "file": "assets/build/08-wheels.png",
+      "bytes": 459224,
+      "sha256": "74c27b08783e325e4cbd9795547cbc34c20eda5c3e4994f0167aded51412e957",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "74c27b08783e325e4cbd9795547cbc34c20eda5c3e4994f0167aded51412e957"
+    },
+    {
+      "file": "assets/build/09-completed.png",
+      "bytes": 559819,
+      "sha256": "162d21149b98219f8e3c79a6a52a071226e3243bf887940e74d9946a2e9fa9f7",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "162d21149b98219f8e3c79a6a52a071226e3243bf887940e74d9946a2e9fa9f7"
+    },
+    {
+      "file": "assets/build/09-holder-straps.png",
+      "bytes": 274299,
+      "sha256": "9109557e743cb3ddc5abf6d713b7219225973e70bf93ade435270ce2f0aabba8",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "9109557e743cb3ddc5abf6d713b7219225973e70bf93ade435270ce2f0aabba8"
+    },
+    {
+      "file": "assets/build/Scout-Assembly-Overview.svg",
+      "bytes": 488977,
+      "sha256": "9d75408d51ac36b1f772deea770e5588c89ac126cf83172909d79f7009cc0359",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "9d75408d51ac36b1f772deea770e5588c89ac126cf83172909d79f7009cc0359"
+    },
+    {
+      "file": "assets/cases/Scout-Bumper-Case-v8-closed.png",
+      "bytes": 196717,
+      "sha256": "d67a92d635f2bee9c8f743f519b71ef518dc4c686a64ba19c2db61d38fd62153",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "d67a92d635f2bee9c8f743f519b71ef518dc4c686a64ba19c2db61d38fd62153"
+    },
+    {
+      "file": "assets/cases/Scout-Bumper-Case-v8-fit.png",
+      "bytes": 673028,
+      "sha256": "b45698c27250e092dea72d220ec9ebd89755c7fa0274ddf40679b0f0771a0239",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "b45698c27250e092dea72d220ec9ebd89755c7fa0274ddf40679b0f0771a0239"
+    },
+    {
+      "file": "assets/cases/Scout-Bumper-Case-v8-open.png",
+      "bytes": 412018,
+      "sha256": "fc2d87a91b737f1f70302405afcec3e53ff4dde52ebc7dcc6ad2022b00fd9000",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "fc2d87a91b737f1f70302405afcec3e53ff4dde52ebc7dcc6ad2022b00fd9000"
+    },
+    {
+      "file": "assets/cases/Scout-ESP32-CAM-Case-v8-closed.png",
+      "bytes": 203248,
+      "sha256": "af332f1666ca44ebb128643035c67d1d157a9273d3b8c66bc08aeb407e4967c6",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "af332f1666ca44ebb128643035c67d1d157a9273d3b8c66bc08aeb407e4967c6"
+    },
+    {
+      "file": "assets/cases/Scout-ESP32-CAM-Case-v8-fit.png",
+      "bytes": 572971,
+      "sha256": "e691a446c99d1e8daf660f5e66019ee5a8751dd91066633cc5f24d013e5cdf10",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "e691a446c99d1e8daf660f5e66019ee5a8751dd91066633cc5f24d013e5cdf10"
+    },
+    {
+      "file": "assets/cases/Scout-ESP32-CAM-Case-v8-open.png",
+      "bytes": 386474,
+      "sha256": "9016463419c84287bae6d0ab61736c92e9fe71390fe95f111a45d41bf5f91505",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "9016463419c84287bae6d0ab61736c92e9fe71390fe95f111a45d41bf5f91505"
+    },
+    {
+      "file": "assets/cases/Scout-OLED-Case-v8-closed.png",
+      "bytes": 232567,
+      "sha256": "e972b7d62894a276cac8f21f00473812eda814ab839bf340664fe6e83ed5330f",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "e972b7d62894a276cac8f21f00473812eda814ab839bf340664fe6e83ed5330f"
+    },
+    {
+      "file": "assets/cases/Scout-OLED-Case-v8-fit.png",
+      "bytes": 634250,
+      "sha256": "1ce96867b2e2a67d19acea1f3ec28149338879bdd803039cf7b6a839d1c867d1",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "1ce96867b2e2a67d19acea1f3ec28149338879bdd803039cf7b6a839d1c867d1"
+    },
+    {
+      "file": "assets/cases/Scout-OLED-Case-v8-open.png",
+      "bytes": 417025,
+      "sha256": "c4d708c63a5e023109fb79fb44cec18ed2b9646b87d8828d39135acf018ff1dc",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "c4d708c63a5e023109fb79fb44cec18ed2b9646b87d8828d39135acf018ff1dc"
+    },
+    {
+      "file": "assets/code/faces.gif",
+      "bytes": 176536,
+      "sha256": "32eaefe18af2cdc62bb02e7ca50acc49fc3e97dd8f679ae0116340bd6185fc86",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "32eaefe18af2cdc62bb02e7ca50acc49fc3e97dd8f679ae0116340bd6185fc86"
+    },
+    {
+      "file": "assets/code/faces.png",
+      "bytes": 25177,
+      "sha256": "bd3c6302098b1d7e35043772f1174cd92759090ecf29a39fb86efba4c4e57976",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "bd3c6302098b1d7e35043772f1174cd92759090ecf29a39fb86efba4c4e57976"
+    },
+    {
+      "file": "assets/code/web-controller.png",
+      "bytes": 41957,
+      "sha256": "b160ab3ebf1eb63172f9853f4f1c6eeeff1b45d1cff5907c527cf2ed90e5e96a",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "b160ab3ebf1eb63172f9853f4f1c6eeeff1b45d1cff5907c527cf2ed90e5e96a"
+    },
+    {
+      "file": "assets/guide.css",
+      "bytes": 10481,
+      "sha256": "bbee25ee29f4bfb438972a0f0171b441c0042e88dcbfaf6a907c50de55c512eb",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "bbee25ee29f4bfb438972a0f0171b441c0042e88dcbfaf6a907c50de55c512eb"
+    },
+    {
+      "file": "board.html",
+      "bytes": 18930,
+      "sha256": "60f6b7d37b0fd1382b035d75f701235c5918940f85ba5e12f0c965dc7d5ad4dc",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "60f6b7d37b0fd1382b035d75f701235c5918940f85ba5e12f0c965dc7d5ad4dc",
+      "previous_sha256": "236edcd0fe6f19566cc72fbba5f230e79a9353a5679e3be200bda339a56991ca"
+    },
+    {
+      "file": "build.html",
+      "bytes": 27048,
+      "sha256": "aeeb7438b8326da721fe16eb06e74e715cd09b92c8012a22b1a920f9cfff4737",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "aeeb7438b8326da721fe16eb06e74e715cd09b92c8012a22b1a920f9cfff4737",
+      "previous_sha256": "ae050ce8621b5810c96262ebd6d5eed401a36eb864407845885e3c0c0b525aa4"
+    },
+    {
+      "file": "code.html",
+      "bytes": 15401,
+      "sha256": "b70ce755ac3afd4aedace1cba549fad4e3d6454423f182fd79a062ef795c5cb3",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "b70ce755ac3afd4aedace1cba549fad4e3d6454423f182fd79a062ef795c5cb3",
+      "previous_sha256": "95ef0550322db5ff1a1925255bdebefd5edecaafabe5979fa71f76a327891d6c"
+    },
+    {
+      "file": "downloads/Scout-CarrierC-v10-Factory.zip",
+      "bytes": 763570,
+      "sha256": "fd250407f8971044e985fe3351a873a8007ec3163a1349a5a4e88dcd86e454b0",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "fd250407f8971044e985fe3351a873a8007ec3163a1349a5a4e88dcd86e454b0",
+      "previous_sha256": "961442eb33c75551d767e6662e721e2adcf39e746422b7aaba9d3e56f01d08fd"
+    },
+    {
+      "file": "downloads/Scout-CarrierC-v10-Fusion.zip",
+      "bytes": 224802,
+      "sha256": "9c1e9a3395312e4124c55bba051ff67397d85efe6e4b7fd71cf15f443a4c1da7",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "9c1e9a3395312e4124c55bba051ff67397d85efe6e4b7fd71cf15f443a4c1da7",
+      "previous_sha256": "8a5ebdb7745ab5d9d316f408bc4b25f783a612a26e107a509d1b69771d0126a6"
+    },
+    {
+      "file": "downloads/Scout-RevB-Fusion-CAD.zip",
+      "bytes": 20133019,
+      "sha256": "8e1091f23d7a74f7fdb397d2f4c498db7a8fda0232c1a09b064a497d3fd5b237",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "8e1091f23d7a74f7fdb397d2f4c498db7a8fda0232c1a09b064a497d3fd5b237",
+      "previous_sha256": "5f57e84d6b0d387829f28c9e96f291fdd8da95cd86d6f739d0d4c1850d79aaf5"
+    },
+    {
+      "file": "downloads/Scout-RevB-Print-STL.zip",
+      "bytes": 162005,
+      "sha256": "e1c13a7c41bc8818462320df4d891b46d5587fe991ffd14d51b94ad650a0359e",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "e1c13a7c41bc8818462320df4d891b46d5587fe991ffd14d51b94ad650a0359e",
+      "previous_sha256": "71a095137dce1542a459fa7dfa9f4921f0c55cd2904eaec23d18ec96f34e7b06"
+    },
+    {
+      "file": "index.html",
+      "bytes": 5431,
+      "sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
+      "source": "Scout builder guide, 21 October 2026",
+      "source_sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
+      "previous_sha256": "4eb9415640561aeaf41e0f6e79d8c8771face58007ace9f3bceee7cd0a5fe4d4"
     }
   ],
   "validation": {
@@ -587,5 +2349,61 @@
       }
     ]
   },
-  "excluded": "Earlier electrical revisions, duplicate ZIPs, module-based build guide and firmware snippets, old print sets, alternate unused modules, work scripts, caches and intermediate routing trials."
+  "excluded": "Earlier electrical revisions, superseded module wiring and firmware snippets, old print sets, private flash recovery images, debugging captures, caches and intermediate routing trials.",
+  "initial_snapshot_git_commit": "7007fdb066766dd43d60ae17842668ce8e28d365",
+  "factory_release": "05-Factory-CarrierC-v10",
+  "software_release": {
+    "app": "1.2.0",
+    "firmware": "SCOUT 2",
+    "protocol": 2,
+    "browser_control": true,
+    "oled_animation": true,
+    "package": "06-Scout-Control/Scout-Control-Web-2026-10-19.zip",
+    "browser_timing_ms": {
+      "update": 100,
+      "reply_timeout": 800,
+      "command_timeout": 1000
+    },
+    "guide": "06-Scout-Control/CONTROL-GUIDE.html",
+    "source_directory": "06-Scout-Control/source",
+    "tested_motor_direction_flags": {
+      "leftReversed": true,
+      "rightReversed": true
+    }
+  },
+  "optional_bumpers": {
+    "physical_fit_tested": false,
+    "oled": {
+      "guide": "07-Bumper-Options/OLED/ASSEMBLY.html",
+      "version": "v1 prototype"
+    },
+    "esp32_cam": {
+      "guide": "07-Bumper-Options/ESP32-CAM/ASSEMBLY.html",
+      "version": "v1 prototype",
+      "usb_adapter_retained": true,
+      "depth_adjustment_mm": [
+        10,
+        25
+      ]
+    }
+  },
+  "storage_cases": {
+    "oled": "v8",
+    "bumper": "v8",
+    "esp32_cam": "v8",
+    "nominal_shell_mm": 2.8,
+    "exterior_bevel_mm": 5,
+    "dovetail_clearance_per_face_mm": 0.2,
+    "physical_case_fit_tested": false,
+    "guide": "accessories.html#choose-case"
+  },
+  "builder_guide": {
+    "date": "2026-10-21",
+    "landing": "index.html",
+    "build": "build.html",
+    "board": "board.html",
+    "code": "code.html",
+    "accessories": "accessories.html",
+    "assembly_drawing": "assets/build/Scout-Assembly-Overview.svg"
+  }
 }

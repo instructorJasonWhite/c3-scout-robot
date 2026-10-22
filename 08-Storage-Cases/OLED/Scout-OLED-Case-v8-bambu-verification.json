@@ -1,0 +1,32 @@
+{
+  "variant": "OLED",
+  "project": "Scout-OLED-Case-v8-P1S-PLA-print.3mf",
+  "slice": "Scout-OLED-Case-v8-P1S-PLA-print.gcode.3mf",
+  "mesh_matches_final_native_export": true,
+  "print_solids": 3,
+  "world_bounds_mm": [
+    [
+      15.600000381469727,
+      35.10000038146973,
+      -8.881784197001252e-15
+    ],
+    [
+      240.39999961853027,
+      220.89999961853027,
+      37.79999923706055
+    ]
+  ],
+  "printer": "P1S / 0.4 mm / PLA Basic / textured PEI",
+  "layers_mm": 0.2,
+  "walls": 4,
+  "infill": "15% grid; thin blade filled by skin layers",
+  "supports_brim_prime_tower": false,
+  "estimated_time": "4h 11m 48s",
+  "filament_g": 192.72,
+  "layers": 189,
+  "gcode_checksum_valid": true,
+  "preview_checks": "Complete result and critical socket/flat-spring layers inspected in Studio.",
+  "floating_cantilever_warning": false,
+  "sent_to_printer": false,
+  "remaining_warning": "Unused extra filament profiles have zero flushing volume; only filament 1 prints."
+}

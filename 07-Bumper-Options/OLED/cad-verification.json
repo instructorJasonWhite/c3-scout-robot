@@ -1,0 +1,381 @@
+{
+  "solid": true,
+  "connected_lumps": 1,
+  "feature_errors": [],
+  "collisions": [],
+  "nearby_bodies_checked": 11,
+  "overlap_checks": [
+    {
+      "component": "02 SCULPTED MOTOR CLAMP -1 - M3:1",
+      "body": "Body1",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "03 SCULPTED MOTOR CLAMP 1 - M3:1",
+      "body": "Body1",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "20 N20 - detailed Pololu reference:2",
+      "body": "Body1",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "20 N20 - detailed Pololu reference:3",
+      "body": "Body1",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "01 SCOUT INTEGRAL BAY - M3 - print flat:1",
+      "body": "Integral chassis and carrier bay",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "46 M3 x 16 SOCKET CAP SCREWS - motor clamps:1",
+      "body": "Body1",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "46 M3 x 16 SOCKET CAP SCREWS - motor clamps:1",
+      "body": "Body2",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "46 M3 x 16 SOCKET CAP SCREWS - motor clamps:1",
+      "body": "Body3",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "46 M3 x 16 SOCKET CAP SCREWS - motor clamps:1",
+      "body": "Body4",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "46 M3 x 10 SOCKET CAP SCREWS - bumper:1",
+      "body": "Body1",
+      "added_overlap_mm3": 0.0
+    },
+    {
+      "component": "46 M3 x 10 SOCKET CAP SCREWS - bumper:1",
+      "body": "Body2",
+      "added_overlap_mm3": 0.0
+    }
+  ],
+  "cylinders": [
+    {
+      "origin_mm": [
+        10.35,
+        -42.10068,
+        11.49982
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 2.4
+    },
+    {
+      "origin_mm": [
+        -10.35,
+        -25.69581,
+        27.9047
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 2.4
+    },
+    {
+      "origin_mm": [
+        -10.35,
+        -42.10068,
+        11.49982
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 2.4
+    },
+    {
+      "origin_mm": [
+        10.35,
+        -25.69581,
+        27.9047
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 2.4
+    },
+    {
+      "origin_mm": [
+        10.35,
+        -26.04936,
+        28.25825
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 5.6
+    },
+    {
+      "origin_mm": [
+        -10.35,
+        -42.45424,
+        11.85337
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 5.6
+    },
+    {
+      "origin_mm": [
+        -10.35,
+        -26.04936,
+        28.25825
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 5.6
+    },
+    {
+      "origin_mm": [
+        10.35,
+        -42.45424,
+        11.85337
+      ],
+      "axis": [
+        0.0,
+        -0.707107,
+        0.707107
+      ],
+      "diameter_mm": 5.6
+    },
+    {
+      "origin_mm": [
+        -28.0,
+        -49.0,
+        6.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 6.2
+    },
+    {
+      "origin_mm": [
+        28.0,
+        -49.0,
+        6.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 6.2
+    },
+    {
+      "origin_mm": [
+        -28.0,
+        -49.0,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 3.4
+    },
+    {
+      "origin_mm": [
+        28.0,
+        -49.0,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 3.4
+    },
+    {
+      "origin_mm": [
+        28.0,
+        -49.0,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 7.0
+    },
+    {
+      "origin_mm": [
+        -28.0,
+        -49.0,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 7.0
+    },
+    {
+      "origin_mm": [
+        -35.2,
+        -42.3,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        -35.2,
+        -46.69941,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        -28.63699,
+        -54.2,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        28.63699,
+        -54.2,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        35.2,
+        -46.69941,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        35.2,
+        -42.3,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        32.8,
+        -42.3,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        31.2,
+        -45.6155,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        -31.2,
+        -45.6155,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    },
+    {
+      "origin_mm": [
+        -32.8,
+        -42.3,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 1.6
+    }
+  ],
+  "physical_fit_tested": false,
+  "oled_reference_vs_cradle_collisions": [],
+  "oled_reference_note": "Published PCB outline and hole pattern; glass and header envelope illustrative. Connector fit needs physical check."
+}

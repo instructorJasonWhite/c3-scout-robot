@@ -1,0 +1,251 @@
+<p class="lead">Print Scout’s seven mechanical parts, set out the M3 hardware, and build the chassis in nine illustrated steps. Each step tells you what to add and what to check before moving on.</p>
+<div class="notice">
+  <strong>Start with the matching revision.</strong>
+  <p>This guide uses the latest completed <strong>Rev B integral chassis</strong>. The pictures show a Rev B populated board. The current Carrier C v10 keeps the mounting outline, but its changed components have not been checked in this mechanical model. Trial-fit your actual board, motors and cable plugs as you build. The CAD checks passed; printed fit and the complete Carrier C assembly still need physical validation.</p>
+</div>
+<p><a class="button" href="#print">Print the parts</a> <a class="button" href="#hardware">Set out the hardware</a> <a class="button" href="#assembly">Follow the assembly</a> <a class="button" href="#downloads">Get the files</a></p>
+
+<section class="section" id="orientation">
+  <div class="section-heading"><p class="eyebrow">The mechanical layout</p><h2>Get your bearings</h2></div>
+  <p>The bumper and the word <strong>SCOUT</strong> mark the front. The swept tail skid is at the rear. Throughout these instructions, left and right mean Scout’s sides when looking forward toward the bumper.</p>
+  <figure class="figure">
+    <img src="assets/build/09-completed.png" width="1600" height="1100" alt="Assembled Rev B Scout CAD model with the bumper at the front, two drive wheels, a rear tail skid, carrier board and reference battery holder." loading="lazy">
+    <figcaption>Completed Rev B arrangement for orientation. The battery and holder shown are reference geometry; keep the real cell removed throughout the mechanical build.</figcaption>
+  </figure>
+  <p>Remove the battery and unplug both USB connections before starting. Have the populated carrier board, two actual N20 motors and your chosen empty battery holder available for fit checks. Use the <a href="board.html">Board guide</a> for electrical connections and power procedures.</p>
+</section>
+
+<section class="section" id="print">
+  <div class="section-heading"><p class="eyebrow">Before assembly</p><h2>Print seven parts</h2></div>
+  <p>Use the Rev B M3 files together. Print one of each file below; the optional shaft-fit coupon is an extra test piece rather than part of the finished robot.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Part</th><th scope="col">Quantity</th><th scope="col">Print orientation</th></tr></thead>
+      <tbody>
+        <tr><td><a href="03-Print-STL/Integral-chassis-M3.stl" download>Integral chassis</a></td><td>1</td><td>Flat</td></tr>
+        <tr><td><a href="03-Print-STL/Motor-clamp-left-M3.stl" download>Left motor clamp</a></td><td>1</td><td>Bridge against the bed</td></tr>
+        <tr><td><a href="03-Print-STL/Motor-clamp-right-M3.stl" download>Right motor clamp</a></td><td>1</td><td>Bridge against the bed</td></tr>
+        <tr><td><a href="03-Print-STL/Bumper-M3.stl" download>Front bumper</a></td><td>1</td><td>Flat</td></tr>
+        <tr><td><a href="03-Print-STL/Tail-skid-M3.stl" download>Tail skid</a></td><td>1</td><td>On its side</td></tr>
+        <tr><td><a href="03-Print-STL/Wheel-left.stl" download>Left wheel</a></td><td>1</td><td>On a wheel face</td></tr>
+        <tr><td><a href="03-Print-STL/Wheel-right.stl" download>Right wheel</a></td><td>1</td><td>On a wheel face</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>Check the orientation in your slicer.</strong> The STL units are millimetres, and the files retain their component coordinates. Importing a file does not necessarily place its intended print face on the bed. The two named clamp files are identical, as are the two wheel files; keep the filenames together so the set remains easy to identify.</p>
+  <p>Clean loose debris from the holes, nut pockets and seating surfaces. Try a real M3 screw and nut before assembly. The design uses 3.4 mm clearance holes and 5.8 mm nut pockets, but your printed result is the fit that matters. Use the <a href="03-Print-STL/Optional-Shaft-Fit-Coupon.stl" download>optional shaft-fit coupon</a> on both actual motors before fitting the wheels.</p>
+  <p class="quiet">No physically validated material and slicer profile is supplied for this Rev B set. Establish fit with your printer and material before committing to the complete build. Read the <a href="03-Print-STL/PRINT-NOTES.txt">original Rev B print notes</a> alongside these instructions.</p>
+</section>
+
+<section class="section" id="hardware">
+  <div class="section-heading"><p class="eyebrow">One fastener system</p><h2>Set out the M3 hardware</h2></div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Hardware</th><th scope="col">Quantity</th><th scope="col">Where it goes</th></tr></thead>
+      <tbody>
+        <tr><td>M3 × 8 mm ISO 4762 socket-cap screw</td><td>4</td><td>Carrier board · Step 5</td></tr>
+        <tr><td>M3 × 16 mm ISO 4762 socket-cap screw</td><td>4</td><td>Motor clamps · Steps 3 and 4</td></tr>
+        <tr><td>M3 × 10 mm ISO 4762 socket-cap screw</td><td>4</td><td>Front bumper and tail skid · Steps 6 and 7</td></tr>
+        <tr><td>M3 DIN 934 hex nut</td><td>12</td><td>4 carrier, 4 motor clamps, 2 bumper, 2 tail skid</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>Total: 12 screws and 12 nuts.</strong> Screw lengths are measured beneath the head. The specified nuts are 5.5 mm across flats and 2.4 mm thick. No washers are specified in the hardware list; the modeled carrier mounting uses none.</p>
+  <div class="grid two">
+    <div class="card"><h3>Tools to have nearby</h3><p>A <strong>2.5 mm Allen key</strong> fits every specified screw. Calipers help check the motor, holes and pockets. Keep your actual charging and programming cable plugs handy for the final unpowered clearance check.</p></div>
+    <div class="card"><h3>Tighten gently</h3><p>Start the screws before tightening the joint, and bring paired screws down evenly. No tightening torque is supplied for these printed parts. The current chassis uses M3 hardware throughout; older M2.5 clamp instructions belong to an earlier build.</p></div>
+  </div>
+  <p><a href="03-Print-STL/Fasteners-M3.csv" download>Download the fastener checklist</a></p>
+</section>
+
+<section class="section" id="assembly">
+  <div class="section-heading"><p class="eyebrow">Build in this order</p><h2>Nine steps from parts to chassis</h2></div>
+  <p>The underside carrier nuts and wire routes go in early because the board covers them later. Complete each check before adding the next part. These steps organize the existing CAD design for builders; they do not represent a physically validated assembly trial.</p>
+
+  <article class="card step" id="step-1">
+    <div class="step-header"><span class="step-number">01</span><h3>Sort the parts and check the shaft fit</h3></div>
+    <figure class="figure">
+      <img src="assets/build/01-exploded-overview.png" width="1600" height="1100" alt="Exploded Rev B Scout showing the integral chassis, two motors and clamps, two wheels, front bumper, tail skid and carrier board." loading="lazy">
+      <figcaption>The front is the SCOUT and bumper end at lower right; the rear is the tail-skid end at upper left. Hardware and battery parts are omitted to show the main pieces.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>None. Sort 4 × M3 × 8 mm, 4 × M3 × 16 mm, 4 × M3 × 10 mm screws, and 12 M3 nuts.</p></div>
+    <ol>
+      <li>Identify all seven printed parts and compare their mating surfaces with the picture. Remove loose print debris from the seats, holes and nut pockets.</li>
+      <li>Check a real screw and nut in their printed interfaces. Correct a poor print fit before fastening parts together.</li>
+      <li>Align the coupon’s D-flat with each motor shaft and try the fit without forcing the gearbox. Resolve a tight or loose bore before fitting either wheel.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> all parts and hardware are identified, the printed interfaces accept their hardware, and both actual shafts have been checked.</p>
+    <p class="quiet">The pictured motors use generic Pololu reference geometry. Confirm the dimensions of the motors you bought.</p>
+  </article>
+
+  <article class="card step" id="step-2">
+    <div class="step-header"><span class="step-number">02</span><h3>Fit the carrier nuts and plan the leads</h3></div>
+    <figure class="figure">
+      <img src="assets/build/02-underside-nuts.png" width="1600" height="1100" alt="Underside of the empty chassis with four carrier mounting nuts separated from their hexagonal pockets." loading="lazy">
+      <figcaption>Underside view. Each of the four nuts fits into a pocket directly below a carrier-board seat.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>4 × M3 DIN 934 hex nuts. Keep these same nuts in place for Step 5.</p></div>
+    <ol>
+      <li>Turn the empty chassis over. Place one nut into each of the four carrier pockets, flat and aligned with the screw hole.</li>
+      <li>Support the nuts while turning the chassis upright. An added retainer is not specified, so check that none has dropped out.</li>
+      <li>Plan the motor, battery-holder and RUN-switch lead routes through the bay. Keep the board seats, mounting holes and wheel areas clear.</li>
+      <li>Pass any prepared loose leads through before the board covers the bay. Leave room to install both motors, then recheck the routes in Step 5.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> four nuts sit beneath the carrier seats, and the planned leads cross no seating or fastening surface.</p>
+    <p class="quiet">This is a routing step. Follow the <a href="board.html">Board guide</a> for the electrical connections.</p>
+  </article>
+
+  <article class="card step" id="step-3">
+    <div class="step-header"><span class="step-number">03</span><h3>Secure the left motor and clamp</h3></div>
+    <figure class="figure">
+      <img src="assets/build/04-motor-clamp.png" width="1600" height="1100" alt="Left motor attachment stack showing two screws above the clamp and motor, with two nuts beneath the chassis." loading="lazy">
+      <figcaption>Left motor stack, from top to bottom: screws, clamp, motor, chassis and nuts. Other fitted parts are hidden for clarity.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>2 × M3 × 16 mm screws + 2 × M3 hex nuts.</p></div>
+    <ol>
+      <li>Place the left motor into its seat with the gearbox face and output shaft toward the outside of the chassis.</li>
+      <li>Guide its paired leads toward the bay. Keep them out from under the motor, clamp and mounting holes.</li>
+      <li>Place the clamp over the motor and align both holes. Insert the two screws from above and fit the nuts beneath the chassis.</li>
+      <li>Tighten gently and evenly with the 2.5 mm Allen key until the motor is held in its seat.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> the left motor is held securely, its shaft is clear, and no wire is pinched.</p>
+  </article>
+
+  <article class="card step" id="step-4">
+    <div class="step-header"><span class="step-number">04</span><h3>Secure the right motor and clamp</h3></div>
+    <figure class="figure">
+      <img src="assets/build/03-motor-clamp.png" width="1600" height="1100" alt="Right motor attachment viewed from the opposite side, with the motor, clamp, two screws and two underside nuts separated." loading="lazy">
+      <figcaption>The view changes sides to keep the right motor’s shaft and underside nuts visible. Left and right still refer to Scout looking forward.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>2 × M3 × 16 mm screws + 2 × M3 hex nuts.</p></div>
+    <ol>
+      <li>Seat the second motor on the right, with its output shaft facing outward.</li>
+      <li>Route its lead pair toward the bay without crossing a clamp seat or screw hole.</li>
+      <li>Fit the clamp, insert both screws from above, and fit the two nuts below the chassis floor. Tighten the screws gently and evenly.</li>
+      <li>Check both motors together. Their shafts should be accessible for the wheels, and both lead pairs should remain free of the clamps.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> both motors are seated and clamped, with all four clamp screws and four clamp nuts installed.</p>
+  </article>
+
+  <article class="card step" id="step-5">
+    <div class="step-header"><span class="step-number">05</span><h3>Seat and fasten the carrier board</h3></div>
+    <figure class="figure">
+      <img src="assets/build/05-carrier.png" width="1600" height="1100" alt="Rev B populated carrier board above its four integral chassis seats, with four screws above and four nuts already beneath the chassis." loading="lazy">
+      <figcaption>The screws enter from above. The four nuts installed in Step 2 stay in the underside pockets. This picture shows the Rev B board population.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>4 × M3 × 8 mm screws. Reuse the 4 carrier nuts from Step 2. No washers.</p></div>
+    <ol>
+      <li>Compare your actual board, components and connectors with the bay. For Carrier C v10, check its changed component placement before treating this Rev B picture as a fit guide.</li>
+      <li>Re-seat the four underside nuts and check the leads again. Orient the board with the SuperMini programming connector toward the rear.</li>
+      <li>Lower the board onto all four integral seats. Its holes should align, and the board should sit flat without being pulled down by screws.</li>
+      <li>Start all four screws into their nuts, then tighten gently from above. Check beneath and around the board for trapped wires, solder tails or components touching the chassis.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> the board rests on all four seats, all four screws engage their nuts, and the actual board and leads clear the chassis.</p>
+    <p class="quiet">Do not use screw pressure to overcome a clearance problem. No approved added spacer or washer stack is supplied for this mounting.</p>
+  </article>
+
+  <article class="card step" id="step-6">
+    <div class="step-header"><span class="step-number">06</span><h3>Attach the front bumper</h3></div>
+    <figure class="figure">
+      <img src="assets/build/06-bumper.png" width="1600" height="1100" alt="Wraparound front bumper aligned with the SCOUT end of the chassis, showing two screws above and two nuts below." loading="lazy">
+      <figcaption>Fit the bumper at the SCOUT end. Its wraparound ends face rearward; the screws pass down through the bumper and chassis into the nuts.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>2 × M3 × 10 mm screws + 2 × M3 hex nuts.</p></div>
+    <ol>
+      <li>Place the Rev B bumper against the front of the chassis and align its two attachment holes.</li>
+      <li>Insert the screws from above and fit the nuts beneath. Start both screws before tightening either one.</li>
+      <li>Tighten gently and evenly, keeping the mating surfaces seated and the nearby motor leads clear.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> the bumper is seated and held by both screws and nuts, with no nearby lead pinched.</p>
+    <p>Want a face or camera instead? See the optional <a href="accessories.html#bumper-options">OLED and ESP32-CAM replacement bumpers</a> and their separate assembly instructions before choosing the front attachment.</p>
+  </article>
+
+  <article class="card step" id="step-7">
+    <div class="step-header"><span class="step-number">07</span><h3>Attach the tail skid</h3></div>
+    <figure class="figure">
+      <img src="assets/build/07-tail.png" width="1600" height="1100" alt="Rear chassis and swept tail skid separated, with two screws entering from above and nuts beneath the skid." loading="lazy">
+      <figcaption>The skid fits beneath the rear of the chassis, with its toe extending rearward and down. Keep access to both screw heads from above.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>2 × M3 × 10 mm screws + 2 × M3 hex nuts.</p></div>
+    <ol>
+      <li>Position the skid beneath the rear attachment points and align both holes.</li>
+      <li>Insert the screws from above. Fit the nuts beneath the skid and tighten gently while keeping the skid seated.</li>
+      <li>With the carrier installed, try the Allen key on both screws. Keep wires out of the vertical tool path.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> the tail skid is secure, its toe faces the ground, and both screw heads remain accessible.</p>
+    <p class="quiet">The model passed an 8 mm diameter driver-clearance check. Confirm the result with your actual tool, printed parts and board.</p>
+  </article>
+
+  <article class="card step" id="step-8">
+    <div class="step-header"><span class="step-number">08</span><h3>Fit the wheels</h3></div>
+    <figure class="figure">
+      <img src="assets/build/08-wheels.png" width="1600" height="1100" alt="Two wheels separated outward along the fitted motors’ shaft axes, showing their D-bore attachment positions." loading="lazy">
+      <figcaption>Slide each wheel inward along its motor shaft, matching the D-flat. The previously fitted board is hidden in this view for clarity.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>None specified. The modeled wheel interface is a D-bore press fit.</p></div>
+    <ol>
+      <li>Confirm that the shaft-fit check passed on both motors. Align each wheel’s D-shaped bore with its shaft flat.</li>
+      <li>Fit the wheel carefully while supporting the motor. Do not hammer it on or force the gearbox to accept a tight bore.</li>
+      <li>Rotate each wheel gently through a full revolution. Check clearance around the chassis, clamps and bumper.</li>
+      <li>Check that the wheels stay on during gentle handling. Correct a tight or loose fit before proceeding.</li>
+    </ol>
+    <p class="check"><strong>Ready to continue:</strong> both wheels fit their actual shafts, stay in place during a gentle hand check, and turn without rubbing.</p>
+    <p class="quiet">No retaining screw, adhesive, clip or tested retention force is specified. The printed fit still needs a physical check.</p>
+  </article>
+
+  <article class="card step" id="step-9">
+    <div class="step-header"><span class="step-number">09</span><h3>Trial-fit the holder and check the whole assembly</h3></div>
+    <figure class="figure">
+      <img src="assets/build/09-holder-straps.png" width="1600" height="1100" alt="Reference battery holder and two fabric straps separated above the chassis floor slots, with no battery installed." loading="lazy">
+      <figcaption>Holder and strap placement reference. The modeled straps are 8 mm fabric references; the exact purchased holder, strap length and closure are not specified.</figcaption>
+    </figure>
+    <div class="hardware"><strong>New hardware</strong><p>No additional M3 hardware specified. Check the installed total: 12 screws and 12 nuts.</p></div>
+    <ol>
+      <li>Trial-fit the actual empty battery holder. Compare it with the bay and floor-slot arrangement shown. Establish a suitable retention method with your chosen holder and straps; this reference view does not establish a tested attachment.</li>
+      <li>Count four M3 × 16 mm clamp screws, four M3 × 8 mm board screws, four M3 × 10 mm bumper/skid screws, and twelve nuts. Check every joint by hand without overtightening.</li>
+      <li>Set the chassis on a level surface. Check the wheel gaps, skid contact and lead routes. Keep loose leads away from the wheels.</li>
+      <li>With the robot still unpowered, insert and remove your actual charging and programming plugs. Check both tail-screw tool paths again.</li>
+      <li>Resolve the battery-holder retention, offboard RUN-switch mounting, wire retention and any Carrier C clearance differences before powered commissioning.</li>
+    </ol>
+    <p class="check"><strong>Mechanical handoff:</strong> the hardware count matches, wheels and skid clear their surroundings, and actual tool and plug access has been checked. Any unresolved fit or attachment is corrected before adding power.</p>
+    <p>Keep the cell removed while moving to the <a href="board.html">Board guide</a> for electrical checks. Use the <a href="code.html">Code guide</a> when you are ready to load the matching firmware.</p>
+  </article>
+</section>
+
+<section class="section" id="model-checks">
+  <div class="section-heading"><p class="eyebrow">What the drawings establish</p><h2>Use the model, then check the real parts</h2></div>
+  <p>The Rev B assembly reported no solid interferences or timeline issues, and the standalone chassis and board files were reopened in Fusion. Tool and representative USB-plug envelopes also cleared the modeled assembly. Those checks help you understand the layout; they do not establish the fit of a particular print, motor, battery holder or cable.</p>
+  <p>The pictured populated board is Rev B. Carrier C v10 component placement still needs a mechanical fit check. Flexible straps and hidden alternative modules were excluded from the interference checks.</p>
+  <p class="quiet">For the underlying results, read the <a href="02-Mechanical-RevB/Verification/Mechanical-checks.json">mechanical checks</a>, <a href="02-Mechanical-RevB/Verification/Service-access-checks.json">service-access checks</a> and <a href="02-Mechanical-RevB/Verification/Standalone-Reopen-Checks.json">standalone Fusion reopen checks</a>.</p>
+</section>
+
+<section class="section" id="downloads">
+  <div class="section-heading"><p class="eyebrow">Make it your own</p><h2>Build files and editable CAD</h2></div>
+  <p>Use the print package for a matching set of STL files and hardware notes. Choose the CAD package to inspect or adapt the chassis in Fusion or another STEP-compatible design tool.</p>
+  <p><a class="button" href="downloads/Scout-RevB-Print-STL.zip" download>Download Rev B print set</a> <a class="button" href="downloads/Scout-RevB-Fusion-CAD.zip" download>Download Fusion and STEP CAD</a></p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Individual print files</h3>
+      <ul class="download-list">
+        <li><a href="03-Print-STL/Integral-chassis-M3.stl" download>Integral chassis · STL</a></li>
+        <li><a href="03-Print-STL/Motor-clamp-left-M3.stl" download>Left motor clamp · STL</a></li>
+        <li><a href="03-Print-STL/Motor-clamp-right-M3.stl" download>Right motor clamp · STL</a></li>
+        <li><a href="03-Print-STL/Bumper-M3.stl" download>Standard front bumper · STL</a></li>
+        <li><a href="03-Print-STL/Tail-skid-M3.stl" download>Tail skid · STL</a></li>
+        <li><a href="03-Print-STL/Wheel-left.stl" download>Left wheel · STL</a></li>
+        <li><a href="03-Print-STL/Wheel-right.stl" download>Right wheel · STL</a></li>
+        <li><a href="03-Print-STL/Optional-Shaft-Fit-Coupon.stl" download>Optional shaft-fit coupon · STL</a></li>
+        <li><a href="03-Print-STL/PRINT-NOTES.txt">Print notes</a> · <a href="03-Print-STL/Fasteners-M3.csv" download>Fastener checklist · CSV</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Individual CAD files</h3>
+      <ul class="download-list">
+        <li>Complete Rev B assembly: <a href="02-Mechanical-RevB/C3-Scout-Carrier-RevB.f3d" download>Fusion</a> · <a href="02-Mechanical-RevB/C3-Scout-Carrier-RevB.step" download>STEP</a></li>
+        <li>Standalone integral chassis: <a href="02-Mechanical-RevB/Integral-Chassis-M3-RevB.f3d" download>Fusion</a> · <a href="02-Mechanical-RevB/Integral-Chassis-M3-RevB.step" download>STEP</a></li>
+        <li>Standalone populated Rev B board: <a href="02-Mechanical-RevB/Populated-Carrier-RevB-Mechanical.f3d" download>Fusion</a> · <a href="02-Mechanical-RevB/Populated-Carrier-RevB-Mechanical.step" download>STEP</a></li>
+      </ul>
+      <p class="quiet">The complete assembly retains the full parametric history. The standalone populated board is a component/body snapshot of Rev B; it does not represent Carrier C v10 placement.</p>
+    </div>
+  </div>
+</section>

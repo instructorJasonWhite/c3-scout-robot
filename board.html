@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Explore the current board, understand its connections, and download the matching schematic and manufacturing files."><title>The Board — Scout Builder Guide</title><link rel="stylesheet" href="assets/guide.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="index.html">SCOUT<span>THE BUILDER GUIDE</span></a><nav class="topnav" aria-label="Scout guides"><a href="build.html">Build</a><a href="board.html" aria-current="page">Board</a><a href="code.html">Code</a><a href="accessories.html">Accessories</a></nav></div></header><main class="page-wrap" id="main"><div class="page-heading"><p class="eyebrow">Scout / The Board</p><h1>Meet the electronics.</h1><p class="lead">Explore the current board, understand its connections, and download the matching schematic and manufacturing files.</p><div class="edition"><span>Carrier C v10 · Silk 03</span><span>Guide updated 21 October 2026</span></div></div><div class="content-layout"><aside class="page-contents" aria-label="On this page"><p>On this page</p><a href="#board-views">The two faces of the board</a><a href="#circuits">Four sheets, nine circuit blocks</a><a href="#silkscreen">Silkscreen, connections and polarity</a><a href="#power-and-startup">Keep RUN open while charging or programming</a><a href="#downloads">Board downloads</a></aside><div class="page-content"><p class="lead">Scout's Carrier C brings the charger, cell protection, logic supply and two motor channels onto one board. Use this page to follow the circuit, identify the connections and download the matching files for fabrication or editing.</p>
+<p><span class="badge">Carrier C / Silk 03</span> <span class="badge">Board v10</span> <span class="badge">Schematic v6</span> <span class="badge">5 October 2026</span></p>
+
+<section class="section" id="board-views">
+  <div class="section-heading">
+    <p class="eyebrow">Get oriented</p>
+    <h2>The two faces of the board</h2>
+  </div>
+  <p>The carrier is 32 × 82 mm, with two copper layers, four M3 mounting holes and an opening beneath the SuperMini antenna. The images below come from the current v10 manufacturing files. They show the bare board layers; they are not photographs of an assembled board.</p>
+  <div class="grid two">
+    <figure class="figure">
+      <a href="assets/board/board-top.svg" target="_blank" rel="noopener"><img src="assets/board/board-top.svg" alt="Carrier C v10 top fabrication view with copper, solder mask, silkscreen and holes" width="408" height="1008" style="max-height:720px;object-fit:contain"></a>
+      <figcaption><strong>Top / component side.</strong> Look down onto the components. With the antenna end at the top, J5's USB-C opening faces the right edge.</figcaption>
+    </figure>
+    <figure class="figure">
+      <a href="assets/board/board-bottom.svg" target="_blank" rel="noopener"><img src="assets/board/board-bottom.svg" alt="Carrier C v10 underside fabrication view, mirrored to show the physical back of the board" width="408" height="1008" style="max-height:720px;object-fit:contain"></a>
+      <figcaption><strong>Bottom / underside.</strong> View from below, with the same antenna end at the top. This image is already mirrored for the physical underside.</figcaption>
+    </figure>
+  </div>
+  <p class="quiet">Select any drawing to open it at full size. The <a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Board-Layout.pdf">two-page trace layout PDF</a> is useful when following copper connections.</p>
+</section>
+
+<section class="section" id="circuits">
+  <div class="section-heading">
+    <p class="eyebrow">Follow the circuit</p>
+    <h2>Four sheets, nine circuit blocks</h2>
+  </div>
+  <p>Start with charging and cell protection, then follow the switched supply to the controller and motor interface. These images are fresh renders of the current schematic PDF. The <code>RevC</code> drawing names identify Carrier C; the current saved Fusion versions are schematic v6 and board v10.</p>
+
+  <article class="card" id="charging-protection">
+    <p class="eyebrow">Sheet 1 of 4</p>
+    <h3>Charging and cell protection</h3>
+    <p>USB-C feeds the charger. The cell protection circuit sits in the battery return path, so the raw cell negative and the board's protected ground are separate connections.</p>
+    <figure class="figure">
+      <a href="assets/board/schematic-charging-protection.png" target="_blank" rel="noopener"><img src="assets/board/schematic-charging-protection.png" alt="Current schematic sheet 1 showing USB-C power input, TP4056 charger and status LEDs, and DW01A with dual MOSFET cell protection" width="2000" height="1414" loading="lazy"></a>
+      <figcaption>Sheet 1: USB-C power input, charger and status, cell protection. <a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Schematic.pdf#page=1">Open the vector PDF at this sheet.</a></figcaption>
+    </figure>
+    <div class="grid three">
+      <div><h4>01 / USB-C power input</h4><p>J5 accepts charging power. Separate 5.1 kΩ resistors on CC1 and CC2 identify the input to a USB-C source. This connector is for charging; program the ESP through the SuperMini's own USB port.</p></div>
+      <div><h4>02 / Charger and status</h4><p>U3 is the TP4056 charger. R1 sets a nominal 500 mA charge current. D1 is the red charging indicator and D2 is the green full-charge indicator. The TEMP pin is grounded, so cell-temperature sensing is disabled.</p></div>
+      <div><h4>03 / Cell protection</h4><p>U4 and Q1 control the battery return connection. The v10 parts are PUOLOP DW01A and TECH PUBLIC 8205A. Connect the cell only to the marked battery pads; do not join BAT_MINUS directly to GND.</p></div>
+    </div>
+  </article>
+
+  <article class="card" id="power-boost">
+    <p class="eyebrow">Sheet 2 of 4</p>
+    <h3>Switched power and 5 V boost</h3>
+    <p>The RUN switch controls the motor supply and the boost converter input. The motor rail follows the battery voltage; the separate boost stage supplies the controller.</p>
+    <figure class="figure">
+      <a href="assets/board/schematic-power-boost.png" target="_blank" rel="noopener"><img src="assets/board/schematic-power-boost.png" alt="Current schematic sheet 2 showing the fuse, external RUN switch and MT3608 boost converter feeding the ESP supply through a diode" width="2000" height="1414" loading="lazy"></a>
+      <figcaption>Sheet 2: fuse and RUN switch, compact boost power stage. <a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Schematic.pdf#page=2">Open the vector PDF at this sheet.</a></figcaption>
+    </figure>
+    <div class="grid two">
+      <div><h4>04 / Fuse and RUN switch</h4><p>F1 is the resettable fuse. J4 connects the external RUN switch between the fused battery supply and VMOTOR. Opening RUN removes the motor supply independently of the software Stop control.</p></div>
+      <div><h4>05 / Compact boost power stage</h4><p>U5, L1 and D3 form the MT3608 boost stage. The feedback resistors set a nominal 5.10 V before D4; that diode feeds the ESP_5V rail. The supply still needs startup, ripple and temperature checks with the actual SuperMini.</p></div>
+    </div>
+  </article>
+
+  <article class="card" id="controller-sensing">
+    <p class="eyebrow">Sheet 3 of 4</p>
+    <h3>Controller and battery sensing</h3>
+    <p>The ESP32-C3 SuperMini provides the control signals. A filtered divider lets it sense the switched battery rail, while test points make the main supply rails accessible.</p>
+    <figure class="figure">
+      <a href="assets/board/schematic-controller-sensing.png" target="_blank" rel="noopener"><img src="assets/board/schematic-controller-sensing.png" alt="Current schematic sheet 3 showing the SuperMini pin connections, ESP supply bypass capacitor and filtered GPIO4 battery voltage divider" width="2000" height="1414" loading="lazy"></a>
+      <figcaption>Sheet 3: SuperMini module, supply bypass and ADC filter. <a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Schematic.pdf#page=3">Open the vector PDF at this sheet.</a></figcaption>
+    </figure>
+    <div class="grid two">
+      <div><h4>06 / SuperMini module</h4><p>U1 is installed by hand. GPIO0/1 control the left motor, GPIO3/10 control the right motor and GPIO6 enables the motor interface. Verify the actual module's pin order and dimensions before soldering it in place.</p></div>
+      <div><h4>07 / Supply bypass and ADC filter</h4><p>C12 bypasses the ESP supply. R19, R20 and C11 scale and filter VMOTOR for GPIO4. This measures the switched rail; it is not a wheel-speed sensor. GPIO4 is already used by this circuit.</p></div>
+    </div>
+    <p>For the OLED, spare pins and firmware connections, continue to <a href="code.html">Code and controls</a>.</p>
+  </article>
+
+  <article class="card" id="motor-interface">
+    <p class="eyebrow">Sheet 4 of 4</p>
+    <h3>Motor interface and dual H-bridge</h3>
+    <p>A level translator passes the controller's signals to the motor-supply domain. The dual motor driver then switches the two motors in either direction.</p>
+    <figure class="figure">
+      <a href="assets/board/schematic-motor-interface.png" target="_blank" rel="noopener"><img src="assets/board/schematic-motor-interface.png" alt="Current schematic sheet 4 showing the TXU0104 level translator, pull-down resistors, TC1508A motor driver and left and right motor outputs" width="2000" height="1414" loading="lazy"></a>
+      <figcaption>Sheet 4: power-safe GPIO interface and dual motor driver. <a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Schematic.pdf#page=4">Open the vector PDF at this sheet.</a></figcaption>
+    </figure>
+    <div class="grid two">
+      <div><h4>08 / Power-safe GPIO interface</h4><p>U6 is the TXU0104 level translator. Pull-down resistors establish disabled defaults, and its enable signal stays low until the firmware is ready to drive. Its two supply domains follow 3V3 and VMOTOR.</p></div>
+      <div><h4>09 / Dual motor driver</h4><p>U2 is the TC1508A dual H-bridge. J2 is the left motor output and J3 is the right motor output. C1 is the 100 µF bulk capacitor on the motor rail. Check the motors' actual stall current and the driver's temperature during hardware qualification.</p></div>
+    </div>
+  </article>
+</section>
+
+<section class="section" id="silkscreen">
+  <div class="section-heading">
+    <p class="eyebrow">Read the board</p>
+    <h2>Silkscreen, connections and polarity</h2>
+  </div>
+  <p>The printed legend identifies the wiring pads, component references and test points. These black-on-white references use the current manufacturing silkscreen. Gray outlines and holes are added only to help locate the artwork.</p>
+  <div class="grid two">
+    <figure class="figure">
+      <a href="assets/board/silkscreen-top.svg" target="_blank" rel="noopener"><img src="assets/board/silkscreen-top.svg" alt="Current top silkscreen showing component references, connection labels, polarity marks and the small Genie under the SuperMini" width="408" height="1008" loading="lazy" style="max-height:720px;object-fit:contain"></a>
+      <figcaption><strong>Top / component side.</strong> The small Genie sits beneath the SuperMini and is covered by the installed module.</figcaption>
+    </figure>
+    <figure class="figure">
+      <a href="assets/board/silkscreen-bottom.svg" target="_blank" rel="noopener"><img src="assets/board/silkscreen-bottom.svg" alt="Readable physical underside silkscreen with test-point legend and the large Genie artwork" width="408" height="1008" loading="lazy" style="max-height:720px;object-fit:contain"></a>
+      <figcaption><strong>Bottom / underside.</strong> Read from below. The large Genie sits beneath the test-point legend.</figcaption>
+    </figure>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Marking</th><th scope="col">Connection or check</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">J1 / battery</th><td>One 18650 cell. Follow the marked positive and negative pads. BAT_MINUS is the raw cell return, separate from protected GND.</td></tr>
+        <tr><th scope="row">J2 / left motor</th><td>Left motor wires. Verify direction with the wheels raised; use the controller's saved direction setting if needed.</td></tr>
+        <tr><th scope="row">J3 / right motor</th><td>Right motor wires. Check this motor independently during the first direction test.</td></tr>
+        <tr><th scope="row">J4 / RUN</th><td>External motor-power switch. Its two wires bridge the fused supply to VMOTOR. Check mounting and wire strain relief for your actual switch; a verified switch bracket is not supplied.</td></tr>
+        <tr><th scope="row">J5 / USB-C</th><td>Charging input. The current footprint is for SHOU HAN TYPE-C 6P and has four plated mounting slots.</td></tr>
+        <tr><th scope="row">C1 / +</th><td>Electrolytic capacitor polarity. In the top view with the antenna end up, C1's positive lead is on the left; confirm the + mark before fitting it.</td></tr>
+        <tr><th scope="row">IC dots and diode bars</th><td>Dots identify IC pin 1. Diode bars identify the cathode. Compare the part, pad numbering and assembly preview before soldering.</td></tr>
+        <tr><th scope="row">TP1 to TP6</th><td>TP1 GND · TP2 BAT_PLUS · TP3 VMOTOR · TP4 BOOST5V · TP5 ESP_5V · TP6 3V3.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="quiet">Some references are on the assembly drawing rather than the printed legend. Use the schematic, board layout and placement file together when identifying a crowded area.</p>
+</section>
+
+<section class="section" id="power-and-startup">
+  <div class="section-heading">
+    <p class="eyebrow">Assembly and first power</p>
+    <h2>Keep RUN open while charging or programming</h2>
+  </div>
+  <div class="notice"><strong>Power procedure:</strong> open RUN before connecting the SuperMini's USB cable. Unplug that cable before closing RUN. Keep RUN open while charging through J5. The carrier has no charge-and-run load sharing.</div>
+  <ol>
+    <li><strong>Inspect the unpowered board.</strong> Check battery and capacitor polarity, IC orientation, the USB-C fit and solder joints. Confirm the actual SuperMini pinout before installing U1.</li>
+    <li><strong>Check the assembly files.</strong> The factory population is 45 parts: 44 surface-mount parts and through-hole C1. U1 is installed by hand. Review the factory's placement preview, particularly J5, C1 and the IC orientations.</li>
+    <li><strong>Program with RUN open.</strong> Connect the SuperMini's own USB port and load the matching firmware from <a href="code.html">Code and controls</a>.</li>
+    <li><strong>Prepare the first movement check.</strong> Unplug the SuperMini USB cable, raise the wheels clear and then close RUN. Connect the controller and start at its default low drive limit.</li>
+    <li><strong>Check each motor's direction.</strong> Stop before changing direction settings. Releasing the joystick or using Stop ends the motor command; opening RUN cuts the motor supply independently.</li>
+  </ol>
+  <p>Continue to <a href="build.html">Print and build</a> for the chassis, fasteners and physical assembly.</p>
+  <div class="notice"><strong>Prototype checks remain.</strong> The saved v10 board reports zero native DRC errors; the schematic retains 13 reviewed power-pin/net-name warnings. These design checks do not qualify motor stall current, boost startup and ripple, charge temperature, protection trip behavior or mechanical fit. The substituted Q1/U4 protection pair still needs hardware validation.</div>
+</section>
+
+<section class="section" id="downloads">
+  <div class="section-heading">
+    <p class="eyebrow">Keep the revision together</p>
+    <h2>Board downloads</h2>
+  </div>
+  <p>Use the v10 Gerbers, BOM and placement file together. The current USB-C footprint and component selections differ from earlier releases. The editable Fusion files retain <code>RevC</code> names and match this v10 board / v6 schematic release.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Fabrication and assembly</h3>
+      <p><a class="button" href="downloads/Scout-CarrierC-v10-Factory.zip" download>Download factory package</a></p>
+      <ul class="download-list">
+        <li><a href="05-Factory-CarrierC-v10/C3-CarrierC-v10-Gerbers.zip" download>Gerbers ZIP</a> <span class="quiet">— PCB fabrication layers and drill files</span></li>
+        <li><a href="05-Factory-CarrierC-v10/C3-CarrierC-v10-BOM.csv" download>Assembly BOM CSV</a> <span class="quiet">— 24 groups / 45 placements</span></li>
+        <li><a href="05-Factory-CarrierC-v10/C3-CarrierC-v10-CPL.csv" download>Placement file CSV</a> <span class="quiet">— positions and rotations</span></li>
+        <li><a href="05-Factory-CarrierC-v10/C3-CarrierC-v10-Sourcing-BOM.xlsx" download>Detailed sourcing workbook</a></li>
+        <li><a href="05-Factory-CarrierC-v10/UPLOAD-GUIDE.html">Factory upload guide</a></li>
+      </ul>
+      <p class="quiet">The Gerber ZIP contains seven fabrication Gerbers plus separate plated and nonplated drill files. Paste/stencil files are not included. Select top-side assembly with through-hole soldering for C1, and review the manufacturer's placement preview.</p>
+    </div>
+    <div class="card">
+      <h3>Fusion source and drawings</h3>
+      <p><a class="button" href="downloads/Scout-CarrierC-v10-Fusion.zip" download>Download Fusion source package</a></p>
+      <ul class="download-list">
+        <li><a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC.sch" download>Editable schematic SCH</a></li>
+        <li><a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC.brd" download>Editable board BRD</a></li>
+        <li><a href="05-Factory-CarrierC-v10/Fusion-Source/C3_SCOUT_REVC.lbr" download>Component library LBR</a></li>
+        <li><a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Schematic.pdf">Four-page schematic PDF</a></li>
+        <li><a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Board-Layout.pdf">Two-page board layout PDF</a></li>
+      </ul>
+      <p class="quiet">Keep the schematic, board and component library together when editing. The Rev B mechanical model is a separate release; its component placement is not synchronized to Carrier C's electrical layout.</p>
+    </div>
+  </div>
+</section>
+<div class="next-page"><a href="index.html">← All four guides</a><a href="code.html">Continue to The Code →</a></div></div></div></main><footer class="site-footer"><p>Scout builder documentation · Rev B mechanics · Carrier C v10 · web firmware 19 October 2026 · ScoutFaces 1.0.0 · v8 cases</p><a href="index.html">Back to Scout</a></footer></body></html>

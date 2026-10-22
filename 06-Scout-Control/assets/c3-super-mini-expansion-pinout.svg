@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1100" viewBox="0 0 1280 1100" role="img" aria-labelledby="pinout-title pinout-desc">
+<title id="pinout-title">Scout Carrier C v10: ESP32-C3 Super Mini expansion pinout</title>
+<desc id="pinout-desc">Top component view with USB at the top, not the underside. Left row from top: GPIO5, 6, 7, 8, 9, 10, 20, 21. Right row: 5V, GND, 3V3, GPIO4, 3, 2, 1, 0. Arrows end at the corresponding pad. GPIO5, 7, 20 and 21 are available. GPIO2, 8 and 9 are conditional boot-sensitive pins. GPIO4 is connected to battery sensing.</desc>
+<rect width="1280" height="1100" rx="22" fill="#fffef8"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#193f39">
+<text x="40" y="53" font-size="15" letter-spacing="2">C3 SCOUT / CARRIER C v10 / EXPANSION</text>
+<text x="40" y="104" font-size="39" font-weight="700">ESP32-C3 Super Mini pinout</text>
+<text x="40" y="143" font-size="21">TOP / COMPONENT VIEW · USB connector at the top · The underside view is mirrored</text>
+<rect x="478" y="210" width="324" height="710" rx="24" fill="#193f39" stroke="#102e28" stroke-width="3"/>
+<rect x="575" y="179" width="130" height="91" rx="12" fill="#cbd6d4" stroke="#657b75" stroke-width="3"/>
+<rect x="590" y="187" width="100" height="23" rx="10" fill="#233e36"/>
+<text x="640" y="244" text-anchor="middle" font-size="18" font-weight="700">USB-C</text>
+<rect x="566" y="410" width="148" height="175" rx="10" fill="#0c2420" stroke="#8da59b"/>
+<text x="640" y="475" text-anchor="middle" font-size="22" fill="#e5ede4">ESP32</text>
+<text x="640" y="509" text-anchor="middle" font-size="24" font-weight="700" fill="#e5ede4">C3</text>
+<text x="640" y="548" text-anchor="middle" font-size="14" fill="#b7c9c0">SUPER MINI</text>
+<text x="640" y="885" text-anchor="middle" font-size="14" fill="#b7c9c0">Simplified module drawing</text>
+
+<defs>
+<marker id="arrow-free" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="20" markerHeight="20" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#16634a" stroke="#fffef8" stroke-width=".65" stroke-linejoin="round"/></marker>
+<marker id="arrow-conditional" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="20" markerHeight="20" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#8b510a" stroke="#fffef8" stroke-width=".65" stroke-linejoin="round"/></marker>
+<marker id="arrow-power" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="20" markerHeight="20" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#145987" stroke="#fffef8" stroke-width=".65" stroke-linejoin="round"/></marker>
+<marker id="arrow-used" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="20" markerHeight="20" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#66756e" stroke="#fffef8" stroke-width=".65" stroke-linejoin="round"/></marker>
+</defs>
+<g data-pin="IO5" data-category="free"><rect x="32" y="261" width="400" height="62" rx="10" fill="#e9f5ee" stroke="#16634a" stroke-opacity=".3"/>
+<text x="49" y="287" font-size="23" font-weight="650" fill="#16634a">GPIO5 · available</text><text x="49" y="312" font-size="17" fill="#16634a">Recommended OLED SDA (data)</text>
+<line data-arrow="IO5" x1="432" y1="292" x2="487" y2="292" stroke="#16634a" stroke-width="3" marker-end="url(#arrow-free)"/>
+<circle data-pad="IO5" cx="500" cy="292" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="292" r="6" fill="#fffef8"/>
+<text x="525" y="299" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">5</text></g>
+<g data-pin="IO6" data-category="used"><rect x="32" y="341" width="400" height="62" rx="10" fill="#f0f2ed" stroke="#66756e" stroke-opacity=".3"/>
+<text x="49" y="367" font-size="23" font-weight="650" fill="#66756e">GPIO6 · in use</text><text x="49" y="392" font-size="17" fill="#66756e">Motor-driver enable</text>
+<line data-arrow="IO6" x1="432" y1="372" x2="487" y2="372" stroke="#66756e" stroke-width="3" marker-end="url(#arrow-used)"/>
+<circle data-pad="IO6" cx="500" cy="372" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="372" r="6" fill="#fffef8"/>
+<text x="525" y="379" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">6</text></g>
+<g data-pin="IO7" data-category="free"><rect x="32" y="421" width="400" height="62" rx="10" fill="#e9f5ee" stroke="#16634a" stroke-opacity=".3"/>
+<text x="49" y="447" font-size="23" font-weight="650" fill="#16634a">GPIO7 · available</text><text x="49" y="472" font-size="17" fill="#16634a">Recommended OLED SCL (clock)</text>
+<line data-arrow="IO7" x1="432" y1="452" x2="487" y2="452" stroke="#16634a" stroke-width="3" marker-end="url(#arrow-free)"/>
+<circle data-pad="IO7" cx="500" cy="452" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="452" r="6" fill="#fffef8"/>
+<text x="525" y="459" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">7</text></g>
+<g data-pin="IO8" data-category="conditional"><rect x="32" y="501" width="400" height="62" rx="10" fill="#fff4da" stroke="#8b510a" stroke-opacity=".3"/>
+<text x="49" y="527" font-size="23" font-weight="650" fill="#8b510a">GPIO8 · conditional</text><text x="49" y="552" font-size="17" fill="#8b510a">Boot-sensitive; onboard LED</text>
+<line data-arrow="IO8" x1="432" y1="532" x2="487" y2="532" stroke="#8b510a" stroke-width="3" marker-end="url(#arrow-conditional)"/>
+<circle data-pad="IO8" cx="500" cy="532" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="532" r="6" fill="#fffef8"/>
+<text x="525" y="539" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">8</text></g>
+<g data-pin="IO9" data-category="conditional"><rect x="32" y="581" width="400" height="62" rx="10" fill="#fff4da" stroke="#8b510a" stroke-opacity=".3"/>
+<text x="49" y="607" font-size="23" font-weight="650" fill="#8b510a">GPIO9 · conditional</text><text x="49" y="632" font-size="17" fill="#8b510a">Boot-sensitive; BOOT button</text>
+<line data-arrow="IO9" x1="432" y1="612" x2="487" y2="612" stroke="#8b510a" stroke-width="3" marker-end="url(#arrow-conditional)"/>
+<circle data-pad="IO9" cx="500" cy="612" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="612" r="6" fill="#fffef8"/>
+<text x="525" y="619" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">9</text></g>
+<g data-pin="IO10" data-category="used"><rect x="32" y="661" width="400" height="62" rx="10" fill="#f0f2ed" stroke="#66756e" stroke-opacity=".3"/>
+<text x="49" y="687" font-size="23" font-weight="650" fill="#66756e">GPIO10 · in use</text><text x="49" y="712" font-size="17" fill="#66756e">Right motor input</text>
+<line data-arrow="IO10" x1="432" y1="692" x2="487" y2="692" stroke="#66756e" stroke-width="3" marker-end="url(#arrow-used)"/>
+<circle data-pad="IO10" cx="500" cy="692" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="692" r="6" fill="#fffef8"/>
+<text x="525" y="699" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">10</text></g>
+<g data-pin="IO20" data-category="free"><rect x="32" y="741" width="400" height="62" rx="10" fill="#e9f5ee" stroke="#16634a" stroke-opacity=".3"/>
+<text x="49" y="767" font-size="23" font-weight="650" fill="#16634a">GPIO20 · available</text><text x="49" y="792" font-size="17" fill="#16634a">Also UART RX; unused by Scout</text>
+<line data-arrow="IO20" x1="432" y1="772" x2="487" y2="772" stroke="#16634a" stroke-width="3" marker-end="url(#arrow-free)"/>
+<circle data-pad="IO20" cx="500" cy="772" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="772" r="6" fill="#fffef8"/>
+<text x="525" y="779" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">20</text></g>
+<g data-pin="IO21" data-category="free"><rect x="32" y="821" width="400" height="62" rx="10" fill="#e9f5ee" stroke="#16634a" stroke-opacity=".3"/>
+<text x="49" y="847" font-size="23" font-weight="650" fill="#16634a">GPIO21 · available</text><text x="49" y="872" font-size="17" fill="#16634a">Also UART TX; may send boot logs</text>
+<line data-arrow="IO21" x1="432" y1="852" x2="487" y2="852" stroke="#16634a" stroke-width="3" marker-end="url(#arrow-free)"/>
+<circle data-pad="IO21" cx="500" cy="852" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="500" cy="852" r="6" fill="#fffef8"/>
+<text x="525" y="859" text-anchor="start" font-size="19" font-weight="700" fill="#fffef8">21</text></g>
+<g data-pin="5V" data-category="power"><rect x="848" y="261" width="400" height="62" rx="10" fill="#e9f3fb" stroke="#145987" stroke-opacity=".3"/>
+<text x="865" y="287" font-size="23" font-weight="650" fill="#145987">5V · supply rail</text><text x="865" y="312" font-size="17" fill="#145987">ESP_5V on carrier; see power notes</text>
+<line data-arrow="5V" x1="848" y1="292" x2="793" y2="292" stroke="#145987" stroke-width="3" marker-end="url(#arrow-power)"/>
+<circle data-pad="5V" cx="780" cy="292" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="292" r="6" fill="#fffef8"/>
+<text x="755" y="299" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">5V</text></g>
+<g data-pin="GND" data-category="power"><rect x="848" y="341" width="400" height="62" rx="10" fill="#e9f3fb" stroke="#145987" stroke-opacity=".3"/>
+<text x="865" y="367" font-size="23" font-weight="650" fill="#145987">GND · common ground</text><text x="865" y="392" font-size="17" fill="#145987">OLED and sensor ground return</text>
+<line data-arrow="GND" x1="848" y1="372" x2="793" y2="372" stroke="#145987" stroke-width="3" marker-end="url(#arrow-power)"/>
+<circle data-pad="GND" cx="780" cy="372" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="372" r="6" fill="#fffef8"/>
+<text x="755" y="379" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">GND</text></g>
+<g data-pin="3V3" data-category="power"><rect x="848" y="421" width="400" height="62" rx="10" fill="#e9f3fb" stroke="#145987" stroke-opacity=".3"/>
+<text x="865" y="447" font-size="23" font-weight="650" fill="#145987">3V3 · regulated power</text><text x="865" y="472" font-size="17" fill="#145987">Use for a 3.3 V-compatible OLED</text>
+<line data-arrow="3V3" x1="848" y1="452" x2="793" y2="452" stroke="#145987" stroke-width="3" marker-end="url(#arrow-power)"/>
+<circle data-pad="3V3" cx="780" cy="452" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="452" r="6" fill="#fffef8"/>
+<text x="755" y="459" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">3V3</text></g>
+<g data-pin="IO4" data-category="used"><rect x="848" y="501" width="400" height="62" rx="10" fill="#f0f2ed" stroke="#66756e" stroke-opacity=".3"/>
+<text x="865" y="527" font-size="23" font-weight="650" fill="#66756e">GPIO4 · reserved</text><text x="865" y="552" font-size="17" fill="#66756e">Battery-voltage sensing circuit</text>
+<line data-arrow="IO4" x1="848" y1="532" x2="793" y2="532" stroke="#66756e" stroke-width="3" marker-end="url(#arrow-used)"/>
+<circle data-pad="IO4" cx="780" cy="532" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="532" r="6" fill="#fffef8"/>
+<text x="755" y="539" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">4</text></g>
+<g data-pin="IO3" data-category="used"><rect x="848" y="581" width="400" height="62" rx="10" fill="#f0f2ed" stroke="#66756e" stroke-opacity=".3"/>
+<text x="865" y="607" font-size="23" font-weight="650" fill="#66756e">GPIO3 · in use</text><text x="865" y="632" font-size="17" fill="#66756e">Right motor input</text>
+<line data-arrow="IO3" x1="848" y1="612" x2="793" y2="612" stroke="#66756e" stroke-width="3" marker-end="url(#arrow-used)"/>
+<circle data-pad="IO3" cx="780" cy="612" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="612" r="6" fill="#fffef8"/>
+<text x="755" y="619" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">3</text></g>
+<g data-pin="IO2" data-category="conditional"><rect x="848" y="661" width="400" height="62" rx="10" fill="#fff4da" stroke="#8b510a" stroke-opacity=".3"/>
+<text x="865" y="687" font-size="23" font-weight="650" fill="#8b510a">GPIO2 · conditional</text><text x="865" y="712" font-size="17" fill="#8b510a">Boot-sensitive; avoid initially</text>
+<line data-arrow="IO2" x1="848" y1="692" x2="793" y2="692" stroke="#8b510a" stroke-width="3" marker-end="url(#arrow-conditional)"/>
+<circle data-pad="IO2" cx="780" cy="692" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="692" r="6" fill="#fffef8"/>
+<text x="755" y="699" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">2</text></g>
+<g data-pin="IO1" data-category="used"><rect x="848" y="741" width="400" height="62" rx="10" fill="#f0f2ed" stroke="#66756e" stroke-opacity=".3"/>
+<text x="865" y="767" font-size="23" font-weight="650" fill="#66756e">GPIO1 · in use</text><text x="865" y="792" font-size="17" fill="#66756e">Left motor input</text>
+<line data-arrow="IO1" x1="848" y1="772" x2="793" y2="772" stroke="#66756e" stroke-width="3" marker-end="url(#arrow-used)"/>
+<circle data-pad="IO1" cx="780" cy="772" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="772" r="6" fill="#fffef8"/>
+<text x="755" y="779" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">1</text></g>
+<g data-pin="IO0" data-category="used"><rect x="848" y="821" width="400" height="62" rx="10" fill="#f0f2ed" stroke="#66756e" stroke-opacity=".3"/>
+<text x="865" y="847" font-size="23" font-weight="650" fill="#66756e">GPIO0 · in use</text><text x="865" y="872" font-size="17" fill="#66756e">Left motor input</text>
+<line data-arrow="IO0" x1="848" y1="852" x2="793" y2="852" stroke="#66756e" stroke-width="3" marker-end="url(#arrow-used)"/>
+<circle data-pad="IO0" cx="780" cy="852" r="13" fill="#d8c684" stroke="#f4eac1" stroke-width="2"/><circle cx="780" cy="852" r="6" fill="#fffef8"/>
+<text x="755" y="859" text-anchor="end" font-size="19" font-weight="700" fill="#fffef8">0</text></g>
+<line x1="40" x2="1240" y1="957" y2="957" stroke="#c4d0bc"/>
+<circle cx="48" cy="991" r="8" fill="#16634a"/><text x="67" y="998" font-size="20" fill="#16634a">4 preferred GPIOs</text>
+<circle cx="373" cy="991" r="8" fill="#8b510a"/><text x="392" y="998" font-size="20" fill="#8b510a">3 conditional GPIOs</text>
+<circle cx="723" cy="991" r="8" fill="#145987"/><text x="742" y="998" font-size="20" fill="#145987">Power / ground</text>
+<circle cx="1018" cy="991" r="8" fill="#66756e"/><text x="1037" y="998" font-size="20" fill="#66756e">Allocated</text>
+<text x="40" y="1040" font-size="19">OLED: SDA → GPIO5 · SCL → GPIO7 · VCC → 3V3 · GND → GND</text>
+<text x="40" y="1073" font-size="17" fill="#5b7067">Pin order checked against U1 in Carrier C v10. Wiring proposal only; SCOUT 2 has no OLED support yet.</text>
+</g></svg>

@@ -1,0 +1,107 @@
+{
+  "checked_utc": "2026-10-17T02:27:11.687697+00:00",
+  "method": "Python standard-library binary STL topology, signed volume and CAD bounds comparison",
+  "units": "mm, matched against CAD export bounds",
+  "parts": [
+    {
+      "file": "Scout-ESP32-CAM-Bumper-v1.stl",
+      "triangles": 1704,
+      "unique_vertices": 838,
+      "unique_edges": 2556,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "edge_connected_components": 1,
+      "component_triangle_counts": [
+        1704
+      ],
+      "bounds_mm": [
+        [
+          -36.0,
+          -55.0,
+          3.0
+        ],
+        [
+          36.0,
+          -6.5,
+          69.0
+        ]
+      ],
+      "dimensions_mm": [
+        72.0,
+        48.5,
+        66.0
+      ],
+      "expected_cad_bounds_mm": [
+        [
+          -36.0,
+          -55.0,
+          3.0
+        ],
+        [
+          36.0,
+          -6.5000000000000036,
+          69.0
+        ]
+      ],
+      "bounds_match_cad_within_0_001mm": true,
+      "signed_volume_mm3": 10279.875992747444,
+      "cad_volume_mm3": 10279.374463613314,
+      "volume_difference_percent": 0.004878984960660493,
+      "passed": true
+    },
+    {
+      "file": "Scout-ESP32-CAM-Rear-Support-v1.stl",
+      "triangles": 340,
+      "unique_vertices": 168,
+      "unique_edges": 510,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "edge_connected_components": 1,
+      "component_triangle_counts": [
+        340
+      ],
+      "bounds_mm": [
+        [
+          -20.5,
+          -28.0,
+          32.0
+        ],
+        [
+          20.5,
+          -18.0,
+          73.0
+        ]
+      ],
+      "dimensions_mm": [
+        41.0,
+        10.0,
+        41.0
+      ],
+      "expected_cad_bounds_mm": [
+        [
+          -20.5,
+          -28.0,
+          32.0
+        ],
+        [
+          20.5,
+          -18.0,
+          73.0
+        ]
+      ],
+      "bounds_match_cad_within_0_001mm": true,
+      "signed_volume_mm3": 2483.5345282643684,
+      "cad_volume_mm3": 2483.166377849005,
+      "volume_difference_percent": 0.01482584568828577,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "Does not establish self-intersection absence, physical fit, retention strength, or printer performance."
+  ]
+}

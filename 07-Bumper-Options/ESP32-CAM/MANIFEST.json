@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-17T02:33:37.908253+00:00",
+  "title": "Scout ESP32-CAM adjustable bumper with attached USB adapter",
+  "version": "v1 prototype",
+  "physical_fit_tested": false,
+  "files": [
+    {
+      "name": "ASSEMBLY.html",
+      "bytes": 13676,
+      "sha256": "96f25c544437e1439b4d609c3382e3c2916d5d12123d7f6f3458073b05a87b12"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Bumper-v1.stl",
+      "bytes": 85284,
+      "sha256": "f884ca253129dec9a85ea85c6a0592379169f87e004b2d51fe7b72e7b71a7fc5"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Rear-Support-v1.stl",
+      "bytes": 17084,
+      "sha256": "624cf680abd7780b3c1186ba7f6f94d8a5a39749ea6b6eca2faf1554c5033a6d"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Bumper-v1.f3d",
+      "bytes": 346099,
+      "sha256": "3342504259640f4624dfbd2cedc4e061f7407fbe21836f1796e8097b9be38507"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Rear-Support-v1.f3d",
+      "bytes": 164249,
+      "sha256": "48c7441b2cc25f64e753a77531c2f6de1a5a97f37f74edbfc7d62c84b633eb38"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Adjustable-Mount-v1.f3d",
+      "bytes": 1236960,
+      "sha256": "79d7edf81ec929fb0b1be1a4df74c5c6dacd376c3242bd386bad0c794c146515"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Assembly-v1.f3d",
+      "bytes": 15836328,
+      "sha256": "71cd472db8a9939b4e13425e78b90cbcb1549e8549bf502ee64b064b83a32d36"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Bumper-v1.step",
+      "bytes": 160658,
+      "sha256": "ca839abd9b7c2baff660918c870687262cd06952427ee4d4f3c5db63e1040dad"
+    },
+    {
+      "name": "Scout-ESP32-CAM-Rear-Support-v1.step",
+      "bytes": 22381,
+      "sha256": "9d15530b9e3d37e9fb866e60f8e34ec423049afbf2facbbd433dc939a611b83d"
+    },
+    {
+      "name": "mount-only.png",
+      "bytes": 164872,
+      "sha256": "3d941c71591177f6938b6e7eea19409e3107d2cdfe5a442d4dc7a7a91ae8ef07"
+    },
+    {
+      "name": "mount-with-camera.png",
+      "bytes": 188059,
+      "sha256": "ac8b3f8deed22b29c8840efb27864dfc2c3efdb1585374545666d7e6b8cdf591"
+    },
+    {
+      "name": "mount-rear.png",
+      "bytes": 188299,
+      "sha256": "cb217946454a25ca7217d8db890f7342f8b9dc5f11c482f5be67813d3114cc23"
+    },
+    {
+      "name": "scout-camera-assembly.png",
+      "bytes": 359864,
+      "sha256": "73a01f97a4f8a1c005a731d606a61e5c2791b693dbeab511f8201648883ae451"
+    },
+    {
+      "name": "scout-camera-detail.png",
+      "bytes": 536737,
+      "sha256": "6583aa1f2c7ea21dbce2a79fd011c9a5922a20c9642c973cf72070db6a433c6a"
+    },
+    {
+      "name": "design-dimensions.json",
+      "bytes": 1279,
+      "sha256": "94edf1b52aa6c2383db294c0f59b3d0c9d19029b021157645ff56d4bd0d5d842"
+    },
+    {
+      "name": "cad-verification.json",
+      "bytes": 7296,
+      "sha256": "00f676eae1725379a26fb37bd1b433a1e06328997bdf3cff846bc5e194c42686"
+    },
+    {
+      "name": "reference-fit.json",
+      "bytes": 2037,
+      "sha256": "555211b29072a31016a654e79d682581b76978dd59927e025c245ff46606f721"
+    },
+    {
+      "name": "mesh-verification.json",
+      "bytes": 2514,
+      "sha256": "4419c8ecffbc074cc2b34b8f93b25f8390a5535e843fea9f99e50e7ff57e3799"
+    },
+    {
+      "name": "guide-verification.json",
+      "bytes": 110,
+      "sha256": "64f998b943e1107af00aaecda47ae1fb5c7a7a31010a0ca60403bd7962d4b421"
+    }
+  ]
+}

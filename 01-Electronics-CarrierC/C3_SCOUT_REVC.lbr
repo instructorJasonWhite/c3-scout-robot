@@ -290,6 +290,7 @@
           <text x="-2.25" y="2" size="0.8" layer="51" font="vector">&gt;NAME</text>
         </package>
         <package name="L6">
+          <description>Bourns SRN6045TA recommended footprint: 5.1 x 1.8 mm lands, 4.7 mm center spacing, 6.5 mm outer span. SRN6045TA-4R7M: 4.7 uH, 4.5 A Irms, 6.8 A Isat.</description>
           <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.15" layer="51" />
           <wire x1="3" y1="-3" x2="3" y2="3" width="0.15" layer="51" />
           <wire x1="3" y1="3" x2="-3" y2="3" width="0.15" layer="51" />
@@ -297,7 +298,6 @@
           <smd name="1" x="-2.35" y="0" dx="1.8" dy="5.1" layer="1" />
           <smd name="2" x="2.35" y="0" dx="1.8" dy="5.1" layer="1" />
           <text x="-3" y="3.6" size="0.8" layer="51" font="vector">&gt;NAME</text>
-          <description>Bourns SRN6045TA recommended footprint: 5.1 x 1.8 mm lands, 4.7 mm center spacing, 6.5 mm outer span. SRN6045TA-4R7M: 4.7 uH, 4.5 A Irms, 6.8 A Isat.</description>
         </package>
         <package name="F1812">
           <wire x1="-2.25" y1="-1.6" x2="2.25" y2="-1.6" width="0.15" layer="51" />
@@ -357,303 +357,314 @@
           <pad name="IO0" x="7.62" y="-8.89" drill="1.05" diameter="1.9" />
           <text x="-9" y="11.86" size="0.8" layer="51" font="vector">&gt;NAME</text>
         </package>
-        <package name="USB4125-ROUND-STAKE">
+        <package name="USB-C-SHOUHAN-6P-C456012">
+          <description>SHOU HAN TYPE-C 6P, JLC C456012. Manufacturer drawing 1006-FGBXXX, 2021-08-02. Four native PTH slots 0.60 x 1.40 mm, copper 1.00 x 1.80 mm. Body 8.94 x 6.80 x 3.26 mm; shell tabs 0.95 mm. Origin at body center; front mouth at Y=-3.4 mm. Datasheet: https://datasheet.lcsc.com/datasheet/pdf/68548ae186bce8dcee36d39654e737cb.pdf?productCode=C456012</description>
           <wire x1="-4.47" y1="-3.4" x2="4.47" y2="-3.4" width="0.15" layer="51" />
           <wire x1="4.47" y1="-3.4" x2="4.47" y2="3.4" width="0.15" layer="51" />
           <wire x1="4.47" y1="3.4" x2="-4.47" y2="3.4" width="0.15" layer="51" />
           <wire x1="-4.47" y1="3.4" x2="-4.47" y2="-3.4" width="0.15" layer="51" />
-          <smd name="B12" x="-2.75" y="3.08" dx="0.8" dy="1.2" layer="1" />
-          <smd name="B9" x="-1.52" y="3.08" dx="0.76" dy="1.2" layer="1" />
-          <smd name="A5" x="-0.5" y="3.08" dx="0.7" dy="1.2" layer="1" />
-          <smd name="B5" x="0.5" y="3.08" dx="0.7" dy="1.2" layer="1" />
-          <smd name="A9" x="1.52" y="3.08" dx="0.76" dy="1.2" layer="1" />
-          <smd name="A12" x="2.75" y="3.08" dx="0.8" dy="1.2" layer="1" />
-          <pad name="SH1" x="-4.32" y="3" drill="1.35" diameter="2" />
-          <pad name="SH2" x="-4.32" y="-0.8" drill="1.35" diameter="2" />
-          <pad name="SH3" x="4.32" y="3" drill="1.35" diameter="2" />
-          <pad name="SH4" x="4.32" y="-0.8" drill="1.35" diameter="2" />
+          <smd name="B12" x="-2.7" y="3.05" dx=".8" dy="1" layer="1" />
+          <smd name="B9" x="-1.5" y="3.05" dx=".8" dy="1" layer="1" />
+          <smd name="A5" x="-0.5" y="3.05" dx=".7" dy="1" layer="1" />
+          <smd name="B5" x="0.5" y="3.05" dx=".7" dy="1" layer="1" />
+          <smd name="A9" x="1.5" y="3.05" dx=".8" dy="1" layer="1" />
+          <smd name="A12" x="2.7" y="3.05" dx=".8" dy="1" layer="1" />
+          <pad name="SH1" x="-4.32" y="3" drill=".6" diameter="1" slotLength="1.4" shape="slot" rot="R90" />
+          <pad name="SH2" x="-4.32" y="-0.8" drill=".6" diameter="1" slotLength="1.4" shape="slot" rot="R90" />
+          <pad name="SH3" x="4.32" y="3" drill=".6" diameter="1" slotLength="1.4" shape="slot" rot="R90" />
+          <pad name="SH4" x="4.32" y="-0.8" drill=".6" diameter="1" slotLength="1.4" shape="slot" rot="R90" />
           <text x="-4.47" y="4" size="0.8" layer="51" font="vector">&gt;NAME</text>
         </package>
       </packages>
       <symbols>
         <symbol name="R0805">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="0.0" x2="-2.032" y2="1.27" layer="94" width="0.254" />
-          <wire x1="-2.032" y1="1.27" x2="-1.016" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="-1.016" y1="-1.27" x2="0.0" y2="1.27" layer="94" width="0.254" />
-          <wire x1="0.0" y1="1.27" x2="1.016" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="1.016" y1="-1.27" x2="2.032" y2="1.27" layer="94" width="0.254" />
-          <wire x1="2.032" y1="1.27" x2="2.54" y2="0.0" layer="94" width="0.254" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="0" x2="-2.032" y2="1.27" width="0.254" layer="94" />
+          <wire x1="-2.032" y1="1.27" x2="-1.016" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="-1.016" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94" />
+          <wire x1="0" y1="1.27" x2="1.016" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="1.016" y1="-1.27" x2="2.032" y2="1.27" width="0.254" layer="94" />
+          <wire x1="2.032" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94" />
         </symbol>
         <symbol name="C0805">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="0.0" x2="-0.762" y2="0.0" layer="94" width="0.254" />
-          <wire x1="0.762" y1="0.0" x2="2.54" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-0.762" y1="-2.54" x2="-0.762" y2="2.54" layer="94" width="0.254" />
-          <wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" layer="94" width="0.254" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.254" layer="94" />
+          <wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.254" layer="94" />
+          <wire x1="-0.762" y1="-2.54" x2="-0.762" y2="2.54" width="0.254" layer="94" />
+          <wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94" />
         </symbol>
         <symbol name="C1206">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="0.0" x2="-0.762" y2="0.0" layer="94" width="0.254" />
-          <wire x1="0.762" y1="0.0" x2="2.54" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-0.762" y1="-2.54" x2="-0.762" y2="2.54" layer="94" width="0.254" />
-          <wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" layer="94" width="0.254" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.254" layer="94" />
+          <wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.254" layer="94" />
+          <wire x1="-0.762" y1="-2.54" x2="-0.762" y2="2.54" width="0.254" layer="94" />
+          <wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94" />
         </symbol>
         <symbol name="LED0805">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="0.0" x2="-1.27" y2="0.0" layer="94" width="0.254" />
-          <wire x1="1.27" y1="0.0" x2="2.54" y2="0.0" layer="94" width="0.254" />
-          <wire x1="1.27" y1="-2.032" x2="1.27" y2="2.032" layer="94" width="0.254" />
-          <wire x1="-1.27" y1="-2.032" x2="-1.27" y2="2.032" layer="94" width="0.254" />
-          <wire x1="-1.27" y1="-2.032" x2="1.27" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-1.27" y1="2.032" x2="1.27" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-1.27" y1="2.794" x2="0.508" y2="4.572" layer="94" width="0.254" />
-          <wire x1="0.508" y1="4.572" x2="-0.381" y2="4.572" layer="94" width="0.254" />
-          <wire x1="0.508" y1="4.572" x2="0.508" y2="3.683" layer="94" width="0.254" />
-          <wire x1="0.508" y1="2.794" x2="2.286" y2="4.572" layer="94" width="0.254" />
-          <wire x1="2.286" y1="4.572" x2="1.397" y2="4.572" layer="94" width="0.254" />
-          <wire x1="2.286" y1="4.572" x2="2.286" y2="3.683" layer="94" width="0.254" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" />
+          <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94" />
+          <wire x1="1.27" y1="-2.032" x2="1.27" y2="2.032" width="0.254" layer="94" />
+          <wire x1="-1.27" y1="-2.032" x2="-1.27" y2="2.032" width="0.254" layer="94" />
+          <wire x1="-1.27" y1="-2.032" x2="1.27" y2="0" width="0.254" layer="94" />
+          <wire x1="-1.27" y1="2.032" x2="1.27" y2="0" width="0.254" layer="94" />
+          <wire x1="-1.27" y1="2.794" x2="0.508" y2="4.572" width="0.254" layer="94" />
+          <wire x1="0.508" y1="4.572" x2="-0.381" y2="4.572" width="0.254" layer="94" />
+          <wire x1="0.508" y1="4.572" x2="0.508" y2="3.683" width="0.254" layer="94" />
+          <wire x1="0.508" y1="2.794" x2="2.286" y2="4.572" width="0.254" layer="94" />
+          <wire x1="2.286" y1="4.572" x2="1.397" y2="4.572" width="0.254" layer="94" />
+          <wire x1="2.286" y1="4.572" x2="2.286" y2="3.683" width="0.254" layer="94" />
         </symbol>
         <symbol name="SMA">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="0.0" x2="-1.27" y2="0.0" layer="94" width="0.254" />
-          <wire x1="1.27" y1="0.0" x2="2.54" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-1.27" y1="-2.032" x2="-1.27" y2="2.032" layer="94" width="0.254" />
-          <wire x1="1.27" y1="-2.032" x2="1.27" y2="2.032" layer="94" width="0.254" />
-          <wire x1="1.27" y1="-2.032" x2="-1.27" y2="0.0" layer="94" width="0.254" />
-          <wire x1="1.27" y1="2.032" x2="-1.27" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-1.27" y1="-2.032" x2="-0.508" y2="-2.032" layer="94" width="0.254" />
-          <wire x1="-1.27" y1="2.032" x2="-2.032" y2="2.032" layer="94" width="0.254" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" />
+          <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94" />
+          <wire x1="-1.27" y1="-2.032" x2="-1.27" y2="2.032" width="0.254" layer="94" />
+          <wire x1="1.27" y1="-2.032" x2="1.27" y2="2.032" width="0.254" layer="94" />
+          <wire x1="1.27" y1="-2.032" x2="-1.27" y2="0" width="0.254" layer="94" />
+          <wire x1="1.27" y1="2.032" x2="-1.27" y2="0" width="0.254" layer="94" />
+          <wire x1="-1.27" y1="-2.032" x2="-0.508" y2="-2.032" width="0.254" layer="94" />
+          <wire x1="-1.27" y1="2.032" x2="-2.032" y2="2.032" width="0.254" layer="94" />
         </symbol>
         <symbol name="L6">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="0.0" x2="-1.27" y2="0.0" layer="94" width="0.254" curve="-180" />
-          <wire x1="-1.27" y1="0.0" x2="0.0" y2="0.0" layer="94" width="0.254" curve="-180" />
-          <wire x1="0.0" y1="0.0" x2="1.27" y2="0.0" layer="94" width="0.254" curve="-180" />
-          <wire x1="1.27" y1="0.0" x2="2.54" y2="0.0" layer="94" width="0.254" curve="-180" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180" />
+          <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180" />
+          <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180" />
+          <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180" />
           <text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
           <text x="-5.08" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
         </symbol>
         <symbol name="F1812">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" layer="94" width="0.254" />
-          <wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" layer="94" width="0.254" />
-          <wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="-2.54" y1="0.0" x2="2.54" y2="0.0" layer="94" width="0.254" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94" />
+          <wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94" />
+          <wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94" />
         </symbol>
         <symbol name="RADIAL-6.3-2.5">
-          <pin name="1" x="-5.08" y="0.0" visible="off" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="5.08" y="0.0" visible="off" length="short" direction="pas" rot="R180" />
-          <wire x1="-2.54" y1="0.0" x2="-0.762" y2="0.0" layer="94" width="0.254" />
-          <wire x1="0.762" y1="0.0" x2="2.54" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-0.762" y1="-2.54" x2="-0.762" y2="2.54" layer="94" width="0.254" />
-          <wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" layer="94" width="0.254" />
+          <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" />
+          <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180" />
+          <wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.254" layer="94" />
+          <wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.254" layer="94" />
+          <wire x1="-0.762" y1="-2.54" x2="-0.762" y2="2.54" width="0.254" layer="94" />
+          <wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94" />
           <text x="-3.048" y="2.54" size="1.524" layer="94" font="vector">+</text>
+          <text x="-12.7" y="5.08" size="1.524" layer="95" font="vector" rot="R90">&gt;NAME</text>
+          <text x="-6.604" y="5.08" size="1.524" layer="96" font="vector" rot="R90">&gt;VALUE</text>
         </symbol>
         <symbol name="TP4056">
-          <wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" layer="94" width="0.254" />
-          <wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" layer="94" width="0.254" />
-          <wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" layer="94" width="0.254" />
-          <wire x1="-15.24" y1="17.78" x2="-15.24" y2="-17.78" layer="94" width="0.254" />
-          <pin name="VCC" x="-17.78" y="10.16" visible="both" length="short" direction="pwr" rot="R0" />
-          <pin name="CE" x="-17.78" y="2.54" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="TEMP" x="-17.78" y="-5.08" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="PROG" x="-17.78" y="-12.7" visible="both" length="short" direction="pas" rot="R0" />
-          <pin name="BAT" x="17.78" y="10.16" visible="both" length="short" direction="pas" rot="R180" />
-          <pin name="CHRG" x="17.78" y="0.0" visible="both" length="short" direction="oc" rot="R180" />
-          <pin name="STDBY" x="17.78" y="-7.62" visible="both" length="short" direction="oc" rot="R180" />
-          <pin name="GND" x="-5.08" y="-20.32" visible="both" length="short" direction="pwr" rot="R90" />
-          <pin name="GND@EP" x="5.08" y="-20.32" visible="both" length="short" direction="pwr" rot="R90" />
+          <wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94" />
+          <wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" width="0.254" layer="94" />
+          <wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" width="0.254" layer="94" />
+          <wire x1="-15.24" y1="17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94" />
+          <pin name="VCC" x="-17.78" y="10.16" length="short" direction="pwr" />
+          <pin name="CE" x="-17.78" y="2.54" length="short" direction="in" />
+          <pin name="TEMP" x="-17.78" y="-5.08" length="short" direction="in" />
+          <pin name="PROG" x="-17.78" y="-12.7" length="short" direction="pas" />
+          <pin name="BAT" x="17.78" y="10.16" length="short" direction="pas" rot="R180" />
+          <pin name="CHRG" x="17.78" y="0" length="short" direction="oc" rot="R180" />
+          <pin name="STDBY" x="17.78" y="-7.62" length="short" direction="oc" rot="R180" />
+          <pin name="GND" x="-5.08" y="-20.32" length="short" direction="pwr" rot="R90" />
+          <pin name="GND@EP" x="5.08" y="-20.32" length="short" direction="pwr" rot="R90" />
         </symbol>
         <symbol name="DW01A">
-          <wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" layer="94" width="0.254" />
-          <wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" layer="94" width="0.254" />
-          <wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" layer="94" width="0.254" />
-          <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" layer="94" width="0.254" />
-          <pin name="VCC" x="-15.24" y="7.62" visible="both" length="short" direction="pwr" rot="R0" />
-          <pin name="CS" x="15.24" y="7.62" visible="both" length="short" direction="in" rot="R180" />
-          <pin name="OC" x="15.24" y="-2.54" visible="both" length="short" direction="out" rot="R180" />
-          <pin name="OD" x="15.24" y="-10.16" visible="both" length="short" direction="out" rot="R180" />
-          <pin name="TD/NC" x="-15.24" y="-2.54" visible="both" length="short" direction="nc" rot="R0" />
-          <pin name="VSS" x="0.0" y="-17.78" visible="both" length="short" direction="pwr" rot="R90" />
+          <wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94" />
+          <wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.254" layer="94" />
+          <wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94" />
+          <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94" />
+          <pin name="VCC" x="-15.24" y="7.62" length="short" direction="pwr" />
+          <pin name="CS" x="15.24" y="7.62" length="short" direction="in" rot="R180" />
+          <pin name="OC" x="15.24" y="-2.54" length="short" direction="out" rot="R180" />
+          <pin name="OD" x="15.24" y="-10.16" length="short" direction="out" rot="R180" />
+          <pin name="TD/NC" x="-15.24" y="-2.54" length="short" direction="nc" />
+          <pin name="VSS" x="0" y="-17.78" length="short" direction="pwr" rot="R90" />
+          <text x="-12.7" y="22.86" size="1.524" layer="95" font="vector">&gt;NAME</text>
+          <text x="-12.7" y="16.764" size="1.524" layer="96" font="vector">&gt;VALUE</text>
         </symbol>
         <symbol name="MT3608">
-          <wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" layer="94" width="0.254" />
-          <wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" layer="94" width="0.254" />
-          <wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" layer="94" width="0.254" />
-          <wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" layer="94" width="0.254" />
-          <pin name="VIN" x="-15.24" y="5.08" visible="both" length="short" direction="pwr" rot="R0" />
-          <pin name="EN" x="-15.24" y="-2.54" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="SW" x="15.24" y="5.08" visible="both" length="short" direction="oc" rot="R180" />
-          <pin name="FB" x="15.24" y="-7.62" visible="both" length="short" direction="in" rot="R180" />
-          <pin name="GND" x="0.0" y="-15.24" visible="both" length="short" direction="pwr" rot="R90" />
-          <pin name="NC" x="-15.24" y="-10.16" visible="both" length="short" direction="nc" rot="R0" />
+          <wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94" />
+          <wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94" />
+          <wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94" />
+          <wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94" />
+          <pin name="VIN" x="-15.24" y="5.08" length="short" direction="pwr" />
+          <pin name="EN" x="-15.24" y="-2.54" length="short" direction="in" />
+          <pin name="SW" x="15.24" y="5.08" length="short" direction="oc" rot="R180" />
+          <pin name="FB" x="15.24" y="-7.62" length="short" direction="in" rot="R180" />
+          <pin name="GND" x="0" y="-15.24" length="short" direction="pwr" rot="R90" />
+          <pin name="NC" x="-15.24" y="-10.16" length="short" direction="nc" />
         </symbol>
         <symbol name="TXU0104">
-          <wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" layer="94" width="0.254" />
-          <wire x1="12.7" y1="-22.86" x2="12.7" y2="22.86" layer="94" width="0.254" />
-          <wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" layer="94" width="0.254" />
-          <wire x1="-12.7" y1="22.86" x2="-12.7" y2="-22.86" layer="94" width="0.254" />
-          <pin name="A1" x="-15.24" y="15.24" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="A2" x="-15.24" y="5.08" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="A3" x="-15.24" y="-5.08" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="A4" x="-15.24" y="-15.24" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="B1" x="15.24" y="15.24" visible="both" length="short" direction="hiz" rot="R180" />
-          <pin name="B2" x="15.24" y="5.08" visible="both" length="short" direction="hiz" rot="R180" />
-          <pin name="B3" x="15.24" y="-5.08" visible="both" length="short" direction="hiz" rot="R180" />
-          <pin name="B4" x="15.24" y="-15.24" visible="both" length="short" direction="hiz" rot="R180" />
+          <wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" width="0.254" layer="94" />
+          <wire x1="12.7" y1="-22.86" x2="12.7" y2="22.86" width="0.254" layer="94" />
+          <wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94" />
+          <wire x1="-12.7" y1="22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94" />
+          <pin name="A1" x="-15.24" y="15.24" length="short" direction="in" />
+          <pin name="A2" x="-15.24" y="5.08" length="short" direction="in" />
+          <pin name="A3" x="-15.24" y="-5.08" length="short" direction="in" />
+          <pin name="A4" x="-15.24" y="-15.24" length="short" direction="in" />
+          <pin name="B1" x="15.24" y="15.24" length="short" direction="hiz" rot="R180" />
+          <pin name="B2" x="15.24" y="5.08" length="short" direction="hiz" rot="R180" />
+          <pin name="B3" x="15.24" y="-5.08" length="short" direction="hiz" rot="R180" />
+          <pin name="B4" x="15.24" y="-15.24" length="short" direction="hiz" rot="R180" />
           <pin name="VCCA" x="-7.62" y="25.4" visible="pad" length="short" direction="pwr" rot="R270" />
           <pin name="VCCB" x="7.62" y="25.4" visible="pad" length="short" direction="pwr" rot="R270" />
-          <pin name="GND" x="0.0" y="-25.4" visible="both" length="short" direction="pwr" rot="R90" />
-          <pin name="OE" x="-15.24" y="-20.32" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="NC@6" x="15.24" y="-20.32" visible="both" length="short" direction="nc" rot="R180" />
-          <pin name="NC@9" x="15.24" y="20.32" visible="both" length="short" direction="nc" rot="R180" />
+          <pin name="GND" x="0" y="-25.4" length="short" direction="pwr" rot="R90" />
+          <pin name="OE" x="-15.24" y="-20.32" length="short" direction="in" />
+          <pin name="NC@6" x="15.24" y="-20.32" length="short" direction="nc" rot="R180" />
+          <pin name="NC@9" x="15.24" y="20.32" length="short" direction="nc" rot="R180" />
           <text x="-13.97" y="26.67" size="1.27" layer="94" font="vector">VCCA</text>
           <text x="9.652" y="26.67" size="1.27" layer="94" font="vector">VCCB</text>
         </symbol>
         <symbol name="TC1508A">
-          <wire x1="-17.78" y1="-27.94" x2="17.78" y2="-27.94" layer="94" width="0.254" />
-          <wire x1="17.78" y1="-27.94" x2="17.78" y2="27.94" layer="94" width="0.254" />
-          <wire x1="17.78" y1="27.94" x2="-17.78" y2="27.94" layer="94" width="0.254" />
-          <wire x1="-17.78" y1="27.94" x2="-17.78" y2="-27.94" layer="94" width="0.254" />
-          <pin name="INA" x="-20.32" y="15.24" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="INB" x="-20.32" y="5.08" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="INC" x="-20.32" y="-5.08" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="IND" x="-20.32" y="-15.24" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="OUTA" x="20.32" y="15.24" visible="both" length="short" direction="out" rot="R180" />
-          <pin name="OUTB" x="20.32" y="5.08" visible="both" length="short" direction="out" rot="R180" />
-          <pin name="OUTC" x="20.32" y="-5.08" visible="both" length="short" direction="out" rot="R180" />
-          <pin name="OUTD" x="20.32" y="-15.24" visible="both" length="short" direction="out" rot="R180" />
-          <pin name="VDD@4" x="-7.62" y="30.48" visible="both" length="short" direction="pwr" rot="R270" />
-          <pin name="VDD@8" x="7.62" y="30.48" visible="both" length="short" direction="pwr" rot="R270" />
-          <pin name="AGND@10" x="-15.24" y="-30.48" visible="both" length="short" direction="pwr" rot="R90" />
-          <pin name="PGND@11" x="-5.08" y="-30.48" visible="both" length="short" direction="pwr" rot="R90" />
-          <pin name="AGND@14" x="5.08" y="-30.48" visible="both" length="short" direction="pwr" rot="R90" />
-          <pin name="PGND@15" x="15.24" y="-30.48" visible="both" length="short" direction="pwr" rot="R90" />
-          <pin name="NC@1" x="-20.32" y="22.86" visible="both" length="short" direction="nc" rot="R0" />
-          <pin name="NC@5" x="20.32" y="22.86" visible="both" length="short" direction="nc" rot="R180" />
+          <wire x1="-17.78" y1="-27.94" x2="17.78" y2="-27.94" width="0.254" layer="94" />
+          <wire x1="17.78" y1="-27.94" x2="17.78" y2="27.94" width="0.254" layer="94" />
+          <wire x1="17.78" y1="27.94" x2="-17.78" y2="27.94" width="0.254" layer="94" />
+          <wire x1="-17.78" y1="27.94" x2="-17.78" y2="-27.94" width="0.254" layer="94" />
+          <pin name="INA" x="-20.32" y="15.24" length="short" direction="in" />
+          <pin name="INB" x="-20.32" y="5.08" length="short" direction="in" />
+          <pin name="INC" x="-20.32" y="-5.08" length="short" direction="in" />
+          <pin name="IND" x="-20.32" y="-15.24" length="short" direction="in" />
+          <pin name="OUTA" x="20.32" y="15.24" length="short" direction="out" rot="R180" />
+          <pin name="OUTB" x="20.32" y="5.08" length="short" direction="out" rot="R180" />
+          <pin name="OUTC" x="20.32" y="-5.08" length="short" direction="out" rot="R180" />
+          <pin name="OUTD" x="20.32" y="-15.24" length="short" direction="out" rot="R180" />
+          <pin name="VDD@4" x="-7.62" y="30.48" length="short" direction="pwr" rot="R270" />
+          <pin name="VDD@8" x="7.62" y="30.48" length="short" direction="pwr" rot="R270" />
+          <pin name="AGND@10" x="-15.24" y="-30.48" length="short" direction="pwr" rot="R90" />
+          <pin name="PGND@11" x="-5.08" y="-30.48" length="short" direction="pwr" rot="R90" />
+          <pin name="AGND@14" x="5.08" y="-30.48" length="short" direction="pwr" rot="R90" />
+          <pin name="PGND@15" x="15.24" y="-30.48" length="short" direction="pwr" rot="R90" />
+          <pin name="NC@1" x="-20.32" y="22.86" length="short" direction="nc" />
+          <pin name="NC@5" x="20.32" y="22.86" length="short" direction="nc" rot="R180" />
         </symbol>
         <symbol name="SUPERMINI">
-          <wire x1="-20.32" y1="-43.18" x2="20.32" y2="-43.18" layer="94" width="0.254" />
-          <wire x1="20.32" y1="-43.18" x2="20.32" y2="43.18" layer="94" width="0.254" />
-          <wire x1="20.32" y1="43.18" x2="-20.32" y2="43.18" layer="94" width="0.254" />
-          <wire x1="-20.32" y1="43.18" x2="-20.32" y2="-43.18" layer="94" width="0.254" />
-          <pin name="IO5" x="-22.86" y="35.56" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="IO6" x="-22.86" y="25.4" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="IO7" x="-22.86" y="15.24" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="IO8" x="-22.86" y="5.08" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="IO9" x="-22.86" y="-5.08" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="IO10" x="-22.86" y="-15.24" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="IO20" x="-22.86" y="-25.4" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="IO21" x="-22.86" y="-35.56" visible="both" length="short" direction="io" rot="R0" />
-          <pin name="5V" x="22.86" y="35.56" visible="both" length="short" direction="pwr" rot="R180" />
-          <pin name="GND" x="22.86" y="25.4" visible="both" length="short" direction="pwr" rot="R180" />
-          <pin name="3V3" x="22.86" y="15.24" visible="both" length="short" direction="out" rot="R180" />
-          <pin name="IO4" x="22.86" y="5.08" visible="both" length="short" direction="io" rot="R180" />
-          <pin name="IO3" x="22.86" y="-5.08" visible="both" length="short" direction="io" rot="R180" />
-          <pin name="IO2" x="22.86" y="-15.24" visible="both" length="short" direction="io" rot="R180" />
-          <pin name="IO1" x="22.86" y="-25.4" visible="both" length="short" direction="io" rot="R180" />
-          <pin name="IO0" x="22.86" y="-35.56" visible="both" length="short" direction="io" rot="R180" />
+          <wire x1="-20.32" y1="-43.18" x2="20.32" y2="-43.18" width="0.254" layer="94" />
+          <wire x1="20.32" y1="-43.18" x2="20.32" y2="43.18" width="0.254" layer="94" />
+          <wire x1="20.32" y1="43.18" x2="-20.32" y2="43.18" width="0.254" layer="94" />
+          <wire x1="-20.32" y1="43.18" x2="-20.32" y2="-43.18" width="0.254" layer="94" />
+          <pin name="IO5" x="-22.86" y="35.56" length="short" />
+          <pin name="IO6" x="-22.86" y="25.4" length="short" />
+          <pin name="IO7" x="-22.86" y="15.24" length="short" />
+          <pin name="IO8" x="-22.86" y="5.08" length="short" />
+          <pin name="IO9" x="-22.86" y="-5.08" length="short" />
+          <pin name="IO10" x="-22.86" y="-15.24" length="short" />
+          <pin name="IO20" x="-22.86" y="-25.4" length="short" />
+          <pin name="IO21" x="-22.86" y="-35.56" length="short" />
+          <pin name="5V" x="22.86" y="35.56" length="short" direction="pwr" rot="R180" />
+          <pin name="GND" x="22.86" y="25.4" length="short" direction="pwr" rot="R180" />
+          <pin name="3V3" x="22.86" y="15.24" length="short" direction="out" rot="R180" />
+          <pin name="IO4" x="22.86" y="5.08" length="short" rot="R180" />
+          <pin name="IO3" x="22.86" y="-5.08" length="short" rot="R180" />
+          <pin name="IO2" x="22.86" y="-15.24" length="short" rot="R180" />
+          <pin name="IO1" x="22.86" y="-25.4" length="short" rot="R180" />
+          <pin name="IO0" x="22.86" y="-35.56" length="short" rot="R180" />
         </symbol>
         <symbol name="USBC">
-          <wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" layer="94" width="0.254" />
-          <wire x1="15.24" y1="-22.86" x2="15.24" y2="22.86" layer="94" width="0.254" />
-          <wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" layer="94" width="0.254" />
-          <wire x1="-15.24" y1="22.86" x2="-15.24" y2="-22.86" layer="94" width="0.254" />
-          <pin name="VBUS@A9" x="17.78" y="17.78" visible="both" length="short" direction="pas" rot="R180" />
-          <pin name="VBUS@B9" x="17.78" y="12.7" visible="both" length="short" direction="pas" rot="R180" />
-          <pin name="CC1" x="17.78" y="2.54" visible="both" length="short" direction="pas" rot="R180" />
-          <pin name="CC2" x="17.78" y="-7.62" visible="both" length="short" direction="pas" rot="R180" />
-          <pin name="GND@A12" x="-10.16" y="-25.4" visible="both" length="short" direction="pas" rot="R90" />
-          <pin name="GND@B12" x="-5.08" y="-25.4" visible="both" length="short" direction="pas" rot="R90" />
-          <pin name="SH@1" x="0.0" y="-25.4" visible="both" length="short" direction="pas" rot="R90" />
-          <pin name="SH@2" x="5.08" y="-25.4" visible="both" length="short" direction="pas" rot="R90" />
-          <pin name="SH@3" x="10.16" y="-25.4" visible="both" length="short" direction="pas" rot="R90" />
-          <pin name="SH@4" x="15.24" y="-25.4" visible="both" length="short" direction="pas" rot="R90" />
+          <wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.254" layer="94" />
+          <wire x1="15.24" y1="-22.86" x2="15.24" y2="22.86" width="0.254" layer="94" />
+          <wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.254" layer="94" />
+          <wire x1="-15.24" y1="22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94" />
+          <pin name="VBUS@A9" x="17.78" y="17.78" length="short" direction="pas" rot="R180" />
+          <pin name="VBUS@B9" x="17.78" y="12.7" length="short" direction="pas" rot="R180" />
+          <pin name="CC1" x="17.78" y="2.54" length="short" direction="pas" rot="R180" />
+          <pin name="CC2" x="17.78" y="-7.62" length="short" direction="pas" rot="R180" />
+          <pin name="GND@A12" x="-10.16" y="-25.4" length="short" direction="pas" rot="R90" />
+          <pin name="GND@B12" x="-5.08" y="-25.4" length="short" direction="pas" rot="R90" />
+          <pin name="SH@1" x="0" y="-25.4" length="short" direction="pas" rot="R90" />
+          <pin name="SH@2" x="5.08" y="-25.4" length="short" direction="pas" rot="R90" />
+          <pin name="SH@3" x="10.16" y="-25.4" length="short" direction="pas" rot="R90" />
+          <pin name="SH@4" x="15.24" y="-25.4" length="short" direction="pas" rot="R90" />
+          <text x="-12.7" y="25.4" size="1.524" layer="95" font="vector">&gt;NAME</text>
+          <text x="-12.7" y="19.304" size="1.524" layer="96" font="vector">&gt;VALUE</text>
         </symbol>
         <symbol name="WIRE2">
-          <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" layer="94" width="0.254" />
-          <wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" layer="94" width="0.254" />
-          <wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" layer="94" width="0.254" />
-          <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" layer="94" width="0.254" />
+          <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+          <wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94" />
+          <wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94" />
+          <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94" />
           <pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180" />
           <pin name="2" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180" />
-          <circle x="2.54" y="-2.54" radius="0.8889999999999999" width="0.2" layer="94" />
-          <circle x="2.54" y="2.54" radius="0.8889999999999999" width="0.2" layer="94" />
+          <circle x="2.54" y="-2.54" radius="0.889" width="0.2" layer="94" />
+          <circle x="2.54" y="2.54" radius="0.889" width="0.2" layer="94" />
         </symbol>
         <symbol name="WIRE2_LEFT">
-          <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" layer="94" width="0.254" />
-          <wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" layer="94" width="0.254" />
-          <wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" layer="94" width="0.254" />
-          <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" layer="94" width="0.254" />
-          <pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R0" />
-          <pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R0" />
-          <circle x="-2.54" y="-2.54" radius="0.8889999999999999" width="0.2" layer="94" />
-          <circle x="-2.54" y="2.54" radius="0.8889999999999999" width="0.2" layer="94" />
+          <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+          <wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94" />
+          <wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94" />
+          <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94" />
+          <pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" />
+          <pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" />
+          <circle x="-2.54" y="-2.54" radius="0.889" width="0.2" layer="94" />
+          <circle x="-2.54" y="2.54" radius="0.889" width="0.2" layer="94" />
         </symbol>
         <symbol name="TESTPAD">
-          <pin name="1" x="0.0" y="0.0" visible="off" length="point" direction="pas" rot="R90" />
+          <pin name="1" x="0" y="0" visible="off" length="point" direction="pas" rot="R90" />
           <circle x="0" y="1.27" radius="1.27" width="0.254" layer="94" />
         </symbol>
         <symbol name="NMOS_A">
-          <pin name="G" x="-10.16" y="0.0" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="S" x="5.08" y="-10.16" visible="both" length="short" direction="pas" rot="R90" />
-          <pin name="D" x="5.08" y="10.16" visible="both" length="short" direction="pas" rot="R270" />
-          <wire x1="-7.62" y1="0.0" x2="-2.54" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-2.54" y1="-4.064" x2="-2.54" y2="4.064" layer="94" width="0.254" />
-          <wire x1="0.0" y1="-4.953" x2="0.0" y2="-2.667" layer="94" width="0.254" />
-          <wire x1="0.0" y1="-1.143" x2="0.0" y2="1.143" layer="94" width="0.254" />
-          <wire x1="0.0" y1="2.667" x2="0.0" y2="4.953" layer="94" width="0.254" />
-          <wire x1="0.0" y1="3.81" x2="5.08" y2="3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="3.81" x2="5.08" y2="7.62" layer="94" width="0.254" />
-          <wire x1="0.0" y1="-3.81" x2="5.08" y2="-3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="-3.81" x2="5.08" y2="-7.62" layer="94" width="0.254" />
-          <wire x1="0.0" y1="0.0" x2="5.08" y2="0.0" layer="94" width="0.254" />
-          <wire x1="5.08" y1="0.0" x2="5.08" y2="-3.81" layer="94" width="0.254" />
-          <wire x1="0.762" y1="0.0" x2="2.286" y2="0.889" layer="94" width="0.254" />
-          <wire x1="0.762" y1="0.0" x2="2.286" y2="-0.889" layer="94" width="0.254" />
-          <wire x1="7.62" y1="-3.81" x2="7.62" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="7.62" y1="1.27" x2="7.62" y2="3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="-3.81" x2="7.62" y2="-3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="3.81" x2="7.62" y2="3.81" layer="94" width="0.254" />
-          <wire x1="6.604" y1="1.27" x2="8.636" y2="1.27" layer="94" width="0.254" />
-          <wire x1="6.604" y1="-1.27" x2="8.636" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="6.604" y1="-1.27" x2="7.62" y2="1.27" layer="94" width="0.254" />
-          <wire x1="8.636" y1="-1.27" x2="7.62" y2="1.27" layer="94" width="0.254" />
+          <pin name="G" x="-10.16" y="0" length="short" direction="in" />
+          <pin name="S" x="5.08" y="-10.16" length="short" direction="pas" rot="R90" />
+          <pin name="D" x="5.08" y="10.16" length="short" direction="pas" rot="R270" />
+          <wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" />
+          <wire x1="-2.54" y1="-4.064" x2="-2.54" y2="4.064" width="0.254" layer="94" />
+          <wire x1="0" y1="-4.953" x2="0" y2="-2.667" width="0.254" layer="94" />
+          <wire x1="0" y1="-1.143" x2="0" y2="1.143" width="0.254" layer="94" />
+          <wire x1="0" y1="2.667" x2="0" y2="4.953" width="0.254" layer="94" />
+          <wire x1="0" y1="3.81" x2="5.08" y2="3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="3.81" x2="5.08" y2="7.62" width="0.254" layer="94" />
+          <wire x1="0" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="-3.81" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+          <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94" />
+          <wire x1="5.08" y1="0" x2="5.08" y2="-3.81" width="0.254" layer="94" />
+          <wire x1="0.762" y1="0" x2="2.286" y2="0.889" width="0.254" layer="94" />
+          <wire x1="0.762" y1="0" x2="2.286" y2="-0.889" width="0.254" layer="94" />
+          <wire x1="7.62" y1="-3.81" x2="7.62" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="7.62" y1="1.27" x2="7.62" y2="3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="-3.81" x2="7.62" y2="-3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="3.81" x2="7.62" y2="3.81" width="0.254" layer="94" />
+          <wire x1="6.604" y1="1.27" x2="8.636" y2="1.27" width="0.254" layer="94" />
+          <wire x1="6.604" y1="-1.27" x2="8.636" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="6.604" y1="-1.27" x2="7.62" y2="1.27" width="0.254" layer="94" />
+          <wire x1="8.636" y1="-1.27" x2="7.62" y2="1.27" width="0.254" layer="94" />
+          <text x="-15.24" y="-17.78" size="1.524" layer="95" font="vector">&gt;NAME</text>
+          <text x="-15.24" y="-23.876" size="1.524" layer="96" font="vector">&gt;VALUE</text>
         </symbol>
         <symbol name="NMOS_B">
-          <pin name="G" x="-10.16" y="0.0" visible="both" length="short" direction="in" rot="R0" />
-          <pin name="S" x="5.08" y="-10.16" visible="both" length="short" direction="pas" rot="R90" />
-          <pin name="D" x="5.08" y="10.16" visible="both" length="short" direction="pas" rot="R270" />
-          <wire x1="-7.62" y1="0.0" x2="-2.54" y2="0.0" layer="94" width="0.254" />
-          <wire x1="-2.54" y1="-4.064" x2="-2.54" y2="4.064" layer="94" width="0.254" />
-          <wire x1="0.0" y1="-4.953" x2="0.0" y2="-2.667" layer="94" width="0.254" />
-          <wire x1="0.0" y1="-1.143" x2="0.0" y2="1.143" layer="94" width="0.254" />
-          <wire x1="0.0" y1="2.667" x2="0.0" y2="4.953" layer="94" width="0.254" />
-          <wire x1="0.0" y1="3.81" x2="5.08" y2="3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="3.81" x2="5.08" y2="7.62" layer="94" width="0.254" />
-          <wire x1="0.0" y1="-3.81" x2="5.08" y2="-3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="-3.81" x2="5.08" y2="-7.62" layer="94" width="0.254" />
-          <wire x1="0.0" y1="0.0" x2="5.08" y2="0.0" layer="94" width="0.254" />
-          <wire x1="5.08" y1="0.0" x2="5.08" y2="-3.81" layer="94" width="0.254" />
-          <wire x1="0.762" y1="0.0" x2="2.286" y2="0.889" layer="94" width="0.254" />
-          <wire x1="0.762" y1="0.0" x2="2.286" y2="-0.889" layer="94" width="0.254" />
-          <wire x1="7.62" y1="-3.81" x2="7.62" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="7.62" y1="1.27" x2="7.62" y2="3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="-3.81" x2="7.62" y2="-3.81" layer="94" width="0.254" />
-          <wire x1="5.08" y1="3.81" x2="7.62" y2="3.81" layer="94" width="0.254" />
-          <wire x1="6.604" y1="1.27" x2="8.636" y2="1.27" layer="94" width="0.254" />
-          <wire x1="6.604" y1="-1.27" x2="8.636" y2="-1.27" layer="94" width="0.254" />
-          <wire x1="6.604" y1="-1.27" x2="7.62" y2="1.27" layer="94" width="0.254" />
-          <wire x1="8.636" y1="-1.27" x2="7.62" y2="1.27" layer="94" width="0.254" />
+          <pin name="G" x="-10.16" y="0" length="short" direction="in" />
+          <pin name="S" x="5.08" y="-10.16" length="short" direction="pas" rot="R90" />
+          <pin name="D" x="5.08" y="10.16" length="short" direction="pas" rot="R270" />
+          <wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" />
+          <wire x1="-2.54" y1="-4.064" x2="-2.54" y2="4.064" width="0.254" layer="94" />
+          <wire x1="0" y1="-4.953" x2="0" y2="-2.667" width="0.254" layer="94" />
+          <wire x1="0" y1="-1.143" x2="0" y2="1.143" width="0.254" layer="94" />
+          <wire x1="0" y1="2.667" x2="0" y2="4.953" width="0.254" layer="94" />
+          <wire x1="0" y1="3.81" x2="5.08" y2="3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="3.81" x2="5.08" y2="7.62" width="0.254" layer="94" />
+          <wire x1="0" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="-3.81" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+          <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94" />
+          <wire x1="5.08" y1="0" x2="5.08" y2="-3.81" width="0.254" layer="94" />
+          <wire x1="0.762" y1="0" x2="2.286" y2="0.889" width="0.254" layer="94" />
+          <wire x1="0.762" y1="0" x2="2.286" y2="-0.889" width="0.254" layer="94" />
+          <wire x1="7.62" y1="-3.81" x2="7.62" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="7.62" y1="1.27" x2="7.62" y2="3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="-3.81" x2="7.62" y2="-3.81" width="0.254" layer="94" />
+          <wire x1="5.08" y1="3.81" x2="7.62" y2="3.81" width="0.254" layer="94" />
+          <wire x1="6.604" y1="1.27" x2="8.636" y2="1.27" width="0.254" layer="94" />
+          <wire x1="6.604" y1="-1.27" x2="8.636" y2="-1.27" width="0.254" layer="94" />
+          <wire x1="6.604" y1="-1.27" x2="7.62" y2="1.27" width="0.254" layer="94" />
+          <wire x1="8.636" y1="-1.27" x2="7.62" y2="1.27" width="0.254" layer="94" />
+          <text x="-10.16" y="-17.78" size="1.524" layer="95" font="vector">&gt;NAME</text>
+          <text x="-10.16" y="-23.876" size="1.524" layer="96" font="vector">&gt;VALUE</text>
         </symbol>
       </symbols>
       <devicesets>
@@ -770,6 +781,7 @@
           </devices>
         </deviceset>
         <deviceset name="RADIAL-6.3-2.5" prefix="U" uservalue="yes">
+          <description>Panasonic EEUFM1E101 / C713389. 6.3 x 11.2 mm radial, 2.5 mm pitch; 2000 h at 105 C. Pin 1 positive. Factory through-hole assembly.</description>
           <gates>
             <gate name="G$1" symbol="RADIAL-6.3-2.5" x="0" y="0" addlevel="always" />
           </gates>
@@ -780,7 +792,11 @@
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
               <technologies>
-                <technology name="" />
+                <technology name="">
+                  <attribute name="MANUFACTURER" value="Panasonic" constant="no" />
+                  <attribute name="MPN" value="EEUFM1E101" constant="no" />
+                  <attribute name="LCSC_PART" value="C713389" constant="no" />
+                </technology>
               </technologies>
             </device>
           </devices>
@@ -792,15 +808,15 @@
           <devices>
             <device name="" package="ESOP8-EP">
               <connects>
-                <connect gate="G$1" pin="VCC" pad="4" />
-                <connect gate="G$1" pin="CE" pad="8" />
-                <connect gate="G$1" pin="TEMP" pad="1" />
-                <connect gate="G$1" pin="PROG" pad="2" />
                 <connect gate="G$1" pin="BAT" pad="5" />
+                <connect gate="G$1" pin="CE" pad="8" />
                 <connect gate="G$1" pin="CHRG" pad="7" />
-                <connect gate="G$1" pin="STDBY" pad="6" />
                 <connect gate="G$1" pin="GND" pad="3" />
                 <connect gate="G$1" pin="GND@EP" pad="EP" />
+                <connect gate="G$1" pin="PROG" pad="2" />
+                <connect gate="G$1" pin="STDBY" pad="6" />
+                <connect gate="G$1" pin="TEMP" pad="1" />
+                <connect gate="G$1" pin="VCC" pad="4" />
               </connects>
               <technologies>
                 <technology name="" />
@@ -809,21 +825,26 @@
           </devices>
         </deviceset>
         <deviceset name="DW01A" prefix="U" uservalue="yes">
+          <description>PUOLOP DW01A / C351410. SOT23-6 cell protection; 2.5 V cutoff, 2.9 V recovery, supports depleted-cell charging. Prototype protection validation required.</description>
           <gates>
             <gate name="G$1" symbol="DW01A" x="0" y="0" addlevel="always" />
           </gates>
           <devices>
             <device name="" package="SOT23-6">
               <connects>
-                <connect gate="G$1" pin="VCC" pad="5" />
                 <connect gate="G$1" pin="CS" pad="2" />
                 <connect gate="G$1" pin="OC" pad="3" />
                 <connect gate="G$1" pin="OD" pad="1" />
                 <connect gate="G$1" pin="TD/NC" pad="4" />
+                <connect gate="G$1" pin="VCC" pad="5" />
                 <connect gate="G$1" pin="VSS" pad="6" />
               </connects>
               <technologies>
-                <technology name="" />
+                <technology name="">
+                  <attribute name="MANUFACTURER" value="PUOLOP" constant="no" />
+                  <attribute name="MPN" value="DW01A" constant="no" />
+                  <attribute name="LCSC_PART" value="C351410" constant="no" />
+                </technology>
               </technologies>
             </device>
           </devices>
@@ -835,12 +856,12 @@
           <devices>
             <device name="" package="SOT23-6">
               <connects>
-                <connect gate="G$1" pin="VIN" pad="5" />
                 <connect gate="G$1" pin="EN" pad="4" />
-                <connect gate="G$1" pin="SW" pad="1" />
                 <connect gate="G$1" pin="FB" pad="3" />
                 <connect gate="G$1" pin="GND" pad="2" />
                 <connect gate="G$1" pin="NC" pad="6" />
+                <connect gate="G$1" pin="SW" pad="1" />
+                <connect gate="G$1" pin="VIN" pad="5" />
               </connects>
               <technologies>
                 <technology name="" />
@@ -863,12 +884,12 @@
                 <connect gate="G$1" pin="B2" pad="12" />
                 <connect gate="G$1" pin="B3" pad="11" />
                 <connect gate="G$1" pin="B4" pad="10" />
-                <connect gate="G$1" pin="VCCA" pad="1" />
-                <connect gate="G$1" pin="VCCB" pad="14" />
                 <connect gate="G$1" pin="GND" pad="7" />
-                <connect gate="G$1" pin="OE" pad="8" />
                 <connect gate="G$1" pin="NC@6" pad="6" />
                 <connect gate="G$1" pin="NC@9" pad="9" />
+                <connect gate="G$1" pin="OE" pad="8" />
+                <connect gate="G$1" pin="VCCA" pad="1" />
+                <connect gate="G$1" pin="VCCB" pad="14" />
               </connects>
               <technologies>
                 <technology name="" />
@@ -883,22 +904,22 @@
           <devices>
             <device name="" package="SOIC16-1.27">
               <connects>
+                <connect gate="G$1" pin="AGND@10" pad="10" />
+                <connect gate="G$1" pin="AGND@14" pad="14" />
                 <connect gate="G$1" pin="INA" pad="2" />
                 <connect gate="G$1" pin="INB" pad="3" />
                 <connect gate="G$1" pin="INC" pad="6" />
                 <connect gate="G$1" pin="IND" pad="7" />
+                <connect gate="G$1" pin="NC@1" pad="1" />
+                <connect gate="G$1" pin="NC@5" pad="5" />
                 <connect gate="G$1" pin="OUTA" pad="16" />
                 <connect gate="G$1" pin="OUTB" pad="13" />
                 <connect gate="G$1" pin="OUTC" pad="12" />
                 <connect gate="G$1" pin="OUTD" pad="9" />
+                <connect gate="G$1" pin="PGND@11" pad="11" />
+                <connect gate="G$1" pin="PGND@15" pad="15" />
                 <connect gate="G$1" pin="VDD@4" pad="4" />
                 <connect gate="G$1" pin="VDD@8" pad="8" />
-                <connect gate="G$1" pin="AGND@10" pad="10" />
-                <connect gate="G$1" pin="PGND@11" pad="11" />
-                <connect gate="G$1" pin="AGND@14" pad="14" />
-                <connect gate="G$1" pin="PGND@15" pad="15" />
-                <connect gate="G$1" pin="NC@1" pad="1" />
-                <connect gate="G$1" pin="NC@5" pad="5" />
               </connects>
               <technologies>
                 <technology name="" />
@@ -913,22 +934,22 @@
           <devices>
             <device name="" package="SUPERMINI-2X8-15.24">
               <connects>
+                <connect gate="G$1" pin="3V3" pad="3V3" />
+                <connect gate="G$1" pin="5V" pad="5V" />
+                <connect gate="G$1" pin="GND" pad="GND" />
+                <connect gate="G$1" pin="IO0" pad="IO0" />
+                <connect gate="G$1" pin="IO1" pad="IO1" />
+                <connect gate="G$1" pin="IO10" pad="IO10" />
+                <connect gate="G$1" pin="IO2" pad="IO2" />
+                <connect gate="G$1" pin="IO20" pad="IO20" />
+                <connect gate="G$1" pin="IO21" pad="IO21" />
+                <connect gate="G$1" pin="IO3" pad="IO3" />
+                <connect gate="G$1" pin="IO4" pad="IO4" />
                 <connect gate="G$1" pin="IO5" pad="IO5" />
                 <connect gate="G$1" pin="IO6" pad="IO6" />
                 <connect gate="G$1" pin="IO7" pad="IO7" />
                 <connect gate="G$1" pin="IO8" pad="IO8" />
                 <connect gate="G$1" pin="IO9" pad="IO9" />
-                <connect gate="G$1" pin="IO10" pad="IO10" />
-                <connect gate="G$1" pin="IO20" pad="IO20" />
-                <connect gate="G$1" pin="IO21" pad="IO21" />
-                <connect gate="G$1" pin="5V" pad="5V" />
-                <connect gate="G$1" pin="GND" pad="GND" />
-                <connect gate="G$1" pin="3V3" pad="3V3" />
-                <connect gate="G$1" pin="IO4" pad="IO4" />
-                <connect gate="G$1" pin="IO3" pad="IO3" />
-                <connect gate="G$1" pin="IO2" pad="IO2" />
-                <connect gate="G$1" pin="IO1" pad="IO1" />
-                <connect gate="G$1" pin="IO0" pad="IO0" />
               </connects>
               <technologies>
                 <technology name="" />
@@ -937,14 +958,13 @@
           </devices>
         </deviceset>
         <deviceset name="USBC" prefix="U" uservalue="yes">
+          <description>SHOU HAN TYPE-C 6P / C456012. Power-only 5 V / 3 A, 3000 mating cycles. Matched 0.60 x 1.40 mm native plated-slot footprint; factory assembly.</description>
           <gates>
             <gate name="G$1" symbol="USBC" x="0" y="0" addlevel="always" />
           </gates>
           <devices>
-            <device name="" package="USB4125-ROUND-STAKE">
+            <device name="" package="USB-C-SHOUHAN-6P-C456012">
               <connects>
-                <connect gate="G$1" pin="VBUS@A9" pad="A9" />
-                <connect gate="G$1" pin="VBUS@B9" pad="B9" />
                 <connect gate="G$1" pin="CC1" pad="A5" />
                 <connect gate="G$1" pin="CC2" pad="B5" />
                 <connect gate="G$1" pin="GND@A12" pad="A12" />
@@ -953,9 +973,15 @@
                 <connect gate="G$1" pin="SH@2" pad="SH2" />
                 <connect gate="G$1" pin="SH@3" pad="SH3" />
                 <connect gate="G$1" pin="SH@4" pad="SH4" />
+                <connect gate="G$1" pin="VBUS@A9" pad="A9" />
+                <connect gate="G$1" pin="VBUS@B9" pad="B9" />
               </connects>
               <technologies>
-                <technology name="" />
+                <technology name="">
+                  <attribute name="MANUFACTURER" value="SHOU HAN" constant="no" />
+                  <attribute name="MPN" value="TYPE-C 6P" constant="no" />
+                  <attribute name="LCSC_PART" value="C456012" constant="no" />
+                </technology>
               </technologies>
             </device>
           </devices>
@@ -1008,6 +1034,7 @@
           </devices>
         </deviceset>
         <deviceset name="FS8205A" prefix="U" uservalue="yes">
+          <description>TECH PUBLIC 8205A / C7419210. Dual common-drain TSSOP-8; pads 1/8 drain, 2/3 S1, 4 G1, 5 G2, 6/7 S2. Qualify overcurrent trip with lower RDS(on).</description>
           <gates>
             <gate name="A" symbol="NMOS_A" x="0" y="0" addlevel="always" />
             <gate name="B" symbol="NMOS_B" x="0" y="0" addlevel="always" />
@@ -1015,15 +1042,19 @@
           <devices>
             <device name="" package="TSSOP8-0.65">
               <connects>
+                <connect gate="A" pin="D" pad="1" />
                 <connect gate="A" pin="G" pad="4" />
                 <connect gate="A" pin="S" pad="2 3" />
-                <connect gate="A" pin="D" pad="1" />
+                <connect gate="B" pin="D" pad="8" />
                 <connect gate="B" pin="G" pad="5" />
                 <connect gate="B" pin="S" pad="6 7" />
-                <connect gate="B" pin="D" pad="8" />
               </connects>
               <technologies>
-                <technology name="" />
+                <technology name="">
+                  <attribute name="MANUFACTURER" value="TECH PUBLIC" constant="no" />
+                  <attribute name="MPN" value="8205A" constant="no" />
+                  <attribute name="LCSC_PART" value="C7419210" constant="no" />
+                </technology>
               </technologies>
             </device>
           </devices>

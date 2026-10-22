@@ -1,0 +1,286 @@
+{
+  "feature_errors": [],
+  "original_bumper_removed_mm3": 0.0,
+  "original_m3_holes": [
+    {
+      "origin_mm": [
+        -28.0,
+        -49.0,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 3.4
+    },
+    {
+      "origin_mm": [
+        28.0,
+        -49.0,
+        3.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "diameter_mm": 3.4
+    }
+  ],
+  "bumper_solid": true,
+  "bumper_lumps": 1,
+  "slider_solid": true,
+  "slider_lumps": 1,
+  "checks": [
+    {
+      "item": "Slider/base at -33",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "M3 shaft vs prints at -33 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Socket head vs prints at -33 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Lower washer vs prints at -33 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Upper washer vs prints at -33 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Nut envelope vs prints at -33 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "M3 shaft vs prints at -33 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Socket head vs prints at -33 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Lower washer vs prints at -33 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Upper washer vs prints at -33 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Nut envelope vs prints at -33 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Slider/base at -28",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "M3 shaft vs prints at -28 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Socket head vs prints at -28 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Lower washer vs prints at -28 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Upper washer vs prints at -28 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Nut envelope vs prints at -28 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "M3 shaft vs prints at -28 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Socket head vs prints at -28 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Lower washer vs prints at -28 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Upper washer vs prints at -28 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Nut envelope vs prints at -28 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Slider/base at -18",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "M3 shaft vs prints at -18 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Socket head vs prints at -18 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Lower washer vs prints at -18 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Upper washer vs prints at -18 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Nut envelope vs prints at -18 x=-17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "M3 shaft vs prints at -18 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Socket head vs prints at -18 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Lower washer vs prints at -18 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Upper washer vs prints at -18 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "Nut envelope vs prints at -18 x=17.25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 26 18650 HOLDER - detailed generic reference:1/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 27 PROTECTED 18650 - 18.6 x 69.5 reference:1/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 27 PROTECTED 18650 - 18.6 x 69.5 reference:1/Body2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 28 Holder negative contact - illustrative:1/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 28 Holder negative contact - illustrative:1/Body2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 28 Holder negative contact - illustrative:1/Body3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 28 Holder negative contact - illustrative:1/Body4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 20 N20 - detailed Pololu reference:2/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 20 N20 - detailed Pololu reference:3/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 U2 - TC1508A:1/Body2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 U2 - TC1508A:1/Body18",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 U2 - TC1508A:1/Body34",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 R14 - 100k:1/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 R14 - 100k:1/Body2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 R14 - 100k:1/Body3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 R15 - 100k:1/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 R15 - 100k:1/Body2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 41 R15 - 100k:1/Body3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 01 SCOUT INTEGRAL BAY - M3 - print flat:1/Integral chassis and carrier bay",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 40 CARRIER PCB - Rev B - M3 clearance:1/Body1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 40 CARRIER PCB - Rev B - M3 clearance:1/Body14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 40 CARRIER PCB - Rev B - M3 clearance:1/Body15",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 40 CARRIER PCB - Rev B - M3 clearance:1/Body67",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 40 CARRIER PCB - Rev B - M3 clearance:1/Body133",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 40 CARRIER PCB - Rev B - M3 clearance:1/Body134",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 40 CARRIER PCB - Rev B - M3 clearance:1/Body183",
+      "overlap_mm3": 0.0
+    },
+    {
+      "item": "New bumper additions vs 46 M3 x 8 SOCKET CAP SCREWS - carrier:1/Body3",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "collisions": [],
+  "physical_fit_tested": false,
+  "slider_test_positions_mm": [
+    -33,
+    -28,
+    -18
+  ],
+  "hardware": "Two M3x12 inserted from below, 0.5 mm washer each side, M3 nut above; modeled conservative nut cylinder"
+}

@@ -1,0 +1,63 @@
+{
+  "checked_utc": "2026-10-17T01:55:19.904276+00:00",
+  "file": "Scout-OLED-Bumper-v1.stl",
+  "format": "binary STL",
+  "coordinate_unit_assumption": "mm; checked against known 72 mm bumper width",
+  "byte_length": 137684,
+  "triangles": 2752,
+  "unique_vertices": 1358,
+  "unique_edges": 4128,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "inconsistent_winding_edges": 0,
+  "degenerate_triangles": 0,
+  "edge_connected_components": 1,
+  "component_triangle_counts": [
+    2752
+  ],
+  "signed_volume_mm3": 5259.167524526543,
+  "signed_volume_cm3": 5.259167524526544,
+  "bounds_mm": {
+    "minimum": [
+      -36.0,
+      -55.0,
+      3.0
+    ],
+    "maximum": [
+      36.0,
+      -23.892684936523438,
+      36.071781158447266
+    ]
+  },
+  "dimensions_mm": [
+    72.0,
+    31.107315063476562,
+    33.071781158447266
+  ],
+  "expected_dimensions_mm": [
+    72.0,
+    31.1073,
+    33.0718
+  ],
+  "dimension_tolerance_mm": 0.001,
+  "dimensions_match_expected": true,
+  "closed_two_manifold_edges": true,
+  "passed": true,
+  "guide_local_links": [
+    {
+      "target": "Scout-OLED-Bumper-v1.stl",
+      "exists": true
+    },
+    {
+      "target": "Scout-OLED-Bumper-v1.f3d",
+      "exists": true
+    },
+    {
+      "target": "Scout-OLED-Assembly-v1.f3d",
+      "exists": true
+    }
+  ],
+  "limitations": [
+    "Edge topology and signed-volume checks do not prove absence of self-intersections or physical print/board fit."
+  ]
+}

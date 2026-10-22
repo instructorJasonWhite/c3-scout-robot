@@ -1,0 +1,43 @@
+{
+  "module": "HiLetgo ESP32-CAM with USB programming adapter attached",
+  "asin": "B07RXPHYNM",
+  "camera_pcb_mm": [
+    27,
+    40
+  ],
+  "reference_camera_height_mm": 40.5,
+  "camera_pcb_thickness_assumed_mm": 1.6,
+  "camera_front_y_mm": -43,
+  "camera_bottom_z_mm": 26,
+  "board_cavity_width_mm": 28,
+  "camera_seat_height_mm": 41,
+  "locator_edge_overlap_nominal_mm": 0.7,
+  "stack_depth_adjustment_mm": [
+    10,
+    25
+  ],
+  "rear_contact_y_range_mm": [
+    -33,
+    -18
+  ],
+  "nominal_rear_contact_y_mm": -28,
+  "slider_hole_x_mm": [
+    -17.25,
+    17.25
+  ],
+  "slider_slot_end_center_y_mm": [
+    -26.5,
+    -11.5
+  ],
+  "slider_hole_offset_from_contact_mm": 6.5,
+  "slider_clearance_holes_mm": 3.4,
+  "original_bumper_screw_pitch_mm": 56,
+  "reference_lens_projection_mm": 8,
+  "maximum_lens_projection_to_bumper_front_mm": 12,
+  "minimum_usb_region_z_assumed_mm": 21,
+  "status": "ADJUSTABLE PROTOTYPE: actual HiLetgo USB stack, print, retention, USB cable clearance and camera view not physically tested",
+  "sources": [
+    "https://www.amazon.com/dp/B07RXPHYNM (sixth product image: 27 x 40 mm camera PCB)",
+    "https://ampermarket.kz/files/esp32-cam-datasheet.pdf (Ai-Thinker reference family, 40.5 mm nominal)"
+  ]
+}

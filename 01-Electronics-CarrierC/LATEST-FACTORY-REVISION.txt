@@ -1,0 +1,3 @@
+Current release: Fusion parent/board v10, schematic v6.
+Open ../05-Factory-CarrierC-v10/UPLOAD-GUIDE.html for the matching Gerbers, BOM, CPL and native PDFs.
+Historical HTML reviews and their embedded diagrams may show earlier hardware.
