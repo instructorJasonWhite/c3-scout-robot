@@ -10,7 +10,7 @@ A small rover built around an ESP32-C3 SuperMini, two N20 gearmotors, one 18650 
 
 ## Current release
 
-The builder guide was updated **21 October 2026**.
+The four-part builder guide was published **21 October 2026**. The [complete robot wiring diagram](https://mechatronicsaint.com/c3-scout/build.html#complete-wiring) was added **25 October 2026**, with an [editable SVG](docs/builder-guide/assets/wiring/scout-complete-wiring.svg).
 
 | Area | Current edition |
 | --- | --- |

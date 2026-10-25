@@ -1527,19 +1527,19 @@
     },
     {
       "file": "07-Bumper-Options/OLED/ASSEMBLY.html",
-      "bytes": 7884,
-      "sha256": "47aa41e2934d19d12bc034851ec39c20d90fd45c04d74037783a972b267e0446",
-      "source_sha256": "47aa41e2934d19d12bc034851ec39c20d90fd45c04d74037783a972b267e0446",
-      "source": "OLED pinout documentation, 24 October 2026",
-      "previous_sha256": "2dbd1c3800e9a32ee2256d75dad208db4b1b536a03ab50b4d3f5c24ed78cc2ca"
+      "bytes": 9630,
+      "sha256": "6c6f3b3beacd81a43ca4f975fe07544032b16c43403c198921c6beb03f817fc1",
+      "source_sha256": "6c6f3b3beacd81a43ca4f975fe07544032b16c43403c198921c6beb03f817fc1",
+      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026",
+      "previous_sha256": "47aa41e2934d19d12bc034851ec39c20d90fd45c04d74037783a972b267e0446"
     },
     {
       "file": "07-Bumper-Options/OLED/MANIFEST.json",
-      "bytes": 2346,
-      "sha256": "5175bf6f9842fe80e9529b8d2f96f3dddfd2f32a522e53cd6e3cdc989b9d31b6",
-      "source_sha256": "5175bf6f9842fe80e9529b8d2f96f3dddfd2f32a522e53cd6e3cdc989b9d31b6",
-      "source": "OLED pinout documentation, 24 October 2026",
-      "previous_sha256": "e6fee3d625ea7d9b932f4b9e96b86a950b750fa5d964992c8e45129b07774039"
+      "bytes": 2498,
+      "sha256": "b4ed1d42654d68105eff3ecd270da83480398ea92e2ad08b8bfb050d04ff6685",
+      "source_sha256": "b4ed1d42654d68105eff3ecd270da83480398ea92e2ad08b8bfb050d04ff6685",
+      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026",
+      "previous_sha256": "5175bf6f9842fe80e9529b8d2f96f3dddfd2f32a522e53cd6e3cdc989b9d31b6"
     },
     {
       "file": "07-Bumper-Options/OLED/Scout-OLED-Assembly-v1.f3d",
@@ -1624,6 +1624,13 @@
       "bytes": 1493,
       "sha256": "4eb9cdcee1045e48a412da2855186716927cbe32b6916617515b1c6b139390a2",
       "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/scout-complete-wiring.svg",
+      "bytes": 599818,
+      "sha256": "685af59ee0b45ab2512052304a830cafe3c3056b7b2fa45e833f381b7679019c",
+      "source_sha256": "685af59ee0b45ab2512052304a830cafe3c3056b7b2fa45e833f381b7679019c",
+      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026"
     },
     {
       "file": "07-Bumper-Options/OLED/scout-oled-assembly.png",
@@ -2205,28 +2212,35 @@
       "previous_sha256": "bbee25ee29f4bfb438972a0f0171b441c0042e88dcbfaf6a907c50de55c512eb"
     },
     {
+      "file": "assets/wiring/scout-complete-wiring.svg",
+      "bytes": 599818,
+      "sha256": "685af59ee0b45ab2512052304a830cafe3c3056b7b2fa45e833f381b7679019c",
+      "source_sha256": "685af59ee0b45ab2512052304a830cafe3c3056b7b2fa45e833f381b7679019c",
+      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026"
+    },
+    {
       "file": "board.html",
-      "bytes": 19110,
-      "sha256": "8e5236e1ebd7f03a53a78c6e4da1350c7705a72901b9b50c9fee3960fa3b1983",
-      "source": "Scout GitHub source navigation, 24 October 2026",
-      "source_sha256": "8e5236e1ebd7f03a53a78c6e4da1350c7705a72901b9b50c9fee3960fa3b1983",
-      "previous_sha256": "60f6b7d37b0fd1382b035d75f701235c5918940f85ba5e12f0c965dc7d5ad4dc"
+      "bytes": 21011,
+      "sha256": "b31167f5a10a633de3e6551d0f7c4eed8f4149a0b934be149a2e61f646526be1",
+      "source_sha256": "b31167f5a10a633de3e6551d0f7c4eed8f4149a0b934be149a2e61f646526be1",
+      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026",
+      "previous_sha256": "8e5236e1ebd7f03a53a78c6e4da1350c7705a72901b9b50c9fee3960fa3b1983"
     },
     {
       "file": "build.html",
-      "bytes": 27228,
-      "sha256": "a8eb90369fd1d25c665284ef900d8eaaa47fd998dd84ceaab91c32c63a6bd4ac",
-      "source": "Scout GitHub source navigation, 24 October 2026",
-      "source_sha256": "a8eb90369fd1d25c665284ef900d8eaaa47fd998dd84ceaab91c32c63a6bd4ac",
-      "previous_sha256": "aeeb7438b8326da721fe16eb06e74e715cd09b92c8012a22b1a920f9cfff4737"
+      "bytes": 30408,
+      "sha256": "cc8c764e99d42697495504a58d5894e576f4d3175a82b4bab4dff081987700bf",
+      "source_sha256": "cc8c764e99d42697495504a58d5894e576f4d3175a82b4bab4dff081987700bf",
+      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026",
+      "previous_sha256": "a8eb90369fd1d25c665284ef900d8eaaa47fd998dd84ceaab91c32c63a6bd4ac"
     },
     {
       "file": "code.html",
-      "bytes": 16256,
-      "sha256": "666b5b1caf910b9ae8d18e65c1a61d68953f3dd6e3d662d19b9ca3f61e1c9a4e",
-      "source_sha256": "666b5b1caf910b9ae8d18e65c1a61d68953f3dd6e3d662d19b9ca3f61e1c9a4e",
-      "source": "OLED pinout documentation, 24 October 2026",
-      "previous_sha256": "20b5bbb7f9663b06c8a7c9c26482ed1d74d0dd5df0487bf8ae0ae486b3f4ec2f"
+      "bytes": 16461,
+      "sha256": "e0cf1c91f82a3ec7fb601f04b5976bf4e05726a09636f4be33b42575a503c032",
+      "source_sha256": "e0cf1c91f82a3ec7fb601f04b5976bf4e05726a09636f4be33b42575a503c032",
+      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026",
+      "previous_sha256": "666b5b1caf910b9ae8d18e65c1a61d68953f3dd6e3d662d19b9ca3f61e1c9a4e"
     },
     {
       "file": "downloads/Scout-CarrierC-v10-Factory.zip",
@@ -2422,6 +2436,7 @@
     "code": "code.html",
     "accessories": "accessories.html",
     "assembly_drawing": "assets/build/Scout-Assembly-Overview.svg",
-    "oled_pinout": "assets/code/c3-supermini-oled-pinout.svg"
+    "oled_pinout": "assets/code/c3-supermini-oled-pinout.svg",
+    "complete_wiring": "assets/wiring/scout-complete-wiring.svg"
   }
 }

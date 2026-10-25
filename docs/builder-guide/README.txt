@@ -29,6 +29,16 @@ published illustrations are retained as supplied in the repository. The drawing
 must be present before rebuilding. Edit its SVG directly if a drawing change
 is needed.
 
+The complete external wiring drawing is editable at:
+  docs/builder-guide/assets/wiring/scout-complete-wiring.svg
+Its generator reads the current native board file and embeds the CAM artwork:
+  python scripts/build-complete-wiring.py
+  python scripts/build-builder-guide.py
+The first command checks all twelve external wire endpoints against the board
+pad positions. OLED SDA/SCL assignments follow the current firmware. The second
+command publishes the drawing with the guide. Standalone OLED/project ZIPs must
+also be refreshed when publishing a documentation change.
+
 Current editions:
   Mechanics: Rev B integral chassis, all-M3 hardware
   Board: Carrier C v10 / Silk 03, schematic v6

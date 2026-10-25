@@ -63,7 +63,12 @@ figure{margin:22px 0}figure img{display:block;width:100%;height:auto;border:1px 
 </ol>
 
 <figure><img src="bumper-rear.png" alt="Rear view of the open OLED cradle and header escape"><figcaption>Rear access for the header and four wires. Keep connectors, screw ends and wiring clear of the PCB components and wheels; confirm clearance on the actual assembly.</figcaption></figure>
-<h2>Wiring reference</h2>
+<h2 id="complete-wiring">Wire the complete robot</h2>
+<p>This Carrier C v10 component-side diagram shows the battery holder, both motors, the external RUN switch and the OLED together. Remove the cell and unplug both USB cables before wiring. Left and right refer to Scout looking forward toward the bumper.</p>
+<figure><a href="scout-complete-wiring.svg" target="_blank" rel="noopener"><img src="scout-complete-wiring.svg" width="1800" height="1700" alt="Complete Carrier C v10 wiring: battery J1 positive pad 1 and raw negative pad 2, left motor J2, right motor J3, RUN switch across J4, and OLED VCC to 3V3, GND to protected GND, SDA to GPIO5 and SCL to GPIO7." loading="lazy"></a><figcaption>Top / component side, with SuperMini USB at the top. Lines show connections, not cable routing. <a href="scout-complete-wiring.svg" target="_blank" rel="noopener">Open full-size diagram</a> · <a href="scout-complete-wiring.svg" download>Download wiring diagram · SVG</a></figcaption></figure>
+<p><strong>Battery:</strong> J1 lower pad 1 is BAT_PLUS; upper pad 2 is BAT_MINUS. Battery negative must not be joined directly to protected GND. <strong>RUN:</strong> the two switch wires bridge J4 lower pad 1 / FUSED_BAT and upper pad 2 / VMOTOR; open is off, closed is RUN. <strong>Motors:</strong> connect the left motor to both J2 pads and the right motor to both J3 pads. Neither motor lead is a permanent ground. Check direction with the wheels raised and use the controller's saved direction setting if needed.</p>
+<p><strong>Power procedure:</strong> open RUN before connecting the SuperMini's programming USB cable; unplug that cable before closing RUN. Keep RUN open while charging through J5. There is no charge-and-run load sharing.</p>
+<h2>OLED wiring reference</h2>
 <p>Read the labels on the actual OLED. Follow the signal names below; do not assume the connector pin order matches a photo.</p>
 <table><thead><tr><th>OLED label</th><th>Scout reference connection</th></tr></thead><tbody>
 <tr><td>VCC</td><td>3V3</td></tr>

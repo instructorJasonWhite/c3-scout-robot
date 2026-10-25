@@ -20,6 +20,17 @@
   <p class="quiet">Select any drawing to open it at full size. The <a href="05-Factory-CarrierC-v10/Fusion-Source/C3-Carrier-RevC-Board-Layout.pdf">two-page trace layout PDF</a> is useful when following copper connections.</p>
 </section>
 
+<section class="section" id="complete-wiring">
+  <div class="section-heading"><p class="eyebrow">All external connections</p><h2>Wire Scout from one picture</h2></div>
+  <p>The battery holder, left and right motors, two-wire RUN switch and optional OLED all connect as shown below. This is the current Carrier C v10 component side, with the SuperMini USB at the top. Remove the cell and unplug both USB cables before wiring.</p>
+  <figure class="figure">
+    <a href="assets/wiring/scout-complete-wiring.svg" target="_blank" rel="noopener"><img src="assets/wiring/scout-complete-wiring.svg" width="1800" height="1700" alt="Complete component-side wiring diagram for Carrier C v10 showing the battery's separate positive and raw negative pads on J1, motor outputs J2 and J3, RUN switch J4, and four OLED connections on U1." loading="lazy"></a>
+    <figcaption>Pad locations come from the current board file. Wire paths are illustrative. <a href="assets/wiring/scout-complete-wiring.svg" target="_blank" rel="noopener">Open full-size diagram</a> · <a href="assets/wiring/scout-complete-wiring.svg" download>Download wiring diagram · SVG</a> · <a href="build.html#complete-wiring">Follow the wiring checklist</a></figcaption>
+  </figure>
+  <p><strong>J1:</strong> lower pad 1 is BAT_PLUS; upper pad 2 is BAT_MINUS. <strong>J4:</strong> lower pad 1 is FUSED_BAT; upper pad 2 is VMOTOR. <strong>J2 / J3:</strong> left / right motor outputs. <strong>OLED:</strong> 3V3, protected GND, GPIO5 (SDA), GPIO7 (SCL), at the SuperMini header solder joints.</p>
+  <div class="notice"><strong>Keep the two returns separate.</strong> Battery negative goes only to J1 BAT_MINUS; OLED GND goes to protected GND. Do not bridge BAT_MINUS to GND. Open RUN before programming or charging, and unplug the SuperMini USB cable before closing RUN.</div>
+</section>
+
 <section class="section" id="circuits">
   <div class="section-heading">
     <p class="eyebrow">Follow the circuit</p>
