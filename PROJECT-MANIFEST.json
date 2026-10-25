@@ -1935,19 +1935,19 @@
     },
     {
       "file": "START-HERE.html",
-      "bytes": 5431,
-      "sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
-      "source": "Scout builder guide, 21 October 2026",
-      "source_sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
-      "previous_sha256": "4eb9415640561aeaf41e0f6e79d8c8771face58007ace9f3bceee7cd0a5fe4d4"
+      "bytes": 5611,
+      "sha256": "9586e6b9ba42cea22242f764b54e9fec54fae49974638a06f3fd8cf620f45a85",
+      "source": "Scout GitHub source navigation, 24 October 2026",
+      "source_sha256": "9586e6b9ba42cea22242f764b54e9fec54fae49974638a06f3fd8cf620f45a85",
+      "previous_sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c"
     },
     {
       "file": "accessories.html",
-      "bytes": 15846,
-      "sha256": "f148350259ef37b54d6bc2928ab91c71d95c57958f2ae67af166f8b82aeadfa9",
-      "source": "Scout builder guide, 21 October 2026",
-      "source_sha256": "f148350259ef37b54d6bc2928ab91c71d95c57958f2ae67af166f8b82aeadfa9",
-      "previous_sha256": "d1295f4240957bd88fed55a5230b0e0763558f08a4f96bf977a50e19e7daae59"
+      "bytes": 16026,
+      "sha256": "0a44bb7e4794053ff64511869da4901bd07baf2fe875a1133ea08fc4b4d40f2a",
+      "source": "Scout GitHub source navigation, 24 October 2026",
+      "source_sha256": "0a44bb7e4794053ff64511869da4901bd07baf2fe875a1133ea08fc4b4d40f2a",
+      "previous_sha256": "f148350259ef37b54d6bc2928ab91c71d95c57958f2ae67af166f8b82aeadfa9"
     },
     {
       "file": "assets/accessories/camera-bumper.png",
@@ -2182,34 +2182,35 @@
     },
     {
       "file": "assets/guide.css",
-      "bytes": 10481,
-      "sha256": "bbee25ee29f4bfb438972a0f0171b441c0042e88dcbfaf6a907c50de55c512eb",
-      "source": "Scout builder guide, 21 October 2026",
-      "source_sha256": "bbee25ee29f4bfb438972a0f0171b441c0042e88dcbfaf6a907c50de55c512eb"
+      "bytes": 10567,
+      "sha256": "78eb86bf57e93a5407d9ca02179df1cd67999ecd336fedeb1ecd19a1055a8b15",
+      "source": "Scout GitHub source navigation, 24 October 2026",
+      "source_sha256": "78eb86bf57e93a5407d9ca02179df1cd67999ecd336fedeb1ecd19a1055a8b15",
+      "previous_sha256": "bbee25ee29f4bfb438972a0f0171b441c0042e88dcbfaf6a907c50de55c512eb"
     },
     {
       "file": "board.html",
-      "bytes": 18930,
-      "sha256": "60f6b7d37b0fd1382b035d75f701235c5918940f85ba5e12f0c965dc7d5ad4dc",
-      "source": "Scout builder guide, 21 October 2026",
-      "source_sha256": "60f6b7d37b0fd1382b035d75f701235c5918940f85ba5e12f0c965dc7d5ad4dc",
-      "previous_sha256": "236edcd0fe6f19566cc72fbba5f230e79a9353a5679e3be200bda339a56991ca"
+      "bytes": 19110,
+      "sha256": "8e5236e1ebd7f03a53a78c6e4da1350c7705a72901b9b50c9fee3960fa3b1983",
+      "source": "Scout GitHub source navigation, 24 October 2026",
+      "source_sha256": "8e5236e1ebd7f03a53a78c6e4da1350c7705a72901b9b50c9fee3960fa3b1983",
+      "previous_sha256": "60f6b7d37b0fd1382b035d75f701235c5918940f85ba5e12f0c965dc7d5ad4dc"
     },
     {
       "file": "build.html",
-      "bytes": 27048,
-      "sha256": "aeeb7438b8326da721fe16eb06e74e715cd09b92c8012a22b1a920f9cfff4737",
-      "source": "Scout builder guide, 21 October 2026",
-      "source_sha256": "aeeb7438b8326da721fe16eb06e74e715cd09b92c8012a22b1a920f9cfff4737",
-      "previous_sha256": "ae050ce8621b5810c96262ebd6d5eed401a36eb864407845885e3c0c0b525aa4"
+      "bytes": 27228,
+      "sha256": "a8eb90369fd1d25c665284ef900d8eaaa47fd998dd84ceaab91c32c63a6bd4ac",
+      "source": "Scout GitHub source navigation, 24 October 2026",
+      "source_sha256": "a8eb90369fd1d25c665284ef900d8eaaa47fd998dd84ceaab91c32c63a6bd4ac",
+      "previous_sha256": "aeeb7438b8326da721fe16eb06e74e715cd09b92c8012a22b1a920f9cfff4737"
     },
     {
       "file": "code.html",
-      "bytes": 15401,
-      "sha256": "b70ce755ac3afd4aedace1cba549fad4e3d6454423f182fd79a062ef795c5cb3",
-      "source": "Scout builder guide, 21 October 2026",
-      "source_sha256": "b70ce755ac3afd4aedace1cba549fad4e3d6454423f182fd79a062ef795c5cb3",
-      "previous_sha256": "95ef0550322db5ff1a1925255bdebefd5edecaafabe5979fa71f76a327891d6c"
+      "bytes": 15581,
+      "sha256": "20b5bbb7f9663b06c8a7c9c26482ed1d74d0dd5df0487bf8ae0ae486b3f4ec2f",
+      "source": "Scout GitHub source navigation, 24 October 2026",
+      "source_sha256": "20b5bbb7f9663b06c8a7c9c26482ed1d74d0dd5df0487bf8ae0ae486b3f4ec2f",
+      "previous_sha256": "b70ce755ac3afd4aedace1cba549fad4e3d6454423f182fd79a062ef795c5cb3"
     },
     {
       "file": "downloads/Scout-CarrierC-v10-Factory.zip",
@@ -2245,11 +2246,11 @@
     },
     {
       "file": "index.html",
-      "bytes": 5431,
-      "sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
-      "source": "Scout builder guide, 21 October 2026",
-      "source_sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c",
-      "previous_sha256": "4eb9415640561aeaf41e0f6e79d8c8771face58007ace9f3bceee7cd0a5fe4d4"
+      "bytes": 5611,
+      "sha256": "9586e6b9ba42cea22242f764b54e9fec54fae49974638a06f3fd8cf620f45a85",
+      "source": "Scout GitHub source navigation, 24 October 2026",
+      "source_sha256": "9586e6b9ba42cea22242f764b54e9fec54fae49974638a06f3fd8cf620f45a85",
+      "previous_sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c"
     }
   ],
   "validation": {

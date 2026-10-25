@@ -46,7 +46,7 @@ class Contents(HTMLParser):
 def nav(current):
     return '<nav class="topnav" aria-label="Scout guides">' + ''.join(
         f'<a href="{key}.html"' + (' aria-current="page"' if key == current else '') + f'>{label.removeprefix("The ")}</a>'
-        for key, label, *_ in PAGES) + '</nav>'
+        for key, label, *_ in PAGES) + '<a class="source-link" href="https://github.com/instructorJasonWhite/c3-scout-robot" target="_blank" rel="noopener noreferrer">GitHub source <span aria-hidden="true">↗</span></a></nav>'
 
 
 def shell(key, label, title, description, revision, content):
