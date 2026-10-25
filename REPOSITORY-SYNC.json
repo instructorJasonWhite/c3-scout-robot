@@ -14,8 +14,8 @@
   "additional_files": [
     {
       "file": "downloads/c3-scout/Scout-OLED-Bumper-v1.zip",
-      "bytes": 17454025,
-      "sha256": "fac8c48989c02861b19bf041f0e71af9797a8ac6f5177c68f79007e412d80e53"
+      "bytes": 17457301,
+      "sha256": "76c7515eff3fff2bf68d9df98be624b00761d5172fb3dd9f13b2ee7b7bb4245f"
     },
     {
       "file": "downloads/c3-scout/Scout-ESP32-CAM-Bumper-v1.zip",
@@ -28,5 +28,6 @@
       "sha256": "8bce700b80d4c5cc21daf36d195925003c0be63286f5680c8ef577d8ab242ec9"
     }
   ],
-  "complete_project_download": "https://mechatronicsaint.com/downloads/c3-scout/C3-Scout-Robot-Project.zip"
+  "complete_project_download": "https://mechatronicsaint.com/downloads/c3-scout/C3-Scout-Robot-Project.zip",
+  "documentation_patch": "OLED pinout diagram, 24 October 2026"
 }

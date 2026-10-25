@@ -1527,17 +1527,19 @@
     },
     {
       "file": "07-Bumper-Options/OLED/ASSEMBLY.html",
-      "source": "Scout optional bumper prototype packages, 16 October 2026",
-      "bytes": 7274,
-      "sha256": "2dbd1c3800e9a32ee2256d75dad208db4b1b536a03ab50b4d3f5c24ed78cc2ca",
-      "note": "CAD and mesh verified; actual physical fit untested."
+      "bytes": 7884,
+      "sha256": "47aa41e2934d19d12bc034851ec39c20d90fd45c04d74037783a972b267e0446",
+      "source_sha256": "47aa41e2934d19d12bc034851ec39c20d90fd45c04d74037783a972b267e0446",
+      "source": "OLED pinout documentation, 24 October 2026",
+      "previous_sha256": "2dbd1c3800e9a32ee2256d75dad208db4b1b536a03ab50b4d3f5c24ed78cc2ca"
     },
     {
       "file": "07-Bumper-Options/OLED/MANIFEST.json",
-      "source": "Scout optional bumper prototype packages, 16 October 2026",
-      "bytes": 2192,
-      "sha256": "e6fee3d625ea7d9b932f4b9e96b86a950b750fa5d964992c8e45129b07774039",
-      "note": "CAD and mesh verified; actual physical fit untested."
+      "bytes": 2346,
+      "sha256": "5175bf6f9842fe80e9529b8d2f96f3dddfd2f32a522e53cd6e3cdc989b9d31b6",
+      "source_sha256": "5175bf6f9842fe80e9529b8d2f96f3dddfd2f32a522e53cd6e3cdc989b9d31b6",
+      "source": "OLED pinout documentation, 24 October 2026",
+      "previous_sha256": "e6fee3d625ea7d9b932f4b9e96b86a950b750fa5d964992c8e45129b07774039"
     },
     {
       "file": "07-Bumper-Options/OLED/Scout-OLED-Assembly-v1.f3d",
@@ -1587,6 +1589,13 @@
       "bytes": 151766,
       "sha256": "6ed559df701b18c6c72438edf6c85a107e9c711a886943d9168f541e722c4c8c",
       "note": "CAD and mesh verified; actual physical fit untested."
+    },
+    {
+      "file": "07-Bumper-Options/OLED/c3-supermini-oled-pinout.svg",
+      "bytes": 11531,
+      "sha256": "2015a4fd5adc4fb1a9cc68a312d7984feb383a44b1f3bfabbf1cd306ce5b993d",
+      "source_sha256": "2015a4fd5adc4fb1a9cc68a312d7984feb383a44b1f3bfabbf1cd306ce5b993d",
+      "source": "OLED pinout documentation, 24 October 2026"
     },
     {
       "file": "07-Bumper-Options/OLED/cad-verification.json",
@@ -2160,6 +2169,13 @@
       "source_sha256": "c4d708c63a5e023109fb79fb44cec18ed2b9646b87d8828d39135acf018ff1dc"
     },
     {
+      "file": "assets/code/c3-supermini-oled-pinout.svg",
+      "bytes": 11531,
+      "sha256": "2015a4fd5adc4fb1a9cc68a312d7984feb383a44b1f3bfabbf1cd306ce5b993d",
+      "source_sha256": "2015a4fd5adc4fb1a9cc68a312d7984feb383a44b1f3bfabbf1cd306ce5b993d",
+      "source": "OLED pinout documentation, 24 October 2026"
+    },
+    {
       "file": "assets/code/faces.gif",
       "bytes": 176536,
       "sha256": "32eaefe18af2cdc62bb02e7ca50acc49fc3e97dd8f679ae0116340bd6185fc86",
@@ -2206,11 +2222,11 @@
     },
     {
       "file": "code.html",
-      "bytes": 15581,
-      "sha256": "20b5bbb7f9663b06c8a7c9c26482ed1d74d0dd5df0487bf8ae0ae486b3f4ec2f",
-      "source": "Scout GitHub source navigation, 24 October 2026",
-      "source_sha256": "20b5bbb7f9663b06c8a7c9c26482ed1d74d0dd5df0487bf8ae0ae486b3f4ec2f",
-      "previous_sha256": "b70ce755ac3afd4aedace1cba549fad4e3d6454423f182fd79a062ef795c5cb3"
+      "bytes": 16256,
+      "sha256": "666b5b1caf910b9ae8d18e65c1a61d68953f3dd6e3d662d19b9ca3f61e1c9a4e",
+      "source_sha256": "666b5b1caf910b9ae8d18e65c1a61d68953f3dd6e3d662d19b9ca3f61e1c9a4e",
+      "source": "OLED pinout documentation, 24 October 2026",
+      "previous_sha256": "20b5bbb7f9663b06c8a7c9c26482ed1d74d0dd5df0487bf8ae0ae486b3f4ec2f"
     },
     {
       "file": "downloads/Scout-CarrierC-v10-Factory.zip",
@@ -2405,6 +2421,7 @@
     "board": "board.html",
     "code": "code.html",
     "accessories": "accessories.html",
-    "assembly_drawing": "assets/build/Scout-Assembly-Overview.svg"
+    "assembly_drawing": "assets/build/Scout-Assembly-Overview.svg",
+    "oled_pinout": "assets/code/c3-supermini-oled-pinout.svg"
   }
 }

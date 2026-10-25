@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200" role="img" aria-labelledby="oled-title oled-desc">
+  <title id="oled-title">Scout OLED wiring to the ESP32-C3 Super Mini</title>
+  <desc id="oled-desc">Top component view with the USB-C connector at the top. Connect the OLED SDA signal to GPIO5, SCL to GPIO7, VCC to 3V3, and GND to GND. The four colored leader arrows end on those exact pads. Left pads from top to bottom are GPIO5, GPIO6, GPIO7, GPIO8, GPIO9, GPIO10, GPIO20, and GPIO21. Right pads from top to bottom are 5V, GND, 3V3, GPIO4, GPIO3, GPIO2, GPIO1, and GPIO0. The 5V pad is unused for this OLED connection. This is the current SCOUT 2 wiring. OLED module connector order varies; identify its signals by the labels printed on the module.</desc>
+  <metadata>Pad positions checked against U1, package SUPERMINI-2X8-15.24, in artifacts/gpio-audit/C3-Carrier-RevC.brd. Left x=-7.62 mm, right x=7.62 mm; both rows descend from y=8.89 to -8.89 mm at 2.54 mm pitch. Orientation agrees with docs/assets/c3-super-mini-expansion-pinout.svg and scripts/build-io-pinout.py. Current signal assignment confirmed by Wire.begin(5, 7, 100000) in firmware/ScoutDrive/ScoutDrive.ino.</metadata>
+  <defs>
+    <marker id="sda-arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="17" markerHeight="17" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#087f80"/></marker>
+    <marker id="scl-arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="17" markerHeight="17" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#bc581a"/></marker>
+    <marker id="gnd-arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="17" markerHeight="17" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+    <marker id="vcc-arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="17" markerHeight="17" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#39702b"/></marker>
+  </defs>
+  <rect width="1400" height="1200" fill="#fffdf5"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#193f39">
+    <text x="60" y="56" font-size="16" font-weight="700" letter-spacing="2.5">SCOUT / OLED WIRING</text>
+    <text x="60" y="113" font-size="44" font-weight="700">OLED → ESP32-C3 Super Mini</text>
+    <text x="60" y="154" font-size="23">Four connections used by the current SCOUT 2 firmware</text>
+    <rect x="60" y="188" width="502" height="48" rx="9" fill="#e7eee3"/>
+    <text x="80" y="219" font-size="19" font-weight="700">TOP / COMPONENT VIEW · USB AT TOP</text>
+
+    <!-- Simplified module, viewed from the component side. -->
+    <rect x="520" y="245" width="360" height="710" rx="25" fill="#193f39" stroke="#0e2f28" stroke-width="3"/>
+    <rect x="638" y="211" width="124" height="91" rx="12" fill="#d5dedb" stroke="#6c8279" stroke-width="3"/>
+    <rect x="650" y="221" width="100" height="23" rx="9" fill="#30483f"/>
+    <text x="700" y="278" text-anchor="middle" font-size="18" font-weight="700">USB-C</text>
+    <rect x="650" y="553" width="100" height="156" rx="8" fill="#102d27" stroke="#739184" stroke-width="1.5"/>
+    <text x="700" y="606" text-anchor="middle" font-size="17" fill="#e7eee6">ESP32</text>
+    <text x="700" y="640" text-anchor="middle" font-size="30" font-weight="700" fill="#e7eee6">C3</text>
+    <text x="700" y="678" text-anchor="middle" font-size="12" fill="#bdcfc4">SUPER MINI</text>
+    <text x="700" y="930" text-anchor="middle" font-size="15" fill="#bdcfc4">Simplified module drawing</text>
+
+    <!-- Pin rows follow the carrier footprint, without mirroring. -->
+    <g data-pin="IO5" data-oled="SDA">
+      <circle data-pad="IO5" cx="544" cy="330" r="15" fill="#087f80" stroke="#9ad7d0" stroke-width="3"/>
+      <circle cx="544" cy="330" r="6" fill="#fffdf5"/>
+      <text x="573" y="337" font-size="20" font-weight="700" fill="#fffdf5">GPIO5</text>
+    </g>
+    <g data-pin="IO6">
+      <circle data-pad="IO6" cx="544" cy="410" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="544" cy="410" r="5" fill="#193f39"/>
+      <text x="573" y="417" font-size="20" fill="#bdcfc4">GPIO6</text>
+    </g>
+    <g data-pin="IO7" data-oled="SCL">
+      <circle data-pad="IO7" cx="544" cy="490" r="15" fill="#bc581a" stroke="#f4c698" stroke-width="3"/>
+      <circle cx="544" cy="490" r="6" fill="#fffdf5"/>
+      <text x="573" y="497" font-size="20" font-weight="700" fill="#fffdf5">GPIO7</text>
+    </g>
+    <g data-pin="IO8">
+      <circle data-pad="IO8" cx="544" cy="570" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="544" cy="570" r="5" fill="#193f39"/>
+      <text x="573" y="577" font-size="20" fill="#bdcfc4">GPIO8</text>
+    </g>
+    <g data-pin="IO9">
+      <circle data-pad="IO9" cx="544" cy="650" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="544" cy="650" r="5" fill="#193f39"/>
+      <text x="573" y="657" font-size="20" fill="#bdcfc4">GPIO9</text>
+    </g>
+    <g data-pin="IO10">
+      <circle data-pad="IO10" cx="544" cy="730" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="544" cy="730" r="5" fill="#193f39"/>
+      <text x="573" y="737" font-size="20" fill="#bdcfc4">GPIO10</text>
+    </g>
+    <g data-pin="IO20">
+      <circle data-pad="IO20" cx="544" cy="810" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="544" cy="810" r="5" fill="#193f39"/>
+      <text x="573" y="817" font-size="20" fill="#bdcfc4">GPIO20</text>
+    </g>
+    <g data-pin="IO21">
+      <circle data-pad="IO21" cx="544" cy="890" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="544" cy="890" r="5" fill="#193f39"/>
+      <text x="573" y="897" font-size="20" fill="#bdcfc4">GPIO21</text>
+    </g>
+    <g data-pin="5V">
+      <circle data-pad="5V" cx="856" cy="330" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="856" cy="330" r="5" fill="#193f39"/>
+      <text x="827" y="337" text-anchor="end" font-size="20" fill="#bdcfc4">5V</text>
+    </g>
+    <g data-pin="GND" data-oled="GND">
+      <circle data-pad="GND" cx="856" cy="410" r="15" fill="#475569" stroke="#bdc9d8" stroke-width="3"/>
+      <circle cx="856" cy="410" r="6" fill="#fffdf5"/>
+      <text x="827" y="417" text-anchor="end" font-size="20" font-weight="700" fill="#fffdf5">GND</text>
+    </g>
+    <g data-pin="3V3" data-oled="VCC">
+      <circle data-pad="3V3" cx="856" cy="490" r="15" fill="#39702b" stroke="#c0da9e" stroke-width="3"/>
+      <circle cx="856" cy="490" r="6" fill="#fffdf5"/>
+      <text x="827" y="497" text-anchor="end" font-size="20" font-weight="700" fill="#fffdf5">3V3</text>
+    </g>
+    <g data-pin="IO4">
+      <circle data-pad="IO4" cx="856" cy="570" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="856" cy="570" r="5" fill="#193f39"/>
+      <text x="827" y="577" text-anchor="end" font-size="20" fill="#bdcfc4">GPIO4</text>
+    </g>
+    <g data-pin="IO3">
+      <circle data-pad="IO3" cx="856" cy="650" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="856" cy="650" r="5" fill="#193f39"/>
+      <text x="827" y="657" text-anchor="end" font-size="20" fill="#bdcfc4">GPIO3</text>
+    </g>
+    <g data-pin="IO2">
+      <circle data-pad="IO2" cx="856" cy="730" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="856" cy="730" r="5" fill="#193f39"/>
+      <text x="827" y="737" text-anchor="end" font-size="20" fill="#bdcfc4">GPIO2</text>
+    </g>
+    <g data-pin="IO1">
+      <circle data-pad="IO1" cx="856" cy="810" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="856" cy="810" r="5" fill="#193f39"/>
+      <text x="827" y="817" text-anchor="end" font-size="20" fill="#bdcfc4">GPIO1</text>
+    </g>
+    <g data-pin="IO0">
+      <circle data-pad="IO0" cx="856" cy="890" r="12" fill="#a89f7f" stroke="#c4bd9f" stroke-width="2"/>
+      <circle cx="856" cy="890" r="5" fill="#193f39"/>
+      <text x="827" y="897" text-anchor="end" font-size="20" fill="#bdcfc4">GPIO0</text>
+    </g>
+
+    <!-- Arrows end on the outside edge of each matching colored pad. -->
+    <g fill="#087f80">
+      <rect x="60" y="290" width="390" height="80" rx="12" fill="#e8f5f1" stroke="#9dcac3"/>
+      <text x="82" y="324" font-size="27" font-weight="700">OLED SDA → GPIO5</text>
+      <text x="82" y="352" font-size="18">I²C data</text>
+      <line data-arrow="IO5" x1="450" y1="330" x2="529" y2="330" stroke="#087f80" stroke-width="4" marker-end="url(#sda-arrow)"/>
+    </g>
+    <g fill="#bc581a">
+      <rect x="60" y="450" width="390" height="80" rx="12" fill="#fff0df" stroke="#e7bb8b"/>
+      <text x="82" y="484" font-size="27" font-weight="700">OLED SCL → GPIO7</text>
+      <text x="82" y="512" font-size="18">I²C clock</text>
+      <line data-arrow="IO7" x1="450" y1="490" x2="529" y2="490" stroke="#bc581a" stroke-width="4" marker-end="url(#scl-arrow)"/>
+    </g>
+    <g fill="#475569">
+      <rect x="950" y="375" width="390" height="70" rx="12" fill="#eef1f4" stroke="#b9c4cf"/>
+      <text x="972" y="405" font-size="27" font-weight="700">OLED GND → GND</text>
+      <text x="972" y="432" font-size="18">Common ground</text>
+      <line data-arrow="GND" x1="950" y1="410" x2="871" y2="410" stroke="#475569" stroke-width="4" marker-end="url(#gnd-arrow)"/>
+    </g>
+    <g fill="#39702b">
+      <rect x="950" y="455" width="390" height="70" rx="12" fill="#edf4e5" stroke="#b7cd99"/>
+      <text x="972" y="485" font-size="27" font-weight="700">OLED VCC → 3V3</text>
+      <text x="972" y="512" font-size="18">3.3 V power</text>
+      <line data-arrow="3V3" x1="950" y1="490" x2="871" y2="490" stroke="#39702b" stroke-width="4" marker-end="url(#vcc-arrow)"/>
+    </g>
+    <line x1="868" y1="330" x2="930" y2="330" stroke="#a8b1a8" stroke-width="2"/>
+    <text x="950" y="329" font-size="22" font-weight="600" fill="#697b70">5V · unused for OLED</text>
+    <text x="950" y="355" font-size="18" fill="#697b70">Use the 3V3 connection below.</text>
+
+    <text x="60" y="666" font-size="24" font-weight="700">Locate the four pads</text>
+    <text x="60" y="704" font-size="20">SDA: top pad on the left</text>
+    <text x="60" y="740" font-size="20">SCL: third pad on the left</text>
+    <text x="60" y="776" font-size="20">GND: second pad on the right</text>
+    <text x="60" y="812" font-size="20">3V3: third pad on the right</text>
+    <text x="950" y="666" font-size="24" font-weight="700">Power the OLED at 3.3 V</text>
+    <text x="950" y="704" font-size="20">Use a 3.3 V-compatible</text>
+    <text x="950" y="735" font-size="20">I²C OLED module.</text>
+    <text x="950" y="798" font-size="18" fill="#697b70">Other pads are labeled to help</text>
+    <text x="950" y="826" font-size="18" fill="#697b70">you find the four connections.</text>
+
+    <line x1="60" y1="995" x2="1340" y2="995" stroke="#c5cfbb" stroke-width="2"/>
+    <text x="60" y="1041" font-size="25" font-weight="700">Match the signal names printed on your OLED module.</text>
+    <text x="60" y="1080" font-size="22">OLED connector pin order varies. There is no universal left-to-right order.</text>
+    <text x="60" y="1136" font-size="19" fill="#5c7264">Current SCOUT 2 wiring · SDA = GPIO5 · SCL = GPIO7 · VCC = 3V3 · GND = GND</text>
+    <text x="60" y="1171" font-size="16" fill="#758476">Pin positions checked against the Scout Carrier C v10 U1 footprint.</text>
+  </g>
+</svg>

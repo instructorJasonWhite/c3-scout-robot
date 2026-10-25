@@ -4,8 +4,12 @@
   "physical_fit_tested": false,
   "files": {
     "ASSEMBLY.html": {
-      "bytes": 7274,
-      "sha256": "2dbd1c3800e9a32ee2256d75dad208db4b1b536a03ab50b4d3f5c24ed78cc2ca"
+      "bytes": 7884,
+      "sha256": "47aa41e2934d19d12bc034851ec39c20d90fd45c04d74037783a972b267e0446"
+    },
+    "c3-supermini-oled-pinout.svg": {
+      "bytes": 11531,
+      "sha256": "2015a4fd5adc4fb1a9cc68a312d7984feb383a44b1f3bfabbf1cd306ce5b993d"
     },
     "Scout-OLED-Bumper-v1.f3d": {
       "bytes": 320196,
