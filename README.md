@@ -21,6 +21,8 @@ The four-part builder guide was published **21 October 2026**. The [complete rob
 | ScoutFaces Arduino library | 1.0.0 · ten animated expressions |
 | Storage cases | Bumper, OLED and ESP32-CAM · all v8 |
 
+Latest installation check: **27 October 2026**. The published 19 October firmware uploaded and started successfully, with browser control and OLED available, zero motor targets and both saved reverse flags retained. This was an upload/startup check. See the [Code guide](https://mechatronicsaint.com/c3-scout/code.html#last-device-check) and [recorded status](verification/Scout-Startup-Check-2026-10-27.json).
+
 ## Browse or download
 
 GitHub displays HTML files as source. Use the live guide above for illustrated instructions, or clone/download this repository and run the following from its root:

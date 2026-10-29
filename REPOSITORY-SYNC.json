@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "website": "https://mechatronicsaint.com/c3-scout/index.html",
   "website_commit": "86ba3087f30c971b95310b9f2b1d7c5718b66f68",
-  "published_files": 321,
+  "published_files": 322,
   "canonical_source_files": 62,
   "firmware_release": "2026-10-19 / SCOUT 2 / protocol 2",
   "faces_library": "1.0.0",
@@ -29,5 +29,5 @@
     }
   ],
   "complete_project_download": "https://mechatronicsaint.com/downloads/c3-scout/C3-Scout-Robot-Project.zip",
-  "documentation_patch": "Complete Carrier C v10 wiring diagram, 25 October 2026"
+  "documentation_patch": "Document the 27 October installation and startup check, 29 October 2026"
 }

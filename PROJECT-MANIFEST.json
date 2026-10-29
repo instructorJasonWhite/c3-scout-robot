@@ -2236,11 +2236,11 @@
     },
     {
       "file": "code.html",
-      "bytes": 16461,
-      "sha256": "e0cf1c91f82a3ec7fb601f04b5976bf4e05726a09636f4be33b42575a503c032",
-      "source_sha256": "e0cf1c91f82a3ec7fb601f04b5976bf4e05726a09636f4be33b42575a503c032",
-      "source": "Complete Carrier C v10 wiring diagram, 25 October 2026",
-      "previous_sha256": "666b5b1caf910b9ae8d18e65c1a61d68953f3dd6e3d662d19b9ca3f61e1c9a4e"
+      "bytes": 17131,
+      "sha256": "6a0b208b8a8f7c4d1bb8c07aecdb43f80345fe08262fb3da1de0b887136344c1",
+      "source_sha256": "6a0b208b8a8f7c4d1bb8c07aecdb43f80345fe08262fb3da1de0b887136344c1",
+      "source": "Document the 27 October installation and startup check, 29 October 2026",
+      "previous_sha256": "e0cf1c91f82a3ec7fb601f04b5976bf4e05726a09636f4be33b42575a503c032"
     },
     {
       "file": "downloads/Scout-CarrierC-v10-Factory.zip",
@@ -2281,6 +2281,13 @@
       "source": "Scout GitHub source navigation, 24 October 2026",
       "source_sha256": "9586e6b9ba42cea22242f764b54e9fec54fae49974638a06f3fd8cf620f45a85",
       "previous_sha256": "df88148eadce0edf4fbc7aff7dfe8ba93cc85fa975bc26bf7d2f659ca4dc8b2c"
+    },
+    {
+      "file": "verification/Scout-Startup-Check-2026-10-27.json",
+      "bytes": 1764,
+      "sha256": "2bb7059588d229872277e488fe442d994ed31a19a319e189fb5368902d1c311a",
+      "source_sha256": "2bb7059588d229872277e488fe442d994ed31a19a319e189fb5368902d1c311a",
+      "source": "Document the 27 October installation and startup check, 29 October 2026"
     }
   ],
   "validation": {
@@ -2437,6 +2444,8 @@
     "accessories": "accessories.html",
     "assembly_drawing": "assets/build/Scout-Assembly-Overview.svg",
     "oled_pinout": "assets/code/c3-supermini-oled-pinout.svg",
-    "complete_wiring": "assets/wiring/scout-complete-wiring.svg"
+    "complete_wiring": "assets/wiring/scout-complete-wiring.svg",
+    "latest_installation_check": "verification/Scout-Startup-Check-2026-10-27.json",
+    "latest_documentation_update": "2026-10-29"
   }
 }
